@@ -3,7 +3,7 @@ title: "Super Agentic DevOps World"
 description: "The complete guide to Agentic DevOps, AI Agents, and modern software development — explained through Super Mario World analogies. Made for Sofia."
 author: "Paula Silva (@paulanunes85)"
 date: "2026-03-18"
-version: "1.0.0"
+version: "1.1.0"
 status: "published"
 tags: ["agentic-devops", "ai-agents", "github-copilot", "super-mario", "education", "made-for-sofia"]
 ---
@@ -18,7 +18,7 @@ tags: ["agentic-devops", "ai-agents", "github-copilot", "super-mario", "educatio
 
 *8 Worlds · 70+ Levels · 54 Diagrams · 124+ Terms · 2 Languages*
 
-[![PT-BR](https://img.shields.io/badge/lang-PT--BR-green?style=for-the-badge)](pt-br/)
+[![PT-BR](https://img.shields.io/badge/lang-PT--BR-green?style=for-the-badge)](pt-br/README.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue?style=for-the-badge)](en/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -50,14 +50,14 @@ If you've ever played Mario, you can understand DevOps.
 
 | World | Theme | Levels | Topics |
 |-------|-------|--------|--------|
-| 🌿 **World 1** | Green Plains | 8 | VS Code, Git, GitHub, Actions, Azure, AI Foundry |
-| 🕳️ **World 2** | Underground Caves | 8 | Environments, APIs, Security, DNS, DevOps, Observability |
-| ☁️ **World 3** | Sky World | 12 | Terminal, Docker, Tests, Databases, Languages, Frameworks |
-| 🌊 **World 4** | Water World | 9 | Auth/JWT, Cloud Models, Architecture, Deploy, Cache, Queues |
-| 🏰 **World 5** | Bowser's Castle Pt1 | 11 | Copilot (all modes), What is an Agent, Types, Autonomous, GHAS, SDD |
-| 🔥 **World 6** | Bowser's Castle Pt2 | 10 | Custom Agents, Skills, Instructions, Prompts, Hooks, MCP, Orchestration, Tokens |
-| ⭐ **World 7** | Star World | 7 | AI Foundry, RAG, LangChain, Microsoft Framework, 4 Channels, IDP/Backstage |
-| 👑 **World 8** | Final Castle | 4 | How Everything Connects, Boss Rush, Next Steps, Glossary (124+ terms) |
+| 🌿 **[World 1](en/world-1-green-plains/)** | Green Plains | 8 | VS Code, Git, GitHub, Actions, Azure, AI Foundry |
+| 🕳️ **[World 2](en/world-2-underground/)** | Underground Caves | 8 | Environments, APIs, Security, DNS, DevOps, Observability |
+| ☁️ **[World 3](en/world-3-sky/)** | Sky World | 12 | Terminal, Docker, Tests, Databases, Languages, Frameworks |
+| 🌊 **[World 4](en/world-4-water/)** | Water World | 9 | Auth/JWT, Cloud Models, Architecture, Deploy, Cache, Queues |
+| 🏰 **[World 5](en/world-5-bowser-castle-1/)** | Bowser's Castle Pt1 | 11 | Copilot (all modes), What is an Agent, Types, Autonomous, GHAS, SDD |
+| 🔥 **[World 6](en/world-6-bowser-castle-2/)** | Bowser's Castle Pt2 | 10 | Custom Agents, Skills, Instructions, Prompts, Hooks, MCP, Orchestration, Tokens |
+| ⭐ **[World 7](en/world-7-star-world/)** | Star World | 7 | AI Foundry, RAG, LangChain, Microsoft Framework, 4 Channels, IDP/Backstage |
+| 👑 **[World 8](en/world-8-final-castle/)** | Final Castle | 4 | How Everything Connects, Boss Rush, Next Steps, Glossary (124+ terms) |
 
 **Total: 69 levels + SDD special chapter**
 
@@ -66,20 +66,20 @@ If you've ever played Mario, you can understand DevOps.
 ## 🚀 Quick Start
 
 ### Complete Beginner? Start here:
-1. 📖 Read the [World Map Index](pt-br/INDEX.md) (or [English](en/INDEX.md))
-2. 🎮 Begin at [World 1, Level 1-1: VS Code](pt-br/world-1-green-plains/1-1-vs-code.md)
+1. 📖 Read the [World Map Index](en/INDEX.md)
+2. 🎮 Begin at [World 1, Level 1-1: VS Code](en/world-1-green-plains/1-1-vs-code.md)
 3. 🗺️ Follow the worlds in order — each builds on the previous
 
 ### Know the basics? Jump to what you need:
-- **GitHub Copilot** → [World 5, Level 5-3](pt-br/world-5-bowser-castle-1/5-3-github-copilot.md)
-- **AI Agents** → [World 5, Level 5-4](pt-br/world-5-bowser-castle-1/5-4-what-is-an-agent.md)
-- **RAG** → [World 7, Level 7-2](pt-br/world-7-star-world/7-2-rag.md)
-- **Spec-Driven Development** → [World 5, Level 5-10](pt-br/world-5-bowser-castle-1/5-10-sdd.md)
+- **GitHub Copilot** → [World 5, Level 5-3](en/world-5-bowser-castle-1/5-3-github-copilot.md)
+- **AI Agents** → [World 5, Level 5-4](en/world-5-bowser-castle-1/5-4-what-is-an-agent.md)
+- **RAG** → [World 7, Level 7-2](en/world-7-star-world/7-2-rag.md)
+- **Spec-Driven Development** → [World 5, Level 5-10](en/world-5-bowser-castle-1/5-10-sdd.md)
 
 ### Want to build agents? Go to:
-- **Custom Agents** → [World 6, Level 6-1](pt-br/world-6-bowser-castle-2/6-1-custom-agents.md)
-- **Microsoft Agentic Framework** → [World 7, Level 7-4](pt-br/world-7-star-world/7-4-microsoft-agentic-framework.md)
-- **Hands-on Project** → [World 7, Boss](pt-br/world-7-star-world/7-boss-practical-project.md)
+- **Custom Agents** → [World 6, Level 6-1](en/world-6-bowser-castle-2/6-1-custom-agents.md)
+- **Microsoft Agentic Framework** → [World 7, Level 7-4](en/world-7-star-world/7-4-microsoft-agentic-framework.md)
+- **Hands-on Project** → [World 7, Boss](en/world-7-star-world/7-boss-practical-project.md)
 
 ---
 
@@ -89,10 +89,10 @@ All content is available in two languages:
 
 | Language | Folder | Status |
 |----------|--------|--------|
-| 🇧🇷 Português (PT-BR) | [`pt-br/`](pt-br/) | ✅ Complete |
+| 🇧🇷 Português (PT-BR) | [`pt-br/`](pt-br/README.md) | ✅ Complete |
 | 🇺🇸 English (EN) | [`en/`](en/) | ✅ Complete |
 
-Diagrams are in English (universal).
+Diagrams are in English (universal, shared by both languages).
 
 ---
 
