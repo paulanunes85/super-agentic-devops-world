@@ -804,3 +804,11 @@ python 3.12.0
 ---
 
 *Fim da Fase 3-7. Na proxima fase, Sofia descobre como os canos do Mushroom Kingdom funcionam -- a rede de comunicacao que conecta tudo: a Internet.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-6: Banco de Dados](3-6-banco_dados.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-8: Internet](3-8-internet.md)
+
+</div>

@@ -1051,3 +1051,11 @@ router.delete('/api/users/:id', verifyToken, requirePermission('delete:user'), a
 ---
 
 *Level 4-1 complete! You learned that authentication and authorization are the pillars of security. In the next level, we'll explore cloud models — IaaS, PaaS, SaaS, and Serverless. Get ready for Level 4-2!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-BOSS: Exercises](../world-3-sky/3-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-2: Cloud Models](4-2-cloud_models.md)
+
+</div>

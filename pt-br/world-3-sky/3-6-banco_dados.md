@@ -1341,3 +1341,11 @@ $ npm run dev                       # Roda a aplicacao
 ---
 
 *Fase 3-6 completa! Voce dominou o Castelo dos Dados -- o coracao de qualquer aplicacao. Com isso, voce completou o World 3: Mundo Aereo! Todas as ferramentas e linguagens essenciais estao no seu inventario. Na proxima World, voce vai aprender a coordenar tudo isso com Agentic DevOps.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-5: Open Source](3-5-open_source.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-7: Boas Praticas](3-7-boas_praticas.md)
+
+</div>

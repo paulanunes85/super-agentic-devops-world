@@ -727,3 +727,11 @@ By default, VS Code **does not auto-save**. To enable auto save:
 ---
 
 *"It's-a me, Developer!" — Sofia, upon completing her first level.*
+
+---
+
+<div align="center">
+
+🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-2: Git](1-2-git.md)
+
+</div>

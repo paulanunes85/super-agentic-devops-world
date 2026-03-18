@@ -1190,3 +1190,11 @@ A proxima fase a levara a descobrir como **encadear** operacoes de IA em combos 
 ## References
 
 - Azure OpenAI RAG Overview — https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/retrieval-augmented-generation
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-1: Azure AI Foundry](7-1-azure-ai-foundry.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 7-3: LangChain](7-3-langchain.md)
+
+</div>

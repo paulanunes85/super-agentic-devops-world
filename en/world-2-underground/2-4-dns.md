@@ -563,3 +563,11 @@ host todoapp.com.br
 *"Without DNS, the internet would be a book of numeric coordinates impossible to memorize. With DNS, each castle has a beautiful name that any player can remember. It's like magic that transforms meaningless numbers into names that tell stories."*
 
 *Next Warp Pipe: Level 2-5 -- The Tournament Rules: Agile Methodologies*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-3: Security](2-3-seguranca.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-5: Methodologies](2-5-metodologias.md)
+
+</div>

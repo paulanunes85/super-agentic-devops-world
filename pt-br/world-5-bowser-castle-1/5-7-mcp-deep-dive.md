@@ -844,3 +844,11 @@ O MCP e um protocolo em crescimento rapido. A tendencia:
 ---
 
 *Fase 5-7 concluida! Voce agora entende MCP em profundidade -- o protocolo que conecta agentes de IA ao mundo externo. Com MCP, seu companion deixa de ser um genio isolado e se torna um viajante que busca recursos em TODOS os mundos. Na proxima fase, vamos aprender a estrategia dos Tres Horizontes!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-6: Autonomous Agents](5-6-autonomous-agents.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-8: Three Horizons](5-8-three-horizons.md)
+
+</div>

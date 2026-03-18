@@ -1095,3 +1095,11 @@ $ source ~/.zshrc    # ou ~/.bashrc
 ---
 
 *Fase 3-2 completa! Voce dominou o Terminal -- o menu secreto que transforma qualquer pessoa em power user. Na proxima fase, vamos aprender a empacotar aplicacoes inteiras com Docker -- a lunchbox magica do desenvolvedor.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-1: Arvore de Habilidades](3-1-arvore_habilidades.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-3: Docker](3-3-docker.md)
+
+</div>

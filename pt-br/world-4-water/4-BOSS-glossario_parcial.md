@@ -792,3 +792,11 @@ Voce agora domina:
 ---
 
 *World 4 COMPLETO! King Boo derrotado! Sofia domina agora as fundacoes de Arquitetura Avancada. O proximo desafio espera no ceu noturno do World 5. Ate la!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-8: Mensageria](4-8-mensageria.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-1: DevOps Evolution](../world-5-bowser-castle-1/5-1-devops-evolution.md)
+
+</div>

@@ -829,3 +829,11 @@ todoapp-monorepo/
 ---
 
 *End of Level 3-11. Sofia now masters her package inventory. In the next level, she faces the World 3 Boss: practical exercises that combine everything she learned in this world.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-10: Frameworks](3-10-frameworks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-BOSS: Exercises](3-BOSS-exercicios.md)
+
+</div>

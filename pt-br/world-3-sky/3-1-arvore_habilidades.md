@@ -772,3 +772,11 @@ Cada nivel requer diferentes "campos de treino":
 ---
 
 *Fase 3-1 completa! Voce mapeou toda a sua arvore de habilidades. Na proxima fase, vamos colocar a mao no teclado de verdade e dominar a ferramenta mais poderosa do desenvolvedor: o Terminal.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-BOSS: Exercicios](../world-2-underground/2-BOSS-exercicios.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-2: Terminal](3-2-terminal.md)
+
+</div>

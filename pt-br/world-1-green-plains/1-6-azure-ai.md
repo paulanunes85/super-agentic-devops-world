@@ -508,3 +508,11 @@ No Chat do Copilot, experimente:
 ---
 
 *"A magia nao substitui a habilidade — ela a amplifica. O melhor mago e aquele que sabe o feitico certo para cada situacao." — Sofia, lancando seu primeiro prompt perfeito.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-5: Azure](1-5-azure.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-7: Conexoes](1-7-connections.md)
+
+</div>

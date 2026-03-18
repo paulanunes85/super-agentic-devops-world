@@ -1005,3 +1005,11 @@ const user = findById<User>(users, "mario-001");
 ---
 
 *Fase 4-6 completa! Voce aprendeu como organizar dados com arrays, objetos e JSON. Na proxima fase, vamos explorar cache e performance — como fazer tudo rodar na velocidade da Super Star. Prepare-se para o Nivel 4-7!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-5: Git Workflows](4-5-git_workflows.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-7: Cache e Performance](4-7-cache_performance.md)
+
+</div>

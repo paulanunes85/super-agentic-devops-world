@@ -544,3 +544,11 @@ Conte quantos "sim" voce tem em cada horizonte. Seu nivel e o horizonte com mais
 ---
 
 *Fase 5-8 concluida! Voce agora entende a estrategia dos Tres Horizontes e sabe que a evolucao e gradual, cumulativa e construida sobre fundacoes solidas. Nao tente voar antes de construir estradas. Mas saiba que o VOO esta mais perto do que voce imagina. Na proxima fase, a Boss Battle do World 5!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-7: MCP Deep Dive](5-7-mcp-deep-dive.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-9: GitHub Advanced Security](5-9-github-advanced-security.md)
+
+</div>

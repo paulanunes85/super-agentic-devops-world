@@ -760,10 +760,6 @@ These aren't hypothetical scenarios. These are things that actually happened:
 
 ---
 
-**Previous:** Level 5-8    |    **Next:** Level 5-10
-
----
-
 ### POWER-UP UNLOCKED!
 
 Sofia now understands GitHub Advanced Security as a complete defense system -- not an isolated tool, but a layered shield that protects code, secrets, dependencies, and the entire supply chain. She knows that security isn't something you add at the end -- it's something you enable at the START and monitor ALWAYS.
@@ -786,3 +782,11 @@ She stored this power-up in her inventory and headed to the next stage of the Mu
 - [GitHub Code Scanning](https://docs.github.com/en/code-security/code-scanning)
 - [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
 - [GitHub Dependabot](https://docs.github.com/en/code-security/dependabot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-8: Three Horizons](5-8_three-horizons.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-10: SDD](5-10_sdd.md)
+
+</div>

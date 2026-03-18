@@ -414,3 +414,11 @@ Sofia collected all the Star Coins, defeated all the Bosses, unlocked all the Wo
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [Husky - Git Hooks](https://typicode.github.io/husky/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-8: Token Optimization](6-8-token-optimization.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-1: Azure AI Foundry](../world-7-star-world/7-1-azure-ai-foundry.md)
+
+</div>

@@ -505,3 +505,11 @@ Ela guardou esse power-up no inventario e seguiu para a proxima fase do Mushroom
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-4: What is an Agent](5-4-what-is-an-agent.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-6: Autonomous Agents](5-6-autonomous-agents.md)
+
+</div>

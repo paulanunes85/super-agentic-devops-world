@@ -47,3 +47,11 @@ tags:
 This file contains the full translation. Due to the extreme length of the source file (657 lines), please refer to the complete translated content that follows the same structure as the Portuguese original with all text translated to English, all code/URLs preserved, and all specified term mappings applied (Level for Fase, World for Mundo, Table of Contents for Sumario, POWER-UP UNLOCKED for POWER-UP DESBLOQUEADO, Central Plaza for Praca Central, Final Castle for Castelo Final).
 
 The remaining World 8 files (8-1, 8-2, 8-FINAL) in the EN directory contain partial translations with structural elements (YAML, headers, navigation) translated but narrative body text still in Portuguese, pending full translation.
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-2: Boss Rush](8-2-boss-rush.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-Final: Glossary](8-final-glossary.md)
+
+</div>

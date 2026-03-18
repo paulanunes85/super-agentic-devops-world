@@ -804,3 +804,11 @@ python 3.12.0
 ---
 
 *End of Level 3-7. In the next level, Sofia discovers how the Mushroom Kingdom pipes work -- the communication network that connects everything: the Internet.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-6: Databases](3-6-banco_dados.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-8: Internet](3-8-internet.md)
+
+</div>

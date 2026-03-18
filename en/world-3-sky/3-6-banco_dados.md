@@ -1341,3 +1341,11 @@ $ npm run dev                       # Run the application
 ---
 
 *Level 3-6 complete! You mastered the Castle of Data -- the heart of any application. With that, you've completed World 3: Sky World! All the essential tools and languages are in your inventory. In the next World, you'll learn to coordinate all of this with Agentic DevOps.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-5: Open Source](3-5-open_source.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-7: Best Practices](3-7-boas_praticas.md)
+
+</div>

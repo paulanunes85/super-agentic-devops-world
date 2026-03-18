@@ -1000,3 +1000,11 @@ Profundidade (especializacao)
 ---
 
 *Fim da Fase 3-9. Sofia agora conhece as classes disponiveis. Na proxima fase, ela aprende sobre as armas e armaduras que cada classe pode usar: Frameworks e Bibliotecas.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-8: Internet](3-8-internet.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-10: Frameworks](3-10-frameworks.md)
+
+</div>

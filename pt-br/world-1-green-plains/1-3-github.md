@@ -647,3 +647,11 @@ Em segundos, um VS Code completo abre no seu navegador.
 ---
 
 *"Agora eu nao sou mais jogadora solo. Eu faco parte de um time." — Sofia, entrando no servidor multiplayer.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-2: Git](1-2-git.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-4: GitHub Actions](1-4-github-actions.md)
+
+</div>

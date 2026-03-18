@@ -725,3 +725,11 @@ Sofia guardou esse power-up no inventario e seguiu para a proxima fase do Mushro
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-5: Agent Types](5-5-agent-types.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-7: MCP Deep Dive](5-7-mcp-deep-dive.md)
+
+</div>

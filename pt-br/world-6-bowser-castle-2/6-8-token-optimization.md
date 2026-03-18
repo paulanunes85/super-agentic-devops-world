@@ -1083,4 +1083,10 @@ Use o dashboard do GitHub para acompanhar acceptance rate. Se esta abaixo de 30%
 
 *Fase 6-8 concluida. Voce agora sabe gastar moedas como um profissional.*
 
-*Proximo: World 8 -- O Castelo Final. Tudo se conecta.*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-7: Orchestration](6-7-orchestration.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-BOSS: Quick Reference](6-boss-quick-reference.md)
+
+</div>

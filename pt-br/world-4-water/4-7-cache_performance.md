@@ -938,3 +938,11 @@ async function getTodos(userId) {
 ---
 
 *Fase 4-7 completa! Voce aprendeu a ativar o Star Mode da performance com cache, Redis, CDN e otimizacoes. Na proxima fase, vamos explorar mensageria e filas — o correio do Mushroom Kingdom. Prepare-se para o Nivel 4-8!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-6: Estruturas de Dados](4-6-estruturas_dados.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-8: Mensageria](4-8-mensageria.md)
+
+</div>

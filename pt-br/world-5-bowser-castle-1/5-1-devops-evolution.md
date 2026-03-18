@@ -511,3 +511,11 @@ A habilidade mais valiosa do futuro nao e escrever codigo rapido. E **escrever e
 ---
 
 *Fase 5-1 concluida! Voce agora entende as tres eras do DevOps e sabe que estamos entrando na era mais poderosa -- a era dos companions autonomos. Na proxima fase, vamos aprender os niveis de maturidade em IA. Prepare-se para evoluir de Aprendiz a Lendario!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-BOSS: Glossario Parcial](../world-4-water/4-BOSS-glossario_parcial.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-2: AI Maturity](5-2-ai-maturity.md)
+
+</div>

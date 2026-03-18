@@ -1451,3 +1451,11 @@ O Star World revelou seus segredos mais poderosos, e Sofia agora possui o conhec
 
 - LangChain Python Documentation — https://python.langchain.com/docs/get_started/introduction
 - LangChain JavaScript Documentation — https://js.langchain.com/
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-2: RAG](7-2-rag.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md)
+
+</div>

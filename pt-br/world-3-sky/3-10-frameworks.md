@@ -695,3 +695,11 @@ Uma **stack** e o conjunto completo de tecnologias usadas num projeto.
 ---
 
 *Fim da Fase 3-10. Sofia agora conhece as armas e armaduras disponiveis. Na proxima fase, ela aprende a gerenciar seu inventario: pacotes e dependencias.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-9: Linguagens](3-9-linguagens.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-11: Pacotes](3-11-pacotes.md)
+
+</div>

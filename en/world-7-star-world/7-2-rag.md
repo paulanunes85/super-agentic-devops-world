@@ -1190,3 +1190,11 @@ The next level will lead her to discover how to **chain** AI operations into dev
 ## References
 
 - Azure OpenAI RAG Overview — https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/retrieval-augmented-generation
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-1: Azure AI Foundry](7-1-azure-ai-foundry.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-3: LangChain](7-3-langchain.md)
+
+</div>

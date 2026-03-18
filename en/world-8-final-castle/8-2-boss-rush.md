@@ -1241,3 +1241,11 @@ RATING:
 *Level 8-2 complete. Boss Rush mode: COMPLETE.*
 
 *Next: Level 8-3 -- The End and the Beginning. Where to go after saving the Princess?*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-1: How Everything Connects](8-1-how-everything-connects.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-3: Next Steps](8-3-next-steps.md)
+
+</div>

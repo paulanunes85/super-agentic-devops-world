@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <rect width="800" height="500" fill="#FAFAFA" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">DevOps Evolution Timeline</text>
+
+  <defs>
+    <marker id="timeArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Timeline arrow -->
+  <line x1="40" y1="410" x2="760" y2="410" stroke="#666" stroke-width="2.5" marker-end="url(#timeArrow)"/>
+  <text x="400" y="435" text-anchor="middle" font-size="11" fill="#666">Time / Maturity</text>
+  <!-- Timeline dots -->
+  <circle cx="140" cy="410" r="6" fill="#049CD8"/>
+  <text x="140" y="455" text-anchor="middle" font-size="9" fill="#666">2010s</text>
+  <circle cx="400" cy="410" r="6" fill="#43B047"/>
+  <text x="400" y="455" text-anchor="middle" font-size="9" fill="#666">2018+</text>
+  <circle cx="660" cy="410" r="6" fill="#FBD000"/>
+  <text x="660" y="455" text-anchor="middle" font-size="9" fill="#666">2024+</text>
+
+  <!-- Era 1: Traditional DevOps (blue) -->
+  <rect x="30" y="55" width="230" height="335" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <rect x="30" y="55" width="230" height="42" rx="8" fill="#049CD8"/>
+  <rect x="30" y="82" width="230" height="15" fill="#049CD8"/>
+  <text x="145" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Traditional DevOps</text>
+
+  <text x="145" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Key Characteristics</text>
+
+  <rect x="50" y="132" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#049CD8" stroke-width="1"/>
+  <text x="145" y="151" text-anchor="middle" font-size="10" fill="#333333">Manual scripts &amp; runbooks</text>
+
+  <rect x="50" y="168" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#049CD8" stroke-width="1"/>
+  <text x="145" y="187" text-anchor="middle" font-size="10" fill="#333333">CI/CD pipelines (Jenkins)</text>
+
+  <rect x="50" y="204" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#049CD8" stroke-width="1"/>
+  <text x="145" y="223" text-anchor="middle" font-size="10" fill="#333333">Infrastructure as Code</text>
+
+  <rect x="50" y="240" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#049CD8" stroke-width="1"/>
+  <text x="145" y="259" text-anchor="middle" font-size="10" fill="#333333">Monitoring &amp; alerting</text>
+
+  <rect x="50" y="276" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#049CD8" stroke-width="1"/>
+  <text x="145" y="295" text-anchor="middle" font-size="10" fill="#333333">Container orchestration</text>
+
+  <text x="145" y="330" text-anchor="middle" font-size="10" font-weight="bold" fill="#049CD8">Focus</text>
+  <text x="145" y="348" text-anchor="middle" font-size="10" fill="#333333">Automate deployment</text>
+  <text x="145" y="363" text-anchor="middle" font-size="10" fill="#333333">&amp; operations</text>
+  <text x="145" y="385" text-anchor="middle" font-size="22" fill="#049CD8">&#9881;</text>
+
+  <!-- Era 2: DevSecOps (green) -->
+  <rect x="280" y="55" width="230" height="335" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <rect x="280" y="55" width="230" height="42" rx="8" fill="#43B047"/>
+  <rect x="280" y="82" width="230" height="15" fill="#43B047"/>
+  <text x="395" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">DevSecOps</text>
+
+  <text x="395" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Key Characteristics</text>
+
+  <rect x="300" y="132" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#43B047" stroke-width="1"/>
+  <text x="395" y="151" text-anchor="middle" font-size="10" fill="#333333">Security shifted left</text>
+
+  <rect x="300" y="168" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#43B047" stroke-width="1"/>
+  <text x="395" y="187" text-anchor="middle" font-size="10" fill="#333333">SAST / DAST / SCA scans</text>
+
+  <rect x="300" y="204" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#43B047" stroke-width="1"/>
+  <text x="395" y="223" text-anchor="middle" font-size="10" fill="#333333">Compliance as Code</text>
+
+  <rect x="300" y="240" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#43B047" stroke-width="1"/>
+  <text x="395" y="259" text-anchor="middle" font-size="10" fill="#333333">Secret management</text>
+
+  <rect x="300" y="276" width="190" height="28" rx="5" fill="#FFFFFF" stroke="#43B047" stroke-width="1"/>
+  <text x="395" y="295" text-anchor="middle" font-size="10" fill="#333333">Supply chain security</text>
+
+  <text x="395" y="330" text-anchor="middle" font-size="10" font-weight="bold" fill="#43B047">Focus</text>
+  <text x="395" y="348" text-anchor="middle" font-size="10" fill="#333333">Integrate security</text>
+  <text x="395" y="363" text-anchor="middle" font-size="10" fill="#333333">into every stage</text>
+  <text x="395" y="385" text-anchor="middle" font-size="22" fill="#43B047">&#128274;</text>
+
+  <!-- Era 3: Agentic DevOps (gold) -->
+  <rect x="530" y="55" width="245" height="335" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+  <rect x="530" y="55" width="245" height="42" rx="8" fill="#FBD000"/>
+  <rect x="530" y="82" width="245" height="15" fill="#FBD000"/>
+  <text x="652" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Agentic DevOps</text>
+
+  <text x="652" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Key Characteristics</text>
+
+  <rect x="550" y="132" width="205" height="28" rx="5" fill="#FFFFFF" stroke="#FBD000" stroke-width="1"/>
+  <text x="652" y="151" text-anchor="middle" font-size="10" fill="#333333">AI agents in the loop</text>
+
+  <rect x="550" y="168" width="205" height="28" rx="5" fill="#FFFFFF" stroke="#FBD000" stroke-width="1"/>
+  <text x="652" y="187" text-anchor="middle" font-size="10" fill="#333333">Copilot / Coding Agents</text>
+
+  <rect x="550" y="204" width="205" height="28" rx="5" fill="#FFFFFF" stroke="#FBD000" stroke-width="1"/>
+  <text x="652" y="223" text-anchor="middle" font-size="10" fill="#333333">MCP + Tool integration</text>
+
+  <rect x="550" y="240" width="205" height="28" rx="5" fill="#FFFFFF" stroke="#FBD000" stroke-width="1"/>
+  <text x="652" y="259" text-anchor="middle" font-size="10" fill="#333333">Spec-Driven Development</text>
+
+  <rect x="550" y="276" width="205" height="28" rx="5" fill="#FFFFFF" stroke="#FBD000" stroke-width="1"/>
+  <text x="652" y="295" text-anchor="middle" font-size="10" fill="#333333">Self-healing systems</text>
+
+  <text x="652" y="330" text-anchor="middle" font-size="10" font-weight="bold" fill="#D4A800">Focus</text>
+  <text x="652" y="348" text-anchor="middle" font-size="10" fill="#333333">AI agents autonomously</text>
+  <text x="652" y="363" text-anchor="middle" font-size="10" fill="#333333">build, secure, and ship</text>
+  <text x="652" y="385" text-anchor="middle" font-size="22" fill="#D4A800">&#129302;</text>
+
+  <!-- Transition arrows between eras -->
+  <path d="M260,250 L280,250" stroke="#333" stroke-width="2" marker-end="url(#timeArrow)"/>
+  <path d="M510,250 L530,250" stroke="#333" stroke-width="2" marker-end="url(#timeArrow)"/>
+
+  <!-- Legend -->
+  <rect x="30" y="465" width="745" height="28" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="50" y="484" font-size="11" font-weight="bold" fill="#333333">Legend:</text>
+  <rect x="105" y="475" width="12" height="12" fill="#049CD8"/>
+  <text x="122" y="485" font-size="10" fill="#333333">Traditional</text>
+  <rect x="195" y="475" width="12" height="12" fill="#43B047"/>
+  <text x="212" y="485" font-size="10" fill="#333333">DevSecOps</text>
+  <rect x="285" y="475" width="12" height="12" fill="#FBD000"/>
+  <text x="302" y="485" font-size="10" fill="#333333">Agentic</text>
+  <text x="370" y="485" font-size="10" fill="#666">|  Evolution from manual to AI-powered DevOps</text>
+</svg>

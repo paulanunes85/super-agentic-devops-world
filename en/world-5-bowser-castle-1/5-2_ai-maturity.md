@@ -688,3 +688,11 @@ There's no "bad" level. Each level is appropriate for different contexts:
 ---
 
 *Level 5-2 complete! You now know the 5 AI maturity levels and can identify where you are and where you're going. In the next level, we'll dive deep into GitHub Copilot -- the most powerful companion in the Mushroom Kingdom. Get your power-ups ready!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-1: DevOps Evolution](5-1_devops-evolution.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-3: GitHub Copilot](5-3_github-copilot.md)
+
+</div>

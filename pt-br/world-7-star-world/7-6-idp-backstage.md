@@ -840,3 +840,11 @@ Ela sabe construir o castelo central que conecta todos os mundos!
 - Backstage by Spotify — https://backstage.io
 - Backstage Documentation — https://backstage.io/docs/overview/what-is-backstage
 - Internal Developer Platform — https://internaldeveloperplatform.org
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-5: Four Channels](7-5-four-channels.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 7-BOSS: Practical Project](7-boss-practical-project.md)
+
+</div>

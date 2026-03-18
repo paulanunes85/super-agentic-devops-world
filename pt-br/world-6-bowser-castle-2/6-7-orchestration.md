@@ -622,3 +622,11 @@ Ela coletou a Star Coin deste mundo e seguiu para o proximo...
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-6: MCP Practical](6-6-mcp-practical.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-8: Token Optimization](6-8-token-optimization.md)
+
+</div>

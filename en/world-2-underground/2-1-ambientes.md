@@ -576,3 +576,11 @@ PR #124: feature/dark-mode
 *"In Mario, you NEVER face Bowser without training first. In software, you NEVER launch to users without testing in Dev and Staging. The rule is the same: practice, rehearse, and only then go to the real world."*
 
 *Next Warp Pipe: Level 2-2 -- The Messenger Between Kingdoms: APIs*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-BOSS: Exercises](../world-1-green-plains/1-boss-exercises.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-2: APIs](2-2-apis.md)
+
+</div>

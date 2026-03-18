@@ -704,10 +704,6 @@ Don't start at Level 4. Start at Level 1 and evolve gradually:
 
 ---
 
-**Previous:** Level 5-5 -- Who's Who in the Mushroom Kingdom    |    **Next:** Level 5-7
-
----
-
 ### POWER-UP UNLOCKED!
 
 Sofia now understands autonomous agents -- not as magic, but as engineering. She knows that autonomy without guardrails is a Yoshi flying off the map. She knows that trust is built, not assumed. And she knows that the secret is giving the agent exactly the right amount of freedom: enough to be useful, limited enough to be safe.
@@ -727,3 +723,11 @@ Sofia stored this power-up in her inventory and headed to the next level of the 
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-5: Agent Types](5-5_agent-types.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md)
+
+</div>

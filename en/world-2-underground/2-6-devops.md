@@ -675,3 +675,11 @@ Benefits:
 *"The greatest revolution in the Mushroom Kingdom was not a new power-up or a new weapon. It was when Builders and Engineers stopped fighting and started working together. DevOps is not a tool -- it is an alliance. And IaC is the magic that lets this alliance build castles in minutes, not months."*
 
 *Next Warp Pipe: Level 2-7 -- The Character's Senses: Observability*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-5: Methodologies](2-5-metodologias.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-7: Observability](2-7-observabilidade.md)
+
+</div>

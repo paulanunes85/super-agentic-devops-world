@@ -847,3 +847,11 @@ Precisa manter multiplas versoes em producao?
 ---
 
 *Fase 4-5 completa! Voce aprendeu os principais workflows do Git e quando usar cada um. Na proxima fase, vamos mergulhar em estruturas de dados e JSON — como organizar as moedas, estrelas e cogumelos. Prepare-se para o Nivel 4-6!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-4: Deploy Avancado](4-4-deploy_avancado.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-6: Estruturas de Dados](4-6-estruturas_dados.md)
+
+</div>

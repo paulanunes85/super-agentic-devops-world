@@ -695,3 +695,11 @@ A **stack** is the complete set of technologies used in a project.
 ---
 
 *End of Level 3-10. Sofia now knows the available weapons and armor. In the next level, she learns to manage her inventory: packages and dependencies.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-9: Languages](3-9-linguagens.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-11: Packages](3-11-pacotes.md)
+
+</div>

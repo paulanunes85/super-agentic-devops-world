@@ -1054,3 +1054,11 @@ Do you need help with code?
 ---
 
 *Level 5-3 complete! You now know ALL Copilot modes -- from whispers to an autonomous army. Remember: Copilot is your companion, not your substitute. The better you communicate with it, the better the results. In the next level, we'll understand what an AI Agent is in depth!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-2: AI Maturity](5-2_ai-maturity.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md)
+
+</div>

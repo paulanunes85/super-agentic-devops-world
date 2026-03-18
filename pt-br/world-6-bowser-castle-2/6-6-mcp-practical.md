@@ -386,3 +386,11 @@ Ela coletou a Star Coin deste mundo e seguiu para o proximo...
 - [Extending Copilot Chat with MCP](https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [MCP Specification](https://spec.modelcontextprotocol.io)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-5: Hooks](6-5-hooks.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-7: Orchestration](6-7-orchestration.md)
+
+</div>

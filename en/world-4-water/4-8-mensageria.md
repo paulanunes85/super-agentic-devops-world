@@ -1001,3 +1001,11 @@ const message = {
 ---
 
 *Level 4-8 complete! You learned how systems communicate asynchronously using queues and messaging. Now, get ready for the Boss Battle of World 4 — architecture challenges that will test everything you've learned!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-7: Cache & Performance](4-7-cache_performance.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-BOSS: Partial Glossary](4-BOSS-glossario_parcial.md)
+
+</div>

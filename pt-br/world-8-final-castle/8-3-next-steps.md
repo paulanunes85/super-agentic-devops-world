@@ -654,4 +654,10 @@ SEMANA 11-12: Certificacao + Projeto
 
 *Fase 8-3 concluida. A jornada continua.*
 
-*Proximo: Fase 8-FINAL -- O Glossario Definitivo do Mushroom Kingdom.*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 8-2: Boss Rush](8-2-boss-rush.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 8-Final: Glossario](8-final-glossary.md)
+
+</div>

@@ -756,3 +756,11 @@ async function checkDatabase() {
 *"In Mario, the screen shows you EVERYTHING you need to know: lives, coins, time, power-ups. Imagine playing with the screen turned off -- impossible. Observability is the 'screen turned on' for your software. Without it, you are playing in the dark."*
 
 *Next Warp Pipe: Level 2-BOSS -- Boss Battle: Practical Exercises Level 2*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-6: DevOps](2-6-devops.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-BOSS: Exercises](2-BOSS-exercicios.md)
+
+</div>

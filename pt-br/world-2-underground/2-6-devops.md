@@ -674,4 +674,10 @@ Beneficios:
 
 *"A maior revolucao do Mushroom Kingdom nao foi um novo power-up ou uma nova arma. Foi quando Construtores e Engenheiros pararam de brigar e comecaram a trabalhar juntos. DevOps nao e uma ferramenta -- e uma alianca. E IaC e a magia que faz essa alianca construir castelos em minutos, nao meses."*
 
-*Proximo Warp Pipe: Fase 2-7 -- Os Sentidos do Personagem: Observabilidade*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-5: Metodologias](2-5-metodologias.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-7: Observabilidade](2-7-observabilidade.md)
+
+</div>

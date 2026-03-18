@@ -575,4 +575,10 @@ PR #124: feature/dark-mode
 
 *"No Mario, voce NUNCA enfrenta o Bowser sem treinar primeiro. No software, voce NUNCA lanca para usuarios sem testar em Dev e Staging. A regra e a mesma: pratique, ensaie, e so entao va para o mundo real."*
 
-*Proximo Warp Pipe: Fase 2-2 -- O Mensageiro entre Reinos: APIs*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-BOSS: Exercicios](../world-1-green-plains/1-boss-exercises.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-2: APIs](2-2-apis.md)
+
+</div>

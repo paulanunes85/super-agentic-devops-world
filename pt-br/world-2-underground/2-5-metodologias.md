@@ -617,4 +617,10 @@ Melhorar:
 
 *"Todo time precisa de regras. Sem regras, ate o melhor time do Mushroom Kingdom cai no caos. Scrum e Kanban nao sao burocracias -- sao as regras do torneio que transformam 5 aventureiros desorganizados em uma equipe lendaria."*
 
-*Proximo Warp Pipe: Fase 2-6 -- A Alianca entre Classes: DevOps e IaC*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-4: DNS](2-4-dns.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-6: DevOps](2-6-devops.md)
+
+</div>

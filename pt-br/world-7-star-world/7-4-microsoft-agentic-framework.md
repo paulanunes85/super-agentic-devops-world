@@ -836,3 +836,11 @@ Ela coleciona o Controle Universal, o Montador de Times, o Kit Oficial e o Mario
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
 - AutoGen — https://microsoft.github.io/autogen/
 - Azure AI Agent Service — https://learn.microsoft.com/en-us/azure/ai-services/agents/
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-3: LangChain](7-3-langchain.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 7-5: Four Channels](7-5-four-channels.md)
+
+</div>

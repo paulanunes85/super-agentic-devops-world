@@ -930,3 +930,11 @@ After completing the exercises, answer:
 ---
 
 *End of the World 3 Boss Battle! If Sofia defeated Kamek, the doors to World 4 open -- the world of Orchestration and Agents. The journey continues!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-11: Packages](3-11-pacotes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-1: Auth](../world-4-water/4-1-auth.md)
+
+</div>

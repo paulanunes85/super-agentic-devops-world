@@ -511,3 +511,11 @@ The most valuable skill of the future isn't writing code fast. It's **writing cl
 ---
 
 *Level 5-1 complete! You now understand the three eras of DevOps and know that we're entering the most powerful era -- the era of autonomous companions. In the next level, we'll learn about AI maturity levels. Get ready to evolve from Apprentice to Legendary!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-BOSS: Partial Glossary](../world-4-water/4-BOSS-glossario_parcial.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-2: AI Maturity](5-2_ai-maturity.md)
+
+</div>

@@ -1054,3 +1054,11 @@ Voce precisa de ajuda com codigo?
 ---
 
 *Fase 5-3 concluida! Voce agora conhece TODOS os modos do Copilot -- do sussurro ao exercito autonomo. Lembre-se: o Copilot e seu companion, nao seu substituto. Quanto melhor voce se comunicar com ele, melhores resultados tera. Na proxima fase, vamos entender o que e um Agente de IA em profundidade!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-2: AI Maturity](5-2-ai-maturity.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-4: What is an Agent](5-4-what-is-an-agent.md)
+
+</div>

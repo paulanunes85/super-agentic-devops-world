@@ -938,3 +938,11 @@ async function getTodos(userId) {
 ---
 
 *Level 4-7 complete! You learned how to activate the performance Star Mode with cache, Redis, CDN, and optimizations. In the next level, we'll explore messaging and queues — the Mushroom Kingdom's postal service. Get ready for Level 4-8!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-6: Data Structures](4-6-estruturas_dados.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-8: Messaging](4-8-mensageria.md)
+
+</div>

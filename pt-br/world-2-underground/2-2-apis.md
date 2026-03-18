@@ -713,4 +713,10 @@ Quando sua API vai para producao, voce precisa de mais controle. O **Azure API M
 
 *"No Mushroom Kingdom, nenhum castelo funciona sozinho. Todos dependem do Toad Mensageiro (API) para se comunicar. Aprenda a falar a lingua do Toad, e voce podera conectar qualquer castelo a qualquer outro."*
 
-*Proximo Warp Pipe: Fase 2-3 -- Feiticos de Protecao: Seguranca*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-1: Ambientes](2-1-ambientes.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-3: Seguranca](2-3-seguranca.md)
+
+</div>

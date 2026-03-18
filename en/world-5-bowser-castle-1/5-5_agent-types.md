@@ -482,10 +482,6 @@ SCENARIO: Implement notifications feature
 
 ---
 
-**Previous:** Level 5-4 -- NPCs that Came to Life    |    **Next:** Level 5-6 -- The Yoshis that Fly Solo: Autonomous Agents
-
----
-
 ### POWER-UP UNLOCKED!
 
 Sofia now knows all the types of agents that exist in the Mushroom Kingdom. She knows the difference between a Yoshi that walks beside you (IDE Agent) and Toads that work in distant castles (Background Agent). She knows when to call builders (Development Agents) and when to call castle staff (Productivity Agents). And, most importantly, she knows that the secret isn't choosing ONE type -- it's orchestrating ALL of them together.
@@ -505,3 +501,11 @@ She stored this power-up in her inventory and headed to the next level of the Mu
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md)
+
+</div>

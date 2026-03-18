@@ -617,3 +617,11 @@ Improve:
 *"Every team needs rules. Without rules, even the best team in the Mushroom Kingdom falls into chaos. Scrum and Kanban aren't bureaucracy -- they're the tournament rules that turn 5 disorganized adventurers into a legendary team."*
 
 *Next Warp Pipe: Level 2-6 -- The Alliance Between Classes: DevOps and IaC*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-4: DNS](2-4-dns.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-6: DevOps](2-6-devops.md)
+
+</div>

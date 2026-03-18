@@ -572,4 +572,10 @@ const values = [nomeDoUsuario];
 
 *"No Mushroom Kingdom, seguranca nao e paranoia -- e sobrevivencia. Bowser esta SEMPRE tentando invadir. Proteja suas chaves, tranque seus cofres, e nunca, NUNCA deixe a senha pendurada na porta."*
 
-*Proximo Warp Pipe: Fase 2-4 -- O Mapa do Mundo: DNS e Dominios*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-2: APIs](2-2-apis.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-4: DNS](2-4-dns.md)
+
+</div>

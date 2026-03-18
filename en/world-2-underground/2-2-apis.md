@@ -713,4 +713,12 @@ When your API goes to production, you need more control. **Azure API Management 
 
 *"In the Mushroom Kingdom, no castle works alone. They all depend on the Toad Messenger (API) to communicate. Learn to speak Toad's language, and you'll be able to connect any castle to any other."*
 
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-1: Environments](2-1-ambientes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-3: Security](2-3-seguranca.md)
+
+</div>
+
 *Next Warp Pipe: Level 2-3 -- Protection Spells: Security*

@@ -685,3 +685,11 @@ O **Dependabot** (do GitHub) automaticamente:
 ---
 
 *Fase 3-5 completa! Voce entendeu o mundo do Open Source -- o ecossistema que construiu praticamente tudo que voce usa. Na proxima e ultima fase deste World, vamos entrar no Castelo dos Dados: Bancos de Dados.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-4: Testes](3-4-testes.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-6: Banco de Dados](3-6-banco_dados.md)
+
+</div>

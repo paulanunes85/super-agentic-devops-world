@@ -841,3 +841,11 @@ Quanto downtime e aceitavel?
 ---
 
 *Fase 4-4 completa! Voce aprendeu as principais estrategias de deploy avancado. Na proxima fase, vamos explorar Git Workflows — como organizar o fluxo de trabalho do time. Prepare-se para o Nivel 4-5!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-3: Arquitetura](4-3-arquitetura.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-5: Git Workflows](4-5-git_workflows.md)
+
+</div>

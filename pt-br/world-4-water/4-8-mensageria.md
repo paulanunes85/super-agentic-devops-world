@@ -1001,3 +1001,11 @@ const message = {
 ---
 
 *Fase 4-8 completa! Voce aprendeu como sistemas se comunicam de forma assincrona usando filas e mensageria. Agora, prepare-se para a Boss Battle do World 4 — desafios de arquitetura que vao testar tudo que voce aprendeu!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-7: Cache e Performance](4-7-cache_performance.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-BOSS: Glossario Parcial](4-BOSS-glossario_parcial.md)
+
+</div>

@@ -1061,3 +1061,11 @@ $ docker exec -it <container-id> /bin/sh
 ---
 
 *Fase 3-3 completa! Voce dominou Docker -- a arte de empacotar aplicacoes para que funcionem em qualquer lugar. Na proxima fase, vamos treinar antes da batalha: Testes de Software, a arte de garantir que tudo funciona ANTES de lancar.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-2: Terminal](3-2-terminal.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-4: Testes](3-4-testes.md)
+
+</div>

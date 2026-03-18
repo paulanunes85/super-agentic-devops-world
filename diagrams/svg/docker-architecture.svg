@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <rect width="800" height="500" fill="#FAFAFA" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Docker Container Lifecycle</text>
+
+  <defs>
+    <marker id="aBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#049CD8"/>
+    </marker>
+    <marker id="aGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#43B047"/>
+    </marker>
+    <marker id="aGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#999"/>
+    </marker>
+  </defs>
+
+  <!-- BUILD PHASE label -->
+  <text x="250" y="65" text-anchor="middle" font-size="13" font-weight="bold" fill="#049CD8">BUILD PHASE</text>
+  <line x1="55" y1="72" x2="455" y2="72" stroke="#049CD8" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Dockerfile -->
+  <rect x="40" y="85" width="140" height="80" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="110" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Dockerfile</text>
+  <text x="110" y="133" text-anchor="middle" font-size="10" fill="#666">The Recipe</text>
+  <text x="110" y="148" text-anchor="middle" font-size="9" fill="#999">FROM, RUN, COPY...</text>
+
+  <!-- Arrow: Dockerfile → Build -->
+  <line x1="180" y1="125" x2="220" y2="125" stroke="#049CD8" stroke-width="2" marker-end="url(#aBlue)"/>
+  <text x="200" y="118" text-anchor="middle" font-size="8" fill="#049CD8">docker</text>
+  <text x="200" y="140" text-anchor="middle" font-size="8" fill="#049CD8">build</text>
+
+  <!-- Build Process -->
+  <rect x="220" y="90" width="110" height="70" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="275" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Build</text>
+  <text x="275" y="136" text-anchor="middle" font-size="10" fill="#666">Layer by layer</text>
+  <text x="275" y="150" text-anchor="middle" font-size="9" fill="#999">Cached layers</text>
+
+  <!-- Arrow: Build → Image -->
+  <line x1="330" y1="125" x2="370" y2="125" stroke="#049CD8" stroke-width="2" marker-end="url(#aBlue)"/>
+
+  <!-- Image -->
+  <rect x="370" y="85" width="140" height="80" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="440" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Image</text>
+  <text x="440" y="133" text-anchor="middle" font-size="10" fill="#666">The Template</text>
+  <text x="440" y="148" text-anchor="middle" font-size="9" fill="#999">Immutable snapshot</text>
+
+  <!-- RUNTIME PHASE label -->
+  <text x="620" y="65" text-anchor="middle" font-size="13" font-weight="bold" fill="#43B047">RUNTIME PHASE</text>
+  <line x1="530" y1="72" x2="770" y2="72" stroke="#43B047" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Arrow: Image → Container -->
+  <line x1="510" y1="125" x2="555" y2="125" stroke="#43B047" stroke-width="2" marker-end="url(#aGreen)"/>
+  <text x="533" y="118" text-anchor="middle" font-size="8" fill="#43B047">docker</text>
+  <text x="533" y="140" text-anchor="middle" font-size="8" fill="#43B047">run</text>
+
+  <!-- Container -->
+  <rect x="555" y="85" width="160" height="80" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <text x="635" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Container</text>
+  <text x="635" y="128" text-anchor="middle" font-size="10" fill="#666">Running Instance</text>
+  <text x="635" y="143" text-anchor="middle" font-size="9" fill="#999">Isolated process</text>
+  <text x="635" y="156" text-anchor="middle" font-size="9" fill="#43B047">&#9654; Running</text>
+
+  <!-- Docker Hub (top right) -->
+  <rect x="560" y="200" width="180" height="65" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="650" y="225" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Docker Hub</text>
+  <text x="650" y="243" text-anchor="middle" font-size="10" fill="#666">Registry / Repository</text>
+  <text x="650" y="256" text-anchor="middle" font-size="9" fill="#999">docker push / pull</text>
+
+  <!-- Arrow Image ↔ Docker Hub -->
+  <path d="M440,165 L440,232 L560,232" stroke="#049CD8" stroke-width="1.5" fill="none" marker-end="url(#aBlue)"/>
+  <text x="490" y="225" text-anchor="middle" font-size="8" fill="#049CD8">push</text>
+  <path d="M560,240 L450,240 L450,165" stroke="#049CD8" stroke-width="1.5" fill="none" stroke-dasharray="4,2" marker-end="url(#aBlue)"/>
+  <text x="490" y="252" text-anchor="middle" font-size="8" fill="#049CD8">pull</text>
+
+  <!-- Volumes -->
+  <rect x="40" y="210" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="120" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Volumes</text>
+  <text x="120" y="253" text-anchor="middle" font-size="10" fill="#666">Persistent Storage</text>
+  <text x="120" y="265" text-anchor="middle" font-size="9" fill="#999">-v host:container</text>
+
+  <!-- Arrow Volume → Container -->
+  <path d="M200,240 L380,240 Q400,240 400,210 Q400,180 500,180 L555,155" stroke="#43B047" stroke-width="1.5" fill="none" stroke-dasharray="4,2" marker-end="url(#aGreen)"/>
+
+  <!-- Networks -->
+  <rect x="250" y="210" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="330" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Networks</text>
+  <text x="330" y="253" text-anchor="middle" font-size="10" fill="#666">Container Communication</text>
+  <text x="330" y="265" text-anchor="middle" font-size="9" fill="#999">bridge, host, overlay</text>
+
+  <!-- Docker Compose section -->
+  <rect x="40" y="300" width="720" height="100" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="400" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Docker Compose — Multi-Container Orchestration</text>
+
+  <!-- Compose services -->
+  <rect x="65" y="340" width="120" height="45" rx="6" fill="#FFFFFF" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="125" y="360" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Web App</text>
+  <text x="125" y="375" text-anchor="middle" font-size="9" fill="#666">port 3000</text>
+
+  <rect x="210" y="340" width="120" height="45" rx="6" fill="#FFFFFF" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="270" y="360" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">API Server</text>
+  <text x="270" y="375" text-anchor="middle" font-size="9" fill="#666">port 8080</text>
+
+  <rect x="355" y="340" width="120" height="45" rx="6" fill="#FFFFFF" stroke="#43B047" stroke-width="1.5"/>
+  <text x="415" y="360" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Database</text>
+  <text x="415" y="375" text-anchor="middle" font-size="9" fill="#666">PostgreSQL</text>
+
+  <rect x="500" y="340" width="120" height="45" rx="6" fill="#FFFFFF" stroke="#43B047" stroke-width="1.5"/>
+  <text x="560" y="360" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Cache</text>
+  <text x="560" y="375" text-anchor="middle" font-size="9" fill="#666">Redis</text>
+
+  <rect x="645" y="340" width="100" height="45" rx="6" fill="#FFFFFF" stroke="#43B047" stroke-width="1.5"/>
+  <text x="695" y="360" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Queue</text>
+  <text x="695" y="375" text-anchor="middle" font-size="9" fill="#666">RabbitMQ</text>
+
+  <!-- Connecting lines in compose -->
+  <line x1="185" y1="362" x2="210" y2="362" stroke="#999" stroke-width="1"/>
+  <line x1="330" y1="362" x2="355" y2="362" stroke="#999" stroke-width="1"/>
+  <line x1="475" y1="362" x2="500" y2="362" stroke="#999" stroke-width="1"/>
+  <line x1="620" y1="362" x2="645" y2="362" stroke="#999" stroke-width="1"/>
+
+  <!-- Legend -->
+  <rect x="40" y="420" width="720" height="60" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="65" y="445" font-size="11" font-weight="bold" fill="#333333">Legend</text>
+  <rect x="65" y="455" width="12" height="12" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="82" y="466" font-size="10" fill="#333333">Build phase</text>
+  <rect x="170" y="455" width="12" height="12" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="187" y="466" font-size="10" fill="#333333">Runtime phase</text>
+  <rect x="285" y="455" width="12" height="12" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="302" y="466" font-size="10" fill="#333333">Orchestration</text>
+  <text x="420" y="466" font-size="10" fill="#666">|  Docker lifecycle: from recipe to running container</text>
+</svg>

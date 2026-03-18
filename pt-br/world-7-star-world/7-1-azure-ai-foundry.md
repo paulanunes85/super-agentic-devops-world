@@ -906,3 +906,11 @@ A proxima fase a levara a descobrir a **Biblioteca Magica** — RAG, o poder de 
 
 - Azure AI Foundry — https://ai.azure.com
 - Azure AI Studio Documentation — https://learn.microsoft.com/en-us/azure/ai-studio/
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-BOSS: Quick Reference](../world-6-bowser-castle-2/6-boss-quick-reference.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 7-2: RAG](7-2-rag.md)
+
+</div>

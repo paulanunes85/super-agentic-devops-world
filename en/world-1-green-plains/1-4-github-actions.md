@@ -763,3 +763,11 @@ To configure secrets:
 ---
 
 *"Now I have an army of Lakitus working for me. They never sleep, never forget, and never complain." — Sofia, watching her workflows pass.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-3: GitHub](1-3-github.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-5: Azure](1-5-azure.md)
+
+</div>

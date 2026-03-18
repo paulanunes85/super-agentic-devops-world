@@ -705,3 +705,11 @@ Se algo der erro, leia a mensagem de erro com calma. 90% das vezes, a resposta e
 ---
 
 *"Bowser Jr. caiu. Mas ele era so o primeiro boss. Os mundos seguintes tem desafios muito maiores. Mas agora eu sei: com as ferramentas certas e a base solida, eu consigo enfrentar qualquer coisa." — Sofia, guardando o primeiro trofeu.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-7: Conexoes](1-7-connections.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-1: Ambientes](../world-2-underground/2-1-ambientes.md)
+
+</div>

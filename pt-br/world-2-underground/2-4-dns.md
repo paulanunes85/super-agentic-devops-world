@@ -562,4 +562,10 @@ host todoapp.com.br
 
 *"Sem DNS, a internet seria um livro de coordenadas numericas impossivel de memorizar. Com DNS, cada castelo tem um nome bonito que qualquer jogador pode lembrar. E como a magia que transforma numeros sem sentido em nomes que contam historias."*
 
-*Proximo Warp Pipe: Fase 2-5 -- As Regras do Torneio: Metodologias Ageis*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-3: Seguranca](2-3-seguranca.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-5: Metodologias](2-5-metodologias.md)
+
+</div>

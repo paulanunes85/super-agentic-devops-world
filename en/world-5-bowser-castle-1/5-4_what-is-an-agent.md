@@ -554,13 +554,17 @@ The DevOps world is transforming from "humans using tools" to "humans coordinati
 
 ---
 
-**Previous:** Level 5-3    |    **Next:** Level 5-5 -- Who's Who in the Mushroom Kingdom: Types of Agents
-
----
-
 ### POWER-UP UNLOCKED!
 
 Sofia now understands what an AI Agent is -- not just as a concept, but as functional anatomy. She knows that an agent has a brain, senses, hands, memory, and goals. She knows the difference between an NPC that repeats lines and an NPC that came to life. And she knows that the future of software development is about coordinating these agents, not replacing humans.
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-3: GitHub Copilot](5-3_github-copilot.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-5: Agent Types](5-5_agent-types.md)
+
+</div>
 
 She looked at the Toad that had explained everything to her and smiled. "So you're not an NPC anymore... you're an Agent."
 

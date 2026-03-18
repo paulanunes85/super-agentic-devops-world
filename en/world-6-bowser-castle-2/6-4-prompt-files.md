@@ -420,3 +420,11 @@ Congratulations, Sofia! You're getting stronger and stronger in the Mushroom Kin
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-3: Custom Instructions](6-3-custom-instructions.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-5: Hooks](6-5-hooks.md)
+
+</div>

@@ -763,3 +763,11 @@ Para configurar secrets:
 ---
 
 *"Agora tenho um exercito de Lakitus trabalhando para mim. Eles nunca dormem, nunca esquecem, e nunca reclamam." — Sofia, assistindo seus workflows passarem.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-3: GitHub](1-3-github.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-5: Azure](1-5-azure.md)
+
+</div>

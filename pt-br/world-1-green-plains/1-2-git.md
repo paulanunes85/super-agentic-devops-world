@@ -756,3 +756,11 @@ A extensao **GitLens** adiciona super-poderes ao Git no VS Code:
 ---
 
 *"Agora ninguem mais me tira meus saves." — Sofia, segurando firme seu memory card Git.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-1: VS Code](1-1-vs-code.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-3: GitHub](1-3-github.md)
+
+</div>

@@ -706,3 +706,11 @@ If something goes wrong, read the error message carefully. 90% of the time, the 
 ---
 
 *"Bowser Jr. has fallen. But he was only the first boss. The following worlds have much greater challenges. But now I know: with the right tools and a solid foundation, I can face anything." — Sofia, storing her first trophy.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-7: Connections](1-7-connections.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-1: Environments](../world-2-underground/2-1-ambientes.md)
+
+</div>

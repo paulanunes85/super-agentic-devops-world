@@ -603,11 +603,6 @@ Welcome to Coordinated Multiplayer Mode. Your games will never be the same again
 
 ---
 
-| Previous: 4F MCP | Next: 4H Quick Reference |
-|---|---|
-
----
-
 **POWER-UP UNLOCKED!**
 Sofia now masters Multi-Agent Orchestration and Coordinated Multiplayer Mode.
 She collected the Star Coin from this world and headed to the next...
@@ -622,3 +617,11 @@ She collected the Star Coin from this world and headed to the next...
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-6: MCP Practical](6-6-mcp-practical.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-8: Token Optimization](6-8-token-optimization.md)
+
+</div>

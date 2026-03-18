@@ -1451,3 +1451,11 @@ All Star Coins from World 7 have been collected!
 
 - LangChain Python — https://python.langchain.com
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-6: IDP Backstage](7-6-idp-backstage.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-1: How Everything Connects](../world-8-final-castle/8-1-how-everything-connects.md)
+
+</div>

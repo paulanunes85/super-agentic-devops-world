@@ -756,3 +756,11 @@ The **GitLens** extension adds superpowers to Git in VS Code:
 ---
 
 *"Now nobody can take my saves from me." — Sofia, holding tight to her Git memory card.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-1: VS Code](1-1-vs-code.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-3: GitHub](1-3-github.md)
+
+</div>

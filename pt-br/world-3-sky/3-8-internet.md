@@ -765,3 +765,11 @@ Para testar APIs de forma visual, use ferramentas como **Postman** ou **Insomnia
 ---
 
 *Fim da Fase 3-8. Agora que Sofia entende como os canos do Mushroom Kingdom funcionam, esta na hora de escolher suas armas: as linguagens de programacao.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-7: Boas Praticas](3-7-boas_praticas.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-9: Linguagens](3-9-linguagens.md)
+
+</div>

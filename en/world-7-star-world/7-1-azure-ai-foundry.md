@@ -906,3 +906,11 @@ The next level will lead her to discover the **Magic Library** — RAG, the powe
 
 - Azure AI Foundry — https://ai.azure.com
 - Azure AI Studio Documentation — https://learn.microsoft.com/en-us/azure/ai-studio/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-BOSS: Quick Reference](../world-6-bowser-castle-2/6-boss-quick-reference.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-2: RAG](7-2-rag.md)
+
+</div>

@@ -606,3 +606,11 @@ She stored this knowledge in her **Game Rulebook** and headed to the next level.
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-2: Agent Skills](6-2-agent-skills.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-4: Prompt Files](6-4-prompt-files.md)
+
+</div>

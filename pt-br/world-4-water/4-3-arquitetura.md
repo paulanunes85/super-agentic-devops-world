@@ -919,3 +919,11 @@ Equipe tem menos de 5 pessoas?
 ---
 
 *Fase 4-3 completa! Voce aprendeu os principais estilos de arquitetura de software. Na proxima fase, vamos explorar estrategias de deploy avancado — como lancar novas versoes sem derrubar o castelo. Prepare-se para o Nivel 4-4!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-2: Cloud Models](4-2-cloud_models.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-4: Deploy Avancado](4-4-deploy_avancado.md)
+
+</div>

@@ -686,3 +686,11 @@ She stored all Power-Ups in her inventory and headed to the next level in the Mu
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-1: Custom Agents](6-1-custom-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-3: Custom Instructions](6-3-custom-instructions.md)
+
+</div>

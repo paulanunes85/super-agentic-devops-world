@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <rect width="800" height="500" fill="#FAFAFA" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">RAG — Retrieval-Augmented Generation</text>
+
+  <!-- Phase 1: INDEXING (blue) -->
+  <text x="400" y="65" text-anchor="middle" font-size="13" font-weight="bold" fill="#049CD8">PHASE 1 — INDEXING</text>
+  <rect x="30" y="80" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="90" y="101" text-anchor="middle" font-size="11" fill="#333333">Documents</text>
+  <text x="90" y="118" text-anchor="middle" font-size="9" fill="#333333">PDF, HTML, TXT</text>
+
+  <line x1="150" y1="105" x2="185" y2="105" stroke="#049CD8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="185" y="80" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="240" y="101" text-anchor="middle" font-size="11" fill="#333333">Chunk</text>
+  <text x="240" y="118" text-anchor="middle" font-size="9" fill="#333333">Split into pieces</text>
+
+  <line x1="295" y1="105" x2="330" y2="105" stroke="#049CD8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="330" y="80" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="385" y="101" text-anchor="middle" font-size="11" fill="#333333">Embed</text>
+  <text x="385" y="118" text-anchor="middle" font-size="9" fill="#333333">Create vectors</text>
+
+  <line x1="440" y1="105" x2="475" y2="105" stroke="#049CD8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="475" y="80" width="130" height="50" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="540" y="101" text-anchor="middle" font-size="11" fill="#333333">Vector DB</text>
+  <text x="540" y="118" text-anchor="middle" font-size="9" fill="#333333">Store embeddings</text>
+
+  <!-- Phase 2: RETRIEVAL (green) -->
+  <text x="400" y="170" text-anchor="middle" font-size="13" font-weight="bold" fill="#43B047">PHASE 2 — RETRIEVAL</text>
+  <rect x="30" y="185" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="90" y="206" text-anchor="middle" font-size="11" fill="#333333">Question</text>
+  <text x="90" y="223" text-anchor="middle" font-size="9" fill="#333333">User query</text>
+
+  <line x1="150" y1="210" x2="185" y2="210" stroke="#43B047" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="185" y="185" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="240" y="206" text-anchor="middle" font-size="11" fill="#333333">Embed</text>
+  <text x="240" y="223" text-anchor="middle" font-size="9" fill="#333333">Query vector</text>
+
+  <line x1="295" y1="210" x2="330" y2="210" stroke="#43B047" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="330" y="185" width="130" height="50" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="395" y="206" text-anchor="middle" font-size="11" fill="#333333">Similarity Search</text>
+  <text x="395" y="223" text-anchor="middle" font-size="9" fill="#333333">Find nearest vectors</text>
+
+  <line x1="460" y1="210" x2="495" y2="210" stroke="#43B047" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="495" y="185" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="555" y="206" text-anchor="middle" font-size="11" fill="#333333">Top-K Results</text>
+  <text x="555" y="223" text-anchor="middle" font-size="9" fill="#333333">Relevant chunks</text>
+
+  <!-- Connecting arrow Phase 1 → Phase 2 -->
+  <path d="M540,130 L540,145 Q540,155 530,155 L100,155 Q90,155 90,165 L90,185" stroke="#666" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+
+  <!-- Phase 3: GENERATION (gold) -->
+  <text x="400" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4A800">PHASE 3 — GENERATION</text>
+  <rect x="70" y="290" width="160" height="55" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="150" y="311" text-anchor="middle" font-size="11" fill="#333333">Question + Context</text>
+  <text x="150" y="328" text-anchor="middle" font-size="9" fill="#333333">User query + top-K chunks</text>
+
+  <line x1="230" y1="317" x2="295" y2="317" stroke="#FBD000" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+  <rect x="295" y="290" width="140" height="55" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="365" y="311" text-anchor="middle" font-size="11" fill="#333333">LLM</text>
+  <text x="365" y="328" text-anchor="middle" font-size="9" fill="#333333">GPT-4o / Claude / etc.</text>
+
+  <line x1="435" y1="317" x2="500" y2="317" stroke="#FBD000" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+  <rect x="500" y="290" width="170" height="55" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="585" y="311" text-anchor="middle" font-size="11" fill="#333333">Grounded Answer</text>
+  <text x="585" y="328" text-anchor="middle" font-size="9" fill="#333333">Accurate, cited response</text>
+
+  <!-- Connecting arrow Phase 2 → Phase 3 -->
+  <path d="M555,235 L555,250 Q555,260 545,260 L160,260 Q150,260 150,270 L150,290" stroke="#666" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+
+  <!-- Key benefit callout -->
+  <rect x="220" y="370" width="360" height="45" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="400" y="390" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Why RAG?</text>
+  <text x="400" y="405" text-anchor="middle" font-size="10" fill="#333333">Reduces hallucinations by grounding LLM answers in real data</text>
+
+  <!-- Legend -->
+  <rect x="510" y="430" width="270" height="60" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="525" y="450" font-size="11" font-weight="bold" fill="#333333">Legend</text>
+  <rect x="525" y="458" width="12" height="12" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="542" y="469" font-size="10" fill="#333333">Blue = Indexing</text>
+  <rect x="620" y="458" width="12" height="12" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="637" y="469" font-size="10" fill="#333333">Green = Retrieval</text>
+  <rect x="720" y="458" width="12" height="12" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="737" y="469" font-size="10" fill="#333333">Gold = Generation</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#049CD8"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#43B047"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#FBD000"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

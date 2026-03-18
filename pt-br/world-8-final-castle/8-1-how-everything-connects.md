@@ -1232,4 +1232,10 @@ Apos completar todos os 8 Worlds, este e o inventario completo de Sofia:
 
 *Fase 8-1 concluida. O mapa do Mushroom Kingdom agora e seu.*
 
-*Proximo: Fase 8-2 -- Boss Rush. E hora de enfrentar todos os bosses de novo.*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-BOSS: Practical Project](../world-7-star-world/7-boss-practical-project.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 8-2: Boss Rush](8-2-boss-rush.md)
+
+</div>

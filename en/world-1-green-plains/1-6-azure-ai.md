@@ -508,3 +508,11 @@ In Copilot Chat, try:
 ---
 
 *"Magic doesn't replace skill — it amplifies it. The best wizard is the one who knows the right spell for every situation." — Sofia, casting her first perfect prompt.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-5: Azure](1-5-azure.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-7: Connections](1-7-connections.md)
+
+</div>

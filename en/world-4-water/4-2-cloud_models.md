@@ -738,3 +738,11 @@ Do you need total control over the OS?
 ---
 
 *Level 4-2 complete! Now you know the difference between building from scratch (IaaS), decorating a ready castle (PaaS), living in a hotel (SaaS), and using magic (Serverless). In the next level, we'll explore Software Architecture — how to design the castle blueprint. Get ready for Level 4-3!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-1: Auth](4-1-auth.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-3: Architecture](4-3-arquitetura.md)
+
+</div>

@@ -844,3 +844,11 @@ MCP is a rapidly growing protocol. The trend:
 ---
 
 *Level 5-7 complete! You now understand MCP in depth -- the protocol that connects AI agents to the external world. With MCP, your companion goes from being an isolated genius to a traveler who fetches resources from ALL worlds. In the next level, we'll learn the Three Horizons strategy!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-8: Three Horizons](5-8_three-horizons.md)
+
+</div>

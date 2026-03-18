@@ -867,10 +867,6 @@ She looked ahead to the next level — the MCP (Model Context Protocol) level. T
 
 ---
 
-**<- Previous: 4D — Prompt Files (The Warp Pipes)**    |    **-> Next: 4F — MCP (The Warp Zones)**
-
----
-
 ## POWER-UP UNLOCKED!
 
 **Sofia now masters the "?" Blocks and Smart Hooks.**
@@ -884,3 +880,11 @@ She stored this knowledge and headed to the next level of the Mushroom Kingdom..
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Husky - Git Hooks](https://typicode.github.io/husky/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-4: Prompt Files](6-4-prompt-files.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-6: MCP Practical](6-6-mcp-practical.md)
+
+</div>

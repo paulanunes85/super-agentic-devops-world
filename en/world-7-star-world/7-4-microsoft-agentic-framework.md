@@ -836,3 +836,11 @@ She collects the Universal Controller, the Team Builder, the Official Kit and Ma
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
 - AutoGen — https://microsoft.github.io/autogen/
 - Azure AI Agent Service — https://learn.microsoft.com/en-us/azure/ai-services/agents/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-3: LangChain](7-3-langchain.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-5: Four Channels](7-5-four-channels.md)
+
+</div>

@@ -420,3 +420,11 @@ Parabens, Sofia! Voce esta cada vez mais forte no Mushroom Kingdom do Agentic De
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-3: Custom Instructions](6-3-custom-instructions.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-5: Hooks](6-5-hooks.md)
+
+</div>

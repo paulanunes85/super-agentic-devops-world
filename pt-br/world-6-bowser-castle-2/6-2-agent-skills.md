@@ -686,3 +686,11 @@ Ela guardou todos os Power-Ups no seu inventario e seguiu para a proxima fase do
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-1: Custom Agents](6-1-custom-agents.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-3: Custom Instructions](6-3-custom-instructions.md)
+
+</div>

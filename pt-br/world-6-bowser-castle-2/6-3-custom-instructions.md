@@ -606,3 +606,11 @@ Ela guardou esse conhecimento no seu **Manual de Regras do Jogo** e seguiu para 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-2: Agent Skills](6-2-agent-skills.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-4: Prompt Files](6-4-prompt-files.md)
+
+</div>

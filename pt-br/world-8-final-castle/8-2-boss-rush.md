@@ -1240,4 +1240,10 @@ RATING:
 
 *Fase 8-2 concluida. Boss Rush mode: COMPLETE.*
 
-*Proximo: Fase 8-3 -- O Fim e o Comeco. Para onde ir depois de salvar a Princesa?*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 8-1: How Everything Connects](8-1-how-everything-connects.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 8-3: Next Steps](8-3-next-steps.md)
+
+</div>

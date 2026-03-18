@@ -548,3 +548,11 @@ Antes de seguir para o World 2, verifique se voce domina os fundamentos:
 ---
 
 *"Agora eu vejo o mapa inteiro. Cada cano conecta a algo. Cada ferramenta tem seu papel. E eu sei usar todas." — Sofia, no topo da colina do World 1.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 1-6: Azure AI](1-6-azure-ai.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-BOSS: Exercicios](1-boss-exercises.md)
+
+</div>

@@ -884,3 +884,11 @@ Ela guardou esse conhecimento e seguiu para a proxima fase do Mushroom Kingdom..
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Husky - Git Hooks](https://typicode.github.io/husky/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 6-4: Prompt Files](6-4-prompt-files.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-6: MCP Practical](6-6-mcp-practical.md)
+
+</div>

@@ -1001,3 +1001,11 @@ Depth (specialization)
 ---
 
 *End of Level 3-9. Sofia now knows the available classes. In the next level, she learns about the weapons and armor each class can use: Frameworks and Libraries.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-8: Internet](3-8-internet.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-10: Frameworks](3-10-frameworks.md)
+
+</div>

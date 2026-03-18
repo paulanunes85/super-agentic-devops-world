@@ -1095,3 +1095,11 @@ $ source ~/.zshrc    # or ~/.bashrc
 ---
 
 *Level 3-2 complete! You've mastered the Terminal -- the secret menu that transforms anyone into a power user. In the next level, we'll learn to package entire applications with Docker -- the developer's magic lunchbox.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-1: Skill Tree](3-1-arvore_habilidades.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-3: Docker](3-3-docker.md)
+
+</div>

@@ -405,3 +405,11 @@ Ela guardou esse power-up no inventario e seguiu para a proxima fase do Mushroom
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-BOSS: Quiz](../world-5-bowser-castle-1/5-boss-quiz.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-2: Agent Skills](6-2-agent-skills.md)
+
+</div>

@@ -738,3 +738,11 @@ Voce precisa de controle total sobre o SO?
 ---
 
 *Fase 4-2 completa! Agora voce sabe a diferenca entre construir do zero (IaaS), decorar um castelo pronto (PaaS), morar num hotel (SaaS) e usar magia (Serverless). Na proxima fase, vamos explorar Arquitetura de Software — como projetar a planta do castelo. Prepare-se para o Nivel 4-3!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 4-1: Auth](4-1-auth.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-3: Arquitetura](4-3-arquitetura.md)
+
+</div>

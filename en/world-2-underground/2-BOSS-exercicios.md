@@ -727,3 +727,11 @@ todoapp-world2/
 |                                                |
 +================================================+
 ```
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-7: Observability](2-7-observabilidade.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-1: Skill Tree](../world-3-sky/3-1-arvore_habilidades.md)
+
+</div>

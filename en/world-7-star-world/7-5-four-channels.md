@@ -849,3 +849,11 @@ She knows where each agent lives, how to talk to them, and how the channels conn
 
 - GitHub Copilot — https://docs.github.com/en/copilot
 - Backstage by Spotify — https://backstage.io
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-6: IDP Backstage](7-6-idp-backstage.md)
+
+</div>

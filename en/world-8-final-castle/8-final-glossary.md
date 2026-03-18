@@ -988,3 +988,11 @@ AutoGen, Azure AI Foundry, Azure AI Search, Backstage, Chunking, Embedding, Embe
 ```
 
 *"It's-a me, DevOps!"*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-3: Next Steps](8-3-next-steps.md) · 🗺️ [World Map](../INDEX.md)
+
+</div>

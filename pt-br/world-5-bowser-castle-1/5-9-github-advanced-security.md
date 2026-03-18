@@ -786,3 +786,11 @@ Ela guardou esse power-up no inventario e seguiu para a proxima fase do Mushroom
 - [GitHub Code Scanning](https://docs.github.com/en/code-security/code-scanning)
 - [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
 - [GitHub Dependabot](https://docs.github.com/en/code-security/dependabot)
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-8: Three Horizons](5-8-three-horizons.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-10: SDD](5-10-sdd.md)
+
+</div>

@@ -930,3 +930,11 @@ Apos completar os exercicios, responda:
 ---
 
 *Fim da Boss Battle do World 3! Se Sofia derrotou Kamek, as portas do World 4 se abrem -- o mundo da Orquestracao e dos Agents. A jornada continua!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-11: Pacotes](3-11-pacotes.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-1: Auth](../world-4-water/4-1-auth.md)
+
+</div>

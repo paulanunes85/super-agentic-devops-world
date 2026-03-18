@@ -772,3 +772,11 @@ Each level requires different "training grounds":
 ---
 
 *Level 3-1 complete! You've mapped your entire skill tree. In the next level, we'll get hands on the keyboard for real and master the developer's most powerful tool: the Terminal.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-BOSS: Exercises](../world-2-underground/2-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-2: Terminal](3-2-terminal.md)
+
+</div>

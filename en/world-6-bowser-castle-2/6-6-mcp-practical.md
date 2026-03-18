@@ -367,11 +367,6 @@ The Warp Zones are open. The worlds are within your reach. Your characters can n
 
 ---
 
-| Previous: 4E Hooks | Next: 4G Orchestration |
-|---|---|
-
----
-
 **POWER-UP UNLOCKED!**
 Sofia now masters MCP and Warp Zones.
 She collected the Star Coin from this world and headed to the next...
@@ -386,3 +381,11 @@ She collected the Star Coin from this world and headed to the next...
 - [Extending Copilot Chat with MCP](https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [MCP Specification](https://spec.modelcontextprotocol.io)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-5: Hooks](6-5-hooks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-7: Orchestration](6-7-orchestration.md)
+
+</div>

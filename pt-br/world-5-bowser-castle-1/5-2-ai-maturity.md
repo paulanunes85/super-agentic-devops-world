@@ -688,3 +688,11 @@ Nao existe nivel "ruim". Cada nivel e apropriado para diferentes contextos:
 ---
 
 *Fase 5-2 concluida! Voce agora conhece os 5 niveis de maturidade em IA e sabe identificar onde esta e para onde vai. Na proxima fase, vamos mergulhar fundo no GitHub Copilot -- o companion mais poderoso do Mushroom Kingdom. Prepare seus power-ups!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-1: DevOps Evolution](5-1-devops-evolution.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 5-3: GitHub Copilot](5-3-github-copilot.md)
+
+</div>

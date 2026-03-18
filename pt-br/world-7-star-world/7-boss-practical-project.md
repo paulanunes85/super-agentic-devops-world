@@ -1453,3 +1453,11 @@ Todas as Star Coins do World 7 foram coletadas!
 
 - LangChain Python — https://python.langchain.com
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 7-6: IDP Backstage](7-6-idp-backstage.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 8-1: How Everything Connects](../world-8-final-castle/8-1-how-everything-connects.md)
+
+</div>

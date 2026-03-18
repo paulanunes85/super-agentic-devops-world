@@ -499,3 +499,11 @@ A opcao A e Nivel 1 (manual demais). C e insegura (sem revisao, push direto para
 ---
 
 *Boss Battle do World 5 concluida! Se voce conseguiu 15+ pontos, parabens -- voce derrotou o Bowser do Conhecimento! O World 5 esta completo. Voce agora entende a evolucao do DevOps, os niveis de maturidade em IA, todos os modos do Copilot, como agentes funcionam, o protocolo MCP, a estrategia Three Horizons e a seguranca do GitHub. Proximo destino: World 6!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 5-10: SDD](5-10-sdd.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 6-1: Custom Agents](../world-6-bowser-castle-2/6-1-custom-agents.md)
+
+</div>

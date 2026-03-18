@@ -727,3 +727,11 @@ todoapp-world2/
 |                                                |
 +================================================+
 ```
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-7: Observabilidade](2-7-observabilidade.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-1: Arvore de Habilidades](../world-3-sky/3-1-arvore_habilidades.md)
+
+</div>

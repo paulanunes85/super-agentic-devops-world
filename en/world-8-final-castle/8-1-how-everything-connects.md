@@ -1233,3 +1233,11 @@ After completing all 8 Worlds, this is Sofia's complete inventory:
 *Level 8-1 complete. The Mushroom Kingdom map is now yours.*
 
 *Next: Level 8-2 -- Boss Rush. It's time to face all the bosses again.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-BOSS: Practical Project](../world-7-star-world/7-boss-practical-project.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-2: Boss Rush](8-2-boss-rush.md)
+
+</div>

@@ -1084,3 +1084,11 @@ Use the GitHub dashboard to track acceptance rate. If it's below 30%, your promp
 *Level 6-8 complete. You now know how to spend coins like a professional.*
 
 *Next: World 8 -- The Final Castle. Everything connects.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-7: Orchestration](6-7-orchestration.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-BOSS: Quick Reference](6-boss-quick-reference.md)
+
+</div>

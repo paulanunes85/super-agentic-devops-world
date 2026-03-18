@@ -765,3 +765,11 @@ To test APIs visually, use tools like **Postman** or **Insomnia**:
 ---
 
 *End of Level 3-8. Now that Sofia understands how the Mushroom Kingdom pipes work, it's time to choose her weapons: programming languages.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-7: Best Practices](3-7-boas_praticas.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-9: Languages](3-9-linguagens.md)
+
+</div>

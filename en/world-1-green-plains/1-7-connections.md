@@ -548,3 +548,11 @@ Before moving on to World 2, check that you've mastered the fundamentals:
 ---
 
 *"Now I can see the entire map. Each pipe connects to something. Each tool has its role. And I know how to use them all." — Sofia, at the top of World 1's hill.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-6: Azure AI](1-6-azure-ai.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-BOSS: Exercises](1-boss-exercises.md)
+
+</div>

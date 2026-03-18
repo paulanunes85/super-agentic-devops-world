@@ -829,3 +829,11 @@ todoapp-monorepo/
 ---
 
 *Fim da Fase 3-11. Sofia agora domina seu inventario de pacotes. Na proxima fase, ela enfrenta o Boss do World 3: exercicios praticos que combinam tudo o que aprendeu neste mundo.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-10: Frameworks](3-10-frameworks.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-BOSS: Exercicios](3-BOSS-exercicios.md)
+
+</div>

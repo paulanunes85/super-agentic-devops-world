@@ -1051,3 +1051,11 @@ router.delete('/api/users/:id', verifyToken, requirePermission('delete:user'), a
 ---
 
 *Fase 4-1 completa! Voce aprendeu que autenticacao e autorizacao sao os pilares da seguranca. No proximo nivel, vamos explorar os modelos de nuvem — IaaS, PaaS, SaaS e Serverless. Prepare-se para o Nivel 4-2!*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-BOSS: Exercicios](../world-3-sky/3-BOSS-exercicios.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 4-2: Cloud Models](4-2-cloud_models.md)
+
+</div>

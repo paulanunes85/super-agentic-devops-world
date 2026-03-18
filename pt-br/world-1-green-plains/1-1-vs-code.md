@@ -727,3 +727,11 @@ Por padrao, o VS Code **nao salva automaticamente**. Para ativar o auto save:
 ---
 
 *"It's-a me, Developer!" — Sofia, ao completar sua primeira fase.*
+
+---
+
+<div align="center">
+
+🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 1-2: Git](1-2-git.md)
+
+</div>

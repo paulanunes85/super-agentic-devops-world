@@ -847,3 +847,11 @@ Need to maintain multiple versions in production?
 ---
 
 *Level 4-5 complete! You learned the main Git workflows and when to use each one. In the next level, we'll dive into data structures and JSON — how to organize coins, stars, and mushrooms. Get ready for Level 4-6!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-6: Data Structures](4-6-estruturas_dados.md)
+
+</div>

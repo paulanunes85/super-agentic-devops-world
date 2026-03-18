@@ -1204,3 +1204,11 @@ Peach -- a Engenheira de QA -- nao so roda testes automatizados. Ela:
 ---
 
 *Fase 3-4 completa! Voce aprendeu a treinar antes de cada batalha. Na proxima fase, vamos explorar o mundo do Open Source -- onde desenvolvedores compartilham suas criacoes como niveis customizados do Mario.*
+
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 3-3: Docker](3-3-docker.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 3-5: Open Source](3-5-open_source.md)
+
+</div>

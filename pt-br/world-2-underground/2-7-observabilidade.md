@@ -755,4 +755,10 @@ async function checkDatabase() {
 
 *"No Mario, a tela te mostra TUDO que voce precisa saber: vidas, moedas, tempo, power-ups. Imagine jogar com a tela desligada -- impossivel. Observabilidade e a 'tela ligada' do seu software. Sem ela, voce esta jogando no escuro."*
 
-*Proximo Warp Pipe: Fase 2-BOSS -- Boss Battle: Exercicios Praticos Level 2*
+---
+
+<div align="center">
+
+⬅️ [Anterior: Fase 2-6: DevOps](2-6-devops.md) · 🗺️ [Mapa dos Mundos](../INDEX.md) · ➡️ [Proximo: Fase 2-BOSS: Exercicios](2-BOSS-exercicios.md)
+
+</div>
