@@ -59,9 +59,15 @@ license: "CC BY 4.0"
 
 ### Brand Story
 
-This guide was born from a real person — **Sofia** — who wanted to learn software development, DevOps, and AI Agents from scratch. **Paula Silva** (Microsoft Latam Software GBB) created a comprehensive guide that uses Super Mario World analogies to make even the most complex concepts accessible to anyone. What started as a gift for one person became a movement: if Sofia can understand Agentic DevOps through Mario, **ANYONE** can.
+Sofia is the daughter of **Paula Silva** (Microsoft Latam Software GBB). When Sofia asked her mother to teach her about software development, Paula realized that traditional tutorials, documentation, and courses weren't designed for someone starting from absolute zero. The jargon was intimidating, the concepts felt abstract, and the learning curve felt like a wall.
 
-**"Made for Sofia"** means: made for the beginner in all of us. Made for the person who feels overwhelmed by tech jargon. Made for the developer who wants to level up. Made for **YOU**.
+So Paula decided to explain everything through something Sofia already loved: **video games**. Specifically, **Super Mario World** — a game where the rules are simple, the progression is clear, and anyone can play.
+
+What started as a mother teaching her daughter turned into something much bigger. If Paula could make Sofia — someone with zero tech background — understand Git, CI/CD, AI Agents, RAG, and Kubernetes through Mario analogies, then **ANYONE** could learn these concepts the same way.
+
+**"Made for Sofia"** is more than a subtitle. It's a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy. No level too hard without the right power-ups.
+
+Every developer starts at World 1-1. Sofia did. And now, so can you.
 
 ### Brand Promise
 

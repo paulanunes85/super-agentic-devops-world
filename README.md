@@ -158,11 +158,15 @@ Complete Worlds to earn badges:
 
 ## 🤝 The Story Behind "Made for Sofia"
 
-This guide was born from a real person — **Sofia** — who wanted to learn software development, DevOps, and AI Agents from scratch. What started as a personalized gift became something bigger: a proof that complex technology can be explained to **anyone** using the right analogies.
+Sofia is my daughter. When she asked me to teach her about software development, I realized that the usual tutorials, documentation, and courses weren't built for someone starting from absolute zero. The jargon was intimidating. The concepts felt abstract. The learning curve felt like a wall.
 
-**"Made for Sofia"** means: made for the beginner in all of us. Made for the person who feels overwhelmed by tech jargon. Made for the developer who wants to level up. Made for **you**.
+So I decided to explain everything through something she already loved: **video games**. Specifically, **Super Mario World** — a game where the rules are simple, the progression is clear, and anyone can play.
 
-If Sofia can understand Agentic DevOps through Mario, anyone can.
+What started as a mother teaching her daughter turned into something much bigger. If I could make Sofia — someone with zero tech background — understand Git, CI/CD, AI Agents, RAG, and Kubernetes through Mario analogies, then **anyone** could learn these concepts the same way.
+
+**"Made for Sofia"** is more than a subtitle. It's a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy. No level too hard without the right power-ups.
+
+Every developer starts at World 1-1. Sofia did. And now, so can you.
 
 ---
 
