@@ -88,40 +88,6 @@ Era como aquele momento no Mario onde voce descobre que os canos verdes nao sao 
 | 5 | **Publicar** | Azure | Hospedar para o mundo | Publicar a fase para todos jogarem |
 | 6 | **Inteligenciar** | Azure AI + Copilot | Adicionar magia | Sistema de magia do jogo |
 
-### Diagrama: Fluxo Completo de Ponta a Ponta
-
-```mermaid
-sequenceDiagram
-    participant DEV as Developer (Mario)
-    participant VSC as VS Code (Workshop)
-    participant GIT as Git (Save System)
-    participant GH as GitHub (Adventure Hub)
-    participant ACT as GitHub Actions (Lakitu)
-    participant AZ as Azure (Cloud Kingdom)
-    participant USR as End Users (Toads)
-
-    DEV->>VSC: Write code with Copilot assist
-    VSC->>GIT: git add + git commit (save game)
-    GIT->>GH: git push (upload to cloud)
-
-    Note over GH,ACT: CI/CD Pipeline Triggered!
-
-    GH->>ACT: Webhook triggers workflow
-    ACT->>ACT: Build application
-    ACT->>ACT: Run tests
-    ACT->>ACT: Security scan
-    ACT->>AZ: Deploy to Staging
-
-    Note over AZ: Staging environment verified
-
-    ACT->>AZ: Deploy to Production
-    AZ->>USR: Application live and accessible
-
-    USR-->>AZ: Usage metrics and feedback
-    AZ-->>DEV: Monitoring alerts and logs
-
-    Note over DEV,USR: The DevOps Loop continues!
-```
 
 ### 1.3 Diagrama: O Mapa Completo do World 1
 

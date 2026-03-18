@@ -313,44 +313,6 @@ When multiple instructions apply to a file, which one does Copilot follow? The a
 
 ## Section 5: Comparative Table
 
-### Diagram: Instructions vs Skills vs Agents vs Prompts
-
-```mermaid
-graph TB
-    subgraph INSTR["INSTRUCTIONS\n(.github/copilot-instructions.md)"]
-        I1["Always active"]
-        I2["Like gravity - always present"]
-        I3["Applied to every interaction"]
-    end
-
-    subgraph SKILLS["SKILLS\n(.github/skills/*.md)"]
-        S1["Activated on semantic match"]
-        S2["Like a power-up mushroom"]
-        S3["Loaded when prompt matches description"]
-    end
-
-    subgraph AGENTS["AGENTS\n(.github/agents/*.md)"]
-        A1["Selected by user explicitly"]
-        A2["Like choosing a character"]
-        A3["Invoked with @agent-name"]
-    end
-
-    subgraph PROMPTS["PROMPT FILES\n(.github/prompts/*.md)"]
-        P1["Invoked manually"]
-        P2["Like a warp pipe"]
-        P3["Reusable prompt templates"]
-    end
-
-    INSTR ---|"always on"| SKILLS
-    SKILLS ---|"on match"| AGENTS
-    AGENTS ---|"on demand"| PROMPTS
-
-    style INSTR fill:#2ecc71,stroke:#333,color:#fff
-    style SKILLS fill:#3498db,stroke:#333,color:#fff
-    style AGENTS fill:#9b59b6,stroke:#333,color:#fff
-    style PROMPTS fill:#e67e22,stroke:#333,color:#fff
-```
-
 **Instructions vs Skills vs Agents vs Prompts**
 
 | Dimension | Instructions | Skills | Agents | Prompts |

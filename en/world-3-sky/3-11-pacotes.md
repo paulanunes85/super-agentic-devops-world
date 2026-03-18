@@ -148,37 +148,6 @@ Your Project
 
 **Practical rule:** If it's simple (< 20 lines) and doesn't involve security, do it yourself. If it's complex or involves security/cryptography, use a trusted package.
 
-### Diagram: Package Dependency Tree
-
-```mermaid
-graph TD
-    APP["Your App"]
-    A["Package A\n(v2.0)"]
-    B["Package B\n(v1.3)"]
-    C["Package C\n(v3.1)"]
-    D["Package D"]
-
-    APP --> A
-    APP --> C
-    A --> B
-    A --> D
-
-    B --> D_V1["Package D v1.0"]
-    C --> D_V2["Package D v2.0"]
-
-    D_V1 -.- CONFLICT{"CONFLICT!\nPackage B needs D v1\nPackage C needs D v2"}
-    D_V2 -.- CONFLICT
-
-    style APP fill:#3498db,color:#fff
-    style A fill:#2ecc71,color:#fff
-    style B fill:#2ecc71,color:#fff
-    style C fill:#2ecc71,color:#fff
-    style D fill:#2ecc71,color:#fff
-    style D_V1 fill:#e74c3c,color:#fff
-    style D_V2 fill:#e74c3c,color:#fff
-    style CONFLICT fill:#f1c40f,color:#333,stroke:#e74c3c,stroke-width:3px
-```
-
 ---
 
 ## 2. Package Managers: The Item Shops

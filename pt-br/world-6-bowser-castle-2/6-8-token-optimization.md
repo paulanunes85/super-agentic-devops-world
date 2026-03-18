@@ -102,34 +102,6 @@ Tokens no GitHub Copilot funcionam exatamente assim. Cada interacao consome toke
 
 ---
 
-### Diagrama: Otimizacao de Tokens - Framework COIN
-
-```mermaid
-graph TB
-    PROMPT["Efficient Prompt\n(Minimize Token Waste)"]
-
-    C["CONTEXT\n---\nRelevant files only\nNo unnecessary code\nFocused scope"]
-    O["OBJECTIVE\n---\nClear goal statement\nOne task at a time\nMeasurable outcome"]
-    I["INPUT\n---\nSpecific data provided\nExact file paths\nConcrete examples"]
-    N["NUANCES\n---\nConstraints & limits\nPreferred patterns\nEdge cases to handle"]
-
-    PROMPT --> C
-    PROMPT --> O
-    PROMPT --> I
-    PROMPT --> N
-
-    C --> RESULT["Optimized Token Usage\n= Better Results\n+ Lower Cost\n+ Faster Response"]
-    O --> RESULT
-    I --> RESULT
-    N --> RESULT
-
-    style PROMPT fill:#e74c3c,stroke:#333,color:#fff
-    style C fill:#3498db,stroke:#333,color:#fff
-    style O fill:#2ecc71,stroke:#333,color:#fff
-    style I fill:#e67e22,stroke:#333,color:#fff
-    style N fill:#9b59b6,stroke:#333,color:#fff
-    style RESULT fill:#1abc9c,stroke:#333,color:#fff
-```
 
 ## 1. O que sao Tokens?
 

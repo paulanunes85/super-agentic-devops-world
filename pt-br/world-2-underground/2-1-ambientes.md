@@ -214,40 +214,6 @@ Frequencia de deploy: Controlada (semanal, quinzenal, ou continuous)
 
 ---
 
-### Diagrama: Ambientes (Dev, Staging, Producao)
-
-```mermaid
-graph LR
-    subgraph DEV_WORLD ["🟢 DEV WORLD (Practice Mode)"]
-        DEV1["Developers test freely"]
-        DEV2["Bugs are expected"]
-        DEV3["Frequent deploys"]
-    end
-
-    subgraph STG_WORLD ["🟡 STAGING WORLD (Dress Rehearsal)"]
-        STG1["Mirrors production"]
-        STG2["QA team testing"]
-        STG3["Performance checks"]
-    end
-
-    subgraph PROD_WORLD ["🔴 PRODUCTION WORLD (The Real Deal)"]
-        PROD1["Real users here"]
-        PROD2["Maximum stability"]
-        PROD3["24/7 monitoring"]
-    end
-
-    DEV_WORLD -- "✅ Tests pass<br/>PR approved" --> STG_WORLD
-    STG_WORLD -- "✅ QA approved<br/>Load tested" --> PROD_WORLD
-
-    CODE["💻 New Code"] --> DEV_WORLD
-    PROD_WORLD --> USERS["👥 Real Users"]
-
-    style DEV_WORLD fill:#C8E6C9,stroke:#388E3C,color:#000
-    style STG_WORLD fill:#FFF9C4,stroke:#F9A825,color:#000
-    style PROD_WORLD fill:#FFCDD2,stroke:#C62828,color:#000
-    style CODE fill:#E3F2FD,stroke:#1565C0,color:#000
-    style USERS fill:#F3E5F5,stroke:#7B1FA2,color:#000
-```
 
 ---
 

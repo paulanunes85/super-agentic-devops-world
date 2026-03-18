@@ -131,29 +131,6 @@ Ha uma diferenca enorme entre "ja ouvi falar" e "domino completamente". No Mario
 
 O objetivo da arvore de habilidades e te levar do estagio 1 ao estagio 4 em cada habilidade, de forma organizada e progressiva.
 
-### Diagrama: Ciclo de Vida do Desenvolvimento de Software
-
-```mermaid
-graph LR
-    IDEA["Idea"]
-    REQ["Requirements"]
-    DES["Design"]
-    IMPL["Implementation"]
-    TEST["Testing"]
-    DEPLOY["Deployment"]
-    MAINT["Maintenance"]
-
-    IDEA --> REQ --> DES --> IMPL --> TEST --> DEPLOY --> MAINT
-    MAINT -- "Feedback Loop" --> IDEA
-
-    style IDEA fill:#9b59b6,color:#fff
-    style REQ fill:#3498db,color:#fff
-    style DES fill:#1abc9c,color:#fff
-    style IMPL fill:#2ecc71,color:#fff
-    style TEST fill:#f1c40f,color:#333
-    style DEPLOY fill:#e67e22,color:#fff
-    style MAINT fill:#e74c3c,color:#fff
-```
 
 ---
 

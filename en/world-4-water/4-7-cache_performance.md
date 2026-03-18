@@ -199,35 +199,6 @@ Level 5: Database (disk)
       Slow: 50-200ms
 ```
 
-### Diagram: Caching Layers
-
-```mermaid
-graph LR
-    USER["User\n(Mario)"]
-    BC["Browser Cache\n~1ms"]
-    CDN["CDN\n(Cloudflare/Akamai)\n~10ms"]
-    AC["Application Cache\n(Redis/Memcached)\n~50ms"]
-    DBC["Database Cache\n(Query Cache)\n~100ms"]
-    DB["Database\n(PostgreSQL/MySQL)\n~500ms"]
-
-    USER --> BC
-    BC -- "MISS" --> CDN
-    CDN -- "MISS" --> AC
-    AC -- "MISS" --> DBC
-    DBC -- "MISS" --> DB
-
-    BC -- "HIT: instant!" --> USER
-    CDN -- "HIT: fast!" --> USER
-    AC -- "HIT: pretty fast" --> USER
-
-    style BC fill:#2ecc71,color:#fff
-    style CDN fill:#27ae60,color:#fff
-    style AC fill:#f1c40f,color:#333
-    style DBC fill:#e67e22,color:#fff
-    style DB fill:#e74c3c,color:#fff
-    style USER fill:#3498db,color:#fff
-```
-
 > **Mario Analogy**: Cache levels are like levels of access to items:
 > - **In your pocket** (browser) = instant
 > - **At the nearest shop** (CDN) = fast

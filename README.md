@@ -38,6 +38,11 @@ If you've ever played Mario, you can understand DevOps.
 
 ## 🗺️ The World Map
 
+<div align="center">
+<img src="diagrams/svg/world-map.svg" alt="Complete map of all 8 Worlds" width="800">
+<br><em>Complete map of all 8 Worlds</em>
+</div>
+
 | World | Theme | Levels | Topics |
 |-------|-------|--------|--------|
 | 🌿 **[World 1](en/world-1-green-plains/)** | Green Plains | 8 | VS Code, Git, GitHub, Actions, Azure, AI Foundry |

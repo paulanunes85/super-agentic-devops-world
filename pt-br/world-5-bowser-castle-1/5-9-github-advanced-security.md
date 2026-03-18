@@ -112,31 +112,6 @@ E tudo isso acontece **automaticamente**, sem voce precisar lembrar de rodar sca
 
 ### Os 4 Pilares de Seguranca
 
-### Diagrama: GitHub Advanced Security
-
-```mermaid
-graph TB
-    GHAS(("GitHub\nAdvanced\nSecurity"))
-
-    CS["Code Scanning\n(CodeQL)\n---\nFinds vulnerabilities\nin source code"]
-    SS["Secret Scanning\n---\nDetects leaked\nAPI keys & passwords"]
-    DEP["Dependabot\n---\nUpdates outdated\ndependencies automatically"]
-    PP["Push Protection\n---\nBlocks pushes that\ncontain secrets"]
-    SO["Security Overview\n---\nDashboard with\norg-wide visibility"]
-
-    GHAS --- CS
-    GHAS --- SS
-    GHAS --- DEP
-    GHAS --- PP
-    GHAS --- SO
-
-    style GHAS fill:#e74c3c,stroke:#333,color:#fff
-    style CS fill:#3498db,stroke:#333,color:#fff
-    style SS fill:#e67e22,stroke:#333,color:#fff
-    style DEP fill:#2ecc71,stroke:#333,color:#fff
-    style PP fill:#9b59b6,stroke:#333,color:#fff
-    style SO fill:#1abc9c,stroke:#333,color:#fff
-```
 
 ### Tabela: Os 4 Pilares vs Defesas do Castelo
 

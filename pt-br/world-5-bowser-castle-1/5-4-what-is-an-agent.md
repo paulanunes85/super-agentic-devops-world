@@ -34,6 +34,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
   - [Definicao Fundamental](#definicao-fundamental)
   - [Os 5 Componentes de um Agente](#os-5-componentes-de-um-agente)
   - [Tabela: Componentes do Agente vs Anatomia do Personagem Mario](#tabela-componentes-do-agente-vs-anatomia-do-personagem-mario)
+
+<div align="center">
+<img src="../../diagrams/svg/agent-components.svg" alt="Os 5 componentes de um Agente de IA" width="800">
+<br><em>Os 5 componentes de um Agente de IA</em>
+</div>
 - [Secao 2 -- O Ciclo Sense-Think-Act: Como um Agente Funciona](#secao-2--o-ciclo-sense-think-act-como-um-agente-funciona)
   - [O Loop Fundamental](#o-loop-fundamental)
   - [Exemplo Pratico: O Agente Resolvendo um Bug](#exemplo-pratico-o-agente-resolvendo-um-bug)
@@ -52,6 +57,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 - [Secao 5 -- O Agent Loop: Observe-Think-Plan-Act](#secao-5--o-agent-loop-observe-think-plan-act)
   - [O Ciclo Completo em 6 Passos](#o-ciclo-completo-em-6-passos)
   - [Diagrama do Agent Loop](#diagrama-do-agent-loop)
+
+<div align="center">
+<img src="../../diagrams/svg/agent-loop.svg" alt="O ciclo do Agente: Observar → Pensar → Planejar → Agir" width="800">
+<br><em>O ciclo do Agente: Observar → Pensar → Planejar → Agir</em>
+</div>
   - [Exemplo Real: GitHub Copilot como Agente](#exemplo-real-github-copilot-como-agente)
   - [Exemplo Real: Claude como Agente](#exemplo-real-claude-como-agente)
 - [Secao 6 -- Por Que Agentes Importam para DevOps](#secao-6--por-que-agentes-importam-para-devops)
@@ -101,31 +111,6 @@ Onde:
 
 Todo agente de IA, seja simples ou complexo, possui 5 componentes fundamentais. Sem qualquer um deles, voce tem algo menor do que um agente completo.
 
-### Diagrama: Componentes de um Agente de IA
-
-```mermaid
-graph TB
-    AGENT(("AGENT"))
-
-    BRAIN["Brain\n(LLM)\nThinks and decides"]
-    SENSES["Senses\n(Context / Inputs)\nSees and reads"]
-    HANDS["Hands\n(Tools)\nActs and creates"]
-    MEMORY["Memory\n(Short / Long term)\nRemembers"]
-    GOALS["Goals\n(Objectives)\nKnows what to achieve"]
-
-    AGENT --- BRAIN
-    AGENT --- SENSES
-    AGENT --- HANDS
-    AGENT --- MEMORY
-    AGENT --- GOALS
-
-    style AGENT fill:#e74c3c,stroke:#333,color:#fff
-    style BRAIN fill:#9b59b6,stroke:#333,color:#fff
-    style SENSES fill:#3498db,stroke:#333,color:#fff
-    style HANDS fill:#2ecc71,stroke:#333,color:#fff
-    style MEMORY fill:#e67e22,stroke:#333,color:#fff
-    style GOALS fill:#f1c40f,stroke:#333,color:#000
-```
 
 ### Tabela: Componentes do Agente vs Anatomia do Personagem Mario
 
@@ -390,22 +375,6 @@ Agora que voce conhece os 5 orgaos, vamos ver como eles trabalham juntos no **Ag
 | 5 | **AVALIAR** | Verificar resultado da acao | Sentidos + Cerebro | Mario vendo: "Goomba derrotado, +100 pontos" |
 | 6 | **ITERAR** | Decidir: continuar plano, ajustar, ou concluir | Cerebro + Objetivos | Mario decidindo: "Proximo passo do plano -- pegar a moeda" |
 
-### Diagrama: Loop do Agente (Sense-Think-Act)
-
-```mermaid
-graph LR
-    O["Observe\n(read context)"] --> T["Think\n(analyze situation)"]
-    T --> P["Plan\n(decide next step)"]
-    P --> A["Act\n(execute tool/action)"]
-    A --> R["Get Result\n(check output)"]
-    R -->|"loop back"| O
-
-    style O fill:#3498db,stroke:#333,color:#fff
-    style T fill:#9b59b6,stroke:#333,color:#fff
-    style P fill:#e67e22,stroke:#333,color:#fff
-    style A fill:#2ecc71,stroke:#333,color:#fff
-    style R fill:#e74c3c,stroke:#333,color:#fff
-```
 
 ### Diagrama do Agent Loop
 

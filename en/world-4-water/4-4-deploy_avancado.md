@@ -409,49 +409,6 @@ spec:
 
 ---
 
-### Diagram: Deployment Strategies
-
-```mermaid
-graph TB
-    subgraph BG["BLUE-GREEN DEPLOYMENT"]
-        direction TB
-        BG_OLD["BLUE (Old Version)\n100% traffic"]
-        BG_SWITCH["Switch Load Balancer"]
-        BG_NEW["GREEN (New Version)\n100% traffic"]
-        BG_OLD --> BG_SWITCH --> BG_NEW
-        BG_ROLLBACK["Instant rollback:\njust switch back"]
-        BG_NEW -.- BG_ROLLBACK
-    end
-
-    subgraph CAN["CANARY DEPLOYMENT"]
-        direction TB
-        CAN_1["Phase 1:\n95% Old | 5% New"]
-        CAN_2["Phase 2:\n70% Old | 30% New"]
-        CAN_3["Phase 3:\n0% Old | 100% New"]
-        CAN_1 --> CAN_2 --> CAN_3
-        CAN_MON["Monitor errors\nat each phase"]
-        CAN_2 -.- CAN_MON
-    end
-
-    subgraph ROLL["ROLLING DEPLOYMENT"]
-        direction TB
-        R1["Instance 1: Updated"]
-        R2["Instance 2: Updated"]
-        R3["Instance 3: Updating..."]
-        R4["Instance 4: Old"]
-        R1 --> R2 --> R3 --> R4
-        R_NOTE["Replace one by one,\nzero downtime"]
-        R3 -.- R_NOTE
-    end
-
-    style BG fill:#3498db,color:#fff
-    style CAN fill:#f1c40f,color:#333
-    style ROLL fill:#2ecc71,color:#fff
-    style BG_OLD fill:#3498db,color:#fff
-    style BG_NEW fill:#2ecc71,color:#fff
-    style BG_SWITCH fill:#e67e22,color:#fff
-```
-
 ---
 
 ## 5. Feature Flags: Invisible Doors

@@ -207,30 +207,6 @@ describe('calculateDiscount', () => {
 >
 > If you only train isolated moves (unit), you may fail at the combination. If you only train the full battle (E2E), you won't improve individual moves. The secret is the **pyramid**: lots of base, some middle, little top.
 
-### Diagram: Test Pyramid
-
-```mermaid
-graph TB
-    subgraph " "
-        direction TB
-        E2E["E2E Tests\n(Full Battle Simulation)\n--- FEW & SLOW ---"]
-        INT["Integration Tests\n(Two Dummies Fighting Together)\n--- MODERATE ---"]
-        UNIT["Unit Tests\n(Single Dummy Hits)\n--- MANY & FAST ---"]
-    end
-
-    E2E --- INT
-    INT --- UNIT
-
-    SPEED_TOP["Slower + More Expensive"] -.- E2E
-    SPEED_BOT["Faster + Cheaper"] -.- UNIT
-
-    style E2E fill:#e74c3c,color:#fff
-    style INT fill:#f5a623,color:#fff
-    style UNIT fill:#2ecc71,color:#fff
-    style SPEED_TOP fill:none,stroke:none,color:#e74c3c
-    style SPEED_BOT fill:none,stroke:none,color:#2ecc71
-```
-
 ---
 
 ## 3. Unit Tests: Hitting One Dummy at a Time

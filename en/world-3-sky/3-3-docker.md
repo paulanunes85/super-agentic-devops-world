@@ -32,6 +32,11 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
   - [2.3 Dockerfile: The Recipe Card](#23-dockerfile-the-recipe-card)
   - [2.4 Docker Hub: The Recipe Sharing Server](#24-docker-hub-the-recipe-sharing-server)
   - [2.5 Concepts Table](#25-concepts-table)
+
+<div align="center">
+<img src="../../diagrams/svg/docker-architecture.svg" alt="Docker architecture: from Dockerfile to Container" width="800">
+<br><em>Docker architecture: from Dockerfile to Container</em>
+</div>
 - [3. Dockerfile: Writing Your First Recipe](#3-dockerfile-writing-your-first-recipe)
   - [3.1 Anatomy of a Dockerfile](#31-anatomy-of-a-dockerfile)
   - [3.2 Essential Instructions](#32-essential-instructions)
@@ -253,50 +258,6 @@ $ docker push meuusuario/meu-app:v1.0
 | **Network** | Pipes between levels | Corridor between kitchens | Communication between containers |
 | **docker-compose** | World planner | Complete menu | Orchestrates multiple containers |
 | **Layer** | Level layer | Recipe step | Each instruction = one layer |
-
-### Diagram: Docker Architecture
-
-```mermaid
-graph LR
-    subgraph "Docker Ecosystem"
-        direction LR
-        DOCKERFILE["Dockerfile\n(Recipe)"]
-        IMAGE["Image\n(Template)"]
-        CONTAINER1["Container 1\n(Running Instance)"]
-        CONTAINER2["Container 2\n(Running Instance)"]
-
-        DOCKERFILE -- "docker build" --> IMAGE
-        IMAGE -- "docker run" --> CONTAINER1
-        IMAGE -- "docker run" --> CONTAINER2
-    end
-
-    subgraph "Docker Hub (Recipe Exchange)"
-        HUB["Public & Private\nImage Registry"]
-    end
-
-    subgraph "Persistent Storage"
-        VOL["Volumes\n(Data that survives\ncontainer restarts)"]
-    end
-
-    subgraph "Networking"
-        NET["Docker Networks\n(Pipe connections\nbetween containers)"]
-    end
-
-    IMAGE -- "docker push" --> HUB
-    HUB -- "docker pull" --> IMAGE
-    VOL -.- CONTAINER1
-    VOL -.- CONTAINER2
-    NET -.- CONTAINER1
-    NET -.- CONTAINER2
-
-    style DOCKERFILE fill:#4a90d9,color:#fff
-    style IMAGE fill:#f5a623,color:#fff
-    style CONTAINER1 fill:#7ed321,color:#fff
-    style CONTAINER2 fill:#7ed321,color:#fff
-    style HUB fill:#9b59b6,color:#fff
-    style VOL fill:#e74c3c,color:#fff
-    style NET fill:#1abc9c,color:#fff
-```
 
 ---
 

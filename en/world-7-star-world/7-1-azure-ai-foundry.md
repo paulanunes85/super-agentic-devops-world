@@ -110,57 +110,6 @@ If you've already heard of "Azure AI Studio," know that it **evolved and was ren
 
 > Think of it this way: Azure AI Studio was like Magikoopa's old workshop — functional, but with limited tools. Azure AI Foundry is the **modern forge** — with state-of-the-art equipment, more space, more power.
 
-### Diagram: Azure AI Foundry Pipeline
-
-```mermaid
-flowchart LR
-    subgraph CATALOG["1 - MODEL CATALOG"]
-        SELECT["Select Model"]
-        GPT4o["GPT-4o"]
-        CLAUDE["Claude"]
-        LLAMA["Llama"]
-        PHI["Phi"]
-        GPT4o --- SELECT
-        CLAUDE --- SELECT
-        LLAMA --- SELECT
-        PHI --- SELECT
-    end
-
-    subgraph PLAYGROUND["2 - PLAYGROUND"]
-        CONFIG["Configure Model\nTemperature, Tokens,\nSystem Prompt"]
-    end
-
-    subgraph PROMPTFLOW["3 - PROMPT FLOW"]
-        BUILD["Build Flow\nChain prompts,\nAdd logic,\nConnect data"]
-    end
-
-    subgraph TESTING["4 - TESTING ARENA"]
-        EVAL["Evaluate\nAccuracy, Latency,\nGroundedness,\nSafety"]
-    end
-
-    subgraph DEPLOY["5 - DEPLOYMENT"]
-        ENDPOINT["Deploy to Endpoint\nREST API\nScaling rules\nAuth keys"]
-    end
-
-    subgraph OPS["6 - OPERATIONS"]
-        MONITOR["Monitor\nUsage metrics\nCost tracking\nDrift detection"]
-    end
-
-    CATALOG -->|"Pick best model\nfor your task"| PLAYGROUND
-    PLAYGROUND -->|"Tune parameters\ntest interactively"| PROMPTFLOW
-    PROMPTFLOW -->|"Design the\nfull pipeline"| TESTING
-    TESTING -->|"Passes quality\ngates"| DEPLOY
-    DEPLOY -->|"Live in\nproduction"| OPS
-    OPS -->|"Feedback loop\nretrain/update"| CATALOG
-
-    style CATALOG fill:#4A90D9,color:#fff
-    style PLAYGROUND fill:#7B68EE,color:#fff
-    style PROMPTFLOW fill:#E67E22,color:#fff
-    style TESTING fill:#27AE60,color:#fff
-    style DEPLOY fill:#E74C3C,color:#fff
-    style OPS fill:#8E44AD,color:#fff
-```
-
 ### 1.2 Why a Forge?
 
 The name "Foundry" (forge) is no accident. In a medieval forge, you:

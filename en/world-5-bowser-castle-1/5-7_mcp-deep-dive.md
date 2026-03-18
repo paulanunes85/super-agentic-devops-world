@@ -42,6 +42,11 @@ tags:
   - [3.1 The 4 Fundamental Components](#31-the-4-fundamental-components)
   - [3.2 How the Components Connect](#32-how-the-components-connect)
   - [3.3 Table: MCP Components vs Mushroom Kingdom](#33-table-mcp-components-vs-mushroom-kingdom)
+
+<div align="center">
+<img src="../../diagrams/svg/mcp-architecture.svg" alt="MCP Architecture: Client, Protocol, and Servers" width="800">
+<br><em>MCP Architecture: Client, Protocol, and Servers</em>
+</div>
 - [Section 4 -- MCP Server: The NPC's Specialized Shop](#section-4--mcp-server-the-npcs-specialized-shop)
   - [4.1 What is an MCP Server](#41-what-is-an-mcp-server)
   - [4.2 Types of MCP Servers](#42-types-of-mcp-servers)
@@ -206,36 +211,6 @@ MCP has four main components:
 2. **MCP Client:** The part of the host that connects to MCP servers
 3. **MCP Server:** A service that exposes tools and data to agents
 4. **Transport:** The "pipe" through which communication flows (stdio, HTTP/SSE)
-
-### Diagram: MCP Architecture
-
-```mermaid
-graph LR
-    CLIENT["MCP Client\n(Your Agent / Copilot)"]
-
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER1["MCP Server 1\nFigma"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER2["MCP Server 2\nPostgreSQL"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER3["MCP Server 3\nGitHub"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER4["MCP Server 4\nSlack"]
-
-    SERVER1 --- T1["Tools: get_design,\nexport_image"]
-    SERVER1 --- R1["Resources: design files,\ncomponents"]
-
-    SERVER2 --- T2["Tools: query,\ninsert, update"]
-    SERVER2 --- R2["Resources: tables,\nschemas"]
-
-    SERVER3 --- T3["Tools: create_issue,\nopen_pr"]
-    SERVER3 --- R3["Resources: repos,\nworkflows"]
-
-    SERVER4 --- T4["Tools: send_message,\ncreate_channel"]
-    SERVER4 --- R4["Resources: channels,\nusers"]
-
-    style CLIENT fill:#e74c3c,stroke:#333,color:#fff
-    style SERVER1 fill:#9b59b6,stroke:#333,color:#fff
-    style SERVER2 fill:#3498db,stroke:#333,color:#fff
-    style SERVER3 fill:#2ecc71,stroke:#333,color:#fff
-    style SERVER4 fill:#e67e22,stroke:#333,color:#fff
-```
 
 ### 3.2 How the Components Connect
 

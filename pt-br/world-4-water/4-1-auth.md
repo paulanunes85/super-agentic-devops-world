@@ -345,25 +345,6 @@ HMACSHA256(
 7. JWT valido → Mario entra! JWT invalido → 401 Unauthorized
 ```
 
-### Diagrama: Fluxo de Autenticacao JWT
-
-```mermaid
-sequenceDiagram
-    participant U as User (Mario)
-    participant S as Server (Castle Guard)
-
-    U->>S: 1. Login (email + password)
-    S->>S: 2. Validate credentials
-    S->>S: 3. Generate JWT token
-    S-->>U: 4. Return JWT token
-    Note over U: 5. Stores token locally<br/>(localStorage / cookie)
-
-    U->>S: 6. Request + JWT in header
-    S->>S: 7. Validate token signature
-    S-->>U: 8. Return protected data
-
-    Note over U,S: Token expires after set time.<br/>User must log in again.
-```
 
 **Header HTTP:**
 
@@ -522,27 +503,6 @@ Mario (Browser)          TodoApp (Backend)         Google (Auth Server)
     |                         |                          |
 ```
 
-### Diagrama: Fluxo OAuth 2.0
-
-```mermaid
-sequenceDiagram
-    participant U as User (Mario)
-    participant A as Your App (Toad's Shop)
-    participant P as Identity Provider<br/>(Google / Microsoft)
-
-    U->>A: 1. Click "Login with Google"
-    A->>P: 2. Redirect user to Google
-    U->>P: 3. Enter Google credentials
-    P->>P: 4. Authenticate user
-    P-->>A: 5. Return Authorization Code
-    A->>P: 6. Exchange code for Access Token
-    P-->>A: 7. Return Access Token
-    A->>P: 8. Use token to fetch user profile
-    P-->>A: 9. Return user data
-    A-->>U: 10. User is logged in!
-
-    Note over U,P: Your app NEVER sees<br/>the user's Google password
-```
 
 **Implementacao com Passport.js:**
 

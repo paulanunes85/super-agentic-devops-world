@@ -116,53 +116,6 @@ In simple terms: it is the ability to answer **any question** about your system,
 | **Metrics** | Numbers representing the system's state | Health bar + coin counter + timer | CPU: 87%, Memory: 4.2GB, Requests/s: 342 |
 | **Traces** | Complete path of a request | Map showing where Mario went through the level | Request -> API -> DB -> Cache -> Response (250ms) |
 
-### Diagram: The Three Pillars of Observability
-
-```mermaid
-graph TD
-    OBS["🔭 OBSERVABILITY<br/>See Everything in the Kingdom"]
-
-    OBS --> LOGS
-    OBS --> METRICS
-    OBS --> TRACES
-
-    subgraph LOGS_SECTION ["📖 LOGS -- Mario's Diary"]
-        LOGS["Event records<br/><i>What happened and when</i>"]
-        LOGS --> L1["Application Logs"]
-        LOGS --> L2["Error Logs"]
-        LOGS --> L3["Audit Logs"]
-    end
-
-    subgraph METRICS_SECTION ["📊 METRICS -- Health Bar, Coins & Timer"]
-        METRICS["Numerical measurements<br/><i>How is the kingdom doing?</i>"]
-        METRICS --> M1["CPU / Memory Usage"]
-        METRICS --> M2["Request Count & Latency"]
-        METRICS --> M3["Error Rate"]
-    end
-
-    subgraph TRACES_SECTION ["👣 TRACES -- Footprint Trail"]
-        TRACES["Request path tracking<br/><i>Follow Mario's journey</i>"]
-        TRACES --> T1["Distributed Tracing"]
-        TRACES --> T2["Request Correlation"]
-        TRACES --> T3["Dependency Mapping"]
-    end
-
-    L1 & L2 & L3 --> LA["🔧 Log Analytics<br/>Workspace"]
-    M1 & M2 & M3 --> AM["📈 Azure Monitor"]
-    T1 & T2 & T3 --> AI["🔍 Application<br/>Insights"]
-
-    LA & AM & AI --> DASH["📺 DASHBOARDS<br/>Command Center View"]
-
-    style OBS fill:#FF6F00,stroke:#E65100,color:#fff
-    style LOGS_SECTION fill:#E8F5E9,stroke:#388E3C,color:#000
-    style METRICS_SECTION fill:#E3F2FD,stroke:#1565C0,color:#000
-    style TRACES_SECTION fill:#FFF3E0,stroke:#E65100,color:#000
-    style LA fill:#4CAF50,stroke:#2E7D32,color:#fff
-    style AM fill:#0078D4,stroke:#005A9E,color:#fff
-    style AI fill:#68217A,stroke:#4B0E5E,color:#fff
-    style DASH fill:#FFD600,stroke:#F9A825,color:#000
-```
-
 ### 1.2 Monitoring vs Observability
 
 | Aspect | Monitoring | Observability |

@@ -133,32 +133,6 @@ There are hundreds of programming languages because **different problems require
 
 > **MARIO ANALOGY:** Static typing is like **declaring at the beginning of the level what weapon you'll use** -- if you said "sword," you can't use a bow mid-level. Dynamic typing is like being able to **swap weapons at any time**. Strong typing is like a **guard who checks if you're using the right weapon**. Weak typing is like a guard who says "eh, close enough" and lets you through.
 
-### Diagram: Programming Languages Map
-
-```mermaid
-mindmap
-  root((Programming\nLanguages))
-    Frontend
-      JavaScript
-      TypeScript
-      HTML/CSS
-    Backend
-      Python
-      C#
-      Java
-      Go
-      Rust
-    Database
-      SQL
-    Mobile
-      Swift (iOS)
-      Kotlin (Android)
-    Systems
-      C
-      C++
-      Rust
-```
-
 ---
 
 ## 2. Python -- The Mage (Versatile and Powerful)

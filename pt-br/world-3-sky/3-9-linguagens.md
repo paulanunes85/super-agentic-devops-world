@@ -133,31 +133,6 @@ Existem centenas de linguagens de programacao porque **problemas diferentes exig
 
 > **ANALOGIA MARIO:** Tipagem estatica e como **declarar no inicio da fase que arma voce vai usar** -- se disse "espada", nao pode usar arco no meio da fase. Tipagem dinamica e como poder **trocar de arma a qualquer momento**. Tipagem forte e como um **guarda que verifica se voce esta usando a arma certa**. Tipagem fraca e como um guarda que diz "ah, ta perto o suficiente" e deixa passar.
 
-### Diagrama: Mapa de Linguagens de Programacao
-
-```mermaid
-mindmap
-  root((Programming\nLanguages))
-    Frontend
-      JavaScript
-      TypeScript
-      HTML/CSS
-    Backend
-      Python
-      C#
-      Java
-      Go
-      Rust
-    Database
-      SQL
-    Mobile
-      Swift (iOS)
-      Kotlin (Android)
-    Systems
-      C
-      C++
-      Rust
-```
 
 ---
 

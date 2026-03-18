@@ -166,49 +166,9 @@ hotfix:   │                              ●───●───●
 
 **Git Flow** -- multiplas branches de longa duracao (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*`). Ideal para ciclos de release planejados.
 
-```mermaid
-gitGraph
-    commit id: "init"
-    branch develop
-    commit id: "dev-1"
-    branch feature/login
-    commit id: "feat-1"
-    commit id: "feat-2"
-    checkout develop
-    merge feature/login id: "merge-feat"
-    branch release/1.0
-    commit id: "release-prep"
-    checkout main
-    merge release/1.0 id: "v1.0" tag: "v1.0"
-    checkout develop
-    merge release/1.0 id: "back-merge"
-    checkout main
-    branch hotfix/bug
-    commit id: "fix-1"
-    checkout main
-    merge hotfix/bug id: "hotfix" tag: "v1.0.1"
-```
 
 **GitHub Flow** -- apenas `main` e feature branches de curta duracao. Cada merge via Pull Request. Ideal para deploy continuo.
 
-```mermaid
-gitGraph
-    commit id: "init"
-    branch feature/signup
-    commit id: "work-1"
-    commit id: "work-2"
-    checkout main
-    merge feature/signup id: "PR #1 merged"
-    branch feature/dashboard
-    commit id: "work-3"
-    commit id: "work-4"
-    checkout main
-    merge feature/dashboard id: "PR #2 merged"
-    branch feature/settings
-    commit id: "work-5"
-    checkout main
-    merge feature/settings id: "PR #3 merged"
-```
 
 ### 2.3 Fluxo de Feature
 

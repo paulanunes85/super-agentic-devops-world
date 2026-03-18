@@ -35,6 +35,11 @@ tags:
 - [Secao 1 -- Visao Geral: Todos os Modos do Copilot](#secao-1--visao-geral-todos-os-modos-do-copilot)
   - [1.1 O Mapa Completo do Companion](#11-o-mapa-completo-do-companion)
   - [1.2 Tabela Mestra: Todos os Modos](#12-tabela-mestra-todos-os-modos)
+
+<div align="center">
+<img src="../../diagrams/svg/copilot-modes.svg" alt="Espectro de modos do GitHub Copilot por nivel de autonomia" width="800">
+<br><em>Espectro de modos do GitHub Copilot por nivel de autonomia</em>
+</div>
 - [Secao 2 -- Completions: O Companion que Sussurra Dicas](#secao-2--completions-o-companion-que-sussurra-dicas)
   - [2.1 O que sao Completions](#21-o-que-sao-completions)
   - [2.2 Como Completions Funcionam](#22-como-completions-funcionam)
@@ -139,35 +144,6 @@ Completions → Chat → Inline Chat → Ask → Plan → Agent Mode → Coding 
  (sussurra)  (conversa) (aponta)  (consulta) (mapa) (joga junto) (vai solo)
 ```
 
-### Diagrama: Modos do GitHub Copilot
-
-```mermaid
-graph TB
-    subgraph LOW["Low Autonomy"]
-        direction LR
-        M1["Completions\n(auto-suggest as you type)"]
-        M2["Chat\n(ask questions in sidebar)"]
-        M3["Inline Chat\n(ask within the editor)"]
-        M4["Ask Mode\n(read-only Q&A)"]
-    end
-
-    subgraph MED["Medium Autonomy"]
-        direction LR
-        M5["Plan Mode\n(reads codebase, proposes plan)"]
-        M6["Agent Mode\n(edits files, runs terminal)"]
-    end
-
-    subgraph HIGH["High Autonomy"]
-        M7["Coding Agent\n(autonomous, works in background,\nopens PR when done)"]
-    end
-
-    LOW -->|"more autonomy"| MED
-    MED -->|"full autonomy"| HIGH
-
-    style LOW fill:#3498db,stroke:#333,color:#fff
-    style MED fill:#e67e22,stroke:#333,color:#fff
-    style HIGH fill:#e74c3c,stroke:#333,color:#fff
-```
 
 ### 1.2 Tabela Mestra: Todos os Modos
 

@@ -142,34 +142,6 @@ DevOps IS:
 | **Automation** | CI/CD, IaC, automated tests | Lakitus automating repetitive tasks |
 | **Measurement** | Metrics, monitoring, feedback | Dashboard showing health of the Mushroom Kingdom |
 
-### Diagram: The DevOps Infinity Loop
-
-```mermaid
-graph LR
-    PLAN["📋 PLAN<br/><i>Choose your quest</i>"]
-    CODE["💻 CODE<br/><i>Write the solution</i>"]
-    BUILD["🔨 BUILD<br/><i>Compile & package</i>"]
-    TEST["🧪 TEST<br/><i>Verify it works</i>"]
-
-    RELEASE["📦 RELEASE<br/><i>Prepare for launch</i>"]
-    DEPLOY["🚀 DEPLOY<br/><i>Ship to castle</i>"]
-    OPERATE["🔧 OPERATE<br/><i>Keep it running</i>"]
-    MONITOR["📊 MONITOR<br/><i>Watch the kingdom</i>"]
-
-    PLAN --> CODE --> BUILD --> TEST
-    TEST --> RELEASE --> DEPLOY --> OPERATE --> MONITOR
-    MONITOR --> PLAN
-
-    style PLAN fill:#1976D2,stroke:#0D47A1,color:#fff
-    style CODE fill:#388E3C,stroke:#1B5E20,color:#fff
-    style BUILD fill:#F57C00,stroke:#E65100,color:#fff
-    style TEST fill:#7B1FA2,stroke:#4A148C,color:#fff
-    style RELEASE fill:#C2185B,stroke:#880E4F,color:#fff
-    style DEPLOY fill:#D32F2F,stroke:#B71C1C,color:#fff
-    style OPERATE fill:#00796B,stroke:#004D40,color:#fff
-    style MONITOR fill:#455A64,stroke:#263238,color:#fff
-```
-
 ### 2.3 The Infinite Loop of DevOps
 
 ```

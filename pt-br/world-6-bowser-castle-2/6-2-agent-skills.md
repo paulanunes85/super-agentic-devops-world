@@ -139,26 +139,6 @@ Cada Power-Up tem: (a) Uma **descricao clara** (o que faz), (b) **Condicoes de a
 
 **Um personagem com muitos Power-Ups bem estruturados e como o Mario com Mushroom + Fire Flower + Cape Feather + Star — praticamente invencivel!**
 
-### Diagrama: Fluxo de Ativacao de Skills
-
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant C as Copilot
-    participant S as Skill Files
-
-    U->>C: Sends prompt
-    C->>S: Reads SKILL.md descriptions
-    S-->>C: Returns skill metadata
-
-    alt Semantic match found
-        C->>S: Load full skill content
-        S-->>C: Skill instructions + context
-        C->>U: Generate informed response
-    else No match
-        C->>U: Use default behavior
-    end
-```
 
 ### 1.5 Tabela Comparativa: Agent vs Skill
 

@@ -44,6 +44,11 @@ tags: ["agentic-devops", "mario", "world-7", "channels", "ide", "chatops", "back
 
 ## Introduction — The 4 Worlds Where Agents Live
 
+<div align="center">
+<img src="../../diagrams/svg/four-channels.svg" alt="The 4 channels of agent operation" width="800">
+<br><em>The 4 channels of agent operation</em>
+</div>
+
 Sofia had a question that wouldn't leave her head:
 
 > *"I know WHAT AI agents are. I know HOW to build them. But WHERE do they live? Where do they work? How do I talk to them?"*
@@ -80,54 +85,6 @@ Let's map them to the Mushroom Kingdom:
 ```
 
 Each channel is a different world with different rules. Let's explore each one in depth.
-
-### Diagram: The 4 Channels of Agent Operation
-
-```mermaid
-flowchart TB
-    DEV["DEVELOPER"]
-
-    subgraph CH1["CHANNEL 1: IDE\nVS Code -- Real-time, Interactive"]
-        IDE_COMP["Copilot Completions\nInline code suggestions"]
-        IDE_CHAT["Copilot Chat\nAsk questions, explain code"]
-        IDE_AGENT["Agent Mode\nAutonomous multi-step tasks"]
-        IDE_CUSTOM["Custom Agents\nSpecialized for your project"]
-    end
-
-    subgraph CH2["CHANNEL 2: CHAT PORTAL\nIDP/Backstage -- On-demand, Self-service"]
-        PORTAL_AI["AI Assistant\nConversational help"]
-        PORTAL_TPL["Templates\nPre-built project starters"]
-        PORTAL_DOCS["Documentation\nSearchable, AI-enhanced"]
-    end
-
-    subgraph CH3["CHANNEL 3: CHATOPS\nGitHub PRs/Issues -- Event-driven, Async"]
-        CHATOPS_PR["PR Review Bots\nAutomated code review"]
-        CHATOPS_ISSUE["Issue Triage\nAuto-label, assign, prioritize"]
-        CHATOPS_COMMENT["Automated Comments\nSuggestions and fixes"]
-    end
-
-    subgraph CH4["CHANNEL 4: BACKGROUND\nActions/MCP -- Autonomous, Scheduled"]
-        BG_CODING["Coding Agent\nAutonomous code generation"]
-        BG_SECURITY["Security Scans\nVulnerability detection"]
-        BG_DEPLOY["Automated Deployments\nCI/CD orchestration"]
-    end
-
-    DEV -->|"Types code"| CH1
-    DEV -->|"Opens portal"| CH2
-    DEV -->|"Creates PR/Issue"| CH3
-    DEV -.->|"Runs automatically"| CH4
-
-    CH1 <-.->|"Agent suggests\nusing portal"| CH2
-    CH3 <-.->|"PR triggers\nbackground agent"| CH4
-    CH1 <-.->|"IDE shows\nPR status"| CH3
-    CH2 <-.->|"Portal triggers\npipeline"| CH4
-
-    style DEV fill:#2C3E50,color:#fff,stroke-width:3px
-    style CH1 fill:#3498DB,color:#fff
-    style CH2 fill:#9B59B6,color:#fff
-    style CH3 fill:#E67E22,color:#fff
-    style CH4 fill:#E74C3C,color:#fff
-```
 
 ---
 

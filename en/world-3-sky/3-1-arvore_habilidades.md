@@ -131,30 +131,6 @@ There's a huge difference between "I've heard of it" and "I've mastered it compl
 
 The goal of the skill tree is to take you from stage 1 to stage 4 in each skill, in an organized and progressive way.
 
-### Diagram: Software Development Lifecycle
-
-```mermaid
-graph LR
-    IDEA["Idea"]
-    REQ["Requirements"]
-    DES["Design"]
-    IMPL["Implementation"]
-    TEST["Testing"]
-    DEPLOY["Deployment"]
-    MAINT["Maintenance"]
-
-    IDEA --> REQ --> DES --> IMPL --> TEST --> DEPLOY --> MAINT
-    MAINT -- "Feedback Loop" --> IDEA
-
-    style IDEA fill:#9b59b6,color:#fff
-    style REQ fill:#3498db,color:#fff
-    style DES fill:#1abc9c,color:#fff
-    style IMPL fill:#2ecc71,color:#fff
-    style TEST fill:#f1c40f,color:#333
-    style DEPLOY fill:#e67e22,color:#fff
-    style MAINT fill:#e74c3c,color:#fff
-```
-
 ---
 
 ## 2. The 5 Levels of Evolution

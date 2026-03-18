@@ -32,6 +32,11 @@ tags:
 - [Section 1 -- The Timeline: Three Eras of Combat](#section-1--the-timeline-three-eras-of-combat)
   - [1.1 Overview of the Eras](#11-overview-of-the-eras)
   - [1.2 Comparison Table: The Three Eras](#12-comparison-table-the-three-eras)
+
+<div align="center">
+<img src="../../diagrams/svg/devops-evolution.svg" alt="DevOps Evolution: Traditional → DevSecOps → Agentic" width="800">
+<br><em>DevOps Evolution: Traditional → DevSecOps → Agentic</em>
+</div>
 - [Section 2 -- 1st Era: Traditional DevOps (Manual Combat)](#section-2--1st-era-traditional-devops-manual-combat)
   - [2.1 What is Traditional DevOps](#21-what-is-traditional-devops)
   - [2.2 The Mario Analogy: Fighting with Swords](#22-the-mario-analogy-fighting-with-swords)
@@ -92,39 +97,6 @@ Software development has evolved dramatically over the past two decades. Just as
 - **3rd Era -- Agentic DevOps (~2024-present):** AI agents actively participate in the entire cycle. They write code, review PRs, detect vulnerabilities, respond to incidents, and even self-recover.
 
 > **MARIO ANALOGY:** Think of the evolution of combat in the Mushroom Kingdom. In the first era, Mario fought alone -- every jump, every attack was manually decided by the player. In the second era, Mario gained shields and armor that automatically protected him from certain attacks. In the third era, Mario began commanding an army of intelligent companions -- Yoshi, Luigi, Toad -- who fight alongside him, make their own decisions, and even complete missions on their own while Mario focuses on strategy.
-
-### Diagram: DevOps Evolution Timeline
-
-```mermaid
-graph LR
-    subgraph ERA1["Traditional DevOps (2010s)"]
-        A1[Manual Scripts]
-        A2[CI/CD Pipelines]
-        A3[Infrastructure as Code]
-        A4[Monitoring & Alerts]
-    end
-
-    subgraph ERA2["DevSecOps (2018+)"]
-        B1[Security Shift-Left]
-        B2[Automated Scanning]
-        B3[Policy as Code]
-        B4[Compliance Built-in]
-    end
-
-    subgraph ERA3["Agentic DevOps (2024+)"]
-        C1[AI Agents in Pipeline]
-        C2[Self-Healing Systems]
-        C3[Natural Language Ops]
-        C4[Autonomous Decisions]
-    end
-
-    ERA1 -->|"+ Security"| ERA2
-    ERA2 -->|"+ AI Agents"| ERA3
-
-    style ERA1 fill:#4a90d9,stroke:#333,color:#fff
-    style ERA2 fill:#e6a817,stroke:#333,color:#fff
-    style ERA3 fill:#2ecc71,stroke:#333,color:#fff
-```
 
 ### 1.2 Comparison Table: The Three Eras
 

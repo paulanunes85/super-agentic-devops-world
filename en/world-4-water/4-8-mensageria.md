@@ -163,36 +163,6 @@ A **Message Queue** is an asynchronous communication mechanism where messages ar
 
 > **Mario Analogy**: A message queue is like a line of **Parakoopa mail carriers**. Each letter (message) is placed in the queue. The Parakoopas pick up letters in order (FIFO — First In, First Out) and deliver them one by one. If the recipient isn't home, the Parakoopa keeps the letter and tries again later.
 
-### Diagram: Message Queue Pattern
-
-```mermaid
-graph LR
-    PROD["Producer\n(Mario)"]
-    QUEUE["Message Queue\n(Post Office)"]
-    C1["Consumer 1\n(Toad A)"]
-    C2["Consumer 2\n(Toad B)"]
-    C3["Consumer 3\n(Toad C)"]
-
-    PROD -- "Send message\nand move on!" --> QUEUE
-    QUEUE -- "Deliver when ready" --> C1
-    QUEUE -- "Deliver when ready" --> C2
-    QUEUE -- "Deliver when ready" --> C3
-
-    ASYNC["Mario does NOT wait.\nFire and forget!"]
-    PROD -.- ASYNC
-
-    EXAMPLES["Examples:\nRabbitMQ, Apache Kafka,\nAWS SQS, Azure Service Bus"]
-    QUEUE -.- EXAMPLES
-
-    style PROD fill:#e74c3c,color:#fff
-    style QUEUE fill:#f1c40f,color:#333
-    style C1 fill:#2ecc71,color:#fff
-    style C2 fill:#2ecc71,color:#fff
-    style C3 fill:#2ecc71,color:#fff
-    style ASYNC fill:none,stroke:none,color:#e74c3c
-    style EXAMPLES fill:none,stroke:none,color:#666
-```
-
 ### 2.2 How It Works
 
 ```

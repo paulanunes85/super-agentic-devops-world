@@ -207,29 +207,6 @@ describe('calcularDesconto', () => {
 >
 > Se voce so treinar golpes isolados (unitarios), pode falhar na combinacao. Se voce so treinar a batalha completa (E2E), nao melhora os golpes individuais. O segredo e a **piramide**: muita base, algum meio, pouco topo.
 
-### Diagrama: Piramide de Testes
-
-```mermaid
-graph TB
-    subgraph " "
-        direction TB
-        E2E["E2E Tests\n(Full Battle Simulation)\n--- FEW & SLOW ---"]
-        INT["Integration Tests\n(Two Dummies Fighting Together)\n--- MODERATE ---"]
-        UNIT["Unit Tests\n(Single Dummy Hits)\n--- MANY & FAST ---"]
-    end
-
-    E2E --- INT
-    INT --- UNIT
-
-    SPEED_TOP["Slower + More Expensive"] -.- E2E
-    SPEED_BOT["Faster + Cheaper"] -.- UNIT
-
-    style E2E fill:#e74c3c,color:#fff
-    style INT fill:#f5a623,color:#fff
-    style UNIT fill:#2ecc71,color:#fff
-    style SPEED_TOP fill:none,stroke:none,color:#e74c3c
-    style SPEED_BOT fill:none,stroke:none,color:#2ecc71
-```
 
 ---
 

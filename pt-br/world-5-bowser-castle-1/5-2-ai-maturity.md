@@ -108,24 +108,6 @@ Assim como no RPG voce evolui do nivel 1 ao nivel maximo, as equipes de desenvol
 - **Nivel 3 -- AI-Native (IA Nativa):** Desenvolvimento pensado PARA IA desde o inicio. Specs-first, agentes autonomos, Coding Agents.
 - **Nivel 4 -- AI-Autonomous (IA Autonoma):** Multiplos agentes trabalhando coordenadamente. Humano supervisiona e decide estrategia.
 
-### Diagrama: Niveis de Maturidade em IA
-
-```mermaid
-graph LR
-    L0["Level 0\nNo AI\n----------\nAll manual\nNo assistance"]
-    L1["Level 1\nAI-Assisted\n----------\nHints & suggestions\nHuman decides everything"]
-    L2["Level 2\nAI-Infused\n----------\nEnhanced workflows\nAI embedded in tools"]
-    L3["Level 3\nAI-Native\n----------\nAI as companion\nCollaborative coding"]
-    L4["Level 4\nAI-Autonomous\n----------\nArmy of agents\nMinimal human oversight"]
-
-    L0 --> L1 --> L2 --> L3 --> L4
-
-    style L0 fill:#95a5a6,stroke:#333,color:#fff
-    style L1 fill:#3498db,stroke:#333,color:#fff
-    style L2 fill:#2980b9,stroke:#333,color:#fff
-    style L3 fill:#8e44ad,stroke:#333,color:#fff
-    style L4 fill:#e74c3c,stroke:#333,color:#fff
-```
 
 ### 1.2 Tabela Mestra: Todos os Niveis
 

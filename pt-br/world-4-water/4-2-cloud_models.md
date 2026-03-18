@@ -515,59 +515,6 @@ Rede            [VOCE]         [provedor]    [provedor]    [provedor]   [provedo
 > - **SaaS** = Voce se muda para o castelo do Rei, tudo pronto
 > - **Serverless** = Quartos magicos que aparecem e somem conforme necessidade
 
-### Diagrama: Modelos de Servico em Nuvem
-
-```mermaid
-graph TB
-    subgraph ON["On-Premises\n(You manage ALL)"]
-        direction TB
-        ON_APP["Application"]
-        ON_DATA["Data"]
-        ON_RT["Runtime"]
-        ON_OS["OS"]
-        ON_VIRT["Virtualization"]
-        ON_SRV["Servers"]
-        ON_STOR["Storage"]
-        ON_NET["Networking"]
-    end
-
-    subgraph IAAS["IaaS\n(e.g. AWS EC2)"]
-        direction TB
-        I_APP["Application - YOU"]
-        I_DATA["Data - YOU"]
-        I_RT["Runtime - YOU"]
-        I_OS["OS - YOU"]
-        I_VIRT["Virtualization - PROVIDER"]
-        I_SRV["Servers - PROVIDER"]
-    end
-
-    subgraph PAAS["PaaS\n(e.g. Heroku)"]
-        direction TB
-        P_APP["Application - YOU"]
-        P_DATA["Data - YOU"]
-        P_RT["Runtime - PROVIDER"]
-        P_OS["OS - PROVIDER"]
-        P_SRV["Servers - PROVIDER"]
-    end
-
-    subgraph SAAS["SaaS\n(e.g. Gmail)"]
-        direction TB
-        S_ALL["PROVIDER manages\nEVERYTHING"]
-        S_USE["You just USE it"]
-    end
-
-    subgraph SRVL["Serverless\n(e.g. AWS Lambda)"]
-        direction TB
-        SL_CODE["Your Code - YOU"]
-        SL_REST["Everything Else - PROVIDER"]
-    end
-
-    style ON fill:#e74c3c,color:#fff
-    style IAAS fill:#e67e22,color:#fff
-    style PAAS fill:#f1c40f,color:#333
-    style SAAS fill:#2ecc71,color:#fff
-    style SRVL fill:#3498db,color:#fff
-```
 
 ---
 

@@ -373,45 +373,6 @@ code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-chat
 ```
 
-### Diagram: VS Code Ecosystem
-
-```mermaid
-graph TD
-    VSC["🔧 VS CODE<br/>Mario's Workshop"]
-
-    VSC --> EXT["🧩 Extensions<br/>Power-Up Marketplace"]
-    VSC --> TERM["💻 Integrated Terminal<br/>Command Warp Pipe"]
-    VSC --> GIT["🔀 Git Integration<br/>Save Game System"]
-    VSC --> COP["🤖 GitHub Copilot<br/>Yoshi AI Companion"]
-    VSC --> SET["⚙️ Settings & Config<br/>Controller Setup"]
-    VSC --> DBG["🐛 Debugger<br/>Bug Squashing Mode"]
-
-    EXT --> EXT1["Python / JS / C#"]
-    EXT --> EXT2["Docker Extension"]
-    EXT --> EXT3["Azure Extensions"]
-    EXT --> EXT4["Prettier / ESLint"]
-
-    COP --> COP1["Code Completion"]
-    COP --> COP2["Copilot Chat"]
-    COP --> COP3["Copilot Edits"]
-
-    GIT --> GIT1["Diff Viewer"]
-    GIT --> GIT2["Branch Manager"]
-    GIT --> GIT3["Commit History"]
-
-    DBG --> DBG1["Breakpoints"]
-    DBG --> DBG2["Watch Variables"]
-    DBG --> DBG3["Call Stack"]
-
-    style VSC fill:#007ACC,stroke:#005A9E,color:#fff
-    style EXT fill:#68217A,stroke:#4B0E5E,color:#fff
-    style TERM fill:#1E1E1E,stroke:#333,color:#0f0
-    style GIT fill:#F05032,stroke:#C03022,color:#fff
-    style COP fill:#000,stroke:#333,color:#fff
-    style SET fill:#6C6C6C,stroke:#444,color:#fff
-    style DBG fill:#CC6633,stroke:#994422,color:#fff
-```
-
 ### 5.4 GitHub Copilot — Your First Companion
 
 **GitHub Copilot** deserves special attention. It's an AI extension that works as a **smart companion** that walks alongside you throughout the entire journey.

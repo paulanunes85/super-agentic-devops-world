@@ -163,35 +163,6 @@ Uma **Message Queue** e um mecanismo de comunicacao assincrona onde mensagens sa
 
 > **Analogia Mario**: Uma fila de mensagens e como uma fila de **Parakoopas carteiros**. Cada carta (mensagem) e colocada na fila. Os Parakoopas pegam as cartas em ordem (FIFO — First In, First Out) e entregam uma por uma. Se o destinatario nao estiver em casa, o Parakoopa guarda a carta e tenta novamente depois.
 
-### Diagrama: Padrao de Fila de Mensagens
-
-```mermaid
-graph LR
-    PROD["Producer\n(Mario)"]
-    QUEUE["Message Queue\n(Post Office)"]
-    C1["Consumer 1\n(Toad A)"]
-    C2["Consumer 2\n(Toad B)"]
-    C3["Consumer 3\n(Toad C)"]
-
-    PROD -- "Send message\nand move on!" --> QUEUE
-    QUEUE -- "Deliver when ready" --> C1
-    QUEUE -- "Deliver when ready" --> C2
-    QUEUE -- "Deliver when ready" --> C3
-
-    ASYNC["Mario does NOT wait.\nFire and forget!"]
-    PROD -.- ASYNC
-
-    EXAMPLES["Examples:\nRabbitMQ, Apache Kafka,\nAWS SQS, Azure Service Bus"]
-    QUEUE -.- EXAMPLES
-
-    style PROD fill:#e74c3c,color:#fff
-    style QUEUE fill:#f1c40f,color:#333
-    style C1 fill:#2ecc71,color:#fff
-    style C2 fill:#2ecc71,color:#fff
-    style C3 fill:#2ecc71,color:#fff
-    style ASYNC fill:none,stroke:none,color:#e74c3c
-    style EXAMPLES fill:none,stroke:none,color:#666
-```
 
 ### 2.2 Como Funciona
 

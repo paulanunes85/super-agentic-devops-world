@@ -72,19 +72,6 @@ Sofia approached the mural. "So it's not enough to know what an agent is... I ne
 
 ---
 
-### Diagram: Types of Agents
-
-```mermaid
-quadrantChart
-    title Types of Agents
-    x-axis "For Developers" --> "For End-Users"
-    y-axis "Background (Async)" --> "Interactive (Real-time)"
-    quadrant-1 Productive Agent - helps USE
-    quadrant-2 IDE Agent - Yoshi beside you
-    quadrant-3 Background Dev Agent - Toads in castle
-    quadrant-4 Background Prod Agent - auto workflows
-```
-
 ---
 
 ## Section 1 -- IDE Agents: Your Level Companion

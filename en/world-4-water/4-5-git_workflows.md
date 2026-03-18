@@ -162,54 +162,6 @@ hotfix:   │                              ●───●───●
           │                              urgent fix
 ```
 
-### Diagram: Git Flow vs GitHub Flow
-
-**Git Flow** -- multiple long-lived branches (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*`). Best for scheduled release cycles.
-
-```mermaid
-gitGraph
-    commit id: "init"
-    branch develop
-    commit id: "dev-1"
-    branch feature/login
-    commit id: "feat-1"
-    commit id: "feat-2"
-    checkout develop
-    merge feature/login id: "merge-feat"
-    branch release/1.0
-    commit id: "release-prep"
-    checkout main
-    merge release/1.0 id: "v1.0" tag: "v1.0"
-    checkout develop
-    merge release/1.0 id: "back-merge"
-    checkout main
-    branch hotfix/bug
-    commit id: "fix-1"
-    checkout main
-    merge hotfix/bug id: "hotfix" tag: "v1.0.1"
-```
-
-**GitHub Flow** -- only `main` and short-lived feature branches. Every merge goes through a Pull Request. Best for continuous deployment.
-
-```mermaid
-gitGraph
-    commit id: "init"
-    branch feature/signup
-    commit id: "work-1"
-    commit id: "work-2"
-    checkout main
-    merge feature/signup id: "PR #1 merged"
-    branch feature/dashboard
-    commit id: "work-3"
-    commit id: "work-4"
-    checkout main
-    merge feature/dashboard id: "PR #2 merged"
-    branch feature/settings
-    commit id: "work-5"
-    checkout main
-    merge feature/settings id: "PR #3 merged"
-```
-
 ### 2.3 Feature Flow
 
 ```bash

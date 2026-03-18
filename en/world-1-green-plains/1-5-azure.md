@@ -340,49 +340,6 @@ az webapp up \
 
 > **MARIO ANALOGY:** Container Apps is like having Yoshis that manage themselves. You say "I need 3 Yoshis carrying these containers" and that's it — they organize themselves. No need to be the general (like in AKS).
 
-### Diagram: Azure Services Map
-
-```mermaid
-graph TD
-    AZ["☁️ AZURE<br/>The Cloud Kingdom"]
-
-    AZ --> COMP["⚙️ Compute"]
-    AZ --> STOR["📦 Storage"]
-    AZ --> DB["🗄️ Database"]
-    AZ --> IDEN["🔐 Identity"]
-    AZ --> AI["🤖 AI Services"]
-    AZ --> DEVOPS["🔧 DevOps"]
-
-    COMP --> C1["App Service<br/><i>Web App Hosting</i>"]
-    COMP --> C2["AKS<br/><i>Kubernetes Cluster</i>"]
-    COMP --> C3["Functions<br/><i>Serverless Power-Ups</i>"]
-    COMP --> C4["Container Apps<br/><i>Managed Containers</i>"]
-
-    STOR --> S1["Blob Storage<br/><i>Item Chest</i>"]
-    STOR --> S2["Queue Storage<br/><i>Message Pipeline</i>"]
-    STOR --> S3["Table Storage<br/><i>Simple Data Grid</i>"]
-
-    DB --> D1["Azure SQL<br/><i>Relational Vault</i>"]
-    DB --> D2["Cosmos DB<br/><i>Multi-Model Galaxy DB</i>"]
-
-    IDEN --> I1["Entra ID<br/><i>Castle Gatekeeper</i>"]
-    IDEN --> I2["Key Vault<br/><i>Secret Star Storage</i>"]
-
-    AI --> A1["Azure OpenAI<br/><i>AI Brain</i>"]
-    AI --> A2["AI Foundry<br/><i>Agent Workshop</i>"]
-
-    DEVOPS --> DV1["Azure DevOps<br/><i>Pipeline HQ</i>"]
-    DEVOPS --> DV2["GitHub Integration<br/><i>Adventure Hub Link</i>"]
-
-    style AZ fill:#0078D4,stroke:#005A9E,color:#fff
-    style COMP fill:#F25022,stroke:#C4401C,color:#fff
-    style STOR fill:#7FBA00,stroke:#5F8C00,color:#fff
-    style DB fill:#00A4EF,stroke:#0082BE,color:#fff
-    style IDEN fill:#FFB900,stroke:#CC9400,color:#000
-    style AI fill:#737373,stroke:#505050,color:#fff
-    style DEVOPS fill:#0078D4,stroke:#005A9E,color:#fff
-```
-
 ### 5.9 Complete Table: Azure Services vs Mario Buildings
 
 | Azure Service | Category | Mario Analogy | When to Use |

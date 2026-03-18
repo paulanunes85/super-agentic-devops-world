@@ -31,6 +31,11 @@ tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundame
   - [2.2 CD — Continuous Delivery/Deployment](#22-cd--continuous-deliverydeployment)
   - [2.3 Table: CI/CD vs Lakitu](#23-table-cicd-vs-lakitu)
   - [2.4 Diagram: The CI/CD Pipeline](#24-diagram-the-cicd-pipeline)
+
+<div align="center">
+<img src="../../diagrams/svg/cicd-pipeline.svg" alt="CI/CD Pipeline: from code to deploy" width="800">
+<br><em>CI/CD Pipeline: from code to deploy</em>
+</div>
 - [3. What Is GitHub Actions?](#3-what-is-github-actions)
   - [3.1 GitHub's Automation Platform](#31-githubs-automation-platform)
   - [3.2 Essential Vocabulary](#32-essential-vocabulary)
@@ -153,40 +158,6 @@ In simple terms: every time someone pushes, a Lakitu automatically:
 | **Build** | Compile/prepare the code | Build the level from the blueprints |
 | **Test** | Run automated tests | Test if the level works correctly |
 | **Deploy** | Publish to production | Release the level for real players |
-
-### Diagram: CI/CD Pipeline
-
-```mermaid
-flowchart LR
-    PUSH["📤 Code Push<br/><i>Mario throws code</i>"]
-    TRIG["⚡ Trigger<br/><i>Lakitu wakes up</i>"]
-    BUILD["🔨 Build<br/><i>Assemble bricks</i>"]
-    TEST["🧪 Test<br/><i>Test the blocks</i>"]
-    LINT["📏 Lint<br/><i>Style check</i>"]
-    SCAN["🔒 Security Scan<br/><i>Check for traps</i>"]
-    STG["🎭 Deploy to Staging<br/><i>Practice castle</i>"]
-    APPR["✅ Approval Gate<br/><i>Toad says OK</i>"]
-    PROD["🚀 Deploy to Prod<br/><i>Real castle</i>"]
-    MON["📊 Monitor<br/><i>Lakitu watches</i>"]
-
-    PUSH --> TRIG --> BUILD --> TEST --> LINT --> SCAN --> STG --> APPR --> PROD --> MON
-
-    BUILD -. "❌ Fail" .-> PUSH
-    TEST -. "❌ Fail" .-> PUSH
-    LINT -. "❌ Fail" .-> PUSH
-    SCAN -. "❌ Fail" .-> PUSH
-
-    style PUSH fill:#FFD54F,stroke:#F9A825,color:#000
-    style TRIG fill:#FF8A65,stroke:#E64A19,color:#000
-    style BUILD fill:#4FC3F7,stroke:#0288D1,color:#000
-    style TEST fill:#81C784,stroke:#388E3C,color:#000
-    style LINT fill:#BA68C8,stroke:#7B1FA2,color:#fff
-    style SCAN fill:#E57373,stroke:#C62828,color:#fff
-    style STG fill:#FFB74D,stroke:#EF6C00,color:#000
-    style APPR fill:#AED581,stroke:#689F38,color:#000
-    style PROD fill:#4CAF50,stroke:#2E7D32,color:#fff
-    style MON fill:#42A5F5,stroke:#1565C0,color:#fff
-```
 
 ### 2.4 Diagram: The CI/CD Pipeline
 

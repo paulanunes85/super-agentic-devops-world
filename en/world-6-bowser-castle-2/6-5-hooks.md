@@ -127,37 +127,6 @@ A **pre-push** Hook can:
 
 ---
 
-### Diagram: Hooks Lifecycle
-
-```mermaid
-graph LR
-    EDIT["Developer\nedits code"] --> ADD["git add"]
-    ADD --> PRE["PRE-COMMIT\nHOOK\n---\nlint, format,\ntype-check"]
-    PRE -->|"Pass"| COMMIT["git commit"]
-    PRE -->|"Fail"| FIX1["Fix issues\nand retry"]
-    FIX1 --> ADD
-    COMMIT --> MSG["COMMIT-MSG\nHOOK\n---\nvalidate message\nformat"]
-    MSG -->|"Pass"| PUSH["git push"]
-    MSG -->|"Fail"| FIX2["Fix message\nand retry"]
-    FIX2 --> COMMIT
-    PUSH --> PREPUSH["PRE-PUSH\nHOOK\n---\ntests, build,\nsecurity scan"]
-    PREPUSH -->|"Pass"| REMOTE["Push to\nGitHub"]
-    PREPUSH -->|"Fail"| FIX3["Fix issues\nand retry"]
-    FIX3 --> PUSH
-    REMOTE --> POST["POST-PUSH"]
-    POST --> GHA["GitHub\nActions"]
-
-    style EDIT fill:#3498db,stroke:#333,color:#fff
-    style PRE fill:#e67e22,stroke:#333,color:#fff
-    style MSG fill:#e67e22,stroke:#333,color:#fff
-    style PREPUSH fill:#e67e22,stroke:#333,color:#fff
-    style REMOTE fill:#2ecc71,stroke:#333,color:#fff
-    style GHA fill:#9b59b6,stroke:#333,color:#fff
-    style FIX1 fill:#e74c3c,stroke:#333,color:#fff
-    style FIX2 fill:#e74c3c,stroke:#333,color:#fff
-    style FIX3 fill:#e74c3c,stroke:#333,color:#fff
-```
-
 ## Events and Lifecycle
 
 A software project's lifecycle is full of events. Each event is a moment at which a Hook can fire. Understanding these events is like knowing the position of each "?" Block in the level — you need to know where they are to make the most of them.

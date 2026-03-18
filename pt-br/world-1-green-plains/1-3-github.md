@@ -27,6 +27,11 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentos"]
   - [1.1 Git vs GitHub — Memory Card vs Servidor Online](#11-git-vs-github--memory-card-vs-servidor-online)
   - [1.2 Por que o GitHub?](#12-por-que-o-github)
   - [1.3 Tabela: GitHub vs Servidor Multiplayer do Mario](#13-tabela-github-vs-servidor-multiplayer-do-mario)
+
+<div align="center">
+<img src="../../diagrams/svg/github-platform.svg" alt="Mapa da plataforma GitHub e seus recursos" width="800">
+<br><em>Mapa da plataforma GitHub e seus recursos</em>
+</div>
 - [2. Criando sua Conta — Entrando no Servidor](#2-criando-sua-conta--entrando-no-servidor)
   - [2.1 Passo a Passo](#21-passo-a-passo)
   - [2.2 Seu Perfil — A Ficha do Jogador](#22-seu-perfil--a-ficha-do-jogador)
@@ -110,53 +115,6 @@ Uma confusao comum: **Git** e **GitHub** sao coisas diferentes.
 - Gratuito para uso pessoal e projetos open-source
 - Pertence a **Microsoft** desde 2018
 
-### Diagrama: Mapa da Plataforma GitHub
-
-```mermaid
-graph TD
-    GH["🐙 GITHUB<br/>The Adventure Hub"]
-
-    GH --> REPO["📁 Repositories<br/>Game Worlds"]
-    GH --> ISS["📋 Issues<br/>Quest Board"]
-    GH --> PR["🔀 Pull Requests<br/>Level Review Gate"]
-    GH --> ACT["⚡ Actions<br/>CI/CD Automation"]
-    GH --> PROJ["📊 Projects<br/>Campaign Map"]
-    GH --> CS["☁️ Codespaces<br/>Portable Dev Console"]
-    GH --> PAG["🌐 Pages<br/>Trophy Display"]
-    GH --> DISC["💬 Discussions<br/>Toad's Town Forum"]
-    GH --> SEC["🔒 Security<br/>Castle Defenses"]
-
-    REPO --> REPO1["Code Storage"]
-    REPO --> REPO2["README & Docs"]
-    REPO --> REPO3["Releases & Tags"]
-
-    ISS --> ISS1["Bug Reports"]
-    ISS --> ISS2["Feature Requests"]
-    ISS --> ISS3["Task Tracking"]
-
-    PR --> PR1["Code Review"]
-    PR --> PR2["Status Checks"]
-    PR --> PR3["Auto-merge"]
-
-    ACT --> ACT1["Workflows"]
-    ACT --> ACT2["Reusable Actions"]
-    ACT --> ACT3["Self-hosted Runners"]
-
-    SEC --> SEC1["Dependabot"]
-    SEC --> SEC2["Code Scanning"]
-    SEC --> SEC3["Secret Scanning"]
-
-    style GH fill:#24292E,stroke:#1B1F23,color:#fff
-    style REPO fill:#0366D6,stroke:#0246A2,color:#fff
-    style ISS fill:#28A745,stroke:#1E7E34,color:#fff
-    style PR fill:#6F42C1,stroke:#4C2889,color:#fff
-    style ACT fill:#2088FF,stroke:#0066CC,color:#fff
-    style PROJ fill:#0075CA,stroke:#005EA6,color:#fff
-    style CS fill:#F9826C,stroke:#D65D4A,color:#fff
-    style PAG fill:#22863A,stroke:#176F2C,color:#fff
-    style DISC fill:#8957E5,stroke:#6639BA,color:#fff
-    style SEC fill:#D73A49,stroke:#B42D3A,color:#fff
-```
 
 ### 1.3 Tabela: GitHub vs Servidor Multiplayer do Mario
 

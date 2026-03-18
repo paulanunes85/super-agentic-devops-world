@@ -132,33 +132,6 @@ Every `.agent.md` file follows a specific structure: first comes the **YAML fron
 
 ### Components of .agent.md
 
-### Diagram: Custom Agent Structure
-
-```mermaid
-graph TB
-    FILE[".agent.md File"]
-
-    subgraph FRONT["Frontmatter (YAML)"]
-        Y1["name: my-agent"]
-        Y2["description: What this agent does"]
-        Y3["tools: list of allowed tools"]
-        Y4["model: which LLM to use"]
-    end
-
-    subgraph BODY["Body (Markdown)"]
-        B1["Expertise\n(what the agent knows)"]
-        B2["Rules\n(what it must follow)"]
-        B3["Procedures\n(step-by-step workflows)"]
-    end
-
-    FILE --> FRONT
-    FILE --> BODY
-
-    style FILE fill:#e74c3c,stroke:#333,color:#fff
-    style FRONT fill:#3498db,stroke:#333,color:#fff
-    style BODY fill:#2ecc71,stroke:#333,color:#fff
-```
-
 ### YAML Frontmatter Fields
 
 | Field | Required? | Type | Mario Analogy | Technical Description | Example |

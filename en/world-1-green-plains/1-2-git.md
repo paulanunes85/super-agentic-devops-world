@@ -37,6 +37,11 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
   - [3.2 The .git Folder — The Memory Card Chip](#32-the-git-folder--the-memory-card-chip)
   - [3.3 The 3 States: Working, Staging, Committed](#33-the-3-states-working-staging-committed)
   - [3.4 Diagram: The 3 States of Git](#34-diagram-the-3-states-of-git)
+
+<div align="center">
+<img src="../../diagrams/svg/git-workflow.svg" alt="Git workflow: Working Directory → Staging → Repository" width="800">
+<br><em>Git workflow: Working Directory → Staging → Repository</em>
+</div>
 - [4. Your First Repository — Inserting the Memory Card](#4-your-first-repository--inserting-the-memory-card)
   - [4.1 git init — Formatting the Memory Card](#41-git-init--formatting-the-memory-card)
   - [4.2 git status — Checking the Save State](#42-git-status--checking-the-save-state)
@@ -235,43 +240,6 @@ In Git, your files can be in 3 different states. Understanding this is fundament
 | **Working Directory** (Modified) | You changed a file but haven't asked to save | You're **playing the level** — progress exists, but you haven't saved |
 | **Staging Area** (Staged) | You marked a file to be included in the next save | You **selected "Save Game"** from the menu — you're on the confirmation screen |
 | **Committed** (Saved) | The file was permanently saved in the history | The **save was recorded** on the memory card — safe forever |
-
-### Diagram: Git Workflow
-
-```mermaid
-flowchart LR
-    subgraph LOCAL ["🎮 LOCAL MACHINE (Your Console)"]
-        direction LR
-        WD["📝 Working Directory<br/><i>Current Game State</i>"]
-        SA["📦 Staging Area<br/><i>Save Selection Screen</i>"]
-        LR2["💾 Local Repository<br/><i>Save File on Disk</i>"]
-    end
-
-    subgraph REMOTE ["☁️ GITHUB (Cloud Save)"]
-        RR["🌐 Remote Repository<br/><i>Cloud Backup</i>"]
-    end
-
-    WD -- "git add<br/>Select files to save" --> SA
-    SA -- "git commit -m 'message'<br/>Confirm save" --> LR2
-    LR2 -- "git push<br/>Upload to cloud" --> RR
-    RR -- "git pull<br/>Download latest" --> WD
-
-    subgraph BRANCHING ["🔀 BRANCHING (Parallel Worlds)"]
-        MAIN["main branch<br/><i>Official Save File</i>"]
-        FEAT["feature branch<br/><i>Experimental Save</i>"]
-        MAIN -- "git checkout -b feature<br/>Create parallel world" --> FEAT
-        FEAT -- "Pull Request + Merge<br/>Merge worlds together" --> MAIN
-    end
-
-    LR2 --- BRANCHING
-
-    style WD fill:#FFE082,stroke:#F9A825,color:#000
-    style SA fill:#A5D6A7,stroke:#388E3C,color:#000
-    style LR2 fill:#90CAF9,stroke:#1565C0,color:#000
-    style RR fill:#CE93D8,stroke:#7B1FA2,color:#000
-    style MAIN fill:#4CAF50,stroke:#2E7D32,color:#fff
-    style FEAT fill:#FF9800,stroke:#E65100,color:#fff
-```
 
 ### 3.4 Diagram: The 3 States of Git
 

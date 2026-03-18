@@ -38,6 +38,11 @@ Se voce ja jogou Mario, voce consegue entender DevOps.
 
 ## 🗺️ O Mapa dos Mundos
 
+<div align="center">
+<img src="../diagrams/svg/world-map.svg" alt="Mapa completo dos 8 Mundos" width="800">
+<br><em>Mapa completo dos 8 Mundos</em>
+</div>
+
 | Mundo | Tema | Fases | Topicos |
 |-------|------|-------|---------|
 | 🌿 **[Mundo 1](world-1-green-plains/)** | Planicie Verde | 8 | VS Code, Git, GitHub, Actions, Azure, AI Foundry |

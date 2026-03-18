@@ -81,51 +81,6 @@ Bem-vinda ao conceito de **IDP — Internal Developer Platform**.
 
 ---
 
-### Diagrama: Arquitetura IDP/Backstage
-
-```mermaid
-flowchart TB
-    subgraph BACKSTAGE["BACKSTAGE HUB CASTLE"]
-        CORE["Core Platform\nUnified developer portal\nSingle pane of glass"]
-    end
-
-    subgraph FEATURES["BUILT-IN FEATURES"]
-        CATALOG["Software Catalog\nDirectory of ALL services\nOwnership, lifecycle, APIs"]
-        TEMPLATES["Templates\nPre-built project kits\nScaffolding, best practices"]
-        TECHDOCS["TechDocs\nDocumentation as code\nMarkdown rendered beautifully"]
-        PLUGINS["Plugins\nExtensibility marketplace\nCustom integrations"]
-        SEARCHX["Search\nFind anything across\nall services and docs"]
-    end
-
-    subgraph INTEGRATIONS["EXTERNAL INTEGRATIONS"]
-        GITHUB["GitHub\nRepos, PRs, Issues"]
-        AZURE["Azure\nCloud resources\nDeployments"]
-        CICD["CI/CD\nGitHub Actions\nPipelines"]
-        MONITORING["Monitoring\nGrafana, Datadog\nAlerts"]
-        AI_AGENTS["AI Agents\nCopilot, Custom bots\nAutomation"]
-    end
-
-    CORE --- CATALOG
-    CORE --- TEMPLATES
-    CORE --- TECHDOCS
-    CORE --- PLUGINS
-    CORE --- SEARCHX
-
-    PLUGINS -->|"API"| GITHUB
-    PLUGINS -->|"API"| AZURE
-    PLUGINS -->|"API"| CICD
-    PLUGINS -->|"API"| MONITORING
-    PLUGINS -->|"API"| AI_AGENTS
-
-    CATALOG -.-> GITHUB
-    TEMPLATES -.-> CICD
-    AI_AGENTS -.-> CATALOG
-
-    style BACKSTAGE fill:#1A5276,color:#fff,stroke-width:3px
-    style FEATURES fill:#2C3E50,color:#fff
-    style INTEGRATIONS fill:#0E6655,color:#fff
-    style CORE fill:#3498DB,color:#fff
-```
 
 ## 1. O que e um IDP (Internal Developer Platform)
 

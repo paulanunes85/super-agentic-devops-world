@@ -157,56 +157,6 @@ Ou na linguagem Mario:
 
 ---
 
-### Diagrama: Componentes do LangChain
-
-```mermaid
-flowchart TB
-    LC["LANGCHAIN\nFramework for building\nLLM applications"]
-
-    subgraph MODELS_BOX["MODELS"]
-        MODELS["LLM Providers\nOpenAI, Anthropic,\nLocal models, Hugging Face"]
-    end
-
-    subgraph PROMPTS_BOX["PROMPTS"]
-        PROMPTS["Templates\nFew-shot examples\nStructured output\nParsing"]
-    end
-
-    subgraph CHAINS_BOX["CHAINS"]
-        CHAINS["Sequential Operations\nStep 1 then Step 2 then Step 3\nPipe output forward"]
-    end
-
-    subgraph AGENTS_BOX["AGENTS"]
-        AGENTS["Autonomous Decision-Makers\nObserve, Think, Act\nChoose which tool to use"]
-    end
-
-    subgraph TOOLS_BOX["TOOLS"]
-        TOOLS["Capabilities\nWeb Search, Calculator,\nRead Files, Call APIs,\nDatabase queries"]
-    end
-
-    subgraph MEMORY_BOX["MEMORY"]
-        MEMORY["Conversation History\nSummary buffer\nEntity tracking\nLong-term storage"]
-    end
-
-    LC --- MODELS_BOX
-    LC --- PROMPTS_BOX
-    LC --- CHAINS_BOX
-    LC --- AGENTS_BOX
-    LC --- TOOLS_BOX
-    LC --- MEMORY_BOX
-
-    AGENTS_BOX -.->|"Agents use"| TOOLS_BOX
-    AGENTS_BOX -.->|"Agents remember"| MEMORY_BOX
-    CHAINS_BOX -.->|"Chains call"| MODELS_BOX
-    CHAINS_BOX -.->|"Chains use"| PROMPTS_BOX
-
-    style LC fill:#1ABC9C,color:#fff,stroke-width:3px
-    style MODELS_BOX fill:#3498DB,color:#fff
-    style PROMPTS_BOX fill:#9B59B6,color:#fff
-    style CHAINS_BOX fill:#E67E22,color:#fff
-    style AGENTS_BOX fill:#E74C3C,color:#fff
-    style TOOLS_BOX fill:#2ECC71,color:#fff
-    style MEMORY_BOX fill:#F39C12,color:#fff
-```
 
 ## 2. Os Componentes Fundamentais
 

@@ -40,45 +40,11 @@ tags: ["agentic-devops", "mario", "index", "world-map"]
 > Fases marcadas com **(PRONTO)** ja existem.
 > A fase BOSS de cada World e sempre um exercicio pratico ou revisao.
 
-### Diagrama: Mapa Completo dos 8 Mundos
 
-```mermaid
-graph TD
-    START["🎮 START<br/>Agentic DevOps Adventure"] --> W1
-
-    W1["🌿 WORLD 1<br/>Green Plains<br/><i>Foundation Tools</i>"]
-    W2["🕳️ WORLD 2<br/>Underground Caves<br/><i>Core Concepts</i>"]
-    W3["☁️ WORLD 3<br/>Sky World<br/><i>Cloud Architecture</i>"]
-    W4["🌊 WORLD 4<br/>Water World<br/><i>Containers & Kubernetes</i>"]
-    W5["🏰 WORLD 5<br/>Bowser's Castle Pt1<br/><i>Security & Identity</i>"]
-    W6["🔥 WORLD 6<br/>Bowser's Castle Pt2<br/><i>Advanced Pipelines</i>"]
-    W7["⭐ WORLD 7<br/>Star World<br/><i>AI & Agentic DevOps</i>"]
-    W8["👑 WORLD 8<br/>Final Castle<br/><i>Mastery & Capstone</i>"]
-
-    W1 --> W2 --> W3 --> W4 --> W5 --> W6 --> W7 --> W8
-
-    W1 --- W1A["VS Code"] & W1B["Git & GitHub"] & W1C["CI/CD Basics"] & W1D["Azure Intro"]
-    W2 --- W2A["Environments"] & W2B["APIs & REST"] & W2C["DevOps Loop"] & W2D["Observability"]
-    W3 --- W3A["IaC with Bicep"] & W3B["Networking"] & W3C["Serverless"]
-    W4 --- W4A["Docker"] & W4B["Kubernetes / AKS"] & W4C["Helm Charts"]
-    W5 --- W5A["Entra ID"] & W5B["RBAC & Secrets"] & W5C["Zero Trust"]
-    W6 --- W6A["Multi-stage Pipelines"] & W6B["GitOps"] & W6C["Feature Flags"]
-    W7 --- W7A["AI Agents"] & W7B["Copilot Ecosystem"] & W7C["AI Foundry"]
-    W8 --- W8A["Capstone Project"] & W8B["Portfolio"] & W8C["Certifications"]
-
-    W8 --> FINISH["🏆 PRINCESS SAVED<br/>DevOps Engineer Ready!"]
-
-    style START fill:#FFD700,stroke:#B8860B,color:#000
-    style FINISH fill:#FFD700,stroke:#B8860B,color:#000
-    style W1 fill:#4CAF50,stroke:#2E7D32,color:#fff
-    style W2 fill:#795548,stroke:#4E342E,color:#fff
-    style W3 fill:#42A5F5,stroke:#1565C0,color:#fff
-    style W4 fill:#0288D1,stroke:#01579B,color:#fff
-    style W5 fill:#E53935,stroke:#B71C1C,color:#fff
-    style W6 fill:#D32F2F,stroke:#B71C1C,color:#fff
-    style W7 fill:#AB47BC,stroke:#6A1B9A,color:#fff
-    style W8 fill:#FF6F00,stroke:#E65100,color:#fff
-```
+<div align="center">
+<img src="../../diagrams/svg/world-map.svg" alt="Mapa completo dos 8 Mundos" width="800">
+<br><em>Mapa completo dos 8 Mundos</em>
+</div>
 
 ---
 

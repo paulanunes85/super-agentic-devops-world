@@ -123,42 +123,6 @@ A skill e onde o conhecimento vive. Ela e compartilhada entre multiplos personag
 
 ---
 
-### Diagrama: Fluxo de Orquestracao
-
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant O as Orchestrator
-    participant C as Classifier
-    participant SK as Skill Loader
-    participant A as Specialist Agent
-    participant G as Gate Check
-
-    U->>O: Send request
-    O->>C: Classify task type
-    C-->>O: Task category
-
-    O->>SK: Load matching skill
-    SK-->>O: Skill instructions
-
-    O->>A: Delegate task
-    A->>A: Execute phases (step by step)
-    A-->>O: Phase result
-
-    O->>G: Gate check (quality, security)
-
-    alt Pass
-        G-->>O: Approved
-        O-->>U: Return final result
-    else Fail
-        G-->>O: Rejected
-        O->>A: Retry with feedback
-        A-->>O: Revised result
-        O->>G: Re-check
-        G-->>O: Approved
-        O-->>U: Return final result
-    end
-```
 
 ## 3. Fluxo Completo de Orquestracao
 

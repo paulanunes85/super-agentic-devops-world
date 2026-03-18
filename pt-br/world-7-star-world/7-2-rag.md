@@ -38,6 +38,11 @@ tags: ["agentic-devops", "mario", "world-7", "rag", "embeddings", "vector-databa
   - [2.1 O que e RAG?](#21-o-que-e-rag)
   - [2.2 RAG em Uma Frase](#22-rag-em-uma-frase)
   - [2.3 A Analogia Mario: A Enciclopedia Magica](#23-a-analogia-mario-a-enciclopedia-magica)
+
+<div align="center">
+<img src="../../diagrams/svg/rag-architecture.svg" alt="Arquitetura RAG: Indexacao, Busca e Geracao" width="800">
+<br><em>Arquitetura RAG: Indexacao, Busca e Geracao</em>
+</div>
 - [3. Como RAG Funciona: Passo a Passo](#3-como-rag-funciona-passo-a-passo)
   - [3.1 Fase 1: Indexacao (Preparar a Biblioteca)](#31-fase-1-indexacao-preparar-a-biblioteca)
   - [3.2 Fase 2: Recuperacao (Encontrar o Livro Certo)](#32-fase-2-recuperacao-encontrar-o-livro-certo)
@@ -207,81 +212,6 @@ Ou na linguagem Mario:
 
 ---
 
-### Diagrama: Arquitetura RAG
-
-```mermaid
-flowchart TB
-    subgraph INDEXING["PHASE 1: INDEXING (Offline Preparation)"]
-        direction LR
-        DOCS["Documents\nPDFs, Wiki, Code,\nDatabases"]
-        CHUNK["Chunk\nSplit into small\nmeaningful pieces"]
-        EMBED1["Embed\nConvert text to\nvector numbers"]
-        STORE["Store\nSave in\nVector DB"]
-        DOCS --> CHUNK --> EMBED1 --> STORE
-    end
-
-    subgraph RETRIEVAL["PHASE 2: RETRIEVAL (At Query Time)"]
-        direction LR
-        QUESTION["User Question\nWhat is our\nrefund policy?"]
-        EMBED2["Embed Question\nConvert to same\nvector space"]
-        SEARCH["Similarity Search\nFind closest vectors\nin Vector DB"]
-        TOPK["Get Top-K Chunks\nReturn most\nrelevant pieces"]
-        QUESTION --> EMBED2 --> SEARCH --> TOPK
-    end
-
-    subgraph GENERATION["PHASE 3: GENERATION (Answer)"]
-        direction LR
-        COMBINE["Combine\nUser Question +\nRetrieved Chunks"]
-        LLM["LLM\nProcess with\nfull context"]
-        ANSWER["Grounded Answer\nAccurate, sourced,\nno hallucination"]
-        COMBINE --> LLM --> ANSWER
-    end
-
-    STORE -.->|"Vector DB ready\nfor queries"| SEARCH
-    QUESTION -.->|"Original question\npassed through"| COMBINE
-    TOPK -->|"Relevant context\ninjected"| COMBINE
-
-    style INDEXING fill:#2C3E50,color:#fff
-    style RETRIEVAL fill:#1A5276,color:#fff
-    style GENERATION fill:#0E6655,color:#fff
-```
-
-### Diagrama: RAG vs Sem RAG
-
-```mermaid
-flowchart TB
-    subgraph WITHOUT_RAG["WITHOUT RAG"]
-        direction TB
-        U1["User Question\nWhat is our Q3 revenue?"]
-        LLM1["LLM\nOnly knows training data\nNo access to your docs"]
-        A1["Answer\nI dont have that information\nor HALLUCINATION:\nYour Q3 revenue was $5M\n-- made up!"]
-        U1 -->|"Direct question"| LLM1
-        LLM1 -->|"Guesses or\nrefuses"| A1
-        WARN["Risk: Hallucination\nInaccurate answers\nNo sources"]
-    end
-
-    subgraph WITH_RAG["WITH RAG"]
-        direction TB
-        U2["User Question\nWhat is our Q3 revenue?"]
-        RETRIEVE["Retrieve from Docs\nSearch company database\nFind Q3 financial report"]
-        CONTEXT["Retrieved Context\nQ3 Report: Revenue was\n$12.3M, up 15% YoY"]
-        LLM2["LLM + Context\nQuestion + real data\nfrom your documents"]
-        A2["Grounded Answer\nAccording to the Q3 report,\nrevenue was $12.3M,\nup 15% year-over-year"]
-        OK["Accurate, Sourced,\nTrustworthy"]
-        U2 -->|"Question"| RETRIEVE
-        RETRIEVE -->|"Find relevant\ndocuments"| CONTEXT
-        CONTEXT -->|"Inject as\ncontext"| LLM2
-        U2 -.->|"Original\nquestion"| LLM2
-        LLM2 -->|"Answer based\non real data"| A2
-    end
-
-    style WITHOUT_RAG fill:#C0392B,color:#fff
-    style WITH_RAG fill:#27AE60,color:#fff
-    style WARN fill:#E74C3C,color:#fff
-    style OK fill:#2ECC71,color:#fff
-    style A1 fill:#E74C3C,color:#fff
-    style A2 fill:#2ECC71,color:#fff
-```
 
 ## 3. Como RAG Funciona: Passo a Passo
 

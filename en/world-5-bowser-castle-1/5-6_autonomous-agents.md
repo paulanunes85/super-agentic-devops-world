@@ -110,38 +110,6 @@ For an agent to be truly autonomous, it needs to master 5 capabilities:
 | **4. Self-Evaluation** | Verify if the result is correct | Delivers without checking | Tests and validates before delivering | Yoshi that confirms he landed on the right platform |
 | **5. Error Recovery** | Handle failures without human help | Stops at the first error | Tries an alternative approach | Yoshi that, if the route fails, tries another one |
 
-### Diagram: Autonomous Agent with Guardrails
-
-```mermaid
-graph TB
-    GOAL["Goal Received"] --> DECOMPOSE["Decompose into Sub-tasks"]
-    DECOMPOSE --> PLAN["Plan Execution Order"]
-    PLAN --> SELECT["Select Appropriate Tool"]
-    SELECT --> EXECUTE["Execute Action"]
-    EXECUTE --> EVALUATE["Self-Evaluate Result"]
-    EVALUATE -->|"Success"| RESULT["Return Final Result"]
-    EVALUATE -->|"Failure"| RETRY["Retry with Adjustment"]
-    RETRY --> SELECT
-
-    subgraph GUARDRAILS["GUARDRAILS (Safety Boundaries)"]
-        G1["Scope Limit\n(stay within boundaries)"]
-        G2["Budget Limit\n(max tokens/cost)"]
-        G3["Time Limit\n(max execution time)"]
-        G4["Human Approval Gate\n(pause for review)"]
-    end
-
-    EXECUTE -.->|"checked against"| GUARDRAILS
-
-    style GOAL fill:#2ecc71,stroke:#333,color:#fff
-    style RESULT fill:#2ecc71,stroke:#333,color:#fff
-    style RETRY fill:#e74c3c,stroke:#333,color:#fff
-    style GUARDRAILS fill:#f39c12,stroke:#333,color:#000
-    style G1 fill:#f5d76e,stroke:#333,color:#000
-    style G2 fill:#f5d76e,stroke:#333,color:#000
-    style G3 fill:#f5d76e,stroke:#333,color:#000
-    style G4 fill:#f5d76e,stroke:#333,color:#000
-```
-
 ### Table: Assisted vs Autonomous
 
 | Aspect | Assisted Agent | Autonomous Agent |

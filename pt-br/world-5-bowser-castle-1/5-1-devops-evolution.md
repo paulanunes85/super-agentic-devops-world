@@ -32,6 +32,11 @@ tags:
 - [Secao 1 -- A Linha do Tempo: Tres Eras de Combate](#secao-1--a-linha-do-tempo-tres-eras-de-combate)
   - [1.1 Visao Geral das Eras](#11-visao-geral-das-eras)
   - [1.2 Tabela Comparativa: As Tres Eras](#12-tabela-comparativa-as-tres-eras)
+
+<div align="center">
+<img src="../../diagrams/svg/devops-evolution.svg" alt="Evolucao do DevOps: Traditional → DevSecOps → Agentic" width="800">
+<br><em>Evolucao do DevOps: Traditional → DevSecOps → Agentic</em>
+</div>
 - [Secao 2 -- 1a Era: DevOps Tradicional (Combate Manual)](#secao-2--1a-era-devops-tradicional-combate-manual)
   - [2.1 O que e DevOps Tradicional](#21-o-que-e-devops-tradicional)
   - [2.2 A Analogia Mario: Lutando com Espadas](#22-a-analogia-mario-lutando-com-espadas)
@@ -93,38 +98,6 @@ O desenvolvimento de software evoluiu dramaticamente nas ultimas duas decadas. A
 
 > **ANALOGIA MARIO:** Pense na evolucao do combate no Mushroom Kingdom. Na primeira era, Mario lutava sozinho -- cada pulo, cada ataque era decidido manualmente pelo jogador. Na segunda era, Mario ganhou escudos e armaduras que o protegiam automaticamente de certos ataques. Na terceira era, Mario passou a comandar um exercito de companions inteligentes -- Yoshi, Luigi, Toad -- que lutam ao lado dele, tomam decisoes proprias e ate completam missoes sozinhos enquanto Mario foca na estrategia.
 
-### Diagrama: Linha do Tempo da Evolucao do DevOps
-
-```mermaid
-graph LR
-    subgraph ERA1["Traditional DevOps (2010s)"]
-        A1[Manual Scripts]
-        A2[CI/CD Pipelines]
-        A3[Infrastructure as Code]
-        A4[Monitoring & Alerts]
-    end
-
-    subgraph ERA2["DevSecOps (2018+)"]
-        B1[Security Shift-Left]
-        B2[Automated Scanning]
-        B3[Policy as Code]
-        B4[Compliance Built-in]
-    end
-
-    subgraph ERA3["Agentic DevOps (2024+)"]
-        C1[AI Agents in Pipeline]
-        C2[Self-Healing Systems]
-        C3[Natural Language Ops]
-        C4[Autonomous Decisions]
-    end
-
-    ERA1 -->|"+ Security"| ERA2
-    ERA2 -->|"+ AI Agents"| ERA3
-
-    style ERA1 fill:#4a90d9,stroke:#333,color:#fff
-    style ERA2 fill:#e6a817,stroke:#333,color:#fff
-    style ERA3 fill:#2ecc71,stroke:#333,color:#fff
-```
 
 ### 1.2 Tabela Comparativa: As Tres Eras
 

@@ -42,6 +42,11 @@ tags:
   - [3.1 Os 4 Componentes Fundamentais](#31-os-4-componentes-fundamentais)
   - [3.2 Como os Componentes se Conectam](#32-como-os-componentes-se-conectam)
   - [3.3 Tabela: Componentes MCP vs Mushroom Kingdom](#33-tabela-componentes-mcp-vs-mushroom-kingdom)
+
+<div align="center">
+<img src="../../diagrams/svg/mcp-architecture.svg" alt="Arquitetura MCP: Client, Protocol e Servers" width="800">
+<br><em>Arquitetura MCP: Client, Protocol e Servers</em>
+</div>
 - [Secao 4 -- MCP Server: A Loja Especializada do NPC](#secao-4--mcp-server-a-loja-especializada-do-npc)
   - [4.1 O que e um MCP Server](#41-o-que-e-um-mcp-server)
   - [4.2 Tipos de MCP Servers](#42-tipos-de-mcp-servers)
@@ -207,35 +212,6 @@ O MCP tem quatro componentes principais:
 3. **MCP Server:** Um servico que expoe ferramentas e dados para agentes
 4. **Transporte:** O "cano" por onde a comunicacao flui (stdio, HTTP/SSE)
 
-### Diagrama: Arquitetura MCP
-
-```mermaid
-graph LR
-    CLIENT["MCP Client\n(Your Agent / Copilot)"]
-
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER1["MCP Server 1\nFigma"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER2["MCP Server 2\nPostgreSQL"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER3["MCP Server 3\nGitHub"]
-    CLIENT <-->|"MCP Protocol\n(JSON-RPC)"| SERVER4["MCP Server 4\nSlack"]
-
-    SERVER1 --- T1["Tools: get_design,\nexport_image"]
-    SERVER1 --- R1["Resources: design files,\ncomponents"]
-
-    SERVER2 --- T2["Tools: query,\ninsert, update"]
-    SERVER2 --- R2["Resources: tables,\nschemas"]
-
-    SERVER3 --- T3["Tools: create_issue,\nopen_pr"]
-    SERVER3 --- R3["Resources: repos,\nworkflows"]
-
-    SERVER4 --- T4["Tools: send_message,\ncreate_channel"]
-    SERVER4 --- R4["Resources: channels,\nusers"]
-
-    style CLIENT fill:#e74c3c,stroke:#333,color:#fff
-    style SERVER1 fill:#9b59b6,stroke:#333,color:#fff
-    style SERVER2 fill:#3498db,stroke:#333,color:#fff
-    style SERVER3 fill:#2ecc71,stroke:#333,color:#fff
-    style SERVER4 fill:#e67e22,stroke:#333,color:#fff
-```
 
 ### 3.2 Como os Componentes se Conectam
 

@@ -214,44 +214,6 @@ You use APIs all the time without realizing it:
 
 ---
 
-### Diagram: API Request/Response Flow
-
-```mermaid
-sequenceDiagram
-    participant CLIENT as Client (Mario)
-    participant API as API Gateway (Toad)
-    participant SERVER as Server (Castle)
-    participant DB as Database (Vault)
-
-    Note over CLIENT: Mario wants user data
-
-    CLIENT->>API: GET /api/users/42
-    Note right of CLIENT: Request with headers:<br/>Authorization: Bearer token<br/>Accept: application/json
-
-    API->>SERVER: Route request to handler
-    SERVER->>DB: SELECT * FROM users WHERE id = 42
-
-    DB-->>SERVER: User record found
-
-    SERVER-->>API: Build JSON response
-    API-->>CLIENT: 200 OK
-
-    Note left of API: Response body:<br/>{ "id": 42, "name": "Toad",<br/> "role": "mushroom_retainer" }
-
-    Note over CLIENT: Mario got the data!
-
-    rect rgb(255, 230, 230)
-        Note over CLIENT,DB: ERROR SCENARIO
-        CLIENT->>API: GET /api/users/999
-        API->>SERVER: Route request
-        SERVER->>DB: SELECT * FROM users WHERE id = 999
-        DB-->>SERVER: No record found
-        SERVER-->>API: Build error response
-        API-->>CLIENT: 404 Not Found
-        Note left of API: { "error": "User not found" }
-    end
-```
-
 ---
 
 ## 3. REST: The Messenger's Protocol
