@@ -1,0 +1,422 @@
+---
+title: "Chapter 4D — Prompt Files (.prompt.md) / The Warp Pipes"
+description: "How to create reusable Prompt Files using .prompt.md to automate recurring tasks as magic shortcuts."
+author: "Paula Silva | Microsoft Latam Software GBB"
+date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
+tags: ["agentic-devops", "mario", "world-6", "prompts", "prompt-md"]
+---
+
+## Change Log
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 2.0.0 | 2026-03-18 | Paula Silva | Mario Bros Version — complete rewrite with Super Mario analogies |
+| 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
+
+# Chapter 4D — Prompt Files (.prompt.md)
+## The Warp Pipes — Reusable Magic Shortcuts
+
+---
+
+**Prepared for:** Sofia
+**Version:** 2.0 — Mario Edition
+**Author:** Paula Silva | Microsoft Latam Software GBB
+**Date:** March 2026
+**Language:** English (EN)
+**Collection:** Agentic DevOps
+
+---
+
+## TABLE OF CONTENTS
+
+- Introduction: The Warp Pipe Room
+- What are Prompt Files
+- The .prompt.md Format
+- Example 1: new-component.prompt.md
+- Example 2: add-endpoint.prompt.md
+- Example 3: create-migration.prompt.md
+- Execution Modes: Agent vs Ask
+- Prompt vs Instruction — The Difference
+- Detailed Comparative Table
+- The 3 Prompts of the TodoApp
+- Best Practices for Warp Pipes
+- Navigation
+- Skill Unlocked
+
+---
+
+## Introduction: The Warp Pipe Room
+
+Sofia entered the Warp Pipe Room.
+
+Around her, dozens of green pipes came out of the floor and ceiling, each with a different glow on the rim. Some pulsed in light green, others in blue, others in gold. From inside each pipe came a familiar sound — that classic "fwoop!" that everyone knows from Mario.
+
+"Welcome to the Warp Pipe room," said Yoshi, pointing to the gleaming pipes. "Each of these pipes takes you straight to a specific place. Instead of walking through the entire level on foot, you enter the pipe and COME OUT exactly where you need to be. And the best part: you can use the same pipe as many times as you want!"
+
+Sofia looked at the pipes, curious. Each one had a small sign in front: "New Component", "New Endpoint", "New Migration"...
+
+"So I don't need to walk the entire level again every time I want to create something similar?"
+
+"Exactly!" Yoshi smiled. "You enter the Warp Pipe, say what you need, and it takes you there. Fast, efficient, with no chance of getting lost along the way."
+
+---
+
+## What are Prompt Files
+
+Prompt Files are reusable prompts saved in files with the `.prompt.md` extension, stored in your repository's `.github/prompts/` directory. They work like **Warp Pipes** in the Mario world — instead of walking through the entire level (writing everything from scratch), you enter the pipe and come out right where you need to be, ready to act.
+
+### MARIO ANALOGY — The Reusable Warp Pipe
+
+Imagine you're playing Super Mario Bros. You've been through World 1-1 multiple times and know you need to reach that secret underground area full of coins. You have two options:
+
+**Option A (without Warp Pipe):** Run the entire level from the start, jump over all obstacles, dodge the Goombas, until finally getting there. Every. Time.
+
+**Option B (with Warp Pipe):** Enter the green pipe you already know where it is, say "I want to go to the coin area", and POOF — you're there. Fast, efficient, no risk of going the wrong way.
+
+Each Warp Pipe accepts **ingredients** (variables) — you say the component name, the endpoint type, the migration name — and the pipe takes you to exactly the right place, with everything already prepared.
+
+Prompt Files work exactly like this in the Agentic DevOps world! You write the Warp Pipe once, reuse it multiple times, always with perfect consistency.
+
+### STRUCTURE OF A PROMPT FILE
+
+Each Warp Pipe (.prompt.md file) has:
+
+1. **Warp Pipe Name** — Descriptive file name (e.g., `new-component.prompt.md`)
+2. **Ingredients (Inputs)** — Variables you'll provide when entering the pipe
+3. **Destination (Prompt Body)** — The main body with instructions and variables
+4. **Transport Mode** — How the pipe works (`agent` or `ask`)
+5. **Description** — Where this Warp Pipe takes you
+
+All are stored in the secret room: `.github/prompts/`
+
+---
+
+## The .prompt.md Format
+
+Prompt Files follow a structured format with two main parts: the **Frontmatter** (the pipe's sign in YAML) and the **Body** (the Warp Pipe's destination).
+
+**FRONTMATTER (Pipe Sign):**
+```yaml
+---
+mode: agent   # or "ask"
+description: "Clear description of where this Warp Pipe takes you"
+---
+```
+
+**BODY (Warp Pipe Destination):**
+The body contains instructions for the Claude Agent, with dynamic variables in the format: `${{input:label}}` where "label" is the ingredient name.
+
+- **MODE 'agent':** The pipe takes you AND builds the level for you (creates files, makes commits, etc.)
+- **MODE 'ask':** The pipe takes you AND shows you the map (explains, analyzes, answers)
+
+---
+
+## Example 1: new-component.prompt.md
+
+This Warp Pipe transports you straight to creating a new React component with automated tests:
+
+```markdown
+---
+mode: agent
+description: "Creates a new React component with corresponding test file.
+The component includes TypeScript typing, well-defined properties, and
+unit tests with Jest."
+---
+
+You are a React development specialist. Create a new React component
+called **${{input:componentName}}** with the following characteristics:
+
+REQUIREMENTS:
+1. The component must be functional (React functional component)
+2. Must use TypeScript with well-defined interfaces
+3. Must have clearly documented properties (props)
+4. Must follow PascalCase naming conventions
+5. Include JSDoc comments explaining the purpose
+6. Use default values for props when appropriate
+
+FOLDER STRUCTURE:
+- Create component file at: src/components/${{input:componentName}}/index.tsx
+- Create styles file at: src/components/${{input:componentName}}/styles.css
+- Create test file at: src/components/${{input:componentName}}/${{input:componentName}}.test.tsx
+
+TEST FILE:
+- Use Jest and React Testing Library
+- Include at least 3 basic tests: rendering, props, events
+- All tests must pass
+
+CODE STANDARD:
+- Use modern React hooks
+- Include propTypes or TypeScript interface
+- Explanatory comments for complex logic
+- Formatting with Prettier (2 spaces)
+
+Create all three files and make sure everything is ready for use.
+```
+
+---
+
+## Example 2: add-endpoint.prompt.md
+
+This Warp Pipe transports you straight to creating a new Express endpoint with validation:
+
+```markdown
+---
+mode: agent
+description: "Creates a new Express.js endpoint with input validation,
+error handling, and documentation. The endpoint includes Joi validation,
+TypeScript typing, and tests with Supertest."
+---
+
+You are a backend development specialist with Express.js.
+Create a new HTTP endpoint according to the specifications below:
+
+Endpoint: ${{input:method}} /${{input:path}}
+Description: ${{input:description}}
+
+REQUIREMENTS:
+1. Implement input validation using Joi or Zod
+2. Include robust error handling
+3. Return clear error messages in JSON
+4. Use TypeScript with well-defined types
+5. Include authentication middleware if necessary
+6. Add logging for important requests
+
+STRUCTURE:
+- Controller file: src/controllers/${{input:controllerName}}.ts
+- Route file: src/routes/${{input:routeName}}.ts
+- Validation file: src/validators/${{input:validatorName}}.ts
+- Test file: src/routes/__tests__/${{input:routeName}}.test.ts
+
+VALIDATION:
+- Required field: ${{input:requiredFields}}
+- Expected types: ${{input:fieldTypes}}
+- Limits (min/max): ${{input:fieldLimits}}
+
+EXPECTED RESPONSES:
+- Success (200): Return JSON object with created data
+- Validation error (400): Return clear error message
+- Unauthorized (401): If authentication fails
+- Not found (404): If resource doesn't exist
+- Internal error (500): Error log and generic message
+
+Create all necessary files, integrate with existing routes,
+and ensure tests pass.
+```
+
+---
+
+## Example 3: create-migration.prompt.md
+
+This Warp Pipe transports you straight to creating a Prisma migration:
+
+```markdown
+---
+mode: agent
+description: "Creates a new Prisma migration with database schema changes.
+Includes referential integrity validation, appropriate indexes,
+and safe rollback."
+---
+
+You are a data modeling specialist with Prisma ORM.
+Create a new database migration with the following characteristics:
+
+Migration Name: ${{input:migrationName}}
+Change Type: ${{input:alterationType}}
+Description: ${{input:description}}
+
+SCHEMA CHANGES:
+- New table/model: ${{input:modelName}}
+- New fields: ${{input:newFields}}
+- Relationships: ${{input:relationships}}
+- Indexes: ${{input:indexes}}
+
+REQUIREMENTS:
+1. Update prisma/schema.prisma file with new model or changes
+2. Ensure correct relationships (one-to-many, many-to-many)
+3. Add indexes for frequently queried fields
+4. Define appropriate default values
+5. Use correct data types (String, Int, DateTime, Boolean, etc.)
+6. Mark required vs. optional fields
+
+VALIDATIONS:
+- Primary keys defined
+- Foreign keys with referential integrity
+- Unique constraints where necessary
+- Timestamps (createdAt, updatedAt) when appropriate
+
+PRISMA MIGRATION:
+- Execute: npx prisma migrate dev --name ${{input:migrationName}}
+- Migration file will be created in prisma/migrations/
+- SQL file will be generated automatically
+
+Create the migration, execute it, and validate the schema is correct.
+```
+
+---
+
+## Execution Modes: Agent vs Ask
+
+### MODE: agent — The pipe takes you AND builds the level
+
+The Claude Agent will perform direct actions on your repository:
+- Create new files
+- Modify existing code
+- Make automatic commits
+- Execute tests
+- Implement complete features
+
+Think of it this way: you enter the Warp Pipe and it not only takes you to the destination, but **builds the entire level for you**. You come out of the pipe and everything's already done — blocks positioned, coins in place, enemies removed.
+
+**Ideal for:** Development automation, boilerplate creation, structured refactoring.
+
+### MODE: ask — The pipe takes you AND shows you the map
+
+Claude will only answer questions, offering analyses and suggestions:
+- Explain concepts
+- Analyze code
+- Provide recommendations
+- Answer questions
+
+Think of it this way: you enter the Warp Pipe and it takes you to a room with the **complete level map**. You can see everything — where the enemies are, where the coins are, what the best path is. But the one who'll play the level is **you**.
+
+**Ideal for:** Consultations, analyses, learning, review.
+
+### MODE SELECTION
+
+- Use **agent** for tasks that generate code/files/commits (the pipe builds)
+- Use **ask** for informational or consultative tasks (the pipe shows the map)
+
+---
+
+## Prompt vs Instruction — The Difference
+
+In the Mushroom Kingdom, there are two fundamental types of mechanism:
+
+**PROMPTS — Warp Pipes (Manual Shortcuts)**
+These are pipes you choose when to use. You decide which pipe to enter, combining them as needed to solve specific problems. You see the pipe, press "down" on the controller, and enter.
+
+**INSTRUCTIONS — Gravity (Automatic, Always Active)**
+These are game rules that affect everything, all the time. Gravity doesn't need to be "invoked" — it's always in effect. Similarly, Instructions don't need to be activated. They ALWAYS apply.
+
+### Detailed Comparative Table
+
+| Aspect | PROMPT (.prompt.md) | INSTRUCTION (instructions.md) |
+|---|---|---|
+| **What it is** | Warp Pipe (shortcut to specific area) | Gravity (permanent Mushroom Kingdom rule) |
+| **When Activated** | Manually, when you enter the pipe | Always active, affects all interactions |
+| **How Invoked** | Via Copilot menu or command | Loaded automatically |
+| **Scope** | Specific invocation only | Affects all agent behavior |
+| **Persistence** | Reusable, isolated per invocation | Persistent across conversations |
+| **Variables/Inputs** | Supports `${{input:variableName}}` | Generally static, no inputs |
+| **Execution Mode** | agent (builds the level) or ask (shows the map) | Context/behavior only |
+| **File** | `.github/prompts/name.prompt.md` | `.github/instructions.md` |
+| **Mario Example** | Warp Pipe that takes you to secret area | Gravity — always pulls down |
+| **Ideal Use** | Specific repeated tasks | Global context and standards |
+
+---
+
+## The 3 Warp Pipes of the TodoApp
+
+The TodoApp application will use three main Warp Pipes to manage its development. Each takes you to a specific destination and is used at different moments of the development cycle.
+
+| Warp Pipe Name | File | Mode | Description | When to Use |
+|---|---|---|---|---|
+| Component Pipe | `new-component.prompt.md` | agent | Creates React component with tests | New UI component needed |
+| Endpoint Pipe | `add-endpoint.prompt.md` | agent | Creates Express endpoint with validation | Adding new API routes |
+| Migration Pipe | `create-migration.prompt.md` | agent | Creates Prisma migration for DB | Altering database schema |
+
+**WARP PIPE 1: new-component.prompt.md**
+- Destination: Creating a new reusable React component
+- Examples: Confirmation modal, Task card, Input form
+- Result: Component + Styles + Tests (3 files created)
+
+**WARP PIPE 2: add-endpoint.prompt.md**
+- Destination: Adding a new API feature
+- Examples: List tasks, Create task, Update status, Delete task
+- Result: Route + Controller + Validator + Tests (4 files created)
+
+**WARP PIPE 3: create-migration.prompt.md**
+- Destination: Altering the database structure
+- Examples: Add priority field, Create tags table, Add relationships
+- Result: Updated schema + SQL migration + Validation (2-3 files created)
+
+**USAGE FLOW IN TodoApp:**
+1. Need a new component -> Enter Warp Pipe `new-component.prompt.md`
+2. Need a new API -> Enter Warp Pipe `add-endpoint.prompt.md`
+3. Need to change DB -> Enter Warp Pipe `create-migration.prompt.md`
+4. Repeat for each new feature
+
+It's like having a Warp Zone with three pipes — each one takes you to the exact world you need to visit!
+
+---
+
+## Best Practices for Warp Pipes
+
+To master the art of Prompt Files and create truly powerful Warp Pipes, follow these essential practices:
+
+1. **DESCRIPTIVE AND CLEAR NAMES** — GOOD: `new-react-component.prompt.md` | BAD: `prompt1.md`
+   - The pipe name should say where it goes!
+
+2. **CLEAR DESCRIPTION** — Explain purpose AND technologies used (e.g., "Creates React component with TypeScript, CSS styles, and Jest tests")
+
+3. **USE INPUTS FOR FLEXIBILITY** — `${{input:componentName}}`, `${{input:fieldType}}` make the Warp Pipe reusable for different destinations
+
+4. **SET MODE CORRECTLY** — Use `agent` when the pipe should build the level, `ask` when it should show the map
+
+5. **DOCUMENT REQUIREMENTS EXPLICITLY** — List each requirement in bullet points, be specific
+
+6. **INCLUDE EXAMPLES IN THE BODY** — Show expected structure, input/output examples
+
+7. **SPECIFY FOLDER STRUCTURE** — E.g., "Create at `src/components/${{input:componentName}}/`"
+
+8. **VALIDATION AND ERROR HANDLING** — Specify behavior in all scenarios (200, 400, 401, 404, 500)
+
+9. **MANDATORY TESTS** — Require minimum 3 tests with Jest and React Testing Library
+
+10. **VERSION YOUR WARP PIPES** — `new-component.v2.prompt.md` for significant changes
+
+---
+
+## Navigation
+
+**<- CHAPTER 4C — Custom Instructions**
+Explore the game rules (Gravity and each level type's rules) that govern your agent's behavior.
+
+**-> CHAPTER 4E — Hooks (The "?" Blocks)**
+Learn about "?" Blocks — automatic triggers that fire when you hit them during development.
+
+**Official Reference:**
+https://docs.github.com/en/copilot/reference/customization-cheat-sheet
+
+---
+
+## Skill Unlocked!
+
+**Sofia now masters Warp Pipes and Prompt Files.**
+She found the Warp Pipe Room and now knows how to create reusable shortcuts to any destination in the Mushroom Kingdom...
+
+You completed the chapter on Prompt Files and now master the art of creating reusable Warp Pipes!
+
+**KNOWLEDGE ACQUIRED:**
+- What Prompt Files are and how they work
+- The .prompt.md format with frontmatter and body
+- Difference between Prompts (Warp Pipes) and Instructions (Gravity)
+- The 3 main Warp Pipes of the TodoApp
+- Best practices for creating powerful pipes
+- How to implement in your repository
+- Reuse and composition patterns
+
+**NEXT MISSION:**
+Implement Prompt Files in your GitHub repository and use them to accelerate your agentic development. Combine the three Warp Pipes (component, endpoint, migration) to create complete features — like using the Warp Zone to travel between worlds and collect everything you need!
+
+Congratulations, Sofia! You're getting stronger and stronger in the Mushroom Kingdom of Agentic DevOps!
+
+---
+
+## References
+
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
+- [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)

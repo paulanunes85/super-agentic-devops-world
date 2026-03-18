@@ -1,0 +1,575 @@
+---
+title: "Level 2-3 -- Protection Spells: Security"
+description: "Security in software development: secrets, environment variables, HTTPS, SSL/TLS, Azure Key Vault, and how to protect your kingdom from invaders"
+author: "Paula Silva | Microsoft Latam Software GBB"
+date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
+tags:
+  - seguranca
+  - secrets
+  - https
+  - ssl-tls
+  - key-vault
+  - env-vars
+  - world-2
+  - mario
+---
+
+# Level 2-3 -- Protection Spells: Security
+
+---
+
+## Change Log
+
+| Version | Date       | Author                                  | Description          |
+|---------|------------|----------------------------------------|----------------------|
+| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+
+---
+
+## Table of Contents
+
+- [Prologue: The Intruder in the Castle](#prologue-the-intruder-in-the-castle)
+- [1. Why Does Security Matter?](#1-why-does-security-matter)
+  - [1.1 The Mushroom Kingdom Without Protection](#11-the-mushroom-kingdom-without-protection)
+  - [1.2 The 3 Pillars of Security: CIA](#12-the-3-pillars-of-security-cia)
+- [2. Secrets: The Castle Keys](#2-secrets-the-castle-keys)
+  - [2.1 What Are Secrets?](#21-what-are-secrets)
+  - [2.2 Everyday Examples of Secrets](#22-everyday-examples-of-secrets)
+  - [2.3 The Fatal Mistake: Secrets in Code](#23-the-fatal-mistake-secrets-in-code)
+- [3. Environment Variables: The Secret Pocket](#3-environment-variables-the-secret-pocket)
+  - [3.1 What Are Environment Variables?](#31-what-are-environment-variables)
+  - [3.2 The .env File: Your Secret Pocket](#32-the-env-file-your-secret-pocket)
+  - [3.3 The .gitignore: The Invisibility Spell](#33-the-gitignore-the-invisibility-spell)
+- [4. HTTPS and SSL/TLS: The Invisible Shield](#4-https-and-ssltls-the-invisible-shield)
+  - [4.1 HTTP vs HTTPS](#41-http-vs-https)
+  - [4.2 How SSL/TLS Works](#42-how-ssltls-works)
+  - [4.3 The Handshake: Secret Greeting](#43-the-handshake-secret-greeting)
+  - [4.4 Certificates: The Royal Seal](#44-certificates-the-royal-seal)
+- [5. Azure Key Vault: Toad's Treasure Room](#5-azure-key-vault-toads-treasure-room)
+  - [5.1 What Is Key Vault?](#51-what-is-key-vault)
+  - [5.2 What to Store in Key Vault?](#52-what-to-store-in-key-vault)
+  - [5.3 How It Works in Practice](#53-how-it-works-in-practice)
+  - [5.4 Comparison: .env vs Key Vault](#54-comparison-env-vs-key-vault)
+- [6. GitHub Secrets: Protecting the Pipeline](#6-github-secrets-protecting-the-pipeline)
+  - [6.1 Secrets in GitHub Actions](#61-secrets-in-github-actions)
+  - [6.2 Environment Secrets](#62-environment-secrets)
+- [7. Authentication and Authorization: Who You Are and What You Can Do](#7-authentication-and-authorization-who-you-are-and-what-you-can-do)
+  - [7.1 Authentication vs Authorization](#71-authentication-vs-authorization)
+  - [7.2 Tokens and API Keys](#72-tokens-and-api-keys)
+- [8. The 10 Commandments of Security](#8-the-10-commandments-of-security)
+- [9. Common Attacks and How to Defend Yourself](#9-common-attacks-and-how-to-defend-yourself)
+  - [9.1 The Villains of the Mushroom Kingdom](#91-the-villains-of-the-mushroom-kingdom)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
+
+## Prologue: The Intruder in the Castle
+
+Sofia was proud. Her TodoApp was live, running, with real users. Until one morning, she opened the monitoring dashboard and saw: **10,000 requests per second** coming from a single IP. Someone was bombarding her API. And worse: the requests were arriving with the database password.
+
+*"How did they get the password?!"* Sofia shouted.
+
+Toad appeared with a somber expression. He showed her the GitHub repository. There, in the `config.js` file, in plain text, for everyone to see:
+
+```javascript
+// DON'T DO THIS!!!
+const DATABASE_PASSWORD = "super-secret-123";
+```
+
+*"Sofia,"* said Toad, *"you left the castle key hanging on the door. Any Koopa Troopa that passed by could grab it."*
+
+Yoshi landed beside them, surveying the damage. *"That's why Level 2-3 exists: Protection Spells. Security isn't optional, Sofia. It's like the castle walls -- without them, any Goomba can walk right in."*
+
+---
+
+## 1. Why Does Security Matter?
+
+### 1.1 The Mushroom Kingdom Without Protection
+
+Imagine the Mushroom Kingdom without walls, without guards, without locked doors. Any Koopa could:
+- Enter the castle and steal coins (data)
+- Disguise themselves as Toad and fool everyone (phishing)
+- Sabotage the water pipes (infrastructure)
+- Destroy the "?" blocks (delete resources)
+
+In the software world, the equivalents are:
+- **Data breaches** of user information
+- **Server intrusion**
+- **Theft** of credentials and secrets
+- **Ransomware** -- data hijacking with ransom demands
+- **Denial of service (DDoS)** -- crashing the system with excessive requests
+
+### 1.2 The 3 Pillars of Security: CIA
+
+Every security professional knows the **CIA** triad (nothing to do with the American agency!):
+
+| Pillar | Meaning | Mario Analogy | Example |
+|--------|---------|---------------|---------|
+| **Confidentiality** | Only those who should see it, see it | Only the guardian Toad can enter the treasure room | Encrypted passwords, protected data |
+| **Integrity** | Data cannot be altered without authorization | No one can change the coin score without playing | Hashes, digital signatures |
+| **Availability** | The system must be accessible when needed | The castle must be open for the Toads | Redundancy, backups, DDoS protection |
+
+> **MARIO ANALOGY:** Princess Peach's Castle has all three pillars: **Confidentiality** (only Mario and allies enter the castle), **Integrity** (no one can move the Princess without authorization), and **Availability** (the castle is always accessible to the heroes). Bowser tries to violate all three: invades (breaks confidentiality), kidnaps the Princess (breaks integrity), and locks down the castle (breaks availability).
+
+---
+
+## 2. Secrets: The Castle Keys
+
+### 2.1 What Are Secrets?
+
+**Secrets** are any sensitive information that, if exposed, can compromise the system's security. They are the **castle keys** -- without them you can't get in, and with them an intruder can get in too.
+
+> **MARIO ANALOGY:** Secrets are the **keys that open castle doors**. The World 2 key only opens World 2 doors. If Bowser steals that key, he can enter any room. That's why keys are NEVER exposed -- they're kept in secret pockets, protected vaults, and locked rooms.
+
+### 2.2 Everyday Examples of Secrets
+
+| Secret | What It Is | If It Leaks... | Mario Analogy |
+|--------|-----------|----------------|---------------|
+| **Database password** | DB access credential | Intruder reads/deletes all data | Treasure room key |
+| **API Key** | External service access key | Intruder uses the service in your name (and you pay) | Warp Zone key |
+| **JWT Secret** | Key to generate authentication tokens | Intruder creates fake tokens (impersonates any user) | Forged royal seal |
+| **SSH Key** | Server access key | Intruder accesses your servers directly | Castle master key |
+| **Encryption Key** | Key to encrypt/decrypt data | Intruder reads data that should be protected | Decryption spell |
+
+### 2.3 The Fatal Mistake: Secrets in Code
+
+The most common mistake is placing secrets directly in source code:
+
+```javascript
+// WRONG! NEVER DO THIS!
+const db = new Client({
+  host: 'producao-db.azure.com',
+  user: 'admin',
+  password: 'MinhaSenha@Super$ecreta123',  // DANGER!
+  database: 'todoapp'
+});
+
+// WRONG! API Key exposed in code!
+const OPENAI_KEY = 'sk-abc123xyz456...';  // DANGER!
+```
+
+**Why is this terrible?**
+1. Anyone with access to the repository can see the password
+2. If the repo is public, the ENTIRE WORLD can see the password
+3. Automated bots scan GitHub looking for password patterns
+4. Once committed, the password is in the Git history FOREVER
+5. Even if you delete it later, the old commit still has the password
+
+> **MARIO ANALOGY:** Putting the password in code is like **hanging the castle key on the door with a sign saying "KEY HERE"**. Any Koopa that walks by can see it, copy it, and enter whenever they want.
+
+---
+
+## 3. Environment Variables: The Secret Pocket
+
+### 3.1 What Are Environment Variables?
+
+**Environment variables** are values configured OUTSIDE the code, in the operating system or hosting service. The code reads these values at runtime.
+
+```javascript
+// CORRECT! Reads the password from an environment variable
+const db = new Client({
+  host: process.env.DATABASE_HOST,
+  user: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,  // Comes from the environment, not the code!
+  database: process.env.DATABASE_NAME
+});
+```
+
+> **MARIO ANALOGY:** Environment variables are like **Mario's secret pocket**. The key isn't visible to anyone -- it's stored in a pocket only Mario can access. The code knows a key exists (`process.env.DATABASE_PASSWORD`), but doesn't know WHAT the key is. The value is provided by the environment at runtime.
+
+### 3.2 The .env File: Your Secret Pocket
+
+For local development, we create a `.env` file at the project root:
+
+```bash
+# .env -- NEVER COMMIT THIS FILE!
+DATABASE_HOST=localhost
+DATABASE_USER=postgres
+DATABASE_PASSWORD=senha-local-dev
+DATABASE_NAME=todoapp_dev
+OPENAI_API_KEY=sk-dev-fake-key-para-testes
+JWT_SECRET=meu-secret-local-dev
+PORT=3000
+```
+
+**How to use it in code (Node.js with dotenv):**
+
+```javascript
+// At the start of the application
+require('dotenv').config();
+
+// Now process.env has all the variables from .env
+console.log(process.env.DATABASE_HOST); // "localhost"
+```
+
+### 3.3 The .gitignore: The Invisibility Spell
+
+The `.gitignore` file tells Git to IGNORE certain files -- never commit, never track, never send to the repository.
+
+```bash
+# .gitignore
+.env
+.env.local
+.env.production
+*.key
+*.pem
+credentials.json
+```
+
+> **MARIO ANALOGY:** The `.gitignore` is an **Invisibility Spell** applied to the `.env` file. When Git looks at the folder, it simply doesn't see the `.env`. It's as if the file doesn't exist. No one who clones the repo will have access to it.
+
+**Pro tip: .env.example**
+
+Create a `.env.example` file with the required variables, but WITHOUT the real values:
+
+```bash
+# .env.example -- THIS file goes in the repository
+# Copy to .env and fill in with your values
+DATABASE_HOST=
+DATABASE_USER=
+DATABASE_PASSWORD=
+DATABASE_NAME=
+OPENAI_API_KEY=
+JWT_SECRET=
+PORT=3000
+```
+
+This helps new developers know which variables to configure, without exposing real values.
+
+---
+
+## 4. HTTPS and SSL/TLS: The Invisible Shield
+
+### 4.1 HTTP vs HTTPS
+
+| Aspect | HTTP | HTTPS |
+|--------|------|-------|
+| **Meaning** | HyperText Transfer Protocol | HyperText Transfer Protocol **Secure** |
+| **Security** | None -- plain text | Encrypted -- no one reads it in transit |
+| **Default port** | 80 | 443 |
+| **Mario Analogy** | Toad carrying an OPEN letter | Toad carrying a letter in a **locked chest** |
+| **URL** | `http://site.com` | `https://site.com` (with padlock) |
+
+**The danger of plain HTTP:**
+
+```
+HTTP (no encryption):
+  Sofia ----[open letter]----> Server
+
+  Any Koopa along the way can:
+  - READ the letter (spy on data, passwords, cookies)
+  - ALTER the letter (inject malicious code)
+  - COPY the letter (steal credentials)
+
+HTTPS (with encryption):
+  Sofia ----[locked chest]----> Server
+
+  Koopas along the way see only:
+  - A locked chest they can't open
+  - They don't know what's inside
+  - They can't alter the content
+```
+
+> **MARIO ANALOGY:** HTTP is like Toad running through the Mushroom Kingdom with an **open letter** in his hands. Any Koopa Troopa he crosses paths with can read the letter. HTTPS is like Toad running with the letter inside a **magically locked chest** -- even if a Koopa grabs the chest, he can't open it. The invisible shield protects the message from point A to point B.
+
+### 4.2 How SSL/TLS Works
+
+**SSL** (Secure Sockets Layer) and **TLS** (Transport Layer Security) are encryption protocols. TLS is the modern version of SSL (but everyone still says "SSL" out of habit).
+
+Encryption works with a key pair:
+- **Public key**: anyone can have it (it's like the castle's address)
+- **Private key**: only the server has it (it's like the chest key)
+
+```
+1. Sofia wants to talk to the Server (HTTPS)
+2. Server sends its PUBLIC KEY to Sofia
+3. Sofia uses the public key to ENCRYPT the message
+4. The message travels over the internet as unreadable text
+5. Server uses its PRIVATE KEY to DECRYPT
+6. No one in the middle can read it!
+```
+
+### 4.3 The Handshake: Secret Greeting
+
+The **TLS Handshake** is the negotiation process between client and server:
+
+```
+1. Client: "Hello Server! I want to talk in secure mode"  (ClientHello)
+2. Server: "Hello! Here is my certificate and public key"  (ServerHello)
+3. Client: "I verified your certificate. It's valid! Shall we agree on a secret?"
+4. Server: "Agreed! From now on, everything is encrypted!"
+5. [Secure communication established]
+```
+
+> **MARIO ANALOGY:** The TLS Handshake is like the **secret greeting** between two allied Toads. Before exchanging sensitive messages, they perform a ritual: they show their royal seals (certificates), agree on a secret language (session key), and only then start talking. If an impostor tries to impersonate Toad, the royal seal doesn't match and the communication is refused.
+
+### 4.4 Certificates: The Royal Seal
+
+An **SSL/TLS certificate** is like an official document that proves the server's identity. It is issued by a **Certificate Authority** (CA).
+
+```
+SSL Certificate for: todoapp.com
+Issued by: Let's Encrypt (Certificate Authority)
+Valid from: 01/01/2026
+Valid until: 01/04/2026
+Public key: [cryptographic data]
+Digital signature: [proof of authenticity]
+```
+
+> **MARIO ANALOGY:** A certificate is like **Princess Peach's royal seal**. Any Toad can claim to be from the castle, but only a Toad with the royal seal (certificate) issued by the Princess (Certificate Authority) is trustworthy. If the seal is fake, the browser shows a warning: "CAUTION! This castle may be a Bowser trap!"
+
+---
+
+## 5. Azure Key Vault: Toad's Treasure Room
+
+### 5.1 What Is Key Vault?
+
+**Azure Key Vault** is a Microsoft cloud service for storing secrets in an ultra-secure way. It's like a digital safe with multiple layers of protection.
+
+> **MARIO ANALOGY:** Key Vault is **Toad's Treasure Room** -- an armored room inside the most protected castle in the Mushroom Kingdom. Only authorized individuals can enter. Everything inside is encrypted. There are cameras on every wall (audit logs). And if someone tries to break in, alarms go off immediately.
+
+### 5.2 What to Store in Key Vault?
+
+| Type | Examples | Mario Analogy |
+|------|----------|---------------|
+| **Secrets** | Database passwords, API keys, connection strings | Castle keys |
+| **Keys** | Encryption keys, signing keys | Magical royal seals |
+| **Certificates** | SSL/TLS certificates | Official identity documents |
+
+### 5.3 How It Works in Practice
+
+**Creating a Key Vault and storing a secret:**
+
+```bash
+# 1. Create the Key Vault (the treasure room)
+az keyvault create \
+  --name meu-cofre-todoapp \
+  --resource-group meu-grupo \
+  --location brazilsouth
+
+# 2. Store a secret (the castle key)
+az keyvault secret set \
+  --vault-name meu-cofre-todoapp \
+  --name "DatabasePassword" \
+  --value "MinhaSenha@Super$ecreta123"
+
+# 3. Retrieve the secret (when needed)
+az keyvault secret show \
+  --vault-name meu-cofre-todoapp \
+  --name "DatabasePassword" \
+  --query value -o tsv
+```
+
+**Using it in code (Node.js with Azure SDK):**
+
+```javascript
+const { SecretClient } = require("@azure/keyvault-secrets");
+const { DefaultAzureCredential } = require("@azure/identity");
+
+// Connect to Key Vault
+const client = new SecretClient(
+  "https://meu-cofre-todoapp.vault.azure.net",
+  new DefaultAzureCredential()
+);
+
+// Retrieve the secret
+async function getDatabasePassword() {
+  const secret = await client.getSecret("DatabasePassword");
+  return secret.value;
+  // The password NEVER appears in the code!
+  // It's fetched from the vault when the application needs it.
+}
+```
+
+### 5.4 Comparison: .env vs Key Vault
+
+| Aspect | .env (Local) | Azure Key Vault (Cloud) |
+|--------|-------------|------------------------|
+| **Mario Analogy** | Mario's secret pocket | Armored Treasure Room |
+| **Where it lives** | On your computer | In the Azure cloud |
+| **Who accesses** | You (and anyone with access to the computer) | Only authorized services (RBAC) |
+| **Auditing** | None | Logs of who accessed what |
+| **Rotation** | Manual | Automatic (can rotate passwords automatically) |
+| **Encryption** | No (plain text in the file) | Yes (encrypted at rest and in transit) |
+| **Ideal for** | Local development | Staging and Production |
+| **Cost** | Free | Low (pennies per operation) |
+
+> **MARIO ANALOGY:** `.env` is keeping the key in your **pocket** -- it works for walking around your backyard (local development), but it's not secure enough to protect the real treasure. **Key Vault** is keeping the key in the **armored Treasure Room** -- with guards (RBAC), cameras (logs), alarms (alerts), and magic doors that only open for authorized individuals.
+
+---
+
+## 6. GitHub Secrets: Protecting the Pipeline
+
+### 6.1 Secrets in GitHub Actions
+
+When your CI/CD pipeline needs secrets (for deploying, accessing services, etc.), you configure **GitHub Secrets** -- which are encrypted environment variables on GitHub.
+
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Azure
+        env:
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          echo "Deploying..."
+          # The values NEVER appear in the logs!
+          # GitHub automatically masks them: ***
+```
+
+**Configuring GitHub Secrets:**
+1. Go to the repository on GitHub
+2. Settings > Secrets and variables > Actions
+3. New repository secret
+4. Name: `DATABASE_URL`, Value: `postgresql://user:pass@host/db`
+
+### 6.2 Environment Secrets
+
+You can have DIFFERENT secrets for each environment:
+
+```
+Repository Secrets (shared):
+  - AZURE_CLIENT_ID
+  - AZURE_TENANT_ID
+
+Environment: "staging"
+  - DATABASE_URL = postgresql://staging-db/todoapp
+  - API_KEY = staging-key-abc
+
+Environment: "production"
+  - DATABASE_URL = postgresql://prod-db/todoapp
+  - API_KEY = prod-key-xyz
+```
+
+---
+
+## 7. Authentication and Authorization: Who You Are and What You Can Do
+
+### 7.1 Authentication vs Authorization
+
+| Concept | Question | Mario Analogy | Example |
+|---------|---------|---------------|---------|
+| **Authentication** (AuthN) | **Who are you?** | Guard at the door: "Show your ID" | Login with email and password |
+| **Authorization** (AuthZ) | **What can you do?** | Guard at the room: "Can you enter the treasury?" | Admin vs user permissions |
+
+```
+Authentication:
+  Mario arrives at the castle.
+  Guard: "Who are you?"
+  Mario: "I'm Mario, here's my badge" (token)
+  Guard: "Verified. You may enter."
+
+Authorization:
+  Mario wants to enter the Treasure Room.
+  Internal guard: "Mario, you are authenticated. But only Toad
+                    has permission for this room. Access denied."
+  Mario: "..." (403 Forbidden)
+```
+
+### 7.2 Tokens and API Keys
+
+| Mechanism | What It Is | Mario Analogy | Duration |
+|-----------|-----------|---------------|----------|
+| **API Key** | Fixed key to access an API | Castle gate key -- always the same | Long (months/years) |
+| **JWT Token** | Temporary token with user information | Visitor badge with expiration date | Short (minutes/hours) |
+| **OAuth Token** | Token obtained via a trusted third party | Letter of recommendation from Princess Peach | Medium (hours/days) |
+| **Session Cookie** | Session identifier in the browser | Wristband for the Mushroom Kingdom theme park | Session (until browser is closed) |
+
+---
+
+## 8. The 10 Commandments of Security
+
+| # | Commandment | Mario Analogy |
+|---|------------|---------------|
+| 1 | **NEVER** put secrets in code | Never hang the key on the door |
+| 2 | **ALWAYS** use HTTPS | Always send letters in a locked chest |
+| 3 | **ALWAYS** add `.env` to `.gitignore` | Always use the invisibility spell |
+| 4 | Use **Key Vault** in production | Store treasures in the armored room |
+| 5 | **Rotate** secrets periodically | Change the locks regularly |
+| 6 | Use the **principle of least privilege** | Each Toad only accesses the rooms they need |
+| 7 | **Validate** all user input | Check every package that Toad brings |
+| 8 | **Monitor** suspicious access | Cameras at every castle door |
+| 9 | Keep **dependencies updated** | Fix cracks in the walls |
+| 10 | Have an **incident plan** | Know what to do if Bowser invades |
+
+---
+
+## 9. Common Attacks and How to Defend Yourself
+
+### 9.1 The Villains of the Mushroom Kingdom
+
+| Attack | How It Works | Mario Analogy | Defense |
+|--------|-------------|---------------|--------|
+| **SQL Injection** | Attacker injects commands into the database | Koopa writes "OPEN THE DOOR" on Toad's letter | Parameterized queries |
+| **XSS** (Cross-Site Scripting) | Attacker injects scripts into the page | Koopa sticks an invisible Boo on the wall | Input sanitization |
+| **CSRF** | Attacker makes you perform actions unknowingly | Koopa disguises a trap as a "?" block | CSRF tokens |
+| **Brute Force** | Tries thousands of passwords until one works | Koopa tests every key on the keyring | Rate limiting, 2FA |
+| **DDoS** | Thousands of requests to crash the server | An army of Goombas flooding the castle | CDN, WAF, auto-scaling |
+| **Man-in-the-Middle** | Intercepts communication between client and server | Lakitu spying on Toad's letter in transit | HTTPS/TLS |
+| **Phishing** | Tricks user into revealing credentials | Koopa disguised as Toad asking for the key | Education, 2FA |
+
+**SQL Injection example:**
+
+```javascript
+// VULNERABLE! Koopa can inject SQL!
+const query = `SELECT * FROM usuarios WHERE nome = '${nomeDoUsuario}'`;
+// If nomeDoUsuario = "'; DROP TABLE usuarios; --"
+// The database DELETES the entire table!
+
+// SECURE! Parameterized query
+const query = 'SELECT * FROM usuarios WHERE nome = $1';
+const values = [nomeDoUsuario];
+// The database treats the value as TEXT, not as SQL
+```
+
+---
+
+## 10. Final Summary Table
+
+| Concept | Technical Explanation | Mario Analogy |
+|---------|---------------------|---------------|
+| **Secrets** | Sensitive information (passwords, keys) | Keys to the Mushroom Kingdom castles |
+| **.env** | Local file with environment variables | Mario's secret pocket |
+| **.gitignore** | Prevents files from being committed | Invisibility spell |
+| **HTTPS** | HTTP with encryption | Toad carrying a letter in a locked chest |
+| **SSL/TLS** | Encryption protocol | Magic that locks the chest |
+| **Certificate** | Proof of server identity | Princess Peach's royal seal |
+| **TLS Handshake** | Security negotiation | Secret greeting between Toads |
+| **Key Vault** | Digital vault in the cloud | Toad's armored Treasure Room |
+| **GitHub Secrets** | Encrypted variables in CI/CD | Lakitu's security vault |
+| **Authentication** | Proving who you are | "Who are you?" -- show your badge |
+| **Authorization** | Proving what you can do | "Can you enter here?" -- check permissions |
+| **SQL Injection** | Attack via database | Koopa writing commands on Toad's letter |
+| **Principle of least privilege** | Granting only necessary access | Each Toad only accesses the rooms they need |
+
+---
+
+## References
+
+1. OWASP Top 10: https://owasp.org/www-project-top-ten/
+2. Microsoft Learn -- Azure Key Vault: https://learn.microsoft.com/azure/key-vault/
+3. GitHub Docs -- Encrypted Secrets: https://docs.github.com/actions/security-guides/encrypted-secrets
+4. Let's Encrypt -- Free SSL/TLS: https://letsencrypt.org/
+5. MDN Web Docs -- HTTPS: https://developer.mozilla.org/pt-BR/docs/Glossary/HTTPS
+6. NIST Cybersecurity Framework: https://www.nist.gov/cyberframework
+7. dotenv (Node.js): https://github.com/motdotla/dotenv
+
+---
+
+*"In the Mushroom Kingdom, security isn't paranoia -- it's survival. Bowser is ALWAYS trying to invade. Protect your keys, lock your vaults, and never, NEVER leave the password hanging on the door."*
+
+*Next Warp Pipe: Level 2-4 -- The World Map: DNS and Domains*

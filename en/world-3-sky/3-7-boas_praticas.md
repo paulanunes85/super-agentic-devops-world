@@ -1,0 +1,806 @@
+---
+title: "Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules"
+description: "Learn the essential best practices for any professional project: semantic versioning, documentation, .gitignore, CONTRIBUTING, CODE_OF_CONDUCT and CODEOWNERS -- like the rules of the Mushroom Kingdom Guild"
+author: "Paula Silva | Microsoft Latam Software GBB"
+date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
+tags:
+  - agentic-devops
+  - mario
+  - world-3
+  - boas-praticas
+  - semver
+  - readme
+  - gitignore
+  - contributing
+  - codeowners
+---
+
+# Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules
+
+---
+
+## Change Log
+
+| Version | Date       | Author                                  | Description          |
+|---------|------------|----------------------------------------|----------------------|
+| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+
+---
+
+## Table of Contents
+
+- [Prologue: The Guild Rules Posted on the Wall](#prologue-the-guild-rules-posted-on-the-wall)
+- [1. Why Do Projects Need Rules?](#1-why-do-projects-need-rules)
+  - [1.1 Chaos Without Rules](#11-chaos-without-rules)
+  - [1.2 The Organized Guild](#12-the-organized-guild)
+- [2. SemVer: The Version Numbering System](#2-semver-the-version-numbering-system)
+  - [2.1 What Is Semantic Versioning](#21-what-is-semantic-versioning)
+  - [2.2 The Three Magic Numbers: MAJOR.MINOR.PATCH](#22-the-three-magic-numbers-majorminorpatch)
+  - [2.3 Practical SemVer Examples](#23-practical-semver-examples)
+  - [2.4 Pre-release and Build Metadata](#24-pre-release-and-build-metadata)
+  - [2.5 Golden Rules of SemVer](#25-golden-rules-of-semver)
+- [3. README.md: The Game Manual](#3-readmemd-the-game-manual)
+  - [3.1 Why Every Project Needs a README](#31-why-every-project-needs-a-readme)
+  - [3.2 Anatomy of a Perfect README](#32-anatomy-of-a-perfect-readme)
+  - [3.3 Professional README Template](#33-professional-readme-template)
+  - [3.4 Badges: The Hero's Emblems](#34-badges-the-heros-emblems)
+- [4. .gitignore: The "Do Not Pack" List](#4-gitignore-the-do-not-pack-list)
+  - [4.1 What It Is and Why It Exists](#41-what-it-is-and-why-it-exists)
+  - [4.2 .gitignore Syntax](#42-gitignore-syntax)
+  - [4.3 .gitignore by Language](#43-gitignore-by-language)
+  - [4.4 Classic .gitignore Mistakes](#44-classic-gitignore-mistakes)
+- [5. CONTRIBUTING.md: How to Join the Guild](#5-contributingmd-how-to-join-the-guild)
+  - [5.1 Why Document How to Contribute](#51-why-document-how-to-contribute)
+  - [5.2 Structure of a Good CONTRIBUTING](#52-structure-of-a-good-contributing)
+  - [5.3 Complete Template](#53-complete-template)
+- [6. CODE_OF_CONDUCT.md: The Guild's Code of Honor](#6-code_of_conductmd-the-guilds-code-of-honor)
+  - [6.1 Why Have a Code of Conduct](#61-why-have-a-code-of-conduct)
+  - [6.2 Contributor Covenant](#62-contributor-covenant)
+  - [6.3 Enforcing the Code of Conduct](#63-enforcing-the-code-of-conduct)
+- [7. CODEOWNERS: Who Guards Each Room of the Castle](#7-codeowners-who-guards-each-room-of-the-castle)
+  - [7.1 What Is CODEOWNERS](#71-what-is-codeowners)
+  - [7.2 Syntax and Examples](#72-syntax-and-examples)
+  - [7.3 Ownership Strategies](#73-ownership-strategies)
+- [8. LICENSE: The Game's Usage License](#8-license-the-games-usage-license)
+  - [8.1 Why Licenses Matter](#81-why-licenses-matter)
+  - [8.2 Most Common Licenses](#82-most-common-licenses)
+- [9. Other Essential Files](#9-other-essential-files)
+  - [9.1 CHANGELOG.md](#91-changelogmd)
+  - [9.2 .editorconfig](#92-editorconfig)
+  - [9.3 .nvmrc and .tool-versions](#93-nvmrc-and-tool-versions)
+- [10. Final Table: The Complete Guild Kit](#10-final-table-the-complete-guild-kit)
+- [References](#references)
+
+---
+
+## Prologue: The Guild Rules Posted on the Wall
+
+Sofia was thrilled. She had created her first project on GitHub, written functional code, and even configured the terminal like a pro. But when she invited colleagues to contribute to the project, chaos ensued.
+
+Someone pushed the entire `node_modules` folder to the repository -- 40,000 files. Another contributor completely changed the API without warning, breaking everyone's code. Nobody knew how to run the project locally. And two contributors started arguing in the comments of a Pull Request.
+
+Toadette -- the team's Code Reviewer -- appeared with a scroll in her hands.
+
+*"Sofia,"* said Toadette shaking her head, *"you built a castle without rules. It's like a guild of adventurers with no regulations: everyone does whatever they want, and the result is destruction. Every self-respecting guild has rules posted on the wall. Every professional project does too."*
+
+Toadette unrolled the scroll. On it were written the Rules of the Mushroom Kingdom Guild: how to number versions, how to document the project, what not to pack, how new members can join, the code of honor, and who is responsible for each area.
+
+*"Welcome to Level 3-7. Here you learn that code without rules is a castle without a foundation."*
+
+---
+
+## 1. Why Do Projects Need Rules?
+
+### 1.1 Chaos Without Rules
+
+Imagine the Mushroom Kingdom without rules. Mario jumps in any direction. Goombas walk wherever they want. The Warp Pipes lead to random destinations. The "?" blocks give unpredictable items. It would be impossible to play.
+
+Software projects without clear rules suffer from the same problem:
+
+| Problem | Consequence | In Mario |
+|---------|------------|----------|
+| No versioning | Nobody knows which version is running | Which edition of the game do you have? Nobody knows |
+| No README | New devs don't know how to start | Playing without a manual -- pressing random buttons |
+| No .gitignore | Huge and sensitive files in the repo | Carrying 10,000 fake coins in your backpack |
+| No CONTRIBUTING | Everyone contributes differently | Each player invents their own rules |
+| No CODE_OF_CONDUCT | Personal conflicts without resolution | Players fighting in multiplayer without a moderator |
+| No CODEOWNERS | Nobody knows who should review | Who guards the treasure room? Everyone and no one |
+
+### 1.2 The Organized Guild
+
+An organized guild has:
+
+- **Sign at the entrance** with the name and mission (README)
+- **Clear ranking system** (SemVer)
+- **List of prohibited items** in the backpack (.gitignore)
+- **Manual for new members** (CONTRIBUTING)
+- **Code of honor** (CODE_OF_CONDUCT)
+- **Map of responsibilities** (CODEOWNERS)
+- **Operating license** (LICENSE)
+
+> **MARIO ANALOGY:** A repository's best practices are like the **Guild rules** posted on the wall of the main hall. When a new adventurer enters the guild, they look at the wall and know exactly: how the guild works, what is allowed, what is forbidden, and who is responsible for what. Without these rules, the guild becomes a disorganized mob.
+
+---
+
+## 2. SemVer: The Version Numbering System
+
+### 2.1 What Is Semantic Versioning
+
+**Semantic Versioning** (SemVer) is a version numbering system that uses three numbers separated by dots: `MAJOR.MINOR.PATCH`. Each number has a specific meaning, and by changing one of them, you communicate something to the world.
+
+> **MARIO ANALOGY:** SemVer is the **game edition numbering system**. `1.0.0` is the original release of Super Mario Bros. `1.1.0` is when they add new levels. `1.0.1` is when they fix a bug that made Mario freeze. And `2.0.0` is Super Mario Bros 2 -- so different that it may not be compatible with old save files.
+
+### 2.2 The Three Magic Numbers: MAJOR.MINOR.PATCH
+
+```
+MAJOR . MINOR . PATCH
+  |       |       |
+  |       |       +--- Bug fix (changes nothing for users)
+  |       +----------- New feature (compatible with previous version)
+  +------------------- Incompatible change (may break those who depend on you)
+```
+
+**Breaking down each number:**
+
+| Number | When to Increment | Mario Example | Code Example |
+|--------|-------------------|---------------|--------------|
+| **PATCH** (0.0.X) | Fixed a bug, without changing functionality | Fixed the bug that made Mario float | `1.0.0` -> `1.0.1` |
+| **MINOR** (0.X.0) | Added new functionality, compatible | Added secret bonus level | `1.0.1` -> `1.1.0` |
+| **MAJOR** (X.0.0) | Change that breaks compatibility | Changed controls completely | `1.1.0` -> `2.0.0` |
+
+**Critical rule:** When incrementing MAJOR, MINOR and PATCH reset to zero. When incrementing MINOR, PATCH resets to zero.
+
+```
+1.9.3  -> Added feature         -> 1.10.0   (MINOR goes up, PATCH resets)
+1.10.0 -> Fixed bug              -> 1.10.1   (PATCH goes up)
+1.10.1 -> Incompatible change    -> 2.0.0    (MAJOR goes up, MINOR and PATCH reset)
+```
+
+### 2.3 Practical SemVer Examples
+
+**Scenario 1: Authentication library**
+
+```
+1.0.0  - Release: function login(user, password)
+1.0.1  - Fix: fixed timeout bug
+1.1.0  - Added logout() function
+1.2.0  - Added resetPassword() function
+2.0.0  - CHANGED: login now requires login({user, password, mfa})
+         Those who used login(user, password) will BREAK
+```
+
+**Scenario 2: The Super Mario game**
+
+```
+1.0.0  - Original Super Mario Bros (NES)
+1.1.0  - Added secret levels (Star Road) -- compatible
+1.1.1  - Fixed wall jump bug -- compatible
+1.2.0  - Added cooperative multiplayer -- compatible
+2.0.0  - Super Mario Bros 2 -- new engine, different controls, INCOMPATIBLE
+3.0.0  - Super Mario Bros 3 -- completely new worlds, power-ups, map
+```
+
+### 2.4 Pre-release and Build Metadata
+
+Beyond the three numbers, SemVer allows additional markers:
+
+```
+1.0.0-alpha     --> Alpha version (pre-release, very early)
+1.0.0-beta.1    --> First beta version
+1.0.0-beta.2    --> Second beta version
+1.0.0-rc.1      --> Release Candidate 1 ("almost ready")
+1.0.0           --> Final version!
+1.0.0+build.123 --> Build metadata (does not affect versioning)
+```
+
+> **MARIO ANALOGY:** Pre-releases are like **test versions** of the game. Alpha is when only developers play. Beta is when they invite a small group of testers. Release Candidate is the "almost ready" -- final round of tests before launching to the world.
+
+### 2.5 Golden Rules of SemVer
+
+1. **Version 0.y.z** = Initial development. Anything can change at any time
+2. **Version 1.0.0** = Public API defined. From here on, SemVer truly applies
+3. **NEVER** change code without changing the version
+4. **NEVER** break compatibility without incrementing MAJOR
+5. **Patch** is only for bugfixes. If you added a feature, it's MINOR
+6. **Deprecate** before removing. Warn that you will change before changing
+
+---
+
+## 3. README.md: The Game Manual
+
+### 3.1 Why Every Project Needs a README
+
+The README.md is the **first file** anyone sees when entering your repository. It's the showcase of your project. It's the manual that comes in the game box.
+
+> **MARIO ANALOGY:** The README is the **game manual** that comes inside the cartridge box. Without it, you turn on the console and don't know: which buttons to press, what the objective is, who the characters are, how to save progress. You can still play by pressing random buttons, but the experience is terrible.
+
+**What happens without a README:**
+
+- New devs spend hours trying to understand the project
+- Nobody knows how to install or run locally
+- Contributions are inconsistent
+- The project looks abandoned/amateurish
+
+**What happens with a good README:**
+
+- New devs start contributing in minutes
+- Reduction of repetitive questions (it's in the manual!)
+- The project looks professional and well-maintained
+- You yourself, 6 months from now, will be grateful
+
+### 3.2 Anatomy of a Perfect README
+
+A professional README has these sections (in order):
+
+| Section | Required? | What it contains | In Mario |
+|---------|-----------|-----------------|----------|
+| **Title + Logo** | Yes | Project name and visual badge | Game cover |
+| **Badges** | Recommended | CI status, version, license | Cover emblems |
+| **Description** | Yes | What the project does (1-3 sentences) | "Rescue Princess Peach!" |
+| **Demo/Screenshot** | Recommended | Project visuals | Screenshots on the box |
+| **Installation** | Yes | How to run locally | "Insert the cartridge and turn on" |
+| **Usage** | Yes | Examples of how to use | "Press A to jump" |
+| **Technologies** | Recommended | Stack used | "Compatible with NES" |
+| **Contributing** | Recommended | Link to CONTRIBUTING.md | "Multiplayer accepted!" |
+| **License** | Yes | License type | Copyright Nintendo |
+| **Authors** | Recommended | Who created it | Shigeru Miyamoto |
+
+### 3.3 Professional README Template
+
+```markdown
+# Project Name
+
+![Badge CI](https://img.shields.io/badge/build-passing-green)
+![Badge Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Badge License](https://img.shields.io/badge/license-MIT-yellow)
+
+> Short and powerful description of the project in 1-2 sentences.
+
+## About the Project
+
+More detailed description. What problem does the project solve? What issue does it tackle?
+Who is it intended for?
+
+### Screenshot / Demo
+
+![Project screenshot](./docs/screenshot.png)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js >= 18
+- npm >= 9
+- PostgreSQL >= 15
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/usuario/projeto.git
+   cd projeto
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Run the project:
+   ```bash
+   npm run dev
+   ```
+
+## How to Use
+
+Usage examples with code or screenshots.
+
+## Technologies
+
+- **Frontend:** React + TypeScript
+- **Backend:** Node.js + Express
+- **Database:** PostgreSQL + Prisma
+- **CI/CD:** GitHub Actions
+- **Deploy:** Azure App Service
+
+## How to Contribute
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
+## License
+
+Distributed under the MIT license. See [LICENSE](./LICENSE).
+
+## Authors
+
+- **Your Name** - [@your_github](https://github.com/your_github)
+```
+
+### 3.4 Badges: The Hero's Emblems
+
+Badges are those small images at the top of the README that show quick information:
+
+```markdown
+<!-- Shields.io - free badge service -->
+![Build](https://img.shields.io/github/actions/workflow/status/user/repo/ci.yml)
+![Version](https://img.shields.io/github/package-json/v/user/repo)
+![License](https://img.shields.io/github/license/user/repo)
+![Coverage](https://img.shields.io/codecov/c/github/user/repo)
+![Issues](https://img.shields.io/github/issues/user/repo)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+```
+
+> **MARIO ANALOGY:** Badges are like the **emblems Mario collects** upon completing levels. Each badge communicates an achievement: "Build passing" = "Level complete". "Coverage 90%" = "Collected almost all the coins". "PRs Welcome" = "Multiplayer enabled!".
+
+---
+
+## 4. .gitignore: The "Do Not Pack" List
+
+### 4.1 What It Is and Why It Exists
+
+The `.gitignore` is a file that tells Git: "ignore these files -- don't track them, don't commit them, pretend they don't exist."
+
+> **MARIO ANALOGY:** The `.gitignore` is the **"do not pack" list** for the travel backpack. When Mario goes from one level to another, he doesn't carry EVERYTHING -- he leaves behind trash, temporary items, and secrets that shouldn't be shared. The list says: "node_modules? Don't pack it, it's too heavy. .env? Don't pack it, it has secrets. build/? Don't pack it, it can be recreated."
+
+**Why .gitignore is essential:**
+
+| What to ignore | Why | Example |
+|---------------|-----|---------|
+| **Dependencies** | Huge, recreatable | `node_modules/`, `venv/` |
+| **Secrets** | Keys, passwords, tokens | `.env`, `*.pem`, `credentials.json` |
+| **Build artifacts** | Generated automatically | `dist/`, `build/`, `*.o` |
+| **System files** | Specific to your machine | `.DS_Store`, `Thumbs.db` |
+| **IDE files** | Personal preferences | `.idea/`, `.vscode/settings.json` |
+| **Logs** | Temporary, large | `*.log`, `logs/` |
+| **Cache** | Temporary, recreatable | `.cache/`, `.next/` |
+
+### 4.2 .gitignore Syntax
+
+```bash
+# Comments start with #
+
+# Ignore a specific file
+.env
+secrets.json
+
+# Ignore an entire folder (with / at the end)
+node_modules/
+dist/
+build/
+
+# Wildcard: ignore all .log files
+*.log
+
+# Wildcard: ignore all .env with any suffix
+.env.*
+
+# Exception: DO NOT ignore this specific file (even if the rule says so)
+!.env.example
+
+# Ignore folder at any depth level
+**/cache/
+
+# Ignore file at any depth level
+**/*.tmp
+```
+
+**Precedence rules:**
+
+1. More specific patterns override more general patterns
+2. `!` negates (undoes) a previous rule
+3. Patterns are evaluated from top to bottom
+
+### 4.3 .gitignore by Language
+
+**Node.js / JavaScript / TypeScript:**
+
+```bash
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+.next/
+.nuxt/
+coverage/
+.cache/
+```
+
+**Python:**
+
+```bash
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+htmlcov/
+```
+
+**C# / .NET:**
+
+```bash
+bin/
+obj/
+*.user
+*.suo
+.vs/
+packages/
+*.nupkg
+```
+
+**Pro tip:** Use the website **gitignore.io** (or `npx gitignore node`) to generate an optimized .gitignore for your language.
+
+### 4.4 Classic .gitignore Mistakes
+
+**Mistake 1: Adding .gitignore after committing files**
+
+```bash
+# PROBLEM: You already committed node_modules/
+# Adding to .gitignore now will NOT remove it from history!
+
+# SOLUTION: Remove from tracking (without deleting from disk)
+git rm -r --cached node_modules/
+git commit -m "chore: remove node_modules from tracking"
+```
+
+**Mistake 2: Accidentally committing secrets**
+
+```bash
+# If you committed .env with real passwords:
+# 1. CHANGE ALL PASSWORDS IMMEDIATELY
+# 2. Add to .gitignore
+# 3. Use git-filter-branch or BFG Repo-Cleaner to clean history
+# 4. Force push (carefully!)
+```
+
+> **MARIO ANALOGY:** Committing secrets is like **leaving the castle key on the floor of a public level**. Any Goomba walking by will pick it up. And even if you pick the key back up, the Goomba may have already made a copy. That's why: change passwords IMMEDIATELY.
+
+---
+
+## 5. CONTRIBUTING.md: How to Join the Guild
+
+### 5.1 Why Document How to Contribute
+
+Without a CONTRIBUTING.md, each contributor invents their own process. One uses `fix: bug`, another uses `BUGFIX - fixed`, another doesn't even write a commit message. The result is chaos.
+
+> **MARIO ANALOGY:** CONTRIBUTING.md is the **manual for how to join the guild**. When a new adventurer wants to enter, they need to know: what is the admission process? What equipment should they use? What rules should they follow? Without this, each new member invents their own style and the guild becomes a mess.
+
+### 5.2 Structure of a Good CONTRIBUTING
+
+A good CONTRIBUTING.md answers these questions:
+
+1. **How to report bugs?** (Issues with template)
+2. **How to suggest features?** (Issues with template)
+3. **How to set up the environment?** (Local setup)
+4. **What is the workflow?** (Branch -> Code -> PR)
+5. **What standards to follow?** (Code style, commits)
+6. **How to test?** (Run tests before PR)
+7. **What happens after the PR?** (Review process)
+
+### 5.3 Complete Template
+
+```markdown
+# How to Contribute
+
+Thank you for wanting to contribute! Follow this guide so your
+contribution gets integrated quickly.
+
+## Reporting Bugs
+
+1. Check if the bug hasn't already been reported in Issues
+2. Open a new Issue using the Bug Report template
+3. Include: steps to reproduce, expected vs actual result, screenshots
+
+## Suggesting Features
+
+1. Open an Issue using the Feature Request template
+2. Describe the problem the feature solves
+3. Suggest a solution (optional)
+
+## Setting Up Your Environment
+
+1. Fork the repository
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/project.git`
+3. Create a branch: `git checkout -b feat/my-feature`
+4. Install dependencies: `npm install`
+5. Run the tests: `npm test`
+
+## Standards
+
+### Commits
+We use Conventional Commits:
+- `feat:` new feature
+- `fix:` bug fix
+- `docs:` documentation
+- `style:` formatting
+- `refactor:` refactoring
+- `test:` tests
+- `chore:` general tasks
+
+### Code
+- ESLint + Prettier configured (runs automatically on pre-commit)
+- TypeScript strict mode
+- Tests for every new feature
+
+## Submitting a Pull Request
+
+1. Update your branch with main: `git rebase main`
+2. Run tests: `npm test`
+3. Run lint: `npm run lint`
+4. Push: `git push origin feat/my-feature`
+5. Open a Pull Request with a clear description
+6. Wait for review -- respond to comments promptly
+
+## Review Process
+
+- PRs need at least 1 approval
+- CI must be green (tests + lint passing)
+- PR author does the merge after approval
+```
+
+---
+
+## 6. CODE_OF_CONDUCT.md: The Guild's Code of Honor
+
+### 6.1 Why Have a Code of Conduct
+
+Open source projects bring together people from different cultures, time zones, experience levels, and personalities. Without clear rules for coexistence, personal conflicts can destroy a community.
+
+> **MARIO ANALOGY:** The CODE_OF_CONDUCT is the **Guild's Code of Honor**. In any multiplayer RPG, there are conduct rules: don't steal items from other players, don't use abusive language, don't sabotage group missions. Whoever violates the rules gets expelled from the guild. The Code of Honor ensures everyone can play together in peace.
+
+### 6.2 Contributor Covenant
+
+The most widely used standard in the world is the **Contributor Covenant** (used by Linux, Rails, Swift, Kubernetes, and thousands of other projects):
+
+```markdown
+# Contributor Code of Conduct
+
+## Our Pledge
+
+We, as members, contributors, and leaders, pledge to make
+participation in our community a harassment-free experience
+for everyone, regardless of age, body size, visible or invisible
+disability, ethnicity, sex characteristics, gender identity and
+expression, level of experience, education, socioeconomic status,
+nationality, personal appearance, race, religion, or sexual
+identity and orientation.
+
+## Our Standards
+
+Examples of behavior that contributes to a positive environment:
+- Using welcoming and inclusive language
+- Respecting differing viewpoints
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other members
+
+Examples of unacceptable behavior:
+- Use of sexualized language or imagery
+- Trolling, insulting/derogatory comments
+- Public or private harassment
+- Publishing others' private information
+- Other conduct considered inappropriate
+
+## Enforcement
+
+Instances of abusive behavior should be reported to:
+[MAINTAINER_EMAIL]
+
+All complaints will be reviewed and investigated.
+```
+
+### 6.3 Enforcing the Code of Conduct
+
+Having a CODE_OF_CONDUCT is only the first step. Enforcing it is what matters:
+
+| Violation | Action | In Mario |
+|-----------|--------|----------|
+| First minor offense | Private warning | "Watch out, Goomba!" |
+| Repeat offense | Public warning | Temporary multiplayer ban |
+| Harassment | Temporary ban | Expelled from the guild for 30 days |
+| Serious violation | Permanent ban | Permanently expelled |
+
+---
+
+## 7. CODEOWNERS: Who Guards Each Room of the Castle
+
+### 7.1 What Is CODEOWNERS
+
+The `CODEOWNERS` file (located at `.github/CODEOWNERS`) defines **who is automatically requested to review** when someone opens a Pull Request that modifies certain files.
+
+> **MARIO ANALOGY:** CODEOWNERS is the **map of who guards each room of the castle**. The throne room is guarded by Peach. The kitchen is guarded by Toad. The tower is guarded by Luigi. When someone enters a room (modifies a file), the guardian of that room is automatically called to check.
+
+### 7.2 Syntax and Examples
+
+CODEOWNERS lives at `.github/CODEOWNERS`:
+
+```bash
+# Each line: file pattern + owner(s)
+
+# Default owners (everything without a specific rule)
+* @tech-lead
+
+# Frontend: Luigi is the guardian
+/frontend/                @luigi
+/frontend/src/components/ @luigi @designer
+
+# Backend: Toad is the guardian
+/backend/                 @toad
+/backend/src/routes/      @toad @security-team
+
+# Database: DBA is the absolute guardian
+/prisma/                  @dba
+*.sql                     @dba
+
+# DevOps: Yoshi guards the infrastructure
+/docker-compose.yml       @yoshi
+/Dockerfile               @yoshi
+/.github/workflows/       @yoshi
+
+# Documentation: anyone from the docs team
+/docs/                    @docs-team
+README.md                 @docs-team @tech-lead
+
+# Security: the security team ALWAYS reviews
+*.env.example             @security-team
+CODEOWNERS                @tech-lead @security-team
+```
+
+### 7.3 Ownership Strategies
+
+| Strategy | When to Use | Advantage | Risk |
+|----------|-------------|-----------|------|
+| **One owner per area** | Small team | Clear who reviews | Bottleneck if person leaves |
+| **Team per area** | Medium team | Load distribution | Can have "bystander effect" |
+| **Hierarchy** | Large team | Default + specialists | More complex to maintain |
+| **Cross-review** | Learning | Everyone learns everything | Slower reviews |
+
+> **MARIO ANALOGY:** The best strategy depends on the size of your guild. A guild of 3 members doesn't need complex hierarchy. A guild of 50 members needs team captains for each area of the castle.
+
+---
+
+## 8. LICENSE: The Game's Usage License
+
+### 8.1 Why Licenses Matter
+
+Without a license, the legal default is: **nobody can use, copy, or distribute your code**. This is the opposite of what most open source projects want.
+
+> **MARIO ANALOGY:** The LICENSE is like the **game's distribution license**. The original Mario game belongs to Nintendo -- you can't copy and sell it. But if Nintendo released it under the MIT license, anyone could modify and redistribute the game freely.
+
+### 8.2 Most Common Licenses
+
+| License | Permissiveness | Allows Commercial Use | Requires Credit | Derivatives Must Be Open Source |
+|---------|---------------|----------------------|-----------------|-------------------------------|
+| **MIT** | Very high | Yes | Yes | No |
+| **Apache 2.0** | High | Yes | Yes | No |
+| **GPL v3** | Medium | Yes | Yes | YES |
+| **BSD 3-Clause** | High | Yes | Yes | No |
+| **Creative Commons** | Variable | Depends | Depends | Depends |
+| **Unlicense** | Total | Yes | No | No |
+
+**Quick decision guide:**
+
+- Want maximum freedom for everyone? **MIT**
+- Want patent protection too? **Apache 2.0**
+- Want derivatives to also be open source? **GPL v3**
+- Don't know? **MIT** (it's the most popular on GitHub)
+
+---
+
+## 9. Other Essential Files
+
+### 9.1 CHANGELOG.md
+
+The CHANGELOG records **all notable changes** to the project, organized by version:
+
+```markdown
+# Changelog
+
+## [1.2.0] - 2026-03-15
+### Added
+- Task filter by date
+- CSV export
+
+### Fixed
+- Bug that duplicated tasks when saving quickly
+- Authentication error with expired tokens
+
+## [1.1.0] - 2026-03-01
+### Added
+- Dark mode
+- Push notifications
+```
+
+> **MARIO ANALOGY:** The CHANGELOG is the **game's patch notes history** -- that document that says "in version 1.2, we added the Ghost House level and fixed the infinite jump bug."
+
+### 9.2 .editorconfig
+
+The `.editorconfig` standardizes basic editor settings across ALL team members:
+
+```ini
+# .editorconfig
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.py]
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+```
+
+### 9.3 .nvmrc and .tool-versions
+
+These files lock the versions of required tools:
+
+```bash
+# .nvmrc (locks Node.js version)
+20.11.0
+
+# .tool-versions (asdf - multiple tools)
+nodejs 20.11.0
+python 3.12.0
+```
+
+> **MARIO ANALOGY:** It's like specifying **which console is required to play**. "This game requires: Super Nintendo version 1.1 + Controller Model B." If you try to play on a different console, it might not work.
+
+---
+
+## 10. Final Table: The Complete Guild Kit
+
+| File | Required? | Mario Analogy | What it does |
+|------|-----------|---------------|-------------|
+| `README.md` | YES | Game manual | Explains the project to the world |
+| `.gitignore` | YES | "Do not pack" list | Defines what doesn't go into the repository |
+| `LICENSE` | YES | Distribution license | Defines how others can use the code |
+| `CONTRIBUTING.md` | Recommended | Guild admission manual | Explains how to contribute |
+| `CODE_OF_CONDUCT.md` | Recommended | Code of honor | Rules for coexistence |
+| `CODEOWNERS` | Recommended | Room guardians | Who reviews each area of the code |
+| `CHANGELOG.md` | Recommended | Patch notes | History of changes |
+| `.editorconfig` | Recommended | Console standard | Unified editor configuration |
+| `.nvmrc` | Optional | Console version | Locks Node.js version |
+| `package.json` | Depends | Complete inventory | Metadata + dependencies |
+
+> **GOLDEN RULE:** No professional project exists without at least a README, .gitignore, and LICENSE. These three are the **absolute minimum** -- like Mario without being able to jump: it technically exists, but it doesn't work properly.
+
+---
+
+## References
+
+- [Semantic Versioning 2.0.0 -- Official Specification](https://semver.org/)
+- [GitHub -- About READMEs](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [GitHub -- Ignoring Files](https://docs.github.com/pt/get-started/getting-started-with-git/ignoring-files)
+- [gitignore.io -- .gitignore Generator](https://www.toptal.com/developers/gitignore)
+- [Contributor Covenant -- Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+- [GitHub -- About CODEOWNERS](https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+- [Choose a License -- License Guide](https://choosealicense.com/)
+- [Keep a Changelog -- Changelog Standard](https://keepachangelog.com/pt-BR/1.1.0/)
+- [EditorConfig -- Configuration Standard](https://editorconfig.org/)
+- [Conventional Commits -- Commit Standard](https://www.conventionalcommits.org/pt-br/)
+
+---
+
+*End of Level 3-7. In the next level, Sofia discovers how the Mushroom Kingdom pipes work -- the communication network that connects everything: the Internet.*
