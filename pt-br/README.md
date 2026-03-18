@@ -1,13 +1,3 @@
----
-title: "Super Agentic DevOps World"
-description: "O guia completo de Agentic DevOps, Agentes de IA e desenvolvimento de software moderno — explicado com analogias de Super Mario World. Feito para Sofia."
-author: "Paula Silva (@paulanunes85)"
-date: "2026-03-18"
-version: "1.1.0"
-status: "published"
-tags: ["agentic-devops", "ai-agents", "github-copilot", "super-mario", "educacao", "made-for-sofia"]
----
-
 <div align="center">
 
 # ⭐ Super Agentic DevOps World
