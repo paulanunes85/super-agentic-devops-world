@@ -6,7 +6,7 @@
 
 **O guia completo de Agentic DevOps, Agentes de IA e desenvolvimento de software moderno — explicado com analogias de Super Mario World para que qualquer pessoa consiga entender.**
 
-*8 Mundos · 70+ Fases · 54 Diagramas · 124+ Termos · 2 Idiomas*
+*8 Mundos · 70+ Fases · 14 Diagramas SVG · 124+ Termos · 2 Idiomas*
 
 [![PT-BR](https://img.shields.io/badge/lang-PT--BR-green?style=for-the-badge)](#)
 [![EN](https://img.shields.io/badge/lang-EN-blue?style=for-the-badge)](../README.md)
@@ -17,6 +17,20 @@
 *Criado por [Paula Silva](https://github.com/paulanunes85) · Microsoft Latam Software GBB*
 
 </div>
+
+---
+
+## 🤝 A Historia por tras de "Made for Sofia"
+
+Sofia e minha filha. Quando ela me pediu para ensina-la sobre desenvolvimento de software, percebi que os tutoriais, documentacoes e cursos tradicionais nao foram feitos para quem esta comecando do zero absoluto. O jargao era intimidador. Os conceitos pareciam abstratos. A curva de aprendizado parecia um muro.
+
+Entao decidi explicar tudo atraves de algo que ela ja amava: **video games**. Especificamente, **Super Mario World** — um jogo onde as regras sao simples, a progressao e clara, e qualquer pessoa consegue jogar.
+
+O que comecou como uma mae ensinando sua filha se transformou em algo muito maior. Se eu consegui fazer a Sofia — alguem sem nenhum background tecnico — entender Git, CI/CD, Agentes de IA, RAG e Kubernetes atraves de analogias do Mario, entao **qualquer pessoa** pode aprender esses conceitos da mesma forma.
+
+**"Made for Sofia"** e mais do que um subtitulo. E uma promessa: este conteudo foi construido com o mesmo cuidado, paciencia e amor que uma mae coloca ao ensinar sua filha. Sem jargao sem explicacao. Sem conceito sem analogia. Sem fase dificil demais sem os power-ups certos.
+
+Todo desenvolvedor comeca na Fase 1-1. Sofia comecou. E agora, voce tambem pode.
 
 ---
 
@@ -106,17 +120,26 @@ Veja o [Brand Guide](../BRAND_GUIDE.md) completo.
 
 ## 📊 Diagramas
 
-54 diagramas Mermaid estao integrados nos capitulos e tambem disponiveis como fonte:
+14 diagramas SVG profissionais integrados inline nos capitulos:
 
-| Arquivo | Mundos | Diagramas |
-|---------|--------|-----------|
-| [World Map + M1-M2](../diagrams/world-map-w1-w2.md) | 1-2 | 11 |
-| [M3-M4](../diagrams/w3-w4.md) | 3-4 | 14 |
-| [M5-M6](../diagrams/w5-w6.md) | 5-6 | 15 |
-| [M7-M8](../diagrams/w7-w8.md) | 7-8 | 12 |
-| Capitulo SDD | 5-10 | 2 |
+| Diagrama | Capitulo | Descricao |
+|----------|----------|-----------|
+| [World Map](../diagrams/svg/world-map.svg) | Indice | Mapa completo dos 8 Mundos |
+| [Git Workflow](../diagrams/svg/git-workflow.svg) | 1-2 | Working Directory → Staging → Repository |
+| [GitHub Platform](../diagrams/svg/github-platform.svg) | 1-3 | Mapa de recursos do GitHub |
+| [CI/CD Pipeline](../diagrams/svg/cicd-pipeline.svg) | 1-4 | Pipeline: codigo ao deploy |
+| [Docker](../diagrams/svg/docker-architecture.svg) | 3-3 | Dockerfile → Image → Container |
+| [DevOps Evolution](../diagrams/svg/devops-evolution.svg) | 5-1 | Traditional → DevSecOps → Agentic |
+| [Copilot Modes](../diagrams/svg/copilot-modes.svg) | 5-3 | 7 modos por nivel de autonomia |
+| [Agent Components](../diagrams/svg/agent-components.svg) | 5-4 | Brain, Senses, Hands, Memory, Goals |
+| [Agent Loop](../diagrams/svg/agent-loop.svg) | 5-4 | Observe → Think → Plan → Act |
+| [MCP Architecture](../diagrams/svg/mcp-architecture.svg) | 5-7 | Client ↔ Protocol ↔ Servers |
+| [SDD Flow](../diagrams/svg/sdd-flow.svg) | 5-10 | Ciclo do Spec-Driven Development |
+| [RAG Architecture](../diagrams/svg/rag-architecture.svg) | 7-2 | Indexacao → Busca → Geracao |
+| [4 Canais](../diagrams/svg/four-channels.svg) | 7-5 | IDE, Portal, ChatOps, Background |
+| [Ecossistema](../diagrams/svg/complete-ecosystem.svg) | 8-1 | Como tudo se conecta |
 
-Diagramas podem ser renderizados no GitHub, VS Code (extensao Mermaid), [mermaid.live](https://mermaid.live), ou exportados para SVG/PNG.
+Design: bordas com cores do Mario, preenchimento branco, texto preto, legendas em todos.
 
 ---
 
@@ -134,20 +157,6 @@ Complete os Mundos para ganhar badges:
 | 🔥 | Desafiante de Bowser | Mundo 6 |
 | ⭐ | Mestre do Star World | Mundo 7 |
 | 👑 | Game Complete | Mundo 8 |
-
----
-
-## 🤝 A Historia por tras de "Made for Sofia"
-
-Sofia e minha filha. Quando ela me pediu para ensina-la sobre desenvolvimento de software, percebi que os tutoriais, documentacoes e cursos tradicionais nao foram feitos para quem esta comecando do zero absoluto. O jargao era intimidador. Os conceitos pareciam abstratos. A curva de aprendizado parecia um muro.
-
-Entao decidi explicar tudo atraves de algo que ela ja amava: **video games**. Especificamente, **Super Mario World** — um jogo onde as regras sao simples, a progressao e clara, e qualquer pessoa consegue jogar.
-
-O que comecou como uma mae ensinando sua filha se transformou em algo muito maior. Se eu consegui fazer a Sofia — alguem sem nenhum background tecnico — entender Git, CI/CD, Agentes de IA, RAG e Kubernetes atraves de analogias do Mario, entao **qualquer pessoa** pode aprender esses conceitos da mesma forma.
-
-**"Made for Sofia"** e mais do que um subtitulo. E uma promessa: este conteudo foi construido com o mesmo cuidado, paciencia e amor que uma mae coloca ao ensinar sua filha. Sem jargao sem explicacao. Sem conceito sem analogia. Sem fase dificil demais sem os power-ups certos.
-
-Todo desenvolvedor comeca na Fase 1-1. Sofia comecou. E agora, voce tambem pode.
 
 ---
 

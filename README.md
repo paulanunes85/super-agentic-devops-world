@@ -6,7 +6,7 @@
 
 **The complete guide to Agentic DevOps, AI Agents, and modern software development — explained through Super Mario World analogies so anyone can understand.**
 
-*8 Worlds · 70+ Levels · 54 Diagrams · 124+ Terms · 2 Languages*
+*8 Worlds · 70+ Levels · 14 SVG Diagrams · 124+ Terms · 2 Languages*
 
 [![PT-BR](https://img.shields.io/badge/lang-PT--BR-green?style=for-the-badge)](pt-br/README.md)
 [![EN](https://img.shields.io/badge/lang-EN-blue?style=for-the-badge)](en/)
@@ -17,6 +17,20 @@
 *Created by [Paula Silva](https://github.com/paulanunes85) · Microsoft Latam Software GBB*
 
 </div>
+
+---
+
+## 🤝 The Story Behind "Made for Sofia"
+
+Sofia is my daughter. When she asked me to teach her about software development, I realized that the usual tutorials, documentation, and courses weren't built for someone starting from absolute zero. The jargon was intimidating. The concepts felt abstract. The learning curve felt like a wall.
+
+So I decided to explain everything through something she already loved: **video games**. Specifically, **Super Mario World** — a game where the rules are simple, the progression is clear, and anyone can play.
+
+What started as a mother teaching her daughter turned into something much bigger. If I could make Sofia — someone with zero tech background — understand Git, CI/CD, AI Agents, RAG, and Kubernetes through Mario analogies, then **anyone** could learn these concepts the same way.
+
+**"Made for Sofia"** is more than a subtitle. It's a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy. No level too hard without the right power-ups.
+
+Every developer starts at World 1-1. Sofia did. And now, so can you.
 
 ---
 
@@ -75,93 +89,6 @@ If you've ever played Mario, you can understand DevOps.
 - **Custom Agents** → [World 6, Level 6-1](en/world-6-bowser-castle-2/6-1-custom-agents.md)
 - **Microsoft Agentic Framework** → [World 7, Level 7-4](en/world-7-star-world/7-4-microsoft-agentic-framework.md)
 - **Hands-on Project** → [World 7, Boss](en/world-7-star-world/7-boss-practical-project.md)
-
----
-
-## 📚 Languages
-
-All content is available in two languages:
-
-| Language | Folder | Status |
-|----------|--------|--------|
-| 🇧🇷 Português (PT-BR) | [`pt-br/`](pt-br/README.md) | ✅ Complete |
-| 🇺🇸 English (EN) | [`en/`](en/) | ✅ Complete |
-
-Diagrams are in English (universal, shared by both languages).
-
----
-
-## 🎨 Branding
-
-This project has a complete brand identity inspired by Super Mario World:
-
-- **Colors**: Mario Red `#E52521`, Sky Blue `#049CD8`, Coin Gold `#FBD000`, Pipe Green `#43B047`
-- **Font**: Press Start 2P (headings), Inter (body), JetBrains Mono (code)
-- **Characters**: Sofia (hero with "S" cap), 7 AI Agent companions
-- **Badges**: 8 World badges + 7 special achievements
-
-See the full [Brand Guide](BRAND_GUIDE.md).
-
----
-
-## 📊 Diagrams
-
-54 Mermaid diagrams are embedded in the chapters and also available as source files:
-
-| File | Worlds | Diagrams |
-|------|--------|----------|
-| [World Map + W1-W2](diagrams/world-map-w1-w2.md) | 1-2 | 11 |
-| [W3-W4](diagrams/w3-w4.md) | 3-4 | 14 |
-| [W5-W6](diagrams/w5-w6.md) | 5-6 | 15 |
-| [W7-W8](diagrams/w7-w8.md) | 7-8 | 12 |
-| SDD chapter | 5-10 | 2 |
-
-Diagrams can be rendered on GitHub, VS Code (Mermaid extension), [mermaid.live](https://mermaid.live), or exported to SVG/PNG.
-
----
-
-## 📋 Templates
-
-Ready-to-use templates for Spec-Driven Development:
-
-| Template | Use Case |
-|----------|----------|
-| [Feature Spec](templates/spec-feature.md) | New functionality |
-| [Bug Fix Spec](templates/spec-bugfix.md) | Bug reports and fixes |
-| [Refactoring Spec](templates/spec-refactor.md) | Code improvements |
-| [API Spec](templates/spec-api.md) | New API endpoints |
-| [Migration Spec](templates/spec-migration.md) | Database changes |
-
----
-
-## 🏆 Achievement System
-
-Complete Worlds to earn badges:
-
-| Badge | Achievement | World |
-|-------|-----------|-------|
-| 🌿 | Green Plains Explorer | World 1 |
-| 🕳️ | Cave Navigator | World 2 |
-| ☁️ | Sky Walker | World 3 |
-| 🌊 | Deep Sea Diver | World 4 |
-| 🏰 | Castle Infiltrator | World 5 |
-| 🔥 | Bowser's Challenger | World 6 |
-| ⭐ | Star World Master | World 7 |
-| 👑 | Game Complete | World 8 |
-
----
-
-## 🤝 The Story Behind "Made for Sofia"
-
-Sofia is my daughter. When she asked me to teach her about software development, I realized that the usual tutorials, documentation, and courses weren't built for someone starting from absolute zero. The jargon was intimidating. The concepts felt abstract. The learning curve felt like a wall.
-
-So I decided to explain everything through something she already loved: **video games**. Specifically, **Super Mario World** — a game where the rules are simple, the progression is clear, and anyone can play.
-
-What started as a mother teaching her daughter turned into something much bigger. If I could make Sofia — someone with zero tech background — understand Git, CI/CD, AI Agents, RAG, and Kubernetes through Mario analogies, then **anyone** could learn these concepts the same way.
-
-**"Made for Sofia"** is more than a subtitle. It's a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy. No level too hard without the right power-ups.
-
-Every developer starts at World 1-1. Sofia did. And now, so can you.
 
 ---
 
@@ -228,6 +155,70 @@ Every developer starts at World 1-1. Sofia did. And now, so can you.
 - Glossary (124+ terms)
 
 </details>
+
+---
+
+## 📚 Languages
+
+| Language | Folder | Status |
+|----------|--------|--------|
+| 🇧🇷 Português (PT-BR) | [`pt-br/`](pt-br/README.md) | ✅ Complete |
+| 🇺🇸 English (EN) | [`en/`](en/) | ✅ Complete |
+
+Diagrams are in English (universal, shared by both languages).
+
+---
+
+## 📊 Diagrams
+
+14 professional SVG diagrams integrated inline in chapters:
+
+| Diagram | Chapter | Description |
+|---------|---------|-------------|
+| [World Map](diagrams/svg/world-map.svg) | Index | Complete map of all 8 Worlds |
+| [Git Workflow](diagrams/svg/git-workflow.svg) | 1-2 | Working Directory → Staging → Repository |
+| [GitHub Platform](diagrams/svg/github-platform.svg) | 1-3 | GitHub features hub-and-spoke map |
+| [CI/CD Pipeline](diagrams/svg/cicd-pipeline.svg) | 1-4 | Code → Build → Test → Deploy pipeline |
+| [Docker Architecture](diagrams/svg/docker-architecture.svg) | 3-3 | Dockerfile → Image → Container lifecycle |
+| [DevOps Evolution](diagrams/svg/devops-evolution.svg) | 5-1 | Traditional → DevSecOps → Agentic |
+| [Copilot Modes](diagrams/svg/copilot-modes.svg) | 5-3 | 7 modes by autonomy level |
+| [Agent Components](diagrams/svg/agent-components.svg) | 5-4 | Brain, Senses, Hands, Memory, Goals |
+| [Agent Loop](diagrams/svg/agent-loop.svg) | 5-4 | Observe → Think → Plan → Act cycle |
+| [MCP Architecture](diagrams/svg/mcp-architecture.svg) | 5-7 | Client ↔ Protocol ↔ Servers |
+| [SDD Flow](diagrams/svg/sdd-flow.svg) | 5-10 | Spec-Driven Development cycle |
+| [RAG Architecture](diagrams/svg/rag-architecture.svg) | 7-2 | Indexing → Retrieval → Generation |
+| [4 Channels](diagrams/svg/four-channels.svg) | 7-5 | IDE, Portal, ChatOps, Background |
+| [Complete Ecosystem](diagrams/svg/complete-ecosystem.svg) | 8-1 | How everything connects |
+
+Design: Mario-colored borders, white fill, black text, legends on every diagram.
+
+---
+
+## 🎨 Branding
+
+This project has a complete brand identity inspired by Super Mario World:
+
+- **Colors**: Mario Red `#E52521`, Sky Blue `#049CD8`, Coin Gold `#FBD000`, Pipe Green `#43B047`
+- **Font**: Press Start 2P (headings), Inter (body), JetBrains Mono (code)
+- **Characters**: Sofia (hero with "S" cap), 7 AI Agent companions
+- **Badges**: 8 World badges + 7 special achievements
+
+See the full [Brand Guide](BRAND_GUIDE.md).
+
+---
+
+## 🏆 Achievement System
+
+| Badge | Achievement | World |
+|-------|-----------|-------|
+| 🌿 | Green Plains Explorer | World 1 |
+| 🕳️ | Cave Navigator | World 2 |
+| ☁️ | Sky Walker | World 3 |
+| 🌊 | Deep Sea Diver | World 4 |
+| 🏰 | Castle Infiltrator | World 5 |
+| 🔥 | Bowser's Challenger | World 6 |
+| ⭐ | Star World Master | World 7 |
+| 👑 | Game Complete | World 8 |
 
 ---
 
