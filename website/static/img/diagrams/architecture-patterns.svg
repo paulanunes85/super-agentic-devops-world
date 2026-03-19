@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #333333; }
+  </style>
+
+  <defs>
+    <marker id="arrGrey" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#999"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold">Architecture Patterns</text>
+
+  <!-- === Monolith (Blue) === -->
+  <text x="150" y="58" text-anchor="middle" font-size="14" font-weight="bold">Monolith</text>
+  <rect x="50" y="70" width="200" height="200" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <!-- Internal modules -->
+  <rect x="70" y="85" width="70" height="35" rx="4" fill="#E8F4FD" stroke="#049CD8" stroke-width="1"/>
+  <text x="105" y="107" text-anchor="middle" font-size="10">Auth</text>
+  <rect x="160" y="85" width="70" height="35" rx="4" fill="#E8F4FD" stroke="#049CD8" stroke-width="1"/>
+  <text x="195" y="107" text-anchor="middle" font-size="10">API</text>
+  <rect x="70" y="135" width="70" height="35" rx="4" fill="#E8F4FD" stroke="#049CD8" stroke-width="1"/>
+  <text x="105" y="157" text-anchor="middle" font-size="10">DB</text>
+  <rect x="160" y="135" width="70" height="35" rx="4" fill="#E8F4FD" stroke="#049CD8" stroke-width="1"/>
+  <text x="195" y="157" text-anchor="middle" font-size="10">UI</text>
+  <rect x="70" y="185" width="160" height="35" rx="4" fill="#E8F4FD" stroke="#049CD8" stroke-width="1"/>
+  <text x="150" y="207" text-anchor="middle" font-size="10">Shared Logic</text>
+  <text x="150" y="255" text-anchor="middle" font-size="10">Single deployable unit</text>
+
+  <!-- === Microservices (Green) === -->
+  <text x="470" y="58" text-anchor="middle" font-size="14" font-weight="bold">Microservices</text>
+  <rect x="350" y="70" width="240" height="200" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <!-- Small service boxes -->
+  <rect x="370" y="90" width="65" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="1.5"/>
+  <text x="402" y="112" text-anchor="middle" font-size="9">Auth Svc</text>
+  <rect x="505" y="90" width="65" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="1.5"/>
+  <text x="537" y="112" text-anchor="middle" font-size="9">User Svc</text>
+  <rect x="370" y="155" width="65" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="1.5"/>
+  <text x="402" y="177" text-anchor="middle" font-size="9">Order Svc</text>
+  <rect x="505" y="155" width="65" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="1.5"/>
+  <text x="537" y="177" text-anchor="middle" font-size="9">Pay Svc</text>
+  <!-- Arrows between services -->
+  <line x1="435" y1="107" x2="500" y2="107" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+  <line x1="402" y1="125" x2="402" y2="150" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+  <line x1="537" y1="125" x2="537" y2="150" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+  <line x1="435" y1="172" x2="500" y2="172" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+  <text x="470" y="225" text-anchor="middle" font-size="9">API Gateway</text>
+  <rect x="420" y="210" width="100" height="25" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="1"/>
+  <text x="470" y="255" text-anchor="middle" font-size="10">Independent services</text>
+
+  <!-- === Serverless (Gold) === -->
+  <text x="770" y="58" text-anchor="middle" font-size="14" font-weight="bold">Serverless</text>
+  <rect x="660" y="70" width="220" height="200" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+  <!-- Cloud/function shapes -->
+  <ellipse cx="710" cy="110" rx="35" ry="20" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="710" y="114" text-anchor="middle" font-size="9">Event</text>
+  <rect x="770" y="93" width="70" height="30" rx="4" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="805" y="112" text-anchor="middle" font-size="9">Function A</text>
+  <line x1="745" y1="110" x2="766" y2="108" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+
+  <ellipse cx="710" cy="175" rx="35" ry="20" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="710" y="179" text-anchor="middle" font-size="9">Timer</text>
+  <rect x="770" y="158" width="70" height="30" rx="4" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="805" y="177" text-anchor="middle" font-size="9">Function B</text>
+  <line x1="745" y1="175" x2="766" y2="173" stroke="#999" stroke-width="1" marker-end="url(#arrGrey)"/>
+
+  <rect x="770" y="210" width="70" height="30" rx="4" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="805" y="229" text-anchor="middle" font-size="9">Function C</text>
+  <text x="770" y="255" text-anchor="middle" font-size="10">Event-driven functions</text>
+
+  <!-- Legend -->
+  <rect x="50" y="295" width="280" height="30" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="190" y="314" text-anchor="middle" font-size="11">Legend: Architecture patterns comparison</text>
+</svg>

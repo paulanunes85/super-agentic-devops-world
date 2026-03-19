@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Title -->
+  <text x="410" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Tipos de Agente: O Quadrante Completo</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#666666">Quem e Quem no Mushroom Kingdom</text>
+
+  <!-- Axes -->
+  <!-- Vertical axis -->
+  <line x1="410" y1="80" x2="410" y2="540" stroke="#333333" stroke-width="2"/>
+  <polygon points="410,75 405,85 415,85" fill="#333333"/>
+  <!-- Horizontal axis -->
+  <line x1="80" y1="310" x2="740" y2="310" stroke="#333333" stroke-width="2"/>
+  <polygon points="745,310 735,305 735,315" fill="#333333"/>
+
+  <!-- Axis labels -->
+  <text x="410" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Background (Nuvem, Assincrono)</text>
+  <text x="410" y="558" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">IDE (Local, Tempo Real)</text>
+  <text x="70" y="306" text-anchor="end" font-size="11" font-weight="bold" fill="#333333" transform="rotate(-90, 50, 310)">Desenvolvimento</text>
+  <text x="768" y="306" text-anchor="start" font-size="11" font-weight="bold" fill="#333333" transform="rotate(90, 768, 310)">Produtivo</text>
+
+  <!-- Quadrant 1: IDE + Development (bottom-left) -->
+  <rect x="120" y="330" width="270" height="190" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="120" y="330" width="270" height="28" rx="8" ry="0" fill="#049CD8"/>
+  <text x="255" y="349" text-anchor="middle" font-size="12" font-weight="bold" fill="white">IDE + Desenvolvimento</text>
+
+  <text x="140" y="376" font-size="11" font-weight="bold" fill="#333333">Yoshi ao seu lado</text>
+  <text x="140" y="396" font-size="10" fill="#666666">Copilot Completions</text>
+  <circle cx="135" cy="392" r="3" fill="#049CD8"/>
+  <text x="140" y="412" font-size="10" fill="#666666">Copilot Chat</text>
+  <circle cx="135" cy="408" r="3" fill="#049CD8"/>
+  <text x="140" y="428" font-size="10" fill="#666666">Copilot Agent Mode</text>
+  <circle cx="135" cy="424" r="3" fill="#049CD8"/>
+  <text x="140" y="444" font-size="10" fill="#666666">Copilot Edits (multi-arquivo)</text>
+  <circle cx="135" cy="440" r="3" fill="#049CD8"/>
+  <text x="140" y="460" font-size="10" fill="#666666">Claude Code (CLI)</text>
+  <circle cx="135" cy="456" r="3" fill="#049CD8"/>
+
+  <text x="140" y="483" font-size="9" fill="#999999">Tempo real | Interativo | Context-aware</text>
+  <text x="140" y="497" font-size="9" fill="#999999">Voce presente, colaboracao ativa</text>
+
+  <!-- Quadrant 2: Background + Development (top-left) -->
+  <rect x="120" y="100" width="270" height="190" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <rect x="120" y="100" width="270" height="28" rx="8" ry="0" fill="#E52521"/>
+  <text x="255" y="119" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Background + Desenvolvimento</text>
+
+  <text x="140" y="146" font-size="11" font-weight="bold" fill="#333333">Toads em castelos distantes</text>
+  <text x="140" y="166" font-size="10" fill="#666666">Copilot Coding Agent</text>
+  <circle cx="135" cy="162" r="3" fill="#E52521"/>
+  <text x="140" y="182" font-size="10" fill="#666666">Dependabot</text>
+  <circle cx="135" cy="178" r="3" fill="#E52521"/>
+  <text x="140" y="198" font-size="10" fill="#666666">CodeQL / Code Scanning</text>
+  <circle cx="135" cy="194" r="3" fill="#E52521"/>
+  <text x="140" y="214" font-size="10" fill="#666666">Copilot Autofix</text>
+  <circle cx="135" cy="210" r="3" fill="#E52521"/>
+  <text x="140" y="230" font-size="10" fill="#666666">Copilot Code Review</text>
+  <circle cx="135" cy="226" r="3" fill="#E52521"/>
+
+  <text x="140" y="255" font-size="9" fill="#999999">Assincrono | Autonomo | Event-triggered</text>
+  <text x="140" y="269" font-size="9" fill="#999999">Trabalham enquanto voce dorme</text>
+
+  <!-- Quadrant 3: IDE + Productive (bottom-right) -->
+  <rect x="430" y="330" width="270" height="190" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="430" y="330" width="270" height="28" rx="8" ry="0" fill="#43B047"/>
+  <text x="565" y="349" text-anchor="middle" font-size="12" font-weight="bold" fill="white">IDE + Produtivo</text>
+
+  <text x="450" y="376" font-size="11" font-weight="bold" fill="#333333">Assistentes pessoais</text>
+  <text x="450" y="396" font-size="10" fill="#666666">Copilot no Excel</text>
+  <circle cx="445" cy="392" r="3" fill="#43B047"/>
+  <text x="450" y="412" font-size="10" fill="#666666">Copilot no Word</text>
+  <circle cx="445" cy="408" r="3" fill="#43B047"/>
+  <text x="450" y="428" font-size="10" fill="#666666">Copilot no PowerPoint</text>
+  <circle cx="445" cy="424" r="3" fill="#43B047"/>
+  <text x="450" y="444" font-size="10" fill="#666666">Copilot no Teams</text>
+  <circle cx="445" cy="440" r="3" fill="#43B047"/>
+
+  <text x="450" y="483" font-size="9" fill="#999999">Linguagem natural | Self-service</text>
+  <text x="450" y="497" font-size="9" fill="#999999">Para usuarios, nao devs</text>
+
+  <!-- Quadrant 4: Background + Productive (top-right) -->
+  <rect x="430" y="100" width="270" height="190" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <rect x="430" y="100" width="270" height="28" rx="8" ry="0" fill="#FBD000"/>
+  <text x="565" y="119" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Background + Produtivo</text>
+
+  <text x="450" y="146" font-size="11" font-weight="bold" fill="#333333">Automacao de processos</text>
+  <text x="450" y="166" font-size="10" fill="#666666">Power Automate + IA</text>
+  <circle cx="445" cy="162" r="3" fill="#B8960A"/>
+  <text x="450" y="182" font-size="10" fill="#666666">Agentes de RPA</text>
+  <circle cx="445" cy="178" r="3" fill="#B8960A"/>
+  <text x="450" y="198" font-size="10" fill="#666666">Chatbots de suporte</text>
+  <circle cx="445" cy="194" r="3" fill="#B8960A"/>
+  <text x="450" y="214" font-size="10" fill="#666666">Agentes de analise de dados</text>
+  <circle cx="445" cy="210" r="3" fill="#B8960A"/>
+
+  <text x="450" y="255" font-size="9" fill="#999999">Agendado | Batch | Continuo</text>
+  <text x="450" y="269" font-size="9" fill="#999999">Automatizam processos de negocio</text>
+
+  <!-- Legend -->
+  <rect x="260" y="570" width="300" height="42" rx="8" ry="8" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="270" y="586" font-size="9" font-weight="bold" fill="#333333">Legenda:</text>
+  <rect x="320" y="577" width="10" height="10" rx="2" fill="#049CD8"/>
+  <text x="334" y="586" font-size="9" fill="#666666">IDE+Dev</text>
+  <rect x="380" y="577" width="10" height="10" rx="2" fill="#E52521"/>
+  <text x="394" y="586" font-size="9" fill="#666666">BG+Dev</text>
+  <rect x="320" y="594" width="10" height="10" rx="2" fill="#43B047"/>
+  <text x="334" y="603" font-size="9" fill="#666666">IDE+Prod</text>
+  <rect x="380" y="594" width="10" height="10" rx="2" fill="#FBD000"/>
+  <text x="394" y="603" font-size="9" fill="#666666">BG+Prod</text>
+  <text x="450" y="586" font-size="8" fill="#999999">O poder real vem da</text>
+  <text x="450" y="600" font-size="8" fill="#999999">combinacao de todos os tipos</text>
+</svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arwR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666666"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">RAG: Retrieval-Augmented Generation</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#666666">3 Fases: Indexacao - Recuperacao - Geracao</text>
+
+  <!-- ==================== PHASE 1: INDEXING ==================== -->
+  <rect x="20" y="70" width="290" height="520" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <rect x="20" y="70" width="290" height="30" rx="8" ry="0" fill="#E52521"/>
+  <text x="165" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">FASE 1: INDEXACAO</text>
+  <text x="165" y="118" text-anchor="middle" font-size="10" fill="#666666">Preparar a Biblioteca (uma vez)</text>
+
+  <!-- Documents -->
+  <rect x="55" y="132" width="220" height="50" rx="6" ry="6" fill="white" stroke="#E52521" stroke-width="1.5"/>
+  <text x="165" y="152" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Seus Documentos</text>
+  <text x="165" y="170" text-anchor="middle" font-size="9" fill="#666666">PDFs, Word, Web, Wikis, Codigo...</text>
+
+  <!-- Arrow -->
+  <line x1="165" y1="182" x2="165" y2="206" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="210" y="198" font-size="9" fill="#E52521">Chunking</text>
+
+  <!-- Chunks -->
+  <rect x="45" y="210" width="70" height="55" rx="4" ry="4" fill="white" stroke="#E52521" stroke-width="1"/>
+  <text x="80" y="228" text-anchor="middle" font-size="9" font-weight="bold" fill="#333333">Chunk 1</text>
+  <text x="80" y="242" text-anchor="middle" font-size="8" fill="#666666">"A politica</text>
+  <text x="80" y="253" text-anchor="middle" font-size="8" fill="#666666">de devolucao..."</text>
+
+  <rect x="125" y="210" width="70" height="55" rx="4" ry="4" fill="white" stroke="#E52521" stroke-width="1"/>
+  <text x="160" y="228" text-anchor="middle" font-size="9" font-weight="bold" fill="#333333">Chunk 2</text>
+  <text x="160" y="242" text-anchor="middle" font-size="8" fill="#666666">"Devolucoes</text>
+  <text x="160" y="253" text-anchor="middle" font-size="8" fill="#666666">em ate 30..."</text>
+
+  <rect x="205" y="210" width="70" height="55" rx="4" ry="4" fill="white" stroke="#E52521" stroke-width="1"/>
+  <text x="240" y="228" text-anchor="middle" font-size="9" font-weight="bold" fill="#333333">Chunk 3</text>
+  <text x="240" y="242" text-anchor="middle" font-size="8" fill="#666666">"Itens frageis</text>
+  <text x="240" y="253" text-anchor="middle" font-size="8" fill="#666666">devem ser..."</text>
+
+  <!-- Arrow -->
+  <line x1="165" y1="265" x2="165" y2="295" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="210" y="284" font-size="9" fill="#E52521">Embedding</text>
+
+  <!-- Embeddings -->
+  <rect x="45" y="300" width="70" height="35" rx="4" ry="4" fill="#E52521" stroke="#E52521" stroke-width="1" opacity="0.1"/>
+  <text x="80" y="322" text-anchor="middle" font-size="7" fill="#E52521">[0.12, -0.45, ...]</text>
+
+  <rect x="125" y="300" width="70" height="35" rx="4" ry="4" fill="#E52521" stroke="#E52521" stroke-width="1" opacity="0.1"/>
+  <text x="160" y="322" text-anchor="middle" font-size="7" fill="#E52521">[0.15, -0.42, ...]</text>
+
+  <rect x="205" y="300" width="70" height="35" rx="4" ry="4" fill="#E52521" stroke="#E52521" stroke-width="1" opacity="0.1"/>
+  <text x="240" y="322" text-anchor="middle" font-size="7" fill="#E52521">[0.89, -0.11, ...]</text>
+
+  <!-- Arrow -->
+  <line x1="165" y1="335" x2="165" y2="365" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="210" y="354" font-size="9" fill="#E52521">Armazenar</text>
+
+  <!-- Vector DB -->
+  <rect x="55" y="370" width="220" height="80" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <text x="165" y="392" text-anchor="middle" font-size="11" font-weight="bold" fill="#E52521">VECTOR DATABASE</text>
+  <text x="165" y="410" text-anchor="middle" font-size="9" fill="#333333">Prateleira Encantada</text>
+  <text x="165" y="426" text-anchor="middle" font-size="8" fill="#666666">ID:1 [0.12,-0.45,...] + texto</text>
+  <text x="165" y="438" text-anchor="middle" font-size="8" fill="#666666">ID:2 [0.15,-0.42,...] + texto</text>
+
+  <!-- Technologies -->
+  <text x="165" y="475" text-anchor="middle" font-size="9" font-weight="bold" fill="#999999">Tecnologias:</text>
+  <text x="165" y="490" text-anchor="middle" font-size="8" fill="#999999">Azure AI Search, Pinecone</text>
+  <text x="165" y="503" text-anchor="middle" font-size="8" fill="#999999">Weaviate, Chroma, pgvector</text>
+
+  <!-- ==================== PHASE 2: RETRIEVAL ==================== -->
+  <rect x="335" y="70" width="290" height="520" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="335" y="70" width="290" height="30" rx="8" ry="0" fill="#049CD8"/>
+  <text x="480" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">FASE 2: RECUPERACAO</text>
+  <text x="480" y="118" text-anchor="middle" font-size="10" fill="#666666">Encontrar o Livro Certo (a cada pergunta)</text>
+
+  <!-- User Question -->
+  <rect x="370" y="132" width="220" height="50" rx="6" ry="6" fill="white" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="480" y="152" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Pergunta do Usuario</text>
+  <text x="480" y="170" text-anchor="middle" font-size="9" fill="#666666">"Qual a politica de devolucao?"</text>
+
+  <!-- Arrow -->
+  <line x1="480" y1="182" x2="480" y2="210" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="530" y="200" font-size="9" fill="#049CD8">Embedding</text>
+
+  <!-- Query Embedding -->
+  <rect x="370" y="214" width="220" height="35" rx="6" ry="6" fill="#049CD8" stroke="#049CD8" stroke-width="1" opacity="0.1"/>
+  <text x="480" y="230" text-anchor="middle" font-size="9" fill="#049CD8">Query Vector</text>
+  <text x="480" y="242" text-anchor="middle" font-size="7" fill="#049CD8">[0.14, -0.43, 0.79, 0.21, ...]</text>
+
+  <!-- Arrow -->
+  <line x1="480" y1="249" x2="480" y2="275" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="540" y="268" font-size="9" fill="#049CD8">Similarity Search</text>
+
+  <!-- Search comparison -->
+  <rect x="360" y="280" width="240" height="90" rx="6" ry="6" fill="white" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="480" y="298" text-anchor="middle" font-size="10" font-weight="bold" fill="#049CD8">Comparar com Vector DB</text>
+  <text x="375" y="316" font-size="8" fill="#333333">Chunk 1: sim=0.97</text>
+  <rect x="470" y="308" width="110" height="10" rx="2" ry="2" fill="#43B047" opacity="0.3"/>
+  <rect x="470" y="308" width="107" height="10" rx="2" ry="2" fill="#43B047" opacity="0.6"/>
+  <text x="375" y="332" font-size="8" fill="#333333">Chunk 2: sim=0.95</text>
+  <rect x="470" y="324" width="110" height="10" rx="2" ry="2" fill="#43B047" opacity="0.3"/>
+  <rect x="470" y="324" width="104" height="10" rx="2" ry="2" fill="#43B047" opacity="0.5"/>
+  <text x="375" y="348" font-size="8" fill="#333333">Chunk 3: sim=0.12</text>
+  <rect x="470" y="340" width="110" height="10" rx="2" ry="2" fill="#E52521" opacity="0.1"/>
+  <rect x="470" y="340" width="13" height="10" rx="2" ry="2" fill="#E52521" opacity="0.3"/>
+  <text x="375" y="364" font-size="8" fill="#999999">   Muito similar!     Diferente</text>
+
+  <!-- Arrow -->
+  <line x1="480" y1="370" x2="480" y2="400" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="530" y="390" font-size="9" fill="#049CD8">Top-K</text>
+
+  <!-- Top-K results -->
+  <rect x="370" y="404" width="220" height="70" rx="6" ry="6" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <text x="480" y="422" text-anchor="middle" font-size="10" font-weight="bold" fill="#049CD8">TOP-K CHUNKS</text>
+  <text x="480" y="440" text-anchor="middle" font-size="8" fill="#333333">Chunk 1: "A politica de devolucao</text>
+  <text x="480" y="452" text-anchor="middle" font-size="8" fill="#333333">segue as normas do CDC..."</text>
+  <text x="480" y="466" text-anchor="middle" font-size="8" fill="#333333">Chunk 2: "Devolucoes em ate 30 dias..."</text>
+
+  <!-- Techniques -->
+  <text x="480" y="500" text-anchor="middle" font-size="9" font-weight="bold" fill="#999999">Tecnicas Avancadas:</text>
+  <text x="480" y="515" text-anchor="middle" font-size="8" fill="#999999">Hybrid Search, Re-ranking</text>
+  <text x="480" y="528" text-anchor="middle" font-size="8" fill="#999999">Multi-Query RAG, Agentic RAG</text>
+
+  <!-- ==================== PHASE 3: GENERATION ==================== -->
+  <rect x="650" y="70" width="290" height="520" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="650" y="70" width="290" height="30" rx="8" ry="0" fill="#43B047"/>
+  <text x="795" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">FASE 3: GERACAO</text>
+  <text x="795" y="118" text-anchor="middle" font-size="10" fill="#666666">Dar a Resposta Informada</text>
+
+  <!-- Context + Question combination -->
+  <rect x="685" y="132" width="220" height="100" rx="6" ry="6" fill="white" stroke="#43B047" stroke-width="1.5"/>
+  <text x="795" y="150" text-anchor="middle" font-size="10" font-weight="bold" fill="#43B047">PROMPT ENRIQUECIDO</text>
+  <line x1="695" y1="156" x2="895" y2="156" stroke="#43B047" stroke-width="0.5"/>
+  <text x="700" y="172" font-size="8" fill="#333333">SYSTEM: Responda com base</text>
+  <text x="700" y="184" font-size="8" fill="#333333">APENAS nos documentos.</text>
+  <text x="700" y="200" font-size="8" fill="#049CD8">CONTEXTO: [chunks encontrados]</text>
+  <text x="700" y="216" font-size="8" fill="#E52521">PERGUNTA: "Qual a politica?"</text>
+
+  <!-- Arrow -->
+  <line x1="795" y1="232" x2="795" y2="265" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+  <text x="838" y="253" font-size="9" fill="#43B047">LLM processa</text>
+
+  <!-- LLM -->
+  <rect x="715" y="270" width="160" height="50" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <text x="795" y="292" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">LLM</text>
+  <text x="795" y="308" text-anchor="middle" font-size="9" fill="#666666">GPT-4o, Claude, Llama...</text>
+
+  <!-- Arrow -->
+  <line x1="795" y1="320" x2="795" y2="355" stroke="#666666" stroke-width="1.5" marker-end="url(#arwR)"/>
+
+  <!-- Grounded Response -->
+  <rect x="685" y="360" width="220" height="90" rx="8" ry="8" fill="#43B047" stroke="#43B047" stroke-width="2"/>
+  <text x="795" y="382" text-anchor="middle" font-size="11" font-weight="bold" fill="white">RESPOSTA FUNDAMENTADA</text>
+  <line x1="695" y1="388" x2="895" y2="388" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="795" y="406" text-anchor="middle" font-size="8" fill="white">"De acordo com nossos documentos,</text>
+  <text x="795" y="420" text-anchor="middle" font-size="8" fill="white">a politica de devolucao segue o CDC.</text>
+  <text x="795" y="434" text-anchor="middle" font-size="8" fill="white">Voce pode devolver em ate 30 dias</text>
+  <text x="795" y="448" text-anchor="middle" font-size="8" fill="white">com nota fiscal."</text>
+
+  <!-- Key benefit -->
+  <rect x="700" y="470" width="190" height="50" rx="6" ry="6" fill="white" stroke="#43B047" stroke-width="1.5"/>
+  <text x="795" y="490" text-anchor="middle" font-size="10" font-weight="bold" fill="#43B047">Zero Alucinacao</text>
+  <text x="795" y="506" text-anchor="middle" font-size="8" fill="#333333">Resposta baseada em documentos</text>
+  <text x="795" y="518" text-anchor="middle" font-size="8" fill="#333333">reais, nao inventada</text>
+
+  <!-- Phase connection arrows -->
+  <line x1="310" y1="410" x2="335" y2="410" stroke="#999999" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="625" y1="440" x2="650" y2="440" stroke="#999999" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Legend -->
+  <rect x="685" y="540" width="220" height="42" rx="6" ry="6" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="695" y="556" font-size="9" font-weight="bold" fill="#333333">Legenda:</text>
+  <rect x="750" y="548" width="10" height="10" rx="2" fill="#E52521"/>
+  <text x="764" y="557" font-size="8" fill="#666666">Indexacao</text>
+  <rect x="810" y="548" width="10" height="10" rx="2" fill="#049CD8"/>
+  <text x="824" y="557" font-size="8" fill="#666666">Recuperacao</text>
+  <rect x="750" y="565" width="10" height="10" rx="2" fill="#43B047"/>
+  <text x="764" y="574" font-size="8" fill="#666666">Geracao</text>
+  <rect x="810" y="565" width="10" height="10" rx="2" fill="#FBD000"/>
+  <text x="824" y="574" font-size="8" fill="#666666">LLM</text>
+</svg>

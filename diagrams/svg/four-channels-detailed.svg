@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Title -->
+  <text x="460" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Os 4 Canais de Operacao dos Agentes</text>
+  <text x="460" y="48" text-anchor="middle" font-size="13" fill="#666666">Onde os Agentes Vivem, Trabalham e se Comunicam</text>
+
+  <!-- ==================== CHANNEL 1: IDE ==================== -->
+  <rect x="20" y="65" width="210" height="470" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="20" y="65" width="210" height="34" rx="8" ry="0" fill="#049CD8"/>
+  <text x="125" y="80" text-anchor="middle" font-size="9" font-weight="bold" fill="rgba(255,255,255,0.7)">CANAL 1</text>
+  <text x="125" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="white">IDE</text>
+
+  <text x="125" y="118" text-anchor="middle" font-size="10" font-weight="bold" fill="#049CD8">Yoshi ao Seu Lado</text>
+  <text x="125" y="134" text-anchor="middle" font-size="9" fill="#666666">TEMPO REAL | INTERATIVO</text>
+
+  <line x1="35" y1="142" x2="215" y2="142" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- IDE sub-items -->
+  <rect x="35" y="152" width="180" height="32" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.08"/>
+  <text x="45" y="168" font-size="10" font-weight="bold" fill="#333333">Copilot Completions</text>
+  <text x="45" y="180" font-size="8" fill="#999999">Sugere enquanto voce digita</text>
+
+  <rect x="35" y="192" width="180" height="32" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.08"/>
+  <text x="45" y="208" font-size="10" font-weight="bold" fill="#333333">Copilot Chat</text>
+  <text x="45" y="220" font-size="8" fill="#999999">Conversa sobre o codigo</text>
+
+  <rect x="35" y="232" width="180" height="32" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.08"/>
+  <text x="45" y="248" font-size="10" font-weight="bold" fill="#333333">Agent Mode</text>
+  <text x="45" y="260" font-size="8" fill="#999999">Executa tarefas complexas</text>
+
+  <rect x="35" y="272" width="180" height="32" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.08"/>
+  <text x="45" y="288" font-size="10" font-weight="bold" fill="#333333">Copilot Edits</text>
+  <text x="45" y="300" font-size="8" fill="#999999">Multi-arquivo simultaneo</text>
+
+  <rect x="35" y="312" width="180" height="32" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.08"/>
+  <text x="45" y="328" font-size="10" font-weight="bold" fill="#333333">Custom Agents</text>
+  <text x="45" y="340" font-size="8" fill="#999999">.agent.md especializados</text>
+
+  <line x1="35" y1="358" x2="215" y2="358" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- IDE characteristics -->
+  <text x="40" y="378" font-size="9" fill="#333333">Latencia: milissegundos</text>
+  <text x="40" y="394" font-size="9" fill="#333333">Contexto: arquivos abertos</text>
+  <text x="40" y="410" font-size="9" fill="#333333">Resultado: mudancas no editor</text>
+  <text x="40" y="426" font-size="9" fill="#333333">Visibilidade: so voce</text>
+
+  <line x1="35" y1="438" x2="215" y2="438" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="35" y="450" width="180" height="30" rx="6" ry="6" fill="#049CD8" stroke="none" opacity="0.1"/>
+  <text x="125" y="469" text-anchor="middle" font-size="10" font-weight="bold" fill="#049CD8">"Me ajuda AGORA"</text>
+
+  <text x="125" y="505" text-anchor="middle" font-size="8" fill="#999999">VS Code, JetBrains</text>
+  <text x="125" y="518" text-anchor="middle" font-size="8" fill="#999999">Xcode, CLI</text>
+
+  <!-- ==================== CHANNEL 2: PORTAL ==================== -->
+  <rect x="245" y="65" width="210" height="470" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <rect x="245" y="65" width="210" height="34" rx="8" ry="0" fill="#FBD000"/>
+  <text x="350" y="80" text-anchor="middle" font-size="9" font-weight="bold" fill="rgba(51,51,51,0.6)">CANAL 2</text>
+  <text x="350" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">PORTAL / IDP</text>
+
+  <text x="350" y="118" text-anchor="middle" font-size="10" font-weight="bold" fill="#B8960A">Praca Central com NPCs</text>
+  <text x="350" y="134" text-anchor="middle" font-size="9" fill="#666666">ON-DEMAND | SELF-SERVICE</text>
+
+  <line x1="260" y1="142" x2="440" y2="142" stroke="#FBD000" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="260" y="152" width="180" height="32" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.08"/>
+  <text x="270" y="168" font-size="10" font-weight="bold" fill="#333333">Backstage / Catalogo</text>
+  <text x="270" y="180" font-size="8" fill="#999999">Todos os servicos e donos</text>
+
+  <rect x="260" y="192" width="180" height="32" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.08"/>
+  <text x="270" y="208" font-size="10" font-weight="bold" fill="#333333">Templates</text>
+  <text x="270" y="220" font-size="8" fill="#999999">Criar novos projetos</text>
+
+  <rect x="260" y="232" width="180" height="32" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.08"/>
+  <text x="270" y="248" font-size="10" font-weight="bold" fill="#333333">TechDocs</text>
+  <text x="270" y="260" font-size="8" fill="#999999">Documentacao centralizada</text>
+
+  <rect x="260" y="272" width="180" height="32" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.08"/>
+  <text x="270" y="288" font-size="10" font-weight="bold" fill="#333333">Copilot no GitHub.com</text>
+  <text x="270" y="300" font-size="8" fill="#999999">Chat e busca via browser</text>
+
+  <rect x="260" y="312" width="180" height="32" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.08"/>
+  <text x="270" y="328" font-size="10" font-weight="bold" fill="#333333">Onboarding</text>
+  <text x="270" y="340" font-size="8" fill="#999999">Roteiro para novos membros</text>
+
+  <line x1="260" y1="358" x2="440" y2="358" stroke="#FBD000" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="265" y="378" font-size="9" fill="#333333">Latencia: segundos</text>
+  <text x="265" y="394" font-size="9" fill="#333333">Contexto: organizacao inteira</text>
+  <text x="265" y="410" font-size="9" fill="#333333">Resultado: informacao</text>
+  <text x="265" y="426" font-size="9" fill="#333333">Visibilidade: time inteiro</text>
+
+  <line x1="260" y1="438" x2="440" y2="438" stroke="#FBD000" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="260" y="450" width="180" height="30" rx="6" ry="6" fill="#FBD000" stroke="none" opacity="0.1"/>
+  <text x="350" y="469" text-anchor="middle" font-size="10" font-weight="bold" fill="#B8960A">"Preciso de informacao"</text>
+
+  <text x="350" y="505" text-anchor="middle" font-size="8" fill="#999999">Backstage, Portal Web</text>
+  <text x="350" y="518" text-anchor="middle" font-size="8" fill="#999999">GitHub.com, Azure DevOps</text>
+
+  <!-- ==================== CHANNEL 3: CHATOPS ==================== -->
+  <rect x="470" y="65" width="210" height="470" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="470" y="65" width="210" height="34" rx="8" ry="0" fill="#43B047"/>
+  <text x="575" y="80" text-anchor="middle" font-size="9" font-weight="bold" fill="rgba(255,255,255,0.7)">CANAL 3</text>
+  <text x="575" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="white">CHATOPS</text>
+
+  <text x="575" y="118" text-anchor="middle" font-size="10" font-weight="bold" fill="#43B047">Correio dos Parakoopas</text>
+  <text x="575" y="134" text-anchor="middle" font-size="9" fill="#666666">ASSINCRONO | EVENT-DRIVEN</text>
+
+  <line x1="485" y1="142" x2="665" y2="142" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="485" y="152" width="180" height="32" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.08"/>
+  <text x="495" y="168" font-size="10" font-weight="bold" fill="#333333">Copilot PR Review</text>
+  <text x="495" y="180" font-size="8" fill="#999999">Revisao automatica de PRs</text>
+
+  <rect x="485" y="192" width="180" height="32" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.08"/>
+  <text x="495" y="208" font-size="10" font-weight="bold" fill="#333333">Issue Triage Bot</text>
+  <text x="495" y="220" font-size="8" fill="#999999">Classifica e labela issues</text>
+
+  <rect x="485" y="232" width="180" height="32" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.08"/>
+  <text x="495" y="248" font-size="10" font-weight="bold" fill="#333333">@copilot Commands</text>
+  <text x="495" y="260" font-size="8" fill="#999999">explain, suggest, fix, docs</text>
+
+  <rect x="485" y="272" width="180" height="32" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.08"/>
+  <text x="495" y="288" font-size="10" font-weight="bold" fill="#333333">Dependabot Alerts</text>
+  <text x="495" y="300" font-size="8" fill="#999999">PRs de seguranca automaticas</text>
+
+  <rect x="485" y="312" width="180" height="32" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.08"/>
+  <text x="495" y="328" font-size="10" font-weight="bold" fill="#333333">Changelog / Release</text>
+  <text x="495" y="340" font-size="8" fill="#999999">Gera notas automaticamente</text>
+
+  <line x1="485" y1="358" x2="665" y2="358" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="490" y="378" font-size="9" fill="#333333">Latencia: minutos a horas</text>
+  <text x="490" y="394" font-size="9" fill="#333333">Contexto: diff, issue, historico</text>
+  <text x="490" y="410" font-size="9" fill="#333333">Resultado: comentarios no PR</text>
+  <text x="490" y="426" font-size="9" fill="#333333">Visibilidade: todos no PR</text>
+
+  <line x1="485" y1="438" x2="665" y2="438" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="485" y="450" width="180" height="30" rx="6" ry="6" fill="#43B047" stroke="none" opacity="0.1"/>
+  <text x="575" y="469" text-anchor="middle" font-size="10" font-weight="bold" fill="#43B047">"Revisa isso pra mim"</text>
+
+  <text x="575" y="505" text-anchor="middle" font-size="8" fill="#999999">GitHub PRs/Issues</text>
+  <text x="575" y="518" text-anchor="middle" font-size="8" fill="#999999">GitLab, Azure DevOps</text>
+
+  <!-- ==================== CHANNEL 4: BACKGROUND ==================== -->
+  <rect x="695" y="65" width="210" height="470" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <rect x="695" y="65" width="210" height="34" rx="8" ry="0" fill="#E52521"/>
+  <text x="800" y="80" text-anchor="middle" font-size="9" font-weight="bold" fill="rgba(255,255,255,0.7)">CANAL 4</text>
+  <text x="800" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="white">BACKGROUND</text>
+
+  <text x="800" y="118" text-anchor="middle" font-size="10" font-weight="bold" fill="#E52521">Castelos Distantes</text>
+  <text x="800" y="134" text-anchor="middle" font-size="9" fill="#666666">AUTONOMO | AGENDADO</text>
+
+  <line x1="710" y1="142" x2="890" y2="142" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="710" y="152" width="180" height="32" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.06"/>
+  <text x="720" y="168" font-size="10" font-weight="bold" fill="#333333">Coding Agent</text>
+  <text x="720" y="180" font-size="8" fill="#999999">Resolve issues, abre PRs</text>
+
+  <rect x="710" y="192" width="180" height="32" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.06"/>
+  <text x="720" y="208" font-size="10" font-weight="bold" fill="#333333">GitHub Actions + IA</text>
+  <text x="720" y="220" font-size="8" fill="#999999">Pipelines com agentes MCP</text>
+
+  <rect x="710" y="232" width="180" height="32" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.06"/>
+  <text x="720" y="248" font-size="10" font-weight="bold" fill="#333333">Security Scanning</text>
+  <text x="720" y="260" font-size="8" fill="#999999">CodeQL, SAST/DAST diario</text>
+
+  <rect x="710" y="272" width="180" height="32" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.06"/>
+  <text x="720" y="288" font-size="10" font-weight="bold" fill="#333333">Auto Deploy</text>
+  <text x="720" y="300" font-size="8" fill="#999999">Build, test, deploy auto</text>
+
+  <rect x="710" y="312" width="180" height="32" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.06"/>
+  <text x="720" y="328" font-size="10" font-weight="bold" fill="#333333">Batch Processing</text>
+  <text x="720" y="340" font-size="8" fill="#999999">Relatorios, metricas, alertas</text>
+
+  <line x1="710" y1="358" x2="890" y2="358" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="715" y="378" font-size="9" fill="#333333">Latencia: minutos a horas</text>
+  <text x="715" y="394" font-size="9" fill="#333333">Contexto: repo completo</text>
+  <text x="715" y="410" font-size="9" fill="#333333">Resultado: PRs, relatorios</text>
+  <text x="715" y="426" font-size="9" fill="#333333">Visibilidade: logs e artefatos</text>
+
+  <line x1="710" y1="438" x2="890" y2="438" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="710" y="450" width="180" height="30" rx="6" ry="6" fill="#E52521" stroke="none" opacity="0.08"/>
+  <text x="800" y="469" text-anchor="middle" font-size="10" font-weight="bold" fill="#E52521">"Faz enquanto eu durmo"</text>
+
+  <text x="800" y="505" text-anchor="middle" font-size="8" fill="#999999">GitHub Actions, Azure</text>
+  <text x="800" y="518" text-anchor="middle" font-size="8" fill="#999999">Codespaces, Cloud</text>
+
+  <!-- Bottom cycle connection -->
+  <rect x="160" y="555" width="600" height="50" rx="8" ry="8" fill="white" stroke="#CCCCCC" stroke-width="1.5"/>
+  <text x="460" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Os 4 canais formam um CICLO CONTINUO de desenvolvimento</text>
+  <text x="460" y="593" text-anchor="middle" font-size="9" fill="#666666">IDE (escreve) --> ChatOps (revisa) --> Background (deploya) --> Portal (verifica) --> IDE (proximo)</text>
+
+  <!-- Cycle arrows between columns -->
+  <path d="M 230,555 L 245,555" stroke="#049CD8" stroke-width="2" fill="none" marker-end="url(#arwCycle)"/>
+  <path d="M 455,555 L 470,555" stroke="#FBD000" stroke-width="2" fill="none"/>
+  <path d="M 680,555 L 695,555" stroke="#43B047" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 680" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#999999"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="460" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Que Modo do Copilot Devo Usar?</text>
+  <text x="460" y="50" text-anchor="middle" font-size="13" fill="#666666">Arvore de Decisao -- GitHub Copilot</text>
+
+  <!-- Root question -->
+  <rect x="310" y="70" width="300" height="44" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <text x="460" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">O que voce precisa fazer?</text>
+  <text x="460" y="104" text-anchor="middle" font-size="10" fill="#666666">Escolha o caminho abaixo</text>
+
+  <!-- Branch lines from root -->
+  <line x1="360" y1="114" x2="130" y2="170" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="410" y1="114" x2="340" y2="170" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="510" y1="114" x2="570" y2="170" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="114" x2="790" y2="170" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Branch labels -->
+  <text x="220" y="142" text-anchor="middle" font-size="9" fill="#999999">Entender</text>
+  <text x="360" y="142" text-anchor="middle" font-size="9" fill="#999999">Planejar</text>
+  <text x="530" y="142" text-anchor="middle" font-size="9" fill="#999999">Executar tarefa</text>
+  <text x="700" y="142" text-anchor="middle" font-size="9" fill="#999999">Resolver issue</text>
+
+  <!-- Ask Mode decision -->
+  <rect x="40" y="170" width="180" height="50" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <text x="130" y="191" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Quer ENTENDER algo?</text>
+  <text x="130" y="206" text-anchor="middle" font-size="9" fill="#666666">Sem modificar arquivos</text>
+
+  <!-- Ask Mode result -->
+  <line x1="130" y1="220" x2="130" y2="265" stroke="#049CD8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="145" y="245" font-size="9" fill="#049CD8">Sim</text>
+  <rect x="40" y="268" width="180" height="70" rx="8" ry="8" fill="#049CD8" stroke="#049CD8" stroke-width="2"/>
+  <text x="130" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="white">ASK MODE</text>
+  <text x="130" y="306" text-anchor="middle" font-size="9" fill="white">Toad's Hint House</text>
+  <text x="130" y="320" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Explica, analisa, compara</text>
+  <text x="130" y="332" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Zero risco de efeitos colaterais</text>
+
+  <!-- Plan Mode decision -->
+  <rect x="250" y="170" width="180" height="50" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <text x="340" y="191" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Quer VER o plano</text>
+  <text x="340" y="206" text-anchor="middle" font-size="9" fill="#666666">antes de executar?</text>
+
+  <!-- Plan Mode result -->
+  <line x1="340" y1="220" x2="340" y2="265" stroke="#FBD000" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="355" y="245" font-size="9" fill="#B8960A">Sim</text>
+  <rect x="250" y="268" width="180" height="70" rx="8" ry="8" fill="#FBD000" stroke="#FBD000" stroke-width="2"/>
+  <text x="340" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">PLAN MODE</text>
+  <text x="340" y="306" text-anchor="middle" font-size="9" fill="#333333">Mapa da Fase</text>
+  <text x="340" y="320" text-anchor="middle" font-size="9" fill="rgba(51,51,51,0.7)">Mostra plano antes de agir</text>
+  <text x="340" y="332" text-anchor="middle" font-size="9" fill="rgba(51,51,51,0.7)">Voce aprova ou ajusta</text>
+
+  <!-- Agent Mode decision -->
+  <rect x="480" y="170" width="180" height="50" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <text x="570" y="191" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Tarefa complexa</text>
+  <text x="570" y="206" text-anchor="middle" font-size="9" fill="#666666">no IDE, com voce presente?</text>
+
+  <!-- Agent Mode sub-question -->
+  <line x1="570" y1="220" x2="570" y2="265" stroke="#43B047" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="585" y="245" font-size="9" fill="#43B047">Sim</text>
+
+  <rect x="480" y="268" width="180" height="50" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <text x="570" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Precisa editar</text>
+  <text x="570" y="306" text-anchor="middle" font-size="9" fill="#666666">multiplos arquivos?</text>
+
+  <!-- Agent Mode: Edit vs Agent split -->
+  <line x1="525" y1="318" x2="490" y2="370" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="615" y1="318" x2="650" y2="370" stroke="#999999" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="490" y="350" text-anchor="middle" font-size="9" fill="#999999">Nao, simples</text>
+  <text x="650" y="350" text-anchor="middle" font-size="9" fill="#999999">Sim, complexo</text>
+
+  <!-- Edit Mode result -->
+  <rect x="400" y="373" width="170" height="65" rx="8" ry="8" fill="#43B047" stroke="#43B047" stroke-width="2"/>
+  <text x="485" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="white">EDIT MODE</text>
+  <text x="485" y="411" text-anchor="middle" font-size="9" fill="white">Edita arquivos selecionados</text>
+  <text x="485" y="425" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Refatoracao inline</text>
+
+  <!-- Agent Mode result -->
+  <rect x="580" y="373" width="170" height="65" rx="8" ry="8" fill="#43B047" stroke="#2D7A30" stroke-width="2"/>
+  <text x="665" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="white">AGENT MODE</text>
+  <text x="665" y="411" text-anchor="middle" font-size="9" fill="white">Yoshi joga COM voce</text>
+  <text x="665" y="425" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Cria, edita, testa, itera</text>
+
+  <!-- Coding Agent decision -->
+  <rect x="700" y="170" width="180" height="50" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <text x="790" y="191" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Issue no GitHub?</text>
+  <text x="790" y="206" text-anchor="middle" font-size="9" fill="#666666">Pode trabalhar sem voce?</text>
+
+  <!-- Coding Agent result -->
+  <line x1="790" y1="220" x2="790" y2="265" stroke="#E52521" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="805" y="245" font-size="9" fill="#E52521">Sim</text>
+  <rect x="700" y="268" width="180" height="70" rx="8" ry="8" fill="#E52521" stroke="#E52521" stroke-width="2"/>
+  <text x="790" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="white">CODING AGENT</text>
+  <text x="790" y="306" text-anchor="middle" font-size="9" fill="white">Yoshi vai Solo</text>
+  <text x="790" y="320" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Resolve issue, abre PR</text>
+  <text x="790" y="332" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Background, autonomo</text>
+
+  <!-- Completions section at bottom -->
+  <line x1="460" y1="114" x2="460" y2="490" stroke="#999999" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="300" y="490" width="320" height="50" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="460" y="510" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Apenas digitando codigo?</text>
+  <text x="460" y="526" text-anchor="middle" font-size="9" fill="#666666">Quer sugestoes inline enquanto digita?</text>
+
+  <line x1="460" y1="540" x2="460" y2="575" stroke="#049CD8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="578" width="240" height="55" rx="8" ry="8" fill="#049CD8" stroke="#049CD8" stroke-width="2" opacity="0.85"/>
+  <text x="460" y="600" text-anchor="middle" font-size="13" font-weight="bold" fill="white">COMPLETIONS</text>
+  <text x="460" y="616" text-anchor="middle" font-size="9" fill="white">Sempre ativo -- Sugere enquanto voce digita</text>
+  <text x="460" y="628" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.8)">Tab para aceitar, Esc para ignorar</text>
+
+  <!-- Legend -->
+  <rect x="30" y="595" width="200" height="78" rx="8" ry="8" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="40" y="612" font-size="10" font-weight="bold" fill="#333333">Legenda</text>
+  <rect x="40" y="620" width="10" height="10" rx="2" fill="#049CD8"/>
+  <text x="56" y="629" font-size="9" fill="#666666">Ask / Completions (seguro)</text>
+  <rect x="40" y="634" width="10" height="10" rx="2" fill="#FBD000"/>
+  <text x="56" y="643" font-size="9" fill="#666666">Plan (preview antes de agir)</text>
+  <rect x="40" y="648" width="10" height="10" rx="2" fill="#43B047"/>
+  <text x="56" y="657" font-size="9" fill="#666666">Edit / Agent (executa no IDE)</text>
+  <rect x="40" y="662" width="10" height="10" rx="2" fill="#E52521"/>
+  <text x="56" y="671" font-size="9" fill="#666666">Coding Agent (background)</text>
+</svg>
