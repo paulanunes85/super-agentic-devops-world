@@ -3,9 +3,9 @@ title: "Level 7-1 — Magikoopa's Forge: Azure AI Foundry"
 description: "Azure AI Foundry: Model Catalog, Prompt Flow, Evaluation and Deployment with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "ai-foundry", "azure-ai"]
-sidebar_position: 1
-format: md
 ---
 
 ## Change Log
@@ -339,7 +339,7 @@ Each node in Prompt Flow performs a specific operation:
 |---|---|---|---|
 | **LLM** | Calls a language model | Casting the spell | "Answer this question: ..." |
 | **Python** | Executes Python code | Mixing ingredients by hand | Process text, calculate, filter |
-| **Prompt** | Prompt template with variables | Base enchantment recipe | "You are an assistant that \{behavior\}" |
+| **Prompt** | Prompt template with variables | Base enchantment recipe | "You are an assistant that {behavior}" |
 | **Embedding** | Converts text to numerical vectors | Translating the spell to magical language | Transform a question into an embedding |
 | **Index Lookup** | Searches a vector database | Looking in the library for the right book | Search for relevant documents |
 | **Content Safety** | Checks content safety | Forge guardian checking the spell | Block inappropriate content |
@@ -385,7 +385,7 @@ Imagine Magikoopa needs to create an **Invincibility Potion** (equivalent to Sta
 
 ```
 INVINCIBILITY POTION RECIPE (Magikoopa's Prompt Flow)
-=====================================================
+
 
 Step 1: GATHER INGREDIENTS (Input node)
    → Golden Mushroom + Star Water + Rainbow Dust
@@ -438,7 +438,7 @@ Fine-tuning is the process of **taking a pre-trained model and adjusting it with
 
 ```
 FINE-TUNING PROCESS IN AZURE AI FOUNDRY
-========================================
+
 
 1. PREPARE DATA
    ┌────────────────────────────────────┐
@@ -584,7 +584,7 @@ Every forge has **safety rules**. Magikoopa's Forge is no different:
 
 ```
 MAGIKOOPA'S FORGE RULES (Responsible AI)
-==========================================
+
 
 Rule 1: NO FORBIDDEN SPELLS
    → Weapons of mass destruction spells are not allowed
@@ -799,7 +799,7 @@ print(response.json()["choices"][0]["message"]["content"])
 
 ```
 PROGRESSION IN MAGIKOOPA'S FORGE
-==================================
+
 
 Level 1 -> Apprentice (Playground)
              = Tests basic spells at the experiment table
@@ -855,3 +855,11 @@ The next level will lead her to discover the **Magic Library** — RAG, the powe
 
 - Azure AI Foundry — https://ai.azure.com
 - Azure AI Studio Documentation — https://learn.microsoft.com/en-us/azure/ai-studio/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-BOSS: Quick Reference](../world-6-bowser-castle-2/6-boss-quick-reference.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-2: RAG](7-2-rag.md)
+
+</div>

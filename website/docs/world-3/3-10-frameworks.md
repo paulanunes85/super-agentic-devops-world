@@ -3,6 +3,8 @@ title: "Level 3-10 -- Weapons and Armor: Frameworks and Libraries"
 description: "Understand the difference between frameworks and libraries, and get to know React, Vue, Angular, Express, Next.js, .NET, Django, and Spring -- like the weapons and armor that equip the characters of the Mushroom Kingdom"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -17,8 +19,6 @@ tags:
   - dotnet
   - django
   - spring
-sidebar_position: 2
-format: md
 ---
 
 # Level 3-10 -- Weapons and Armor: Frameworks and Libraries
@@ -695,3 +695,11 @@ A **stack** is the complete set of technologies used in a project.
 ---
 
 *End of Level 3-10. Sofia now knows the available weapons and armor. In the next level, she learns to manage her inventory: packages and dependencies.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-9: Languages](3-9-linguagens.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-11: Packages](3-11-pacotes.md)
+
+</div>

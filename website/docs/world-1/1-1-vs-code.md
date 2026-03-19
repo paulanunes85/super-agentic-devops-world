@@ -3,9 +3,9 @@ title: "Level 1-1 — Pressing START: VS Code, the Game Console"
 description: "First contact with VS Code — the console where the entire development adventure takes place."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "vs-code", "fundamentals"]
-sidebar_position: 1
-format: md
 ---
 
 # Level 1-1 — Pressing START: VS Code, the Game Console
@@ -551,9 +551,9 @@ node fase1-1.js
 You should see:
 
 ```
-=================================
+
    WELCOME TO MUSHROOM KINGDOM
-=================================
+
 
 Hero: Sofia
 Location: World 1-1

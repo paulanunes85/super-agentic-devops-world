@@ -3,6 +3,8 @@ title: "Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules"
 description: "Learn the essential best practices for any professional project: semantic versioning, documentation, .gitignore, CONTRIBUTING, CODE_OF_CONDUCT and CODEOWNERS -- like the rules of the Mushroom Kingdom Guild"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -13,8 +15,6 @@ tags:
   - gitignore
   - contributing
   - codeowners
-sidebar_position: 9
-format: md
 ---
 
 # Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules
@@ -804,3 +804,11 @@ python 3.12.0
 ---
 
 *End of Level 3-7. In the next level, Sofia discovers how the Mushroom Kingdom pipes work -- the communication network that connects everything: the Internet.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-6: Databases](3-6-banco_dados.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-8: Internet](3-8-internet.md)
+
+</div>

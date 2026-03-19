@@ -3,9 +3,9 @@ title: "Level 3-5 -- Licenses of the Mushroom Kingdom: Open Source"
 description: "Open Source explained with a Mario analogy -- sharing custom levels, licenses as usage rules, contributions as community improvements, and forks as alternate versions"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "open-source", "licenses", "github", "community"]
-sidebar_position: 7
-format: md
 ---
 
 # Level 3-5 -- Licenses of the Mushroom Kingdom: Open Source
@@ -685,3 +685,11 @@ $ npm install express
 ---
 
 *Level 3-5 complete! You understood the world of Open Source -- the ecosystem that built practically everything you use. In the next and final level of this World, we'll enter the Castle of Data: Databases.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-4: Tests](3-4-testes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-6: Databases](3-6-banco_dados.md)
+
+</div>

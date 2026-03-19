@@ -3,6 +3,8 @@ title: "Level 2-2 -- The Messenger Between Kingdoms: APIs"
 description: "How different parts of a system talk to each other through APIs, HTTP methods, status codes, and the difference between Frontend, Backend, and Full Stack"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - api
   - rest
@@ -13,8 +15,6 @@ tags:
   - status-codes
   - world-2
   - mario
-sidebar_position: 2
-format: md
 ---
 
 # Level 2-2 -- The Messenger Between Kingdoms: APIs

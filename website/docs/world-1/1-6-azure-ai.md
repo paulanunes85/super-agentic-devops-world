@@ -3,9 +3,9 @@ title: "Level 1-6 — The Magic of the Game: Azure AI and AI Foundry"
 description: "Introduction to Azure AI services, GitHub Copilot, and Azure AI Foundry — the magic that transforms development."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "azure-ai", "ai-foundry", "copilot", "fundamentals"]
-sidebar_position: 6
-format: md
 ---
 
 # Level 1-6 — The Magic of the Game: Azure AI and AI Foundry
@@ -508,3 +508,11 @@ In Copilot Chat, try:
 ---
 
 *"Magic doesn't replace skill — it amplifies it. The best wizard is the one who knows the right spell for every situation." — Sofia, casting her first perfect prompt.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-5: Azure](1-5-azure.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-7: Connections](1-7-connections.md)
+
+</div>

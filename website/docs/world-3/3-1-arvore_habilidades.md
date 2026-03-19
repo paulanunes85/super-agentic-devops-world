@@ -3,9 +3,9 @@ title: "Level 3-1 -- Skill Tree: Your Evolution Path"
 description: "The developer skill tree mapped as the progression from Small Mario to Star Mario — 5 levels, multiple paths, skills that unlock each other"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "skill-tree", "career", "progression"]
-sidebar_position: 1
-format: md
 ---
 
 # Level 3-1 -- Skill Tree: Your Evolution Path
@@ -67,11 +67,6 @@ format: md
 ---
 
 ## Prologue: The Character Select Screen
-
-<div align="center">
-<img src="/img/diagrams/skill-tree.svg" alt="Skill tree progression" width="780" />
-<br/><em>Skill tree progression</em>
-</div>
 
 Sofia opened the game and was fascinated. On the screen, a massive tree spread out like a constellation map. Each star was a skill. Some shone brightly -- the ones she had already mastered. Others were dimmed, waiting to be unlocked. Lines connected the stars, showing which skills paved the way for others.
 
@@ -140,6 +135,11 @@ The goal of the skill tree is to take you from stage 1 to stage 4 in each skill,
 
 ## 2. The 5 Levels of Evolution
 
+<div align="center">
+<img src="../../diagrams/svg/skill-tree.svg" alt="Skill tree progression" width="780" />
+<br/><em>Skill tree progression</em>
+</div>
+
 ### 2.1 Level 1 -- Apprentice (Small Mario)
 
 **XP Level: 1-10**
@@ -150,7 +150,7 @@ Small Mario is where it all begins. Small, vulnerable, dies with a single enemy 
 
 ```
 LEVEL 1 -- APPRENTICE (Small Mario)
-==================================
+
 [x] Understand what code is
 [x] Install VS Code
 [x] Create and save files
@@ -185,7 +185,7 @@ Super Mario grabbed the first mushroom. He's bigger, stronger, and can take a hi
 
 ```
 LEVEL 2 -- EXPLORER (Super Mario)
-=====================================
+
 [x] Intermediate JavaScript (arrays, objects, loops)
 [x] DOM manipulation
 [x] Fetch API / HTTP calls
@@ -218,7 +218,7 @@ Fire Mario has the Fire Flower. He doesn't just defend himself -- now he **attac
 
 ```
 LEVEL 3 -- BUILDER (Fire Mario)
-====================================
+
 [x] React or equivalent frontend framework
 [x] TypeScript
 [x] REST API design
@@ -251,7 +251,7 @@ Cape Mario can fly. Literally. He sees the world from above, understanding patte
 
 ```
 LEVEL 4 -- SPECIALIST (Cape Mario)
-======================================
+
 [x] Software architecture (design patterns)
 [x] Microservices or serverless
 [x] Basic Kubernetes
@@ -284,7 +284,7 @@ Star Mario is invincible. Everything he touches turns to gold. In the dev world,
 
 ```
 LEVEL 5 -- LEGENDARY (Star Mario)
-==================================
+
 [x] Defining organizational standards
 [x] Agentic DevOps and AI-driven automation
 [x] Distributed systems architecture
@@ -753,3 +753,11 @@ Each level requires different "training grounds":
 ---
 
 *Level 3-1 complete! You've mapped your entire skill tree. In the next level, we'll get hands on the keyboard for real and master the developer's most powerful tool: the Terminal.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-BOSS: Exercises](../world-2-underground/2-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-2: Terminal](3-2-terminal.md)
+
+</div>

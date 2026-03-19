@@ -3,6 +3,8 @@ title: "Level 4-5 -- Workflows: Git Workflows"
 description: "Git Flow, GitHub Flow, trunk-based development and GitLab Flow — how to organize the team's work in the Mushroom Kingdom"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -12,8 +14,6 @@ tags:
   - github-flow
   - trunk-based
   - branching
-sidebar_position: 5
-format: md
 ---
 
 # Level 4-5 -- Workflows: Git Workflows
@@ -76,11 +76,6 @@ format: md
 ---
 
 ## Prologue: The Branch Chaos
-
-<div align="center">
-<img src="/img/diagrams/git-branching.svg" alt="Git Flow vs GitHub Flow" width="780" />
-<br/><em>Git Flow vs GitHub Flow</em>
-</div>
 
 Sofia's team had grown. Now there were 5 developers working on TodoApp at the same time. And chaos took over.
 
@@ -741,6 +736,11 @@ jobs:
 
 ## 9. Workflow Comparison
 
+<div align="center">
+<img src="../../diagrams/svg/git-branching.svg" alt="Git Flow vs GitHub Flow" width="780" />
+<br/><em>Git Flow vs GitHub Flow</em>
+</div>
+
 ### 9.1 Comparison Table
 
 | Criterion | Git Flow | GitHub Flow | Trunk-Based | GitLab Flow |
@@ -804,3 +804,11 @@ Need to maintain multiple versions in production?
 ---
 
 *Level 4-5 complete! You learned the main Git workflows and when to use each one. In the next level, we'll dive into data structures and JSON — how to organize coins, stars, and mushrooms. Get ready for Level 4-6!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-6: Data Structures](4-6-estruturas_dados.md)
+
+</div>

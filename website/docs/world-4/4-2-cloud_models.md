@@ -3,6 +3,8 @@ title: "Level 4-2 -- Service Tiers: Cloud Models"
 description: "IaaS, PaaS, SaaS, and Serverless explained as castle levels in the Mushroom Kingdom — from empty land to a fully furnished castle"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -12,8 +14,6 @@ tags:
   - paas
   - saas
   - serverless
-sidebar_position: 2
-format: md
 ---
 
 # Level 4-2 -- Service Tiers: Cloud Models
@@ -684,3 +684,11 @@ Do you need total control over the OS?
 ---
 
 *Level 4-2 complete! Now you know the difference between building from scratch (IaaS), decorating a ready castle (PaaS), living in a hotel (SaaS), and using magic (Serverless). In the next level, we'll explore Software Architecture — how to design the castle blueprint. Get ready for Level 4-3!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-1: Auth](4-1-auth.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-3: Architecture](4-3-arquitetura.md)
+
+</div>

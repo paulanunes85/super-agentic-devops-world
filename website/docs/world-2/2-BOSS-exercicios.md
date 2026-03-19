@@ -3,6 +3,8 @@ title: "Level 2-BOSS -- Boss Battle: Practical Exercises Level 2"
 description: "Practical exercises from World 2 (Underground Caves): create environments, build APIs, configure security, DNS, agile methodologies, IaC, and observability"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - exercises
   - practice
@@ -14,8 +16,6 @@ tags:
   - observability
   - world-2
   - mario
-sidebar_position: 8
-format: md
 ---
 
 # Level 2-BOSS -- Boss Battle: Practical Exercises Level 2
@@ -727,3 +727,11 @@ todoapp-world2/
 |                                                |
 +================================================+
 ```
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-7: Observability](2-7-observabilidade.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-1: Skill Tree](../world-3-sky/3-1-arvore_habilidades.md)
+
+</div>

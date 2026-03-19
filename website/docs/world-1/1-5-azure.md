@@ -3,9 +3,9 @@ title: "Level 1-5 — The Open World: Azure"
 description: "Introduction to Azure — Microsoft's cloud as the open world where your applications come to life."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "azure", "cloud", "fundamentals"]
-sidebar_position: 5
-format: md
 ---
 
 # Level 1-5 — The Open World: Azure
@@ -539,3 +539,11 @@ az keyvault secret set \
 ---
 
 *"My code doesn't live on my computer anymore. It lives in the clouds — accessible by any player, anywhere in the world." — Sofia, admiring her first deploy.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-4: GitHub Actions](1-4-github-actions.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-6: Azure AI](1-6-azure-ai.md)
+
+</div>

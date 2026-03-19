@@ -3,6 +3,8 @@ title: "Level 2-3 -- Protection Spells: Security"
 description: "Security in software development: secrets, environment variables, HTTPS, SSL/TLS, Azure Key Vault, and how to protect your kingdom from invaders"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - seguranca
   - secrets
@@ -12,8 +14,6 @@ tags:
   - env-vars
   - world-2
   - mario
-sidebar_position: 3
-format: md
 ---
 
 # Level 2-3 -- Protection Spells: Security
@@ -573,3 +573,11 @@ const values = [nomeDoUsuario];
 *"In the Mushroom Kingdom, security isn't paranoia -- it's survival. Bowser is ALWAYS trying to invade. Protect your keys, lock your vaults, and never, NEVER leave the password hanging on the door."*
 
 *Next Warp Pipe: Level 2-4 -- The World Map: DNS and Domains*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-2: APIs](2-2-apis.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-4: DNS](2-4-dns.md)
+
+</div>

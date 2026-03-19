@@ -3,6 +3,8 @@ title: "Level 8-3 -- The End and the Beginning: Next Steps"
 description: "Learning resources, learning paths, certifications, communities and next steps after completing the Agentic DevOps guide. Includes real URLs for Microsoft Learn, GitHub Skills, and other resources."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - next-steps
   - resources
@@ -11,8 +13,6 @@ tags:
   - learning-paths
   - world-8
   - mario
-sidebar_position: 3
-format: md
 ---
 
 # Level 8-3 -- The End and the Beginning: Next Steps
@@ -149,3 +149,11 @@ Your Star World is the real world of software development.
 - [LangChain](https://python.langchain.com/) — LangChain documentation
 - [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) — Microsoft Semantic Kernel
 - [Backstage](https://backstage.io/) — Internal Developer Platform
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-2: Boss Rush](8-2-boss-rush.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-Final: Glossary](8-final-glossary.md)
+
+</div>

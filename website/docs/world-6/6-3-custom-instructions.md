@@ -3,9 +3,9 @@ title: "Chapter 4C — Custom Instructions / The Game Rulebook"
 description: "How to configure Custom Instructions to define the permanent rules that Copilot follows in all contexts."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "instructions"]
-sidebar_position: 3
-format: md
 ---
 
 ## Change Log
@@ -568,3 +568,11 @@ She stored this knowledge in her **Game Rulebook** and headed to the next level.
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Custom Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-2: Agent Skills](6-2-agent-skills.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-4: Prompt Files](6-4-prompt-files.md)
+
+</div>

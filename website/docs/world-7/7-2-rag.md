@@ -3,9 +3,9 @@ title: "Level 7-2 — The Magic Library: RAG (Retrieval-Augmented Generation)"
 description: "RAG (Retrieval-Augmented Generation): embeddings, vector DB and retrieval with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "rag", "embeddings", "vector-database"]
-sidebar_position: 2
-format: md
 ---
 
 ## Change Log
@@ -40,8 +40,8 @@ format: md
   - [2.3 The Mario Analogy: The Magic Encyclopedia](#23-the-mario-analogy-the-magic-encyclopedia)
 
 <div align="center">
-<img src="/img/diagrams/rag-architecture.svg" alt="RAG Architecture: Indexing, Retrieval, and Generation" width="800" />
-<br/><em>RAG Architecture: Indexing, Retrieval, and Generation</em>
+<img src="../../diagrams/svg/rag-architecture.svg" alt="RAG Architecture: Indexing, Retrieval, and Generation" width="800">
+<br><em>RAG Architecture: Indexing, Retrieval, and Generation</em>
 </div>
 - [3. How RAG Works: Step by Step](#3-how-rag-works-step-by-step)
   - [3.1 Phase 1: Indexing (Preparing the Library)](#31-phase-1-indexing-preparing-the-library)
@@ -86,11 +86,6 @@ format: md
 ---
 
 ## Prologue: The Mario Who Only Knew World 1
-
-<div align="center">
-<img src="/img/diagrams/rag-detailed-flow.svg" alt="Detailed RAG architecture" width="780" />
-<br/><em>Detailed RAG architecture</em>
-</div>
 
 Sofia was exploring Star World when she came across a curious situation. There was a Mario sitting on a bench, looking frustrated. Next to him, a group of Toads was trying to get him to answer questions.
 
@@ -156,16 +151,10 @@ This LOOKS correct, but the model **made it all up**. The actual policy could be
 
 ```
 MARIO WITHOUT RAG (pure LLM)
-==============================
+
 
 Mario's Knowledge:
-  World 1: ████████████████████ 100% (knows everything!)
-  World 2: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 3: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 4: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 5: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 6: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 7: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
+
 
 Question: "How to defeat the World 5 boss?"
 
@@ -219,6 +208,11 @@ Or in Mario language:
 
 ## 3. How RAG Works: Step by Step
 
+<div align="center">
+<img src="../../diagrams/svg/rag-detailed-flow.svg" alt="Detailed RAG architecture" width="780" />
+<br/><em>Detailed RAG architecture</em>
+</div>
+
 RAG works in three distinct phases. Let's detail each one.
 
 ### 3.1 Phase 1: Indexing (Preparing the Library)
@@ -229,7 +223,7 @@ Indexing happens **before** any question is asked. It's the process of preparing
 
 ```
 PHASE 1: INDEXING (happens ONCE, before use)
-=============================================
+
 
 1. COLLECT DOCUMENTS
    ┌──────────────────────────────────────────┐
@@ -276,7 +270,7 @@ Retrieval happens **when a question arrives**. The system needs to find the most
 
 ```
 PHASE 2: RETRIEVAL (happens with EVERY question)
-==================================================
+
 
 1. RECEIVE THE QUESTION
    "What is the store's return policy?"
@@ -318,7 +312,7 @@ Generation is the final step: combining the original question with the found chu
 
 ```
 PHASE 3: GENERATION (combine question + context + LLM)
-=======================================================
+
 
 1. BUILD THE ENRICHED PROMPT
    ┌──────────────────────────────────────────────┐
@@ -355,7 +349,7 @@ PHASE 3: GENERATION (combine question + context + LLM)
 
 ```
 COMPLETE RAG ARCHITECTURE
-===========================
+
 
                          ┌─────────────────────┐
                          │   YOUR DOCUMENTS     │
@@ -432,7 +426,7 @@ Notice that the first two sentences have **similar** vectors (similar meanings),
 
 ```
 EMBEDDING MAP (simplified in 2D)
-==================================
+
 
          "return                 "return
           policy"                deadline"
@@ -582,7 +576,7 @@ USER QUESTION:
 
 ```
 NORMAL MARIO (LLM without RAG)
-================================
+
   ┌─────────┐
   │  MARIO  │  Brain: only what he learned in training
   │  (LLM)  │  Backpack: EMPTY
@@ -590,7 +584,7 @@ NORMAL MARIO (LLM without RAG)
   └─────────┘
 
 RAG MARIO (LLM with RAG)
-==========================
+
   ┌─────────┐  ┌──────────────────────┐
   │  MARIO  │  │  MAGIC LIBRARY       │
   │  (LLM)  │──│  (Vector Database)   │
@@ -697,7 +691,7 @@ RAG **is not necessary** (and adds unnecessary complexity) in certain scenarios:
 
 ```
 DO I NEED RAG? DECISION FLOW
-==============================
+
 
 Is the information the LLM needs in its training?
   │
@@ -741,7 +735,7 @@ A complete RAG architecture has the following components:
 
 ```
 RAG ARCHITECTURE — COMPLETE VIEW
-==================================
+
 
                     INDEXING PHASE (once)
    ┌────────────────────────────────────────────────────┐
@@ -1067,7 +1061,7 @@ AGENTIC RAG:
 
 ```
 RAG PROGRESSION — From Novice to Master
-=========================================
+
 
 Level 1 -> Librarian Apprentice
              = Basic RAG with Playground "On Your Data"
@@ -1124,3 +1118,11 @@ The next level will lead her to discover how to **chain** AI operations into dev
 ## References
 
 - Azure OpenAI RAG Overview — https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/retrieval-augmented-generation
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-1: Azure AI Foundry](7-1-azure-ai-foundry.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-3: LangChain](7-3-langchain.md)
+
+</div>

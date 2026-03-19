@@ -3,9 +3,9 @@ title: "Level 1-2 — Save Game: Git and the Save System"
 description: "Learn Git from scratch — the version control system that works like the most powerful save game ever created."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
-sidebar_position: 2
-format: md
 ---
 
 # Level 1-2 — Save Game: Git and the Save System
@@ -74,8 +74,8 @@ format: md
 ## Prologue — The Player Who Lost Everything
 
 <div align="center">
-<img src="/img/diagrams/git-workflow.svg" alt="Git workflow: Working Directory → Staging → Repository" width="800" />
-<br/><em>Git workflow: Working Directory → Staging → Repository</em>
+<img src="../../diagrams/svg/git-workflow.svg" alt="Git workflow: Working Directory → Staging → Repository" width="800">
+<br><em>Git workflow: Working Directory → Staging → Repository</em>
 </div>
 
 Sofia was proud. After hours working on the code, she had built something beautiful — a program that worked perfectly. Then she decided to "improve" a part. Changed one thing here, another there, one more over there...
@@ -724,3 +724,11 @@ The **GitLens** extension adds superpowers to Git in VS Code:
 ---
 
 *"Now nobody can take my saves from me." — Sofia, holding tight to her Git memory card.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-1: VS Code](1-1-vs-code.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-3: GitHub](1-3-github.md)
+
+</div>

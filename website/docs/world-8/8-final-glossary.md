@@ -3,6 +3,8 @@ title: "Level 8-FINAL -- Mushroom Kingdom Encyclopedia: Definitive Glossary"
 description: "Complete glossary with 120+ terms covering all 8 Worlds of Agentic DevOps, each with its corresponding Mario analogy. The definitive Mushroom Kingdom reference."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - glossary
   - reference
@@ -10,8 +12,6 @@ tags:
   - all-worlds
   - world-8
   - mario
-sidebar_position: 4
-format: md
 ---
 
 # Level 8-FINAL -- Mushroom Kingdom Encyclopedia: Definitive Glossary
@@ -988,3 +988,11 @@ AutoGen, Azure AI Foundry, Azure AI Search, Backstage, Chunking, Embedding, Embe
 ```
 
 *"It's-a me, DevOps!"*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-3: Next Steps](8-3-next-steps.md) · 🗺️ [World Map](../INDEX.md)
+
+</div>

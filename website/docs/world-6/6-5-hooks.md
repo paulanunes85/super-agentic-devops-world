@@ -3,9 +3,9 @@ title: "Chapter 4E — Hooks / The ? Blocks — Automatic Triggers"
 description: "How to configure Hooks to create automatic triggers in development, using Husky and commit conventions."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "hooks", "husky"]
-sidebar_position: 5
-format: md
 ---
 
 ## Change Log
@@ -849,3 +849,11 @@ She stored this knowledge and headed to the next level of the Mushroom Kingdom..
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Husky - Git Hooks](https://typicode.github.io/husky/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-4: Prompt Files](6-4-prompt-files.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-6: MCP Practical](6-6-mcp-practical.md)
+
+</div>

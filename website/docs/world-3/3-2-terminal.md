@@ -3,9 +3,9 @@ title: "Level 3-2 -- The Command Console: Terminal"
 description: "Master the Terminal — the developer's debug/cheat menu. Bash, PowerShell, essential commands, and the power of Warp Pipes (|) that connect commands"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "terminal", "bash", "powershell", "cli"]
-sidebar_position: 4
-format: md
 ---
 
 # Level 3-2 -- The Command Console: Terminal
@@ -1095,3 +1095,11 @@ $ source ~/.zshrc    # or ~/.bashrc
 ---
 
 *Level 3-2 complete! You've mastered the Terminal -- the secret menu that transforms anyone into a power user. In the next level, we'll learn to package entire applications with Docker -- the developer's magic lunchbox.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-1: Skill Tree](3-1-arvore_habilidades.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-3: Docker](3-3-docker.md)
+
+</div>

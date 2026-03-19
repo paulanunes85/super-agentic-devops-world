@@ -3,6 +3,8 @@ title: "Level 3-8 -- The Mushroom Kingdom Pipes: How the Internet Works"
 description: "Understand TCP/IP, HTTP/HTTPS, DNS, ports, request/response and status codes -- like the plumbing system (green pipes) that connects the entire Mushroom Kingdom"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -12,8 +14,6 @@ tags:
   - http
   - dns
   - redes
-sidebar_position: 10
-format: md
 ---
 
 # Level 3-8 -- The Mushroom Kingdom Pipes: How the Internet Works
@@ -139,14 +139,6 @@ The Internet is, fundamentally, a **network of networks**. Billions of computers
 
 TCP/IP (Transmission Control Protocol / Internet Protocol) is the set of rules that defines how data travels across the internet. It is organized into 4 layers:
 
-```
-╔══════════════════════════════════════════════════╗
-║  4. APPLICATION  (HTTP, HTTPS, FTP, SMTP, DNS)   ║  <- What travels through the pipe
-║  3. TRANSPORT    (TCP, UDP)                       ║  <- How the pipe guarantees delivery
-║  2. INTERNET     (IP, ICMP)                       ║  <- Origin and destination address
-║  1. ACCESS       (Ethernet, Wi-Fi, Fiber)         ║  <- The physical pipe
-╚══════════════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Think of the pipe system in 4 levels:
 > 1. **The physical pipe** (green tube, metal, connected to the ground) = Access Layer
@@ -765,3 +757,11 @@ To test APIs visually, use tools like **Postman** or **Insomnia**:
 ---
 
 *End of Level 3-8. Now that Sofia understands how the Mushroom Kingdom pipes work, it's time to choose her weapons: programming languages.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-7: Best Practices](3-7-boas_praticas.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-9: Languages](3-9-linguagens.md)
+
+</div>

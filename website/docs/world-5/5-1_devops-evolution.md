@@ -3,6 +3,8 @@ title: "Level 5-1 -- From Swords to Robots: The Evolution of DevOps"
 description: "The evolutionary journey from Traditional DevOps to DevSecOps to Agentic DevOps, told through the analogy of the Mushroom Kingdom's combat eras."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - devops
   - devsecops
@@ -12,8 +14,6 @@ tags:
   - world-5
   - ci-cd
   - automacao
-sidebar_position: 2
-format: md
 ---
 
 # Level 5-1 -- From Swords to Robots: The Evolution of DevOps
@@ -68,8 +68,8 @@ format: md
 ## Introduction -- The Trophy Room
 
 <div align="center">
-<img src="/img/diagrams/devops-evolution.svg" alt="DevOps Evolution: Traditional → DevSecOps → Agentic" width="800" />
-<br/><em>DevOps Evolution: Traditional → DevSecOps → Agentic</em>
+<img src="../../diagrams/svg/devops-evolution.svg" alt="DevOps Evolution: Traditional → DevSecOps → Agentic" width="800">
+<br><em>DevOps Evolution: Traditional → DevSecOps → Agentic</em>
 </div>
 
 Sofia entered an enormous room in the basement of the Mushroom Kingdom's main castle. On the walls, three huge illuminated display cases showed weapons and equipment from different eras. Each case had a plaque:
@@ -483,3 +483,11 @@ The most valuable skill of the future isn't writing code fast. It's **writing cl
 ---
 
 *Level 5-1 complete! You now understand the three eras of DevOps and know that we're entering the most powerful era -- the era of autonomous companions. In the next level, we'll learn about AI maturity levels. Get ready to evolve from Apprentice to Legendary!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-BOSS: Partial Glossary](../world-4-water/4-BOSS-glossario_parcial.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-2: AI Maturity](5-2_ai-maturity.md)
+
+</div>

@@ -3,9 +3,9 @@ title: "Level 5-9 -- The Star Shield: GitHub Advanced Security"
 description: "GitHub Advanced Security: Code Scanning, Secret Scanning and Dependabot with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-5", "ghas", "security", "code-scanning"]
-sidebar_position: 10
-format: md
 ---
 
 ## Change Log
@@ -566,15 +566,10 @@ SECURITY OVERVIEW -- Mushroom Kingdom Corp
 ─────────────────────────────────────────────
 
 TOTAL ALERTS:    23
-  Critical:       2  ████░░░░░░  (ATTENTION!)
-  High:           5  ██████████
-  Medium:        10  ████████████████████
-  Low:            6  ████████████
+
 
 COVERAGE:
-  Code Scanning:    45/50 repos (90%)  ██████████████████░░
-  Secret Scanning:  50/50 repos (100%) ████████████████████
-  Dependabot:       48/50 repos (96%)  ███████████████████░
+
 
 TREND (last 30 days):
   Open alerts:    ↓ 15%  (improving!)
@@ -756,3 +751,11 @@ She stored this power-up in her inventory and headed to the next stage of the Mu
 - [GitHub Code Scanning](https://docs.github.com/en/code-security/code-scanning)
 - [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
 - [GitHub Dependabot](https://docs.github.com/en/code-security/dependabot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-8: Three Horizons](5-8_three-horizons.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-10: SDD](5-10_sdd.md)
+
+</div>

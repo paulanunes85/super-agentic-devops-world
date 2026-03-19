@@ -3,6 +3,8 @@ title: "Level 5-8 -- The Three Horizons: Evolution Strategy"
 description: "The Three Horizons framework for progressive adoption of AI and Agentic DevOps in organizations, from foundation to complete transformation."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - three-horizons
   - strategy
@@ -13,8 +15,6 @@ tags:
   - transformation
   - mario
   - world-5
-sidebar_position: 9
-format: md
 ---
 
 # Level 5-8 -- The Three Horizons: Evolution Strategy
@@ -431,14 +431,14 @@ ACTIONS TO START H3:
 ### 7.3 Realistic Timeline
 
 ```
-MONTH 1-6:    ████████████████████████████████  HORIZON 1
+
               Foundation, standardization, migration
 
-MONTH 4-12:             ████████████████████████████████  HORIZON 2
+
                         Copilot, GHAS, IDP, acceleration
                         (overlap with late H1)
 
-MONTH 10-24:                         ████████████████████████████████  HORIZON 3
+
                                      Agents, MCP, Spec-Driven, transformation
                                      (overlap with late H2)
 ```
@@ -544,3 +544,11 @@ Count how many "yes" answers you have for each horizon. Your level is the horizo
 ---
 
 *Level 5-8 complete! You now understand the Three Horizons strategy and know that evolution is gradual, cumulative, and built on solid foundations. Don't try to fly before building roads. But know that FLIGHT is closer than you think. In the next level, the Boss Battle of World 5!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-9: GitHub Advanced Security](5-9_github-advanced-security.md)
+
+</div>

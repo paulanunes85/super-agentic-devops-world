@@ -3,6 +3,8 @@ title: "Level 5-3 -- The Ultimate Companion: Complete GitHub Copilot Guide"
 description: "Complete guide to all modes and capabilities of GitHub Copilot, from Completions to Coding Agent, with detailed analogies from the Mario universe."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - github-copilot
   - completions
@@ -15,8 +17,6 @@ tags:
   - copilot-cli
   - mario
   - world-5
-sidebar_position: 4
-format: md
 ---
 
 # Level 5-3 -- The Ultimate Companion: Complete GitHub Copilot Guide
@@ -108,13 +108,8 @@ format: md
 ## Introduction -- The Most Powerful Companion in the Mushroom Kingdom
 
 <div align="center">
-<img src="/img/diagrams/copilot-decision-tree.svg" alt="Copilot mode decision tree" width="780" />
-<br/><em>Copilot mode decision tree</em>
-</div>
-
-<div align="center">
-<img src="/img/diagrams/copilot-modes.svg" alt="GitHub Copilot modes spectrum by autonomy level" width="800" />
-<br/><em>GitHub Copilot modes spectrum by autonomy level</em>
+<img src="../../diagrams/svg/copilot-modes.svg" alt="GitHub Copilot modes spectrum by autonomy level" width="800">
+<br><em>GitHub Copilot modes spectrum by autonomy level</em>
 </div>
 
 Sofia entered a special room in the castle -- the **Companion Training Room**. In the center, on an illuminated pedestal, a Yoshi egg floated glowing with energy. But this was no ordinary Yoshi. Around the pedestal, holographic panels showed EIGHT different operating modes:
@@ -952,6 +947,11 @@ gh copilot explain "awk '{print $2}' /etc/passwd | sort | uniq -c | sort -rn"
 
 ## Section 13 -- The Companion Journey: Which Mode to Use When
 
+<div align="center">
+<img src="../../diagrams/svg/copilot-decision-tree.svg" alt="Copilot mode decision tree" width="780" />
+<br/><em>Copilot mode decision tree</em>
+</div>
+
 ### 13.1 Decision Tree
 
 ```
@@ -1034,3 +1034,11 @@ Do you need help with code?
 ---
 
 *Level 5-3 complete! You now know ALL Copilot modes -- from whispers to an autonomous army. Remember: Copilot is your companion, not your substitute. The better you communicate with it, the better the results. In the next level, we'll understand what an AI Agent is in depth!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-2: AI Maturity](5-2_ai-maturity.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md)
+
+</div>

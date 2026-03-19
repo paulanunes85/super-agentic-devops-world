@@ -3,6 +3,8 @@ title: "Level 5-BOSS -- Boss Battle: World 5 Review Quiz"
 description: "Complete quiz with 20 questions covering all World 5 topics: DevOps evolution, AI maturity, GitHub Copilot, agents, MCP and Three Horizons."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - quiz
   - boss-battle
@@ -13,8 +15,6 @@ tags:
   - agents
   - mcp
   - mario
-sidebar_position: 11
-format: md
 ---
 
 # Level 5-BOSS -- Boss Battle: World 5 Review Quiz
@@ -499,3 +499,11 @@ Option A is Level 1 (too manual). C is insecure (no review, push directly to mai
 ---
 
 *World 5 Boss Battle complete! If you scored 15+ points, congratulations -- you defeated the Knowledge Bowser! World 5 is complete. You now understand the evolution of DevOps, AI maturity levels, all Copilot modes, how agents work, the MCP protocol, the Three Horizons strategy, and GitHub security. Next destination: World 6!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-10: SDD](5-10_sdd.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-1: Custom Agents](../world-6-bowser-castle-2/6-1-custom-agents.md)
+
+</div>

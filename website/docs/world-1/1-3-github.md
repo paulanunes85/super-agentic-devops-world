@@ -3,9 +3,9 @@ title: "Level 1-3 — Multiplayer Server: GitHub (Repos, Issues, PRs, Projects)"
 description: "GitHub as the multiplayer platform where developers collaborate — from repositories to Pull Requests."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "github", "fundamentals"]
-sidebar_position: 3
-format: md
 ---
 
 # Level 1-3 — Multiplayer Server: GitHub (Repos, Issues, PRs, Projects)
@@ -75,8 +75,8 @@ format: md
 ## Prologue — From Solo Player to Multiplayer
 
 <div align="center">
-<img src="/img/diagrams/github-platform.svg" alt="GitHub platform map and its features" width="800" />
-<br/><em>GitHub platform map and its features</em>
+<img src="../../diagrams/svg/github-platform.svg" alt="GitHub platform map and its features" width="800">
+<br><em>GitHub platform map and its features</em>
 </div>
 
 Up until now, Sofia had been playing alone. She had her console (VS Code), her memory card (Git), and built levels in the comfort of her living room. But she was missing something: **other players**.
@@ -604,3 +604,11 @@ In seconds, a complete VS Code opens in your browser.
 ---
 
 *"Now I'm not a solo player anymore. I'm part of a team." — Sofia, joining the multiplayer server.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-2: Git](1-2-git.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-4: GitHub Actions](1-4-github-actions.md)
+
+</div>

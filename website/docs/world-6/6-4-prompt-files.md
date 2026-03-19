@@ -3,9 +3,9 @@ title: "Chapter 4D — Prompt Files (.prompt.md) / The Warp Pipes"
 description: "How to create reusable Prompt Files using .prompt.md to automate recurring tasks as magic shortcuts."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "prompts", "prompt-md"]
-sidebar_position: 4
-format: md
 ---
 
 ## Change Log
@@ -420,3 +420,11 @@ Congratulations, Sofia! You're getting stronger and stronger in the Mushroom Kin
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-3: Custom Instructions](6-3-custom-instructions.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-5: Hooks](6-5-hooks.md)
+
+</div>

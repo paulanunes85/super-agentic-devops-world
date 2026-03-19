@@ -3,6 +3,8 @@ title: "Level 4-8 -- Mushroom Kingdom Mail: Messaging and Queues"
 description: "Message queues, RabbitMQ, Azure Service Bus, pub/sub, asynchronous communication and dead letter queues — the Mushroom Kingdom postal system"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -13,8 +15,6 @@ tags:
   - service-bus
   - pub-sub
   - async
-sidebar_position: 8
-format: md
 ---
 
 # Level 4-8 -- Mushroom Kingdom Mail: Messaging and Queues
@@ -80,11 +80,6 @@ format: md
 ---
 
 ## Prologue: The Problem with Direct Deliveries
-
-<div align="center">
-<img src="/img/diagrams/message-queue.svg" alt="Message queue pattern" width="780" />
-<br/><em>Message queue pattern</em>
-</div>
 
 Sofia's TodoApp now had multiple services: authentication, tasks, notifications, and reports. But every time a user created a task, the Todo Service needed to directly call the Notification Service to send an email AND the Analytics Service to record the metric.
 
@@ -161,6 +156,11 @@ ASYNCHRONOUS:
 ---
 
 ## 2. Message Queues: Parakoopa Mail Carriers
+
+<div align="center">
+<img src="../../diagrams/svg/message-queue.svg" alt="Message queue pattern" width="780" />
+<br/><em>Message queue pattern</em>
+</div>
 
 ### 2.1 What Is a Message Queue
 
@@ -976,3 +976,11 @@ const message = {
 ---
 
 *Level 4-8 complete! You learned how systems communicate asynchronously using queues and messaging. Now, get ready for the Boss Battle of World 4 — architecture challenges that will test everything you've learned!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-7: Cache & Performance](4-7-cache_performance.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-BOSS: Partial Glossary](4-BOSS-glossario_parcial.md)
+
+</div>

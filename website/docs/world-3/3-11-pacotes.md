@@ -3,6 +3,8 @@ title: "Level 3-11 -- The Inventory: Packages and Dependencies"
 description: "Master package managers (npm, pip, NuGet), package.json, requirements.txt, lock files, semantic versioning of dependencies, and dependency hell -- like the inventory system of the Mushroom Kingdom"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -14,8 +16,6 @@ tags:
   - nuget
   - package-json
   - lock-files
-sidebar_position: 3
-format: md
 ---
 
 # Level 3-11 -- The Inventory: Packages and Dependencies
@@ -798,3 +798,11 @@ todoapp-monorepo/
 ---
 
 *End of Level 3-11. Sofia now masters her package inventory. In the next level, she faces the World 3 Boss: practical exercises that combine everything she learned in this world.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-10: Frameworks](3-10-frameworks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-BOSS: Exercises](3-BOSS-exercicios.md)
+
+</div>

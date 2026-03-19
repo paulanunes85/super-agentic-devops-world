@@ -3,6 +3,8 @@ title: "Level 5-2 -- From Apprentice to Legendary: AI Maturity Levels"
 description: "The five maturity levels in AI adoption for software development, from Level 0 (no AI) to Level 4 (Autonomous AI), including Spec-Driven Development."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - ia
   - maturidade
@@ -13,8 +15,6 @@ tags:
   - spec-driven
   - mario
   - world-5
-sidebar_position: 3
-format: md
 ---
 
 # Level 5-2 -- From Apprentice to Legendary: AI Maturity Levels
@@ -82,11 +82,6 @@ format: md
 
 ## Introduction -- The Hero Evolution Mural
 
-<div align="center">
-<img src="/img/diagrams/ai-maturity-levels.svg" alt="AI maturity levels" width="780" />
-<br/><em>AI maturity levels</em>
-</div>
-
 Sofia was walking through the castle corridor when she stopped in front of a giant mural painted on the wall. The mural showed the evolution of a hero in five stages:
 
 In the first image, a small and fragile warrior, fighting Goombas with bare hands. In the second, the same warrior now with a simple sword and a tip booklet on his belt. In the third, the warrior wielding a glowing sword that seemed to have a life of its own -- an enchanted sword with built-in magic. In the fourth, the warrior accompanied by a powerful companion that fought alongside him, thinking and acting on its own. And in the fifth and final image, the warrior had become a commander, directing an entire army of coordinated companions conquering entire worlds.
@@ -102,6 +97,11 @@ Toad laughed. "Can you equip legendary armor at RPG level 1? No! First you level
 ---
 
 ## Section 1 -- The 5 AI Maturity Levels
+
+<div align="center">
+<img src="../../diagrams/svg/ai-maturity-levels.svg" alt="AI maturity levels" width="780" />
+<br/><em>AI maturity levels</em>
+</div>
 
 ### 1.1 Overview of the Levels
 
@@ -674,3 +674,11 @@ There's no "bad" level. Each level is appropriate for different contexts:
 ---
 
 *Level 5-2 complete! You now know the 5 AI maturity levels and can identify where you are and where you're going. In the next level, we'll dive deep into GitHub Copilot -- the most powerful companion in the Mushroom Kingdom. Get your power-ups ready!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-1: DevOps Evolution](5-1_devops-evolution.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-3: GitHub Copilot](5-3_github-copilot.md)
+
+</div>

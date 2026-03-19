@@ -3,6 +3,8 @@ title: "Level 6-8 -- Wise Coins: How to Save Tokens in GitHub Copilot"
 description: "Complete guide to token optimization in GitHub Copilot, covering context management, chat, completions, agent mode, enterprise governance, and ROI metrics -- all with Super Mario Bros. analogies."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - token-optimization
   - github-copilot
@@ -11,8 +13,6 @@ tags:
   - roi
   - world-6
   - mario
-sidebar_position: 8
-format: md
 ---
 
 # Level 6-8 -- Wise Coins: How to Save Tokens in GitHub Copilot
@@ -905,7 +905,7 @@ In practice, ROI = (Value Generated - Cost) / Cost
 
 ### 8.5 The Copilot Dashboard: Your Real-Time Scoreboard
 
-GitHub provides native metrics at **github.com/organizations/\{org\}/settings/copilot/usage**:
+GitHub provides native metrics at **github.com/organizations/{org}/settings/copilot/usage**:
 
 ```
 +--------------------------------------------------+
@@ -1055,3 +1055,11 @@ Use the GitHub dashboard to track acceptance rate. If it's below 30%, your promp
 *Level 6-8 complete. You now know how to spend coins like a professional.*
 
 *Next: World 8 -- The Final Castle. Everything connects.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-7: Orchestration](6-7-orchestration.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-BOSS: Quick Reference](6-boss-quick-reference.md)
+
+</div>

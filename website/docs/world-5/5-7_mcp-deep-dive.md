@@ -3,6 +3,8 @@ title: "Level 5-7 -- Universal Warp Zones: MCP in Depth"
 description: "Deep dive into the Model Context Protocol (MCP) -- protocol, servers, clients, tools and resources. How MCP standardizes communication between AI agents and external tools."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - mcp
   - model-context-protocol
@@ -13,8 +15,6 @@ tags:
   - warp-zones
   - mario
   - world-5
-sidebar_position: 8
-format: md
 ---
 
 # Level 5-7 -- Universal Warp Zones: MCP in Depth
@@ -95,8 +95,8 @@ format: md
 ## Introduction -- The World of Incompatible Pipes
 
 <div align="center">
-<img src="/img/diagrams/mcp-architecture.svg" alt="MCP Architecture: Client, Protocol, and Servers" width="800" />
-<br/><em>MCP Architecture: Client, Protocol, and Servers</em>
+<img src="../../diagrams/svg/mcp-architecture.svg" alt="MCP Architecture: Client, Protocol, and Servers" width="800">
+<br><em>MCP Architecture: Client, Protocol, and Servers</em>
 </div>
 
 Sofia was in the Mushroom Kingdom when she noticed something strange. She needed to travel between worlds -- go to the Design World to fetch colors, to the Data World to fetch information, and to the Tasks World to update her progress. But when she tried to use the Warp Pipes...
@@ -819,3 +819,11 @@ MCP is a rapidly growing protocol. The trend:
 ---
 
 *Level 5-7 complete! You now understand MCP in depth -- the protocol that connects AI agents to the external world. With MCP, your companion goes from being an isolated genius to a traveler who fetches resources from ALL worlds. In the next level, we'll learn the Three Horizons strategy!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-8: Three Horizons](5-8_three-horizons.md)
+
+</div>

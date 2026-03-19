@@ -3,9 +3,9 @@ title: "Level 7-3 — The Power-Up Chain: LangChain"
 description: "LangChain: chains, agents, tools and LCEL for building AI applications with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "langchain", "chains", "agents"]
-sidebar_position: 3
-format: md
 ---
 
 ## Change Log
@@ -484,7 +484,7 @@ print(result)
 
 ```
 COMBO "MARIO EXPLAINER":
-=========================
+
 
 Power-Up 1: PROMPT (instructions)
   → Transforms {concept} into a formatted message
@@ -574,7 +574,7 @@ chain = RunnableParallel(
 
 ```
 COMBO NOTATION — COMPARISON
-==============================
+
 
 FIGHTING GAME:
   Hadouken = ↓↘→ + Punch
@@ -633,7 +633,7 @@ An Agent works in a **decision cycle** that repeats until the task is complete:
 
 ```
 AGENT CYCLE
-============
+
 
      ┌──────────────────────────────────────┐
      │                                      │
@@ -657,7 +657,7 @@ The most used pattern in Agents is **ReAct** (Reasoning + Acting). The Agent alt
 
 ```
 ReAct CYCLE EXAMPLE:
-=====================
+
 
 Question: "What's the weather in Sao Paulo today and how much is 25C in Fahrenheit?"
 
@@ -776,7 +776,7 @@ print(result["output"])
 
 ```
 AGENT MARIO IN ACTION
-======================
+
 
 Situation: Mario enters a room with 3 different enemies
 
@@ -1022,7 +1022,7 @@ print(r3.content)
 
 ```
 MARIO'S ADVENTURE DIARY (Memory)
-==================================
+
 
 Page 1 (World 1):
   "Learned that Goombas die with a jump.
@@ -1189,7 +1189,7 @@ print(response3)
 
 ```
 MARIO ASSISTANT FLOW
-=====================
+
 
 1. QUESTION ENTERS
    "What are variables in Python?"
@@ -1283,7 +1283,7 @@ Semantic Kernel is **Microsoft's** AI framework (LangChain alternative):
 
 ```
 WHICH FRAMEWORK TO USE? DECISION FLOW
-=======================================
+
 
 Is your task simple (1-2 LLM calls)?
   │
@@ -1338,7 +1338,7 @@ Is your task simple (1-2 LLM calls)?
 
 ```
 LANGCHAIN PROGRESSION — From Novice to Master
-===============================================
+
 
 Level 1 -> Combo Apprentice
              = Simple chain: prompt | model | parser
@@ -1400,3 +1400,11 @@ Star World revealed its most powerful secrets, and Sofia now possesses the knowl
 
 - LangChain Python Documentation — https://python.langchain.com/docs/get_started/introduction
 - LangChain JavaScript Documentation — https://js.langchain.com/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-2: RAG](7-2-rag.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md)
+
+</div>

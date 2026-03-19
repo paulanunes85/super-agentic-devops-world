@@ -3,9 +3,9 @@ title: "Chapter 4G — Multi-Agent Orchestration / Coordinated Multiplayer"
 description: "How to orchestrate multiple AI agents working together using the Lean Agent + Rich Skill pattern."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "orchestration", "multi-agent"]
-sidebar_position: 7
-format: md
 ---
 
 ## Change Log
@@ -580,3 +580,11 @@ She collected the Star Coin from this world and headed to the next...
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-6: MCP Practical](6-6-mcp-practical.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-8: Token Optimization](6-8-token-optimization.md)
+
+</div>

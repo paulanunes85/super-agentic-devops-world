@@ -3,9 +3,9 @@ title: "Level 3-4 -- Training Before the Battle: Software Testing"
 description: "Software testing demystified with a Mario analogy -- unit tests as training dummies, integration as enemy combos, E2E as full battle simulation, and TDD as planning the fight before fighting"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "testing", "jest", "tdd", "qa", "test-pyramid"]
-sidebar_position: 6
-format: md
 ---
 
 # Level 3-4 -- Training Before the Battle: Software Testing
@@ -1180,3 +1180,11 @@ Peach -- the QA Engineer -- doesn't just run automated tests. She:
 ---
 
 *Level 3-4 complete! You learned to train before every battle. In the next level, we'll explore the world of Open Source -- where developers share their creations like custom Mario levels.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-3: Docker](3-3-docker.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-5: Open Source](3-5-open_source.md)
+
+</div>

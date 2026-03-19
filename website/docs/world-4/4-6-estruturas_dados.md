@@ -3,6 +3,8 @@ title: "Level 4-6 -- Coins, Stars and Mushrooms: Data Structures and JSON"
 description: "Arrays, objects, JSON, parsing, nested structures and API responses — how to organize the treasures of the Mushroom Kingdom"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -12,8 +14,6 @@ tags:
   - arrays
   - objetos
   - api
-sidebar_position: 6
-format: md
 ---
 
 # Level 4-6 -- Coins, Stars and Mushrooms: Data Structures and JSON
@@ -1005,3 +1005,11 @@ const user = findById<User>(users, "mario-001");
 ---
 
 *Level 4-6 complete! You learned how to organize data with arrays, objects, and JSON. In the next level, we'll explore cache and performance — how to make everything run at Super Star speed. Get ready for Level 4-7!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-5: Git Workflows](4-5-git_workflows.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-7: Cache & Performance](4-7-cache_performance.md)
+
+</div>

@@ -3,9 +3,9 @@ title: "Level 5-6 -- The Yoshis that Fly Solo: Autonomous Agents"
 description: "Autonomous agents, planning loops, and guardrails explained with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-5", "autonomous-agents", "guardrails"]
-sidebar_position: 7
-format: md
 ---
 
 ## Change Log
@@ -69,11 +69,6 @@ format: md
 
 ## Introduction -- The Yoshi that Learned to Fly
 
-<div align="center">
-<img src="/img/diagrams/autonomous-agent-flow.svg" alt="Autonomous agent planning flow" width="780" />
-<br/><em>Autonomous agent planning flow</em>
-</div>
-
 Sofia was at the top of a mountain in World 5 when she saw something incredible. A blue Yoshi took off from a distant platform, flew over a valley full of Koopas, dodged three Bullet Bills, collected a star hidden behind a cloud, and landed smoothly on the next platform -- all by himself, with no one riding him.
 
 "He... he did all that by himself?!" Sofia exclaimed, jaw dropped.
@@ -132,6 +127,11 @@ For an agent to be truly autonomous, it needs to master 5 capabilities:
 ---
 
 ## Section 2 -- The Autonomous Planning Loop
+
+<div align="center">
+<img src="../../diagrams/svg/autonomous-agent-flow.svg" alt="Autonomous agent planning flow" width="780" />
+<br/><em>Autonomous agent planning flow</em>
+</div>
 
 ### The 6 Stages of Planning
 
@@ -611,22 +611,6 @@ The agent may access sensitive resources, leak information, or execute dangerous
 
 ### The Golden Rule
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   GOLDEN RULE OF AUTONOMOUS AGENTS:                          ║
-║                                                              ║
-║   "Never give an agent more power than you're willing        ║
-║    to fix if it makes a mistake."                            ║
-║                                                              ║
-║   If the agent can edit 5 files and get it wrong → OK,       ║
-║   you revert the PR in 2 clicks.                             ║
-║                                                              ║
-║   If the agent can delete the production database and get    ║
-║   it wrong → NOT OK. You don't revert that in 2 clicks.     ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** You let Yoshi fly through the level collecting coins? Sure -- if he messes up, you lost some coins. You let Yoshi fly solo to the game's final Boss and fight for you? Probably not -- if he loses, you lose the entire game. The level of autonomy should be proportional to the cost of failure.
 
@@ -696,3 +680,11 @@ Sofia stored this power-up in her inventory and headed to the next level of the 
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-5: Agent Types](5-5_agent-types.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md)
+
+</div>

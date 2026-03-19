@@ -3,9 +3,9 @@ title: "Level 7-BOSS — Boss Battle: Building Your First Agent"
 description: "Hands-on project: building your first RAG agent with Python and Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "project", "rag-agent", "hands-on"]
-sidebar_position: 7
-format: md
 ---
 
 ## Change Log
@@ -1195,10 +1195,10 @@ python src/main.py
 ### Conversation Examples
 
 ```
-================================================================
+
   TOAD HELPER
   Your AI assistant for the project
-================================================================
+
 
 Sofia: What does this project do?
 
@@ -1406,10 +1406,8 @@ Sofia finished the Boss Battle. Her Toad Helper is working — answering questio
 │                                                             │
 │  STAR WORLD (WORLD 7) — COMPLETE!                           │
 │                                                             │
-│  Level 7-4: Learned the frameworks     ████████████ 100%    │
-│  Level 7-5: Understood the 4 channels  ████████████ 100%    │
-│  Level 7-6: Mastered IDP and Backstage ████████████ 100%    │
-│  Level 7-BOSS: Built an agent          ████████████ 100%    │
+
+
 │                                                             │
 │  ★ ★ ★ STAR WORLD COMPLETE ★ ★ ★                           │
 │                                                             │
@@ -1451,3 +1449,11 @@ All Star Coins from World 7 have been collected!
 
 - LangChain Python — https://python.langchain.com
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-6: IDP Backstage](7-6-idp-backstage.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-1: How Everything Connects](../world-8-final-castle/8-1-how-everything-connects.md)
+
+</div>

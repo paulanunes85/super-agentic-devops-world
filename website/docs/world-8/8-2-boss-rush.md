@@ -3,6 +3,8 @@ title: "Level 8-2 -- Boss Rush: Review of All Worlds"
 description: "Complete review with 8 challenging scenarios based on real situations, each combining knowledge from multiple Worlds. Boss Rush mode -- face all bosses with all your power-ups."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - review
   - boss-rush
@@ -10,8 +12,6 @@ tags:
   - exercises
   - world-8
   - mario
-sidebar_position: 2
-format: md
 ---
 
 # Level 8-2 -- Boss Rush: Review of All Worlds
@@ -1171,3 +1171,11 @@ RATING:
 *Level 8-2 complete. Boss Rush mode: COMPLETE.*
 
 *Next: Level 8-3 -- The End and the Beginning. Where to go after saving the Princess?*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 8-1: How Everything Connects](8-1-how-everything-connects.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-3: Next Steps](8-3-next-steps.md)
+
+</div>

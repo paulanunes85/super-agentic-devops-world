@@ -3,9 +3,9 @@ title: "Level 7-6 — The Central Plaza: IDP and Backstage"
 description: "Internal Developer Platform and Backstage: the central plaza of development with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "idp", "backstage", "developer-platform"]
-sidebar_position: 6
-format: md
 ---
 
 ## Change Log
@@ -29,11 +29,6 @@ format: md
 ---
 
 ## TABLE OF CONTENTS
-
-<div align="center">
-<img src="/img/diagrams/backstage-hub.svg" alt="Backstage hub architecture" width="780" />
-<br/><em>Backstage hub architecture</em>
-</div>
 
 1. [Introduction — The Central Castle](#introduction)
 2. [What Is an IDP (Internal Developer Platform)](#what-is-idp)
@@ -207,6 +202,11 @@ Technical leadership has complete visibility:
 ---
 
 ## 3. Backstage by Spotify — The Most Popular IDP
+
+<div align="center">
+<img src="../../diagrams/svg/backstage-hub.svg" alt="Backstage hub architecture" width="780" />
+<br/><em>Backstage hub architecture</em>
+</div>
 
 ### The History
 
@@ -797,3 +797,11 @@ She knows how to build the central castle that connects all worlds!
 - Backstage by Spotify — https://backstage.io
 - Backstage Documentation — https://backstage.io/docs/overview/what-is-backstage
 - Internal Developer Platform — https://internaldeveloperplatform.org
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-5: Four Channels](7-5-four-channels.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-BOSS: Practical Project](7-boss-practical-project.md)
+
+</div>

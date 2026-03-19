@@ -3,9 +3,9 @@ title: "Level 3-3 -- The Art of Packaging: Docker and Containers"
 description: "Docker demystified with Mario analogy — images as recipes, containers as finished dishes, Dockerfile as the recipe card, and Docker Compose as the meal planner"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile", "docker-compose"]
-sidebar_position: 5
-format: md
 ---
 
 # Level 3-3 -- The Art of Packaging: Docker and Containers
@@ -77,8 +77,8 @@ format: md
 ## Prologue: "It Works on My Machine"
 
 <div align="center">
-<img src="/img/diagrams/docker-architecture.svg" alt="Docker architecture: from Dockerfile to Container" width="800" />
-<br/><em>Docker architecture: from Dockerfile to Container</em>
+<img src="../../diagrams/svg/docker-architecture.svg" alt="Docker architecture: from Dockerfile to Container" width="800">
+<br><em>Docker architecture: from Dockerfile to Container</em>
 </div>
 
 Sofia was proud. After weeks of work, her TodoApp was perfect. It ran beautifully on her computer. Responsive frontend, fast backend, integrated database. Everything working.
@@ -1022,3 +1022,11 @@ $ docker exec -it <container-id> /bin/sh
 ---
 
 *Level 3-3 complete! You've mastered Docker -- the art of packaging applications to work anywhere. In the next level, we'll train before battle: Software Testing, the art of ensuring everything works BEFORE you ship.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-2: Terminal](3-2-terminal.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-4: Tests](3-4-testes.md)
+
+</div>

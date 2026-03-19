@@ -3,9 +3,9 @@ title: "Level 1-7 — The Complete Flow: How Everything Connects (World 1)"
 description: "Panoramic view of how VS Code, Git, GitHub, Actions, Azure, and AI connect in the complete development flow."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "complete-flow", "fundamentals"]
-sidebar_position: 7
-format: md
 ---
 
 # Level 1-7 — The Complete Flow: How Everything Connects (World 1)
@@ -61,11 +61,6 @@ format: md
 
 ## Prologue — The Complete Map of World 1
 
-<div align="center">
-<img src="/img/diagrams/connections-flow.svg" alt="Complete developer flow" width="780" />
-<br/><em>Complete developer flow</em>
-</div>
-
 Sofia stopped at the top of a green hill and looked back. Behind her, six completed levels. For the first time, she could see all of World 1 — from Level 1-1 to here. And for the first time, she understood how everything connected.
 
 "Each level seemed isolated when I was playing it," Sofia reflected. "VS Code was one thing. Git was another. GitHub another. But now, looking from above, I can see: they're all **pipes** that connect. What I do in VS Code goes to Git, which goes to GitHub, which wakes up the Lakitus, which publish to Azure. And Copilot is with me in every level."
@@ -95,39 +90,11 @@ It was like that moment in Mario where you discover that the green pipes aren't 
 
 ### 1.3 Diagram: The Complete Map of World 1
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                        WORLD 1 — GREEN PLAINS                          ║
-║                        The Complete Flow Map                           ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                        ║
-║   [1-1 VS Code]                                                        ║
-║   The Game       ═══════╗                                              ║
-║   Console                ║ Ctrl+S                                      ║
-║                          ▼                                              ║
-║                   [1-2 Git]                                             ║
-║                   The Memory  ═══════╗                                  ║
-║                   Card               ║ git push                        ║
-║                                      ▼                                  ║
-║                               [1-3 GitHub]                              ║
-║                               The Multiplayer ═══════╗                 ║
-║                               Server                 ║ on: push        ║
-║                                                       ▼                ║
-║                                             [1-4 Actions]              ║
-║                                             The Lakitus  ═══════╗      ║
-║                                             Workers              ║deploy║
-║                                                                  ▼     ║
-║                                                         [1-5 Azure]    ║
-║                                                         The Open       ║
-║                                                         World          ║
-║                                                                        ║
-║   [1-6 Azure AI / Copilot] ◄═══════════════════════════════════════╗   ║
-║   The Game's Magic — present at ALL stations                       ║   ║
-║                                                                        ║
-║   [1-7 YOU ARE HERE] — Seeing everything from above                    ║
-║                                                                        ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+<img src="../../diagrams/svg/connections-flow.svg" alt="Complete developer flow" width="780" />
+<br/><em>Complete developer flow</em>
+</div>
+
 
 ---
 
@@ -386,36 +353,7 @@ In Mario, green pipes connect areas that seem distant. In software development, 
 ### 9.2 Complete Connection Map
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║          ┌──────────────────────────────────────────────┐            ║
-║          │            GITHUB COPILOT (AI)               │            ║
-║          │     Companion present in all levels           │            ║
-║          └──────┬───────────┬──────────┬────────────────┘            ║
-║                 │           │          │                              ║
-║                 ▼           ▼          ▼                              ║
-║           ┌──────────┐ ┌──────────┐ ┌──────────┐                    ║
-║           │ VS CODE  │ │  GITHUB  │ │  AZURE   │                    ║
-║           │ (Console)│ │ (Server) │ │ (World)  │                    ║
-║           └────┬─────┘ └────┬─────┘ └────┬─────┘                    ║
-║                │            │            │                            ║
-║           ┌────┴─────┐     │       ┌────┴─────┐                     ║
-║           │   GIT    │     │       │  AZURE   │                     ║
-║           │ (Memory  ├─────┘       │  MONITOR │                     ║
-║           │  Card)   │             │ (Towers) │                     ║
-║           └──────────┘             └──────────┘                     ║
-║                                                                      ║
-║     ┌────────────────────────────────────────────┐                  ║
-║     │            GITHUB ACTIONS (Lakitus)         │                  ║
-║     │  Connects GitHub to Azure automatically     │                  ║
-║     └────────────────────────────────────────────┘                  ║
-║                                                                      ║
-║  ┌─────────────────────────────────────────────────────────┐        ║
-║  │                    AZURE AI FOUNDRY                      │        ║
-║  │     When the app needs its own AI (custom spells)        │        ║
-║  └─────────────────────────────────────────────────────────┘        ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+
 
   FLOW: You → VS Code → Git → GitHub → Actions → Azure → Users
 ```
@@ -518,3 +456,11 @@ Before moving on to World 2, check that you've mastered the fundamentals:
 ---
 
 *"Now I can see the entire map. Each pipe connects to something. Each tool has its role. And I know how to use them all." — Sofia, at the top of World 1's hill.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-6: Azure AI](1-6-azure-ai.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-BOSS: Exercises](1-boss-exercises.md)
+
+</div>

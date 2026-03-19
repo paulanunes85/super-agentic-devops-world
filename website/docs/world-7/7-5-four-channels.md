@@ -3,9 +3,9 @@ title: "Level 7-5 — The 4 Worlds of Agents: Communication and Operation Channe
 description: "The 4 agent operation channels: IDE, Chat Portal, ChatOps and Background with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "channels", "ide", "chatops", "background-agents"]
-sidebar_position: 5
-format: md
 ---
 
 ## Change Log
@@ -30,11 +30,6 @@ format: md
 
 ## TABLE OF CONTENTS
 
-<div align="center">
-<img src="/img/diagrams/four-channels-detailed.svg" alt="4 channels of operation detailed" width="780" />
-<br/><em>4 channels of operation detailed</em>
-</div>
-
 1. [Introduction — The 4 Worlds Where Agents Live](#introduction)
 2. [Channel 1 — IDE (Yoshi by Your Side)](#channel-1-ide)
 3. [Channel 2 — Chat Portal / IDP (The Central Plaza with NPCs)](#channel-2-portal)
@@ -50,8 +45,8 @@ format: md
 ## Introduction — The 4 Worlds Where Agents Live
 
 <div align="center">
-<img src="/img/diagrams/four-channels.svg" alt="The 4 channels of agent operation" width="800" />
-<br/><em>The 4 channels of agent operation</em>
+<img src="../../diagrams/svg/four-channels.svg" alt="The 4 channels of agent operation" width="800">
+<br><em>The 4 channels of agent operation</em>
 </div>
 
 Sofia had a question that wouldn't leave her head:
@@ -559,6 +554,11 @@ Agents in Actions that use MCP (Model Context Protocol) to access external tools
 
 ## Complete Comparative Table — The 4 Channels
 
+<div align="center">
+<img src="../../diagrams/svg/four-channels-detailed.svg" alt="4 channels of operation detailed" width="780" />
+<br/><em>4 channels of operation detailed</em>
+</div>
+
 This is the most important table in this chapter. Print it, stick it on the wall, always refer to it:
 
 | Aspect | Channel 1: IDE | Channel 2: Chat Portal | Channel 3: ChatOps | Channel 4: Background |
@@ -811,3 +811,11 @@ She knows where each agent lives, how to talk to them, and how the channels conn
 
 - GitHub Copilot — https://docs.github.com/en/copilot
 - Backstage by Spotify — https://backstage.io
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-6: IDP Backstage](7-6-idp-backstage.md)
+
+</div>

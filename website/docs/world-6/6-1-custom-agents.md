@@ -3,9 +3,9 @@ title: "Chapter 4A -- Custom Agents & .agent.md / The Character Select Screen"
 description: "How to create personalized Custom Agents using .agent.md files to assemble your team of AI playable characters."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "agents", "agent-md"]
-sidebar_position: 1
-format: md
 ---
 
 ## Change Log
@@ -377,3 +377,11 @@ She stored this power-up in her inventory and headed to the next level in the Mu
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-BOSS: Quiz](../world-5-bowser-castle-1/5-boss-quiz.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-2: Agent Skills](6-2-agent-skills.md)
+
+</div>

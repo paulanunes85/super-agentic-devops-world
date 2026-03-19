@@ -3,9 +3,9 @@ title: "Level 1-4 — The Working Lakitus: GitHub Actions and CI/CD"
 description: "Introduction to GitHub Actions and CI/CD — the automatic cloud helpers that test and deploy your code."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundamentals"]
-sidebar_position: 4
-format: md
 ---
 
 # Level 1-4 — The Working Lakitus: GitHub Actions and CI/CD
@@ -73,8 +73,8 @@ format: md
 ## Prologue — The Lakitu That Works for You
 
 <div align="center">
-<img src="/img/diagrams/cicd-pipeline.svg" alt="CI/CD Pipeline: from code to deploy" width="800" />
-<br/><em>CI/CD Pipeline: from code to deploy</em>
+<img src="../../diagrams/svg/cicd-pipeline.svg" alt="CI/CD Pipeline: from code to deploy" width="800">
+<br><em>CI/CD Pipeline: from code to deploy</em>
 </div>
 
 You know Lakitu? That Mario character who floats on a cloud, watching everything from above? In the original game, Lakitu is an enemy — he keeps throwing Spinies (those spiky creatures) at your head.
@@ -734,3 +734,11 @@ To configure secrets:
 ---
 
 *"Now I have an army of Lakitus working for me. They never sleep, never forget, and never complain." — Sofia, watching her workflows pass.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 1-3: GitHub](1-3-github.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-5: Azure](1-5-azure.md)
+
+</div>

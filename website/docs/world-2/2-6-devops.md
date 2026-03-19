@@ -3,6 +3,8 @@ title: "Level 2-6 -- The Alliance between Classes: DevOps and IaC"
 description: "DevOps as the alliance between developers and operations, and Infrastructure as Code with Terraform, Bicep, and ARM Templates to build castles automatically"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - devops
   - iac
@@ -12,8 +14,6 @@ tags:
   - infrastructure-as-code
   - world-2
   - mario
-sidebar_position: 6
-format: md
 ---
 
 # Level 2-6 -- The Alliance between Classes: DevOps and IaC
@@ -647,3 +647,11 @@ Benefits:
 *"The greatest revolution in the Mushroom Kingdom was not a new power-up or a new weapon. It was when Builders and Engineers stopped fighting and started working together. DevOps is not a tool -- it is an alliance. And IaC is the magic that lets this alliance build castles in minutes, not months."*
 
 *Next Warp Pipe: Level 2-7 -- The Character's Senses: Observability*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 2-5: Methodologies](2-5-metodologias.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-7: Observability](2-7-observabilidade.md)
+
+</div>

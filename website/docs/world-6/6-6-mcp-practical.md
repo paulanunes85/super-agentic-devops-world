@@ -3,9 +3,9 @@ title: "Chapter 4F — MCP (Model Context Protocol) / The Warp Zones"
 description: "How to use the Model Context Protocol to connect your AI agents to external tools and services."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "mcp", "model-context-protocol"]
-sidebar_position: 6
-format: md
 ---
 
 ## Change Log
@@ -381,3 +381,11 @@ She collected the Star Coin from this world and headed to the next...
 - [Extending Copilot Chat with MCP](https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [MCP Specification](https://spec.modelcontextprotocol.io)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-5: Hooks](6-5-hooks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-7: Orchestration](6-7-orchestration.md)
+
+</div>

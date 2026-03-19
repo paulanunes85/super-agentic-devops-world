@@ -3,6 +3,8 @@ title: "Level 4-4 -- Launch Strategies: Advanced Deploy"
 description: "Blue-green, canary, rolling, feature flags, A/B testing and rollback — how to change the castle doors without visitors noticing"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -13,8 +15,6 @@ tags:
   - rolling
   - feature-flags
   - rollback
-sidebar_position: 4
-format: md
 ---
 
 # Level 4-4 -- Launch Strategies: Advanced Deploy
@@ -78,11 +78,6 @@ format: md
 
 ## Prologue: The Invisible Changing of the Guard
 
-<div align="center">
-<img src="/img/diagrams/deploy-strategies.svg" alt="Deployment strategies" width="780" />
-<br/><em>Deployment strategies</em>
-</div>
-
 Sofia had just added an amazing feature to TodoApp — email notifications. She ran all the tests, reviewed the code, and felt confident. She clicked "deploy" and... 500 users lost access for 3 minutes while the new code was being installed.
 
 Yoshi — the DevOps engineer — showed up shaking his head.
@@ -98,6 +93,11 @@ Yoshi — the DevOps engineer — showed up shaking his head.
 ---
 
 ## 1. The Problem with Traditional Deploy
+
+<div align="center">
+<img src="../../diagrams/svg/deploy-strategies.svg" alt="Deployment strategies" width="780" />
+<br/><em>Deployment strategies</em>
+</div>
 
 ### 1.1 The "Big Bang" Deploy
 
@@ -803,3 +803,11 @@ How much downtime is acceptable?
 ---
 
 *Level 4-4 complete! You learned the main advanced deploy strategies. In the next level, we'll explore Git Workflows — how to organize the team's workflow. Get ready for Level 4-5!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-3: Architecture](4-3-arquitetura.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-5: Git Workflows](4-5-git_workflows.md)
+
+</div>

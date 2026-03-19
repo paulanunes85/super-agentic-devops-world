@@ -3,9 +3,9 @@ title: "Level 5-5 -- Who's Who in the Mushroom Kingdom: Types of Agents"
 description: "Types of agents: IDE, Background, Development, and Productivity with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-5", "agents", "ide-agent", "background-agent"]
-sidebar_position: 6
-format: md
 ---
 
 ## Change Log
@@ -59,11 +59,6 @@ format: md
 ---
 
 ## Introduction -- The Character Guild of the Mushroom Kingdom
-
-<div align="center">
-<img src="/img/diagrams/agent-types-quadrant.svg" alt="Agent types quadrant" width="780" />
-<br/><em>Agent types quadrant</em>
-</div>
 
 Sofia entered a huge room, lit by torches on the walls. It was the **Character Guild** of the Mushroom Kingdom -- a place she had never seen before. In the center, a large mural showed dozens of characters organized into categories, each with a small sign explaining their role.
 
@@ -231,6 +226,11 @@ The workflow of a Background Agent follows a clear pattern:
 ---
 
 ## Section 3 -- IDE vs Background: Complete Comparison Table
+
+<div align="center">
+<img src="../../diagrams/svg/agent-types-quadrant.svg" alt="Agent types quadrant" width="780" />
+<br/><em>Agent types quadrant</em>
+</div>
 
 | Characteristic | IDE Agent | Background Agent | Hybrid |
 |---|---|---|---|
@@ -493,3 +493,11 @@ She stored this power-up in her inventory and headed to the next level of the Mu
 - [GitHub Copilot — Concepts and Agents](https://docs.github.com/en/copilot/concepts/agents)
 - [Azure AI Services](https://learn.microsoft.com/en-us/azure/ai-services/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md)
+
+</div>

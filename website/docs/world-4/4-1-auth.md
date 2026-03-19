@@ -3,6 +3,8 @@ title: "Level 4-1 -- Advanced Protection: Auth, JWT, OAuth"
 description: "Authentication, authorization, JWT tokens, OAuth 2.0, social login, and RBAC — how to prove you are Mario and not Bowser in disguise"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -12,8 +14,6 @@ tags:
   - jwt
   - oauth
   - rbac
-sidebar_position: 1
-format: md
 ---
 
 # Level 4-1 -- Advanced Protection: Auth, JWT, OAuth
@@ -852,3 +852,11 @@ router.delete('/api/users/:id', verifyToken, requirePermission('delete:user'), a
 ---
 
 *Level 4-1 complete! You learned that authentication and authorization are the pillars of security. In the next level, we'll explore cloud models — IaaS, PaaS, SaaS, and Serverless. Get ready for Level 4-2!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-BOSS: Exercises](../world-3-sky/3-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-2: Cloud Models](4-2-cloud_models.md)
+
+</div>

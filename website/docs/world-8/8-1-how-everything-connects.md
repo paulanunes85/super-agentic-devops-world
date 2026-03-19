@@ -3,6 +3,8 @@ title: "Level 8-1 -- The Complete Map: How Everything Connects"
 description: "Capstone chapter showing how all 8 Worlds of Agentic DevOps connect, including the complete ASCII art map, tool connection flows, and a real-life day-in-the-life scenario using all tools."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - capstone
   - complete-vision
@@ -10,8 +12,6 @@ tags:
   - connections
   - world-8
   - mario
-sidebar_position: 1
-format: md
 ---
 
 # Level 8-1 -- The Complete Map: How Everything Connects
@@ -35,8 +35,8 @@ format: md
   - [1.3 Map Legend](#13-map-legend)
 
 <div align="center">
-<img src="/img/diagrams/complete-ecosystem.svg" alt="The complete ecosystem: how everything connects" width="800" />
-<br/><em>The complete ecosystem: how everything connects</em>
+<img src="../../diagrams/svg/complete-ecosystem.svg" alt="The complete ecosystem: how everything connects" width="800">
+<br><em>The complete ecosystem: how everything connects</em>
 </div>
 - [2. The Connections Between Worlds](#2-the-connections-between-worlds)
   - [2.1 The Main Flow: From START to FINAL](#21-the-main-flow-from-start-to-final)
@@ -115,101 +115,6 @@ Before seeing the detailed map, let's recall what each World represents:
 
 ### 1.2 The ASCII Art Map
 
-```
-================================================================================================
-                    COMPLETE MAP OF THE MUSHROOM KINGDOM
-                    Agentic DevOps -- All Worlds
-================================================================================================
-
-                                  [WORLD 8]
-                              FINAL CASTLE
-                           +------------------+
-                           | 8-1 Complete Map |
-                           | 8-2 Boss Rush    |
-                           | 8-3 Next Steps   |
-                           | 8-F Glossary     |
-                           +--------+---------+
-                                    |
-                     +--------------+--------------+
-                     |                             |
-              [WORLD 7]                     [WORLD 6]
-            STAR WORLD                   BOWSER'S CASTLE 2
-         +--------------+             +------------------+
-         | AI Foundry   |             | Custom Agents    |
-         | RAG          |<---MCP----->| Skills           |
-         | LangChain    |             | Instructions     |
-         | Agentic Fw   |             | Prompts          |
-         | 4 Channels   |             | Hooks            |
-         | IDP/Backstage|<---IDP----->| MCP              |
-         +---------+----+             | Orchestration    |
-                   |                  | Token Optim.     |
-                   |                  +--------+---------+
-                   |                           |
-                   +-------------+-------------+
-                                 |
-                          [WORLD 5]
-                       BOWSER'S CASTLE 1
-                    +-------------------+
-                    | DevOps Evolution  |
-                    | AI Maturity       |
-                    | GitHub Copilot    |
-                    | What Is an Agent  |
-                    | Agent Types       |
-                    | Autonomous Agents |
-                    | MCP Detailed      |
-                    | 3 Horizons        |
-                    | GHAS Security     |
-                    +---------+---------+
-                              |
-              +---------------+---------------+
-              |                               |
-       [WORLD 3]                       [WORLD 4]
-     SKY WORLD                      WATER WORLD
-  +----------------+             +------------------+
-  | Terminal       |             | Auth/JWT/OAuth   |
-  | Docker         |<--Deploy-->| Cloud Models     |
-  | Tests          |             | Microservices    |
-  | Open Source    |             | Advanced Deploy  |
-  | Databases      |<---SQL---->| Git Workflows    |
-  | Best Practices |             | Cache/Perf       |
-  | Internet       |             | Messaging        |
-  | Languages      |             | JSON/Data        |
-  | Frameworks     |             |                  |
-  | Packages       |             |                  |
-  +--------+-------+             +--------+---------+
-           |                              |
-           +----------+---+---+-----------+
-                       |   |   |
-                    [WORLD 2]
-                 UNDERGROUND CAVERNS
-              +---------------------+
-              | Environments        |
-              | APIs                |
-              | Security            |
-              | DNS/Domains         |
-              | Methodologies       |
-              | DevOps/IaC          |
-              | Observability       |
-              +----------+----------+
-                         |
-                    [WORLD 1]
-                  GREEN PLAINS
-              +---------------------+
-              | VS Code             |
-              | Git                 |
-              | GitHub              |
-              | GitHub Actions      |
-              | Azure               |
-              | Azure AI            |
-              | Complete Flow       |
-              +----------+----------+
-                         |
-                      [START]
-                    "Press START"
-                  Sofia starts here
-
-================================================================================================
-```
 
 ### 1.3 Map Legend
 
@@ -1067,3 +972,11 @@ After completing all 8 Worlds, this is Sofia's complete inventory:
 *Level 8-1 complete. The Mushroom Kingdom map is now yours.*
 
 *Next: Level 8-2 -- Boss Rush. It's time to face all the bosses again.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-BOSS: Practical Project](../world-7-star-world/7-boss-practical-project.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-2: Boss Rush](8-2-boss-rush.md)
+
+</div>

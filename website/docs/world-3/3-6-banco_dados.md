@@ -3,9 +3,9 @@ title: "Level 3-6 -- The Castle of Data: Databases"
 description: "Databases demystified with a Mario analogy -- SQL as organized chests, NoSQL as mixed loot bags, CRUD as the castle's basic operations, and Prisma as Toad's magic assistant"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-3", "databases", "sql", "nosql", "postgresql", "mongodb", "prisma"]
-sidebar_position: 8
-format: md
 ---
 
 # Level 3-6 -- The Castle of Data: Databases
@@ -1341,3 +1341,11 @@ $ npm run dev                       # Run the application
 ---
 
 *Level 3-6 complete! You mastered the Castle of Data -- the heart of any application. With that, you've completed World 3: Sky World! All the essential tools and languages are in your inventory. In the next World, you'll learn to coordinate all of this with Agentic DevOps.*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-5: Open Source](3-5-open_source.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-7: Best Practices](3-7-boas_praticas.md)
+
+</div>

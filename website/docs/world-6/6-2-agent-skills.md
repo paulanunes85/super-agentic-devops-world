@@ -3,9 +3,9 @@ title: "Chapter 4B — Agent Skills & SKILL.md / The Power-Up Shop"
 description: "How to create and organize Agent Skills using SKILL.md files to build the powers collection for your AI characters."
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "2.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-6", "skills", "skill-md"]
-sidebar_position: 2
-format: md
 ---
 
 ## Change Log
@@ -611,7 +611,7 @@ Here's how the Power-Up evolution compares to Mario's evolution:
 
 ```
 POWER-UP SCREEN — Player Progression
-==========================================
+
 
 Level 1  -> Small Mario (Basic Jump)
              = Companion without Skills
@@ -665,3 +665,11 @@ She stored all Power-Ups in her inventory and headed to the next level in the Mu
 - [Customizing Copilot](https://docs.github.com/en/copilot/customizing-copilot)
 - [Copilot Agents Concepts](https://docs.github.com/en/copilot/concepts/agents)
 - [Using Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-agent-mode)
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 6-1: Custom Agents](6-1-custom-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-3: Custom Instructions](6-3-custom-instructions.md)
+
+</div>

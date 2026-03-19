@@ -3,9 +3,9 @@ title: "Level 7-4 — The Framework of Heroes: Microsoft Agentic Framework"
 description: "Microsoft Agentic Framework: Semantic Kernel, AutoGen, AI Agents SDK and Copilot Studio with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-7", "semantic-kernel", "autogen", "ai-agents-sdk"]
-sidebar_position: 4
-format: md
 ---
 
 ## Change Log
@@ -29,11 +29,6 @@ format: md
 ---
 
 ## TABLE OF CONTENTS
-
-<div align="center">
-<img src="/img/diagrams/microsoft-ai-stack.svg" alt="Microsoft AI stack" width="780" />
-<br/><em>Microsoft AI stack</em>
-</div>
 
 1. [Introduction — The Workshop of Heroes](#introduction)
 2. [The Microsoft Ecosystem for AI Agents](#ecosystem)
@@ -70,6 +65,11 @@ Microsoft did the same thing for AI agents. Let's explore each piece.
 ---
 
 ## 1. The Microsoft Ecosystem for AI Agents
+
+<div align="center">
+<img src="../../diagrams/svg/microsoft-ai-stack.svg" alt="Microsoft AI stack" width="780" />
+<br/><em>Microsoft AI stack</em>
+</div>
 
 Before diving into each tool, let's see the complete map:
 
@@ -763,3 +763,11 @@ She collects the Universal Controller, the Team Builder, the Official Kit and Ma
 - Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
 - AutoGen — https://microsoft.github.io/autogen/
 - Azure AI Agent Service — https://learn.microsoft.com/en-us/azure/ai-services/agents/
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 7-3: LangChain](7-3-langchain.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-5: Four Channels](7-5-four-channels.md)
+
+</div>

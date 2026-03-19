@@ -3,6 +3,8 @@ title: "Level 4-3 -- The Fortress Map: Software Architecture"
 description: "Monolith, microservices, serverless, event-driven, MVC, and clean architecture — how to design the Mushroom Kingdom castle blueprint"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -13,8 +15,6 @@ tags:
   - mvc
   - clean-architecture
   - event-driven
-sidebar_position: 3
-format: md
 ---
 
 # Level 4-3 -- The Fortress Map: Software Architecture
@@ -76,11 +76,6 @@ format: md
 ---
 
 ## Prologue: The Castle Blueprint
-
-<div align="center">
-<img src="/img/diagrams/architecture-patterns.svg" alt="Architecture patterns comparison" width="780" />
-<br/><em>Architecture patterns comparison</em>
-</div>
 
 Sofia was planning to expand the TodoApp. She was going to add notifications, a team system, reports, and calendar integration. But with each new feature, the code got more confusing, slower, and harder to maintain.
 
@@ -816,6 +811,11 @@ Phase 4: [Auth Service]  +  [Todo Service]  +  [Email Service]  +  [Report Servi
 
 ## 9. Comparison: Which Architecture to Choose?
 
+<div align="center">
+<img src="../../diagrams/svg/architecture-patterns.svg" alt="Architecture patterns comparison" width="780" />
+<br/><em>Architecture patterns comparison</em>
+</div>
+
 ### 9.1 Comparison Table
 
 | Criteria | Monolith | Microservices | Serverless | Event-Driven |
@@ -880,3 +880,11 @@ Does the team have fewer than 5 people?
 ---
 
 *Level 4-3 complete! You learned the main software architecture styles. In the next level, we'll explore advanced deployment strategies — how to launch new versions without tearing down the castle. Get ready for Level 4-4!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 4-2: Cloud Models](4-2-cloud_models.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md)
+
+</div>

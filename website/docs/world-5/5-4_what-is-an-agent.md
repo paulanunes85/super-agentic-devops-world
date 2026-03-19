@@ -3,9 +3,9 @@ title: "Level 5-4 -- NPCs that Came to Life: What Is an AI Agent"
 description: "What is an AI agent: LLM + Tools + Memory + Goals explained with Mario analogies"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
-sidebar_position: 5
-format: md
 ---
 
 ## Change Log
@@ -64,8 +64,8 @@ format: md
 ## Introduction -- The NPC that Learned to Think
 
 <div align="center">
-<img src="/img/diagrams/agent-components.svg" alt="The 5 components of an AI Agent" width="800" />
-<br/><em>The 5 components of an AI Agent</em>
+<img src="../../diagrams/svg/agent-components.svg" alt="The 5 components of an AI Agent" width="800">
+<br><em>The 5 components of an AI Agent</em>
 </div>
 
 Sofia was running through a level in the Mushroom Kingdom when something strange happened. She passed by a Toad -- that classic NPC that always stands in front of a little house -- expecting to hear the same old line: *"Thank you Mario! But the princess is in another castle!"*
@@ -109,8 +109,8 @@ Every AI agent, whether simple or complex, has 5 fundamental components. Without
 ### Agent Loop Diagram
 
 <div align="center">
-<img src="/img/diagrams/agent-loop.svg" alt="The Agent Loop: Observe → Think → Plan → Act" width="800" />
-<br/><em>The Agent Loop: Observe → Think → Plan → Act</em>
+<img src="../../diagrams/svg/agent-loop.svg" alt="The Agent Loop: Observe → Think → Plan → Act" width="800">
+<br><em>The Agent Loop: Observe → Think → Plan → Act</em>
 </div>
 
 ```

@@ -3,6 +3,8 @@ title: "Level 3-BOSS -- Boss Battle: Practical Exercises Level 3"
 description: "Practical exercises for World 3 (Sky World): create Dockerfiles, write tests with Jest, configure package.json, master the terminal, choose languages and frameworks -- Boss Battle against Kamek the Magikoopa"
 author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
+version: "1.0.0"
+status: "draft"
 tags:
   - agentic-devops
   - mario
@@ -14,8 +16,6 @@ tags:
   - jest
   - terminal
   - linguagens
-sidebar_position: 12
-format: md
 ---
 
 # Level 3-BOSS -- Boss Battle: Practical Exercises Level 3
@@ -930,3 +930,11 @@ After completing the exercises, answer:
 ---
 
 *End of the World 3 Boss Battle! If Sofia defeated Kamek, the doors to World 4 open -- the world of Orchestration and Agents. The journey continues!*
+
+---
+
+<div align="center">
+
+⬅️ [Previous: Level 3-11: Packages](3-11-pacotes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-1: Auth](../world-4-water/4-1-auth.md)
+
+</div>
