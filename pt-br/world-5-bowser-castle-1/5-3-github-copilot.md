@@ -35,11 +35,6 @@ tags:
 - [Secao 1 -- Visao Geral: Todos os Modos do Copilot](#secao-1--visao-geral-todos-os-modos-do-copilot)
   - [1.1 O Mapa Completo do Companion](#11-o-mapa-completo-do-companion)
   - [1.2 Tabela Mestra: Todos os Modos](#12-tabela-mestra-todos-os-modos)
-
-<div align="center">
-<img src="../../diagrams/svg/copilot-modes.svg" alt="Espectro de modos do GitHub Copilot por nivel de autonomia" width="800">
-<br><em>Espectro de modos do GitHub Copilot por nivel de autonomia</em>
-</div>
 - [Secao 2 -- Completions: O Companion que Sussurra Dicas](#secao-2--completions-o-companion-que-sussurra-dicas)
   - [2.1 O que sao Completions](#21-o-que-sao-completions)
   - [2.2 Como Completions Funcionam](#22-como-completions-funcionam)
@@ -111,6 +106,11 @@ tags:
 ---
 
 ## Introducao -- O Companion Mais Poderoso do Mushroom Kingdom
+
+<div align="center">
+<img src="../../diagrams/svg/copilot-modes.svg" alt="Espectro de modos do GitHub Copilot por nivel de autonomia" width="800">
+<br><em>Espectro de modos do GitHub Copilot por nivel de autonomia</em>
+</div>
 
 Sofia entrou numa sala especial do castelo -- a **Sala de Treinamento do Companion**. No centro, sobre um pedestal iluminado, flutuava um ovo de Yoshi brilhando com energia. Mas este nao era um Yoshi comum. Ao redor do pedestal, paineis holograficos mostravam OITO modos diferentes de operacao:
 

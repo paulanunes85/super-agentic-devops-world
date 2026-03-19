@@ -32,11 +32,6 @@ tags:
 - [Section 1 -- The Timeline: Three Eras of Combat](#section-1--the-timeline-three-eras-of-combat)
   - [1.1 Overview of the Eras](#11-overview-of-the-eras)
   - [1.2 Comparison Table: The Three Eras](#12-comparison-table-the-three-eras)
-
-<div align="center">
-<img src="../../diagrams/svg/devops-evolution.svg" alt="DevOps Evolution: Traditional → DevSecOps → Agentic" width="800">
-<br><em>DevOps Evolution: Traditional → DevSecOps → Agentic</em>
-</div>
 - [Section 2 -- 1st Era: Traditional DevOps (Manual Combat)](#section-2--1st-era-traditional-devops-manual-combat)
   - [2.1 What is Traditional DevOps](#21-what-is-traditional-devops)
   - [2.2 The Mario Analogy: Fighting with Swords](#22-the-mario-analogy-fighting-with-swords)
@@ -71,6 +66,11 @@ tags:
 ---
 
 ## Introduction -- The Trophy Room
+
+<div align="center">
+<img src="../../diagrams/svg/devops-evolution.svg" alt="DevOps Evolution: Traditional → DevSecOps → Agentic" width="800">
+<br><em>DevOps Evolution: Traditional → DevSecOps → Agentic</em>
+</div>
 
 Sofia entered an enormous room in the basement of the Mushroom Kingdom's main castle. On the walls, three huge illuminated display cases showed weapons and equipment from different eras. Each case had a plaque:
 

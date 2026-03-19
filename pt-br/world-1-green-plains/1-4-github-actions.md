@@ -31,11 +31,6 @@ tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundame
   - [2.2 CD — Entrega/Deploy Continuo](#22-cd--entregadeploy-continuo)
   - [2.3 Tabela: CI/CD vs Lakitu](#23-tabela-cicd-vs-lakitu)
   - [2.4 Diagrama: O Pipeline CI/CD](#24-diagrama-o-pipeline-cicd)
-
-<div align="center">
-<img src="../../diagrams/svg/cicd-pipeline.svg" alt="Pipeline CI/CD: do codigo ao deploy" width="800">
-<br><em>Pipeline CI/CD: do codigo ao deploy</em>
-</div>
 - [3. O que e GitHub Actions?](#3-o-que-e-github-actions)
   - [3.1 A Plataforma de Automacao do GitHub](#31-a-plataforma-de-automacao-do-github)
   - [3.2 Vocabulario Essencial](#32-vocabulario-essencial)
@@ -76,6 +71,11 @@ tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundame
 ---
 
 ## Prologo — O Lakitu que Trabalha para Voce
+
+<div align="center">
+<img src="../../diagrams/svg/cicd-pipeline.svg" alt="Pipeline CI/CD: do codigo ao deploy" width="800">
+<br><em>Pipeline CI/CD: do codigo ao deploy</em>
+</div>
 
 Voce conhece o Lakitu? Aquele personagem do Mario que fica flutuando numa nuvem, olhando tudo la de cima? No jogo original, Lakitu e um inimigo — fica jogando Spinies (aqueles bichos espinhosos) na sua cabeca.
 

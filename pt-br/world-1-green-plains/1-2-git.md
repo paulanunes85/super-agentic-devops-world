@@ -37,11 +37,6 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentos"]
   - [3.2 A Pasta .git — O Chip do Memory Card](#32-a-pasta-git--o-chip-do-memory-card)
   - [3.3 Os 3 Estados: Working, Staging, Committed](#33-os-3-estados-working-staging-committed)
   - [3.4 Diagrama: Os 3 Estados do Git](#34-diagrama-os-3-estados-do-git)
-
-<div align="center">
-<img src="../../diagrams/svg/git-workflow.svg" alt="Fluxo de trabalho do Git: Working Directory → Staging → Repository" width="800">
-<br><em>Fluxo de trabalho do Git: Working Directory → Staging → Repository</em>
-</div>
 - [4. Seu Primeiro Repositorio — Inserindo o Memory Card](#4-seu-primeiro-repositorio--inserindo-o-memory-card)
   - [4.1 git init — Formatando o Memory Card](#41-git-init--formatando-o-memory-card)
   - [4.2 git status — Verificando o Estado do Save](#42-git-status--verificando-o-estado-do-save)
@@ -77,6 +72,11 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentos"]
 ---
 
 ## Prologo — O Jogador que Perdeu Tudo
+
+<div align="center">
+<img src="../../diagrams/svg/git-workflow.svg" alt="Fluxo de trabalho do Git: Working Directory → Staging → Repository" width="800">
+<br><em>Fluxo de trabalho do Git: Working Directory → Staging → Repository</em>
+</div>
 
 Sofia estava orgulhosa. Depois de horas trabalhando no codigo, ela tinha construido algo bonito — um programa que funcionava perfeitamente. Entao ela decidiu "melhorar" uma parte. Mudou uma coisa aqui, outra ali, mais uma la...
 

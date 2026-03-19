@@ -37,11 +37,6 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
   - [3.2 The .git Folder — The Memory Card Chip](#32-the-git-folder--the-memory-card-chip)
   - [3.3 The 3 States: Working, Staging, Committed](#33-the-3-states-working-staging-committed)
   - [3.4 Diagram: The 3 States of Git](#34-diagram-the-3-states-of-git)
-
-<div align="center">
-<img src="../../diagrams/svg/git-workflow.svg" alt="Git workflow: Working Directory → Staging → Repository" width="800">
-<br><em>Git workflow: Working Directory → Staging → Repository</em>
-</div>
 - [4. Your First Repository — Inserting the Memory Card](#4-your-first-repository--inserting-the-memory-card)
   - [4.1 git init — Formatting the Memory Card](#41-git-init--formatting-the-memory-card)
   - [4.2 git status — Checking the Save State](#42-git-status--checking-the-save-state)
@@ -77,6 +72,11 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
 ---
 
 ## Prologue — The Player Who Lost Everything
+
+<div align="center">
+<img src="../../diagrams/svg/git-workflow.svg" alt="Git workflow: Working Directory → Staging → Repository" width="800">
+<br><em>Git workflow: Working Directory → Staging → Repository</em>
+</div>
 
 Sofia was proud. After hours working on the code, she had built something beautiful — a program that worked perfectly. Then she decided to "improve" a part. Changed one thing here, another there, one more over there...
 

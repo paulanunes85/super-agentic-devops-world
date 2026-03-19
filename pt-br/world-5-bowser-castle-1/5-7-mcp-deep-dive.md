@@ -42,11 +42,6 @@ tags:
   - [3.1 Os 4 Componentes Fundamentais](#31-os-4-componentes-fundamentais)
   - [3.2 Como os Componentes se Conectam](#32-como-os-componentes-se-conectam)
   - [3.3 Tabela: Componentes MCP vs Mushroom Kingdom](#33-tabela-componentes-mcp-vs-mushroom-kingdom)
-
-<div align="center">
-<img src="../../diagrams/svg/mcp-architecture.svg" alt="Arquitetura MCP: Client, Protocol e Servers" width="800">
-<br><em>Arquitetura MCP: Client, Protocol e Servers</em>
-</div>
 - [Secao 4 -- MCP Server: A Loja Especializada do NPC](#secao-4--mcp-server-a-loja-especializada-do-npc)
   - [4.1 O que e um MCP Server](#41-o-que-e-um-mcp-server)
   - [4.2 Tipos de MCP Servers](#42-tipos-de-mcp-servers)
@@ -98,6 +93,11 @@ tags:
 ---
 
 ## Introducao -- O Mundo dos Canos Incompativeis
+
+<div align="center">
+<img src="../../diagrams/svg/mcp-architecture.svg" alt="Arquitetura MCP: Client, Protocol e Servers" width="800">
+<br><em>Arquitetura MCP: Client, Protocol e Servers</em>
+</div>
 
 Sofia estava no Mushroom Kingdom quando percebeu algo estranho. Ela precisava viajar entre mundos -- ir ao World dos Designs buscar cores, ao World dos Dados buscar informacoes, e ao World das Tarefas atualizar o progresso. Mas quando tentou usar os Warp Pipes...
 

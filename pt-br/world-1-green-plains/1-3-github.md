@@ -27,11 +27,6 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentos"]
   - [1.1 Git vs GitHub — Memory Card vs Servidor Online](#11-git-vs-github--memory-card-vs-servidor-online)
   - [1.2 Por que o GitHub?](#12-por-que-o-github)
   - [1.3 Tabela: GitHub vs Servidor Multiplayer do Mario](#13-tabela-github-vs-servidor-multiplayer-do-mario)
-
-<div align="center">
-<img src="../../diagrams/svg/github-platform.svg" alt="Mapa da plataforma GitHub e seus recursos" width="800">
-<br><em>Mapa da plataforma GitHub e seus recursos</em>
-</div>
 - [2. Criando sua Conta — Entrando no Servidor](#2-criando-sua-conta--entrando-no-servidor)
   - [2.1 Passo a Passo](#21-passo-a-passo)
   - [2.2 Seu Perfil — A Ficha do Jogador](#22-seu-perfil--a-ficha-do-jogador)
@@ -78,6 +73,11 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentos"]
 ---
 
 ## Prologo — De Jogador Solo a Multiplayer
+
+<div align="center">
+<img src="../../diagrams/svg/github-platform.svg" alt="Mapa da plataforma GitHub e seus recursos" width="800">
+<br><em>Mapa da plataforma GitHub e seus recursos</em>
+</div>
 
 Ate agora, Sofia estava jogando sozinha. Ela tinha seu console (VS Code), seu memory card (Git), e construia fases no conforto da sua sala. Mas lhe faltava algo: **outros jogadores**.
 

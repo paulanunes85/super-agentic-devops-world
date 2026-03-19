@@ -32,11 +32,6 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
   - [2.3 Dockerfile: The Recipe Card](#23-dockerfile-the-recipe-card)
   - [2.4 Docker Hub: The Recipe Sharing Server](#24-docker-hub-the-recipe-sharing-server)
   - [2.5 Concepts Table](#25-concepts-table)
-
-<div align="center">
-<img src="../../diagrams/svg/docker-architecture.svg" alt="Docker architecture: from Dockerfile to Container" width="800">
-<br><em>Docker architecture: from Dockerfile to Container</em>
-</div>
 - [3. Dockerfile: Writing Your First Recipe](#3-dockerfile-writing-your-first-recipe)
   - [3.1 Anatomy of a Dockerfile](#31-anatomy-of-a-dockerfile)
   - [3.2 Essential Instructions](#32-essential-instructions)
@@ -80,6 +75,11 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 ---
 
 ## Prologue: "It Works on My Machine"
+
+<div align="center">
+<img src="../../diagrams/svg/docker-architecture.svg" alt="Docker architecture: from Dockerfile to Container" width="800">
+<br><em>Docker architecture: from Dockerfile to Container</em>
+</div>
 
 Sofia was proud. After weeks of work, her TodoApp was perfect. It ran beautifully on her computer. Responsive frontend, fast backend, integrated database. Everything working.
 

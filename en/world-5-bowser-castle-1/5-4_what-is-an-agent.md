@@ -34,11 +34,6 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
   - [Fundamental Definition](#fundamental-definition)
   - [The 5 Components of an Agent](#the-5-components-of-an-agent)
   - [Table: Agent Components vs Mario Character Anatomy](#table-agent-components-vs-mario-character-anatomy)
-
-<div align="center">
-<img src="../../diagrams/svg/agent-components.svg" alt="The 5 components of an AI Agent" width="800">
-<br><em>The 5 components of an AI Agent</em>
-</div>
 - [Section 2 -- The Sense-Think-Act Cycle: How an Agent Works](#section-2--the-sense-think-act-cycle-how-an-agent-works)
   - [The Fundamental Loop](#the-fundamental-loop)
   - [Practical Example: The Agent Solving a Bug](#practical-example-the-agent-solving-a-bug)
@@ -57,11 +52,6 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 - [Section 5 -- The Agent Loop: Observe-Think-Plan-Act](#section-5--the-agent-loop-observe-think-plan-act)
   - [The Complete Cycle in 6 Steps](#the-complete-cycle-in-6-steps)
   - [Agent Loop Diagram](#agent-loop-diagram)
-
-<div align="center">
-<img src="../../diagrams/svg/agent-loop.svg" alt="The Agent Loop: Observe → Think → Plan → Act" width="800">
-<br><em>The Agent Loop: Observe → Think → Plan → Act</em>
-</div>
   - [Real Example: GitHub Copilot as an Agent](#real-example-github-copilot-as-an-agent)
   - [Real Example: Claude as an Agent](#real-example-claude-as-an-agent)
 - [Section 6 -- Why Agents Matter for DevOps](#section-6--why-agents-matter-for-devops)
@@ -72,6 +62,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 ---
 
 ## Introduction -- The NPC that Learned to Think
+
+<div align="center">
+<img src="../../diagrams/svg/agent-components.svg" alt="The 5 components of an AI Agent" width="800">
+<br><em>The 5 components of an AI Agent</em>
+</div>
 
 Sofia was running through a level in the Mushroom Kingdom when something strange happened. She passed by a Toad -- that classic NPC that always stands in front of a little house -- expecting to hear the same old line: *"Thank you Mario! But the princess is in another castle!"*
 
@@ -112,6 +107,11 @@ Where:
 Every AI agent, whether simple or complex, has 5 fundamental components. Without any one of them, you have something less than a complete agent.
 
 ### Agent Loop Diagram
+
+<div align="center">
+<img src="../../diagrams/svg/agent-loop.svg" alt="The Agent Loop: Observe → Think → Plan → Act" width="800">
+<br><em>The Agent Loop: Observe → Think → Plan → Act</em>
+</div>
 
 ```
          ┌─────────────────────────────────────────┐

@@ -42,11 +42,6 @@ tags:
   - [3.1 The 4 Fundamental Components](#31-the-4-fundamental-components)
   - [3.2 How the Components Connect](#32-how-the-components-connect)
   - [3.3 Table: MCP Components vs Mushroom Kingdom](#33-table-mcp-components-vs-mushroom-kingdom)
-
-<div align="center">
-<img src="../../diagrams/svg/mcp-architecture.svg" alt="MCP Architecture: Client, Protocol, and Servers" width="800">
-<br><em>MCP Architecture: Client, Protocol, and Servers</em>
-</div>
 - [Section 4 -- MCP Server: The NPC's Specialized Shop](#section-4--mcp-server-the-npcs-specialized-shop)
   - [4.1 What is an MCP Server](#41-what-is-an-mcp-server)
   - [4.2 Types of MCP Servers](#42-types-of-mcp-servers)
@@ -98,6 +93,11 @@ tags:
 ---
 
 ## Introduction -- The World of Incompatible Pipes
+
+<div align="center">
+<img src="../../diagrams/svg/mcp-architecture.svg" alt="MCP Architecture: Client, Protocol, and Servers" width="800">
+<br><em>MCP Architecture: Client, Protocol, and Servers</em>
+</div>
 
 Sofia was in the Mushroom Kingdom when she noticed something strange. She needed to travel between worlds -- go to the Design World to fetch colors, to the Data World to fetch information, and to the Tasks World to update her progress. But when she tried to use the Warp Pipes...
 

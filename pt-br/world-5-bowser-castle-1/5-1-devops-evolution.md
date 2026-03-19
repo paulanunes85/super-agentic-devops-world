@@ -32,11 +32,6 @@ tags:
 - [Secao 1 -- A Linha do Tempo: Tres Eras de Combate](#secao-1--a-linha-do-tempo-tres-eras-de-combate)
   - [1.1 Visao Geral das Eras](#11-visao-geral-das-eras)
   - [1.2 Tabela Comparativa: As Tres Eras](#12-tabela-comparativa-as-tres-eras)
-
-<div align="center">
-<img src="../../diagrams/svg/devops-evolution.svg" alt="Evolucao do DevOps: Traditional → DevSecOps → Agentic" width="800">
-<br><em>Evolucao do DevOps: Traditional → DevSecOps → Agentic</em>
-</div>
 - [Secao 2 -- 1a Era: DevOps Tradicional (Combate Manual)](#secao-2--1a-era-devops-tradicional-combate-manual)
   - [2.1 O que e DevOps Tradicional](#21-o-que-e-devops-tradicional)
   - [2.2 A Analogia Mario: Lutando com Espadas](#22-a-analogia-mario-lutando-com-espadas)
@@ -71,6 +66,11 @@ tags:
 ---
 
 ## Introducao -- A Sala dos Trofeus
+
+<div align="center">
+<img src="../../diagrams/svg/devops-evolution.svg" alt="Evolucao do DevOps: Traditional → DevSecOps → Agentic" width="800">
+<br><em>Evolucao do DevOps: Traditional → DevSecOps → Agentic</em>
+</div>
 
 Sofia entrou numa sala enorme no subsolo do castelo principal do Mushroom Kingdom. Nas paredes, tres enormes vitrines iluminadas mostravam armas e equipamentos de epocas diferentes. Cada vitrine tinha uma placa:
 

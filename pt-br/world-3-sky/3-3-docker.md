@@ -32,11 +32,6 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
   - [2.3 Dockerfile: A Ficha de Receita](#23-dockerfile-a-ficha-de-receita)
   - [2.4 Docker Hub: O Servidor de Troca de Receitas](#24-docker-hub-o-servidor-de-troca-de-receitas)
   - [2.5 Tabela de Conceitos](#25-tabela-de-conceitos)
-
-<div align="center">
-<img src="../../diagrams/svg/docker-architecture.svg" alt="Arquitetura Docker: do Dockerfile ao Container" width="800">
-<br><em>Arquitetura Docker: do Dockerfile ao Container</em>
-</div>
 - [3. Dockerfile: Escrevendo Sua Primeira Receita](#3-dockerfile-escrevendo-sua-primeira-receita)
   - [3.1 Anatomia de um Dockerfile](#31-anatomia-de-um-dockerfile)
   - [3.2 Instrucoes Essenciais](#32-instrucoes-essenciais)
@@ -80,6 +75,11 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 ---
 
 ## Prologo: "Na Minha Maquina Funciona"
+
+<div align="center">
+<img src="../../diagrams/svg/docker-architecture.svg" alt="Arquitetura Docker: do Dockerfile ao Container" width="800">
+<br><em>Arquitetura Docker: do Dockerfile ao Container</em>
+</div>
 
 Sofia estava orgulhosa. Depois de semanas de trabalho, seu TodoApp estava perfeito. Rodava lindo no seu computador. Frontend responsivo, backend rapido, banco de dados integrado. Tudo funcionando.
 

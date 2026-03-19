@@ -34,11 +34,6 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
   - [Definicao Fundamental](#definicao-fundamental)
   - [Os 5 Componentes de um Agente](#os-5-componentes-de-um-agente)
   - [Tabela: Componentes do Agente vs Anatomia do Personagem Mario](#tabela-componentes-do-agente-vs-anatomia-do-personagem-mario)
-
-<div align="center">
-<img src="../../diagrams/svg/agent-components.svg" alt="Os 5 componentes de um Agente de IA" width="800">
-<br><em>Os 5 componentes de um Agente de IA</em>
-</div>
 - [Secao 2 -- O Ciclo Sense-Think-Act: Como um Agente Funciona](#secao-2--o-ciclo-sense-think-act-como-um-agente-funciona)
   - [O Loop Fundamental](#o-loop-fundamental)
   - [Exemplo Pratico: O Agente Resolvendo um Bug](#exemplo-pratico-o-agente-resolvendo-um-bug)
@@ -57,11 +52,6 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 - [Secao 5 -- O Agent Loop: Observe-Think-Plan-Act](#secao-5--o-agent-loop-observe-think-plan-act)
   - [O Ciclo Completo em 6 Passos](#o-ciclo-completo-em-6-passos)
   - [Diagrama do Agent Loop](#diagrama-do-agent-loop)
-
-<div align="center">
-<img src="../../diagrams/svg/agent-loop.svg" alt="O ciclo do Agente: Observar → Pensar → Planejar → Agir" width="800">
-<br><em>O ciclo do Agente: Observar → Pensar → Planejar → Agir</em>
-</div>
   - [Exemplo Real: GitHub Copilot como Agente](#exemplo-real-github-copilot-como-agente)
   - [Exemplo Real: Claude como Agente](#exemplo-real-claude-como-agente)
 - [Secao 6 -- Por Que Agentes Importam para DevOps](#secao-6--por-que-agentes-importam-para-devops)
@@ -72,6 +62,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 ---
 
 ## Introducao -- O NPC que Aprendeu a Pensar
+
+<div align="center">
+<img src="../../diagrams/svg/agent-components.svg" alt="Os 5 componentes de um Agente de IA" width="800">
+<br><em>Os 5 componentes de um Agente de IA</em>
+</div>
 
 Sofia estava correndo por uma fase do Mushroom Kingdom quando algo estranho aconteceu. Ela passou por um Toad -- aquele NPC classico que sempre fica parado na frente de uma casinha -- esperando ouvir a mesma frase de sempre: *"Obrigado Mario! Mas a princesa esta em outro castelo!"*
 
@@ -361,6 +356,11 @@ Os objetivos podem vir de diferentes fontes:
 ---
 
 ## Secao 5 -- O Agent Loop: Observe-Think-Plan-Act
+
+<div align="center">
+<img src="../../diagrams/svg/agent-loop.svg" alt="O ciclo do Agente: Observar → Pensar → Planejar → Agir" width="800">
+<br><em>O ciclo do Agente: Observar → Pensar → Planejar → Agir</em>
+</div>
 
 ### O Ciclo Completo em 6 Passos
 

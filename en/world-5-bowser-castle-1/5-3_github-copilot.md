@@ -35,11 +35,6 @@ tags:
 - [Section 1 -- Overview: All Copilot Modes](#section-1--overview-all-copilot-modes)
   - [1.1 The Complete Companion Map](#11-the-complete-companion-map)
   - [1.2 Master Table: All Modes](#12-master-table-all-modes)
-
-<div align="center">
-<img src="../../diagrams/svg/copilot-modes.svg" alt="GitHub Copilot modes spectrum by autonomy level" width="800">
-<br><em>GitHub Copilot modes spectrum by autonomy level</em>
-</div>
 - [Section 2 -- Completions: The Companion that Whispers Tips](#section-2--completions-the-companion-that-whispers-tips)
   - [2.1 What are Completions](#21-what-are-completions)
   - [2.2 How Completions Work](#22-how-completions-work)
@@ -111,6 +106,11 @@ tags:
 ---
 
 ## Introduction -- The Most Powerful Companion in the Mushroom Kingdom
+
+<div align="center">
+<img src="../../diagrams/svg/copilot-modes.svg" alt="GitHub Copilot modes spectrum by autonomy level" width="800">
+<br><em>GitHub Copilot modes spectrum by autonomy level</em>
+</div>
 
 Sofia entered a special room in the castle -- the **Companion Training Room**. In the center, on an illuminated pedestal, a Yoshi egg floated glowing with energy. But this was no ordinary Yoshi. Around the pedestal, holographic panels showed EIGHT different operating modes:
 

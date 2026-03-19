@@ -27,11 +27,6 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentals"]
   - [1.1 Git vs GitHub — Memory Card vs Online Server](#11-git-vs-github--memory-card-vs-online-server)
   - [1.2 Why GitHub?](#12-why-github)
   - [1.3 Table: GitHub vs Mario's Multiplayer Server](#13-table-github-vs-marios-multiplayer-server)
-
-<div align="center">
-<img src="../../diagrams/svg/github-platform.svg" alt="GitHub platform map and its features" width="800">
-<br><em>GitHub platform map and its features</em>
-</div>
 - [2. Creating Your Account — Joining the Server](#2-creating-your-account--joining-the-server)
   - [2.1 Step by Step](#21-step-by-step)
   - [2.2 Your Profile — The Player Card](#22-your-profile--the-player-card)
@@ -78,6 +73,11 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentals"]
 ---
 
 ## Prologue — From Solo Player to Multiplayer
+
+<div align="center">
+<img src="../../diagrams/svg/github-platform.svg" alt="GitHub platform map and its features" width="800">
+<br><em>GitHub platform map and its features</em>
+</div>
 
 Up until now, Sofia had been playing alone. She had her console (VS Code), her memory card (Git), and built levels in the comfort of her living room. But she was missing something: **other players**.
 
