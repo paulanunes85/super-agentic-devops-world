@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-5 -- Licencas do Mushroom Kingdom: Open Source"
 description: "Open Source explicado com analogia Mario — compartilhar niveis customizados, licencas como regras de uso, contribuicoes como melhorias comunitarias, e forks como versoes alternativas"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "open-source", "licencas", "github"
 
 | Versao | Data       | Autor                                      | Descricao                     |
 |--------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial (Edicao Mario)|
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial (Edicao Mario)|
 
 ---
 

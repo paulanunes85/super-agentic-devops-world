@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-2 -- De Aprendiz a Lendario: Niveis de Maturidade em IA"
 description: "Os cinco niveis de maturidade na adocao de IA no desenvolvimento de software, do Nivel 0 (sem IA) ao Nivel 4 (IA Autonoma), incluindo Spec-Driven Development."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

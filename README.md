@@ -14,7 +14,7 @@ Super Mario World analogies so anyone can understand.**
 [![EN](https://img.shields.io/badge/lang-EN-blue?style=for-the-badge)](en/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-*Created by [Paula Silva](https://github.com/paulanunes85) · Microsoft Latam Software GBB*
+*Created by [Paula Silva](https://github.com/paulanunes85) · Software Global Black Belt, Microsoft Americas*
 
 </div>
 
@@ -99,7 +99,9 @@ Every concept has a Mario equivalent:
 
 ## 🚀 Quick Start
 
-**Complete Beginner?** Start at [World 1, Level 1-1: VS Code](en/world-1-green-plains/1-1-vs-code.md)
+> [!TIP]
+> **Complete Beginner?** Start at [World 1, Level 1-1: VS Code](en/world-1-green-plains/1-1-vs-code.md)
+> and follow the worlds in order — each builds on the previous.
 
 **Know the basics?** Jump to what you need:
 
@@ -192,17 +194,22 @@ How Everything Connects · Boss Rush · Next Steps · Glossary (124+ terms)
 
 ## 🎨 Branding
 
-| Element | Value |
-|:---|:---|
-| 🔴 Mario Red | `#E52521` |
-| 🔵 Sky Blue | `#049CD8` |
-| 🟡 Coin Gold | `#FBD000` |
-| 🟢 Pipe Green | `#43B047` |
-| 🔤 Headings | Press Start 2P |
-| 📝 Body | Inter |
-| 💻 Code | JetBrains Mono |
+> [!NOTE]
+> This project has a complete brand identity inspired by Super Mario World.
+> See the full [Brand Guide](BRAND_GUIDE.md).
 
-See the full [Brand Guide](BRAND_GUIDE.md).
+```diff
++ ██ Mario Red    #E52521  — Actions, highlights, CTAs
++ ██ Sky Blue     #049CD8  — Tools, platforms, headers
++ ██ Coin Gold    #FBD000  — Achievements, data, results
++ ██ Pipe Green   #43B047  — Success, flow, connections
+```
+
+| Font | Usage |
+|:---|:---|
+| `Press Start 2P` | Headings (pixel retro) |
+| `Inter` | Body text |
+| `JetBrains Mono` | Code blocks |
 
 ---
 
@@ -227,7 +234,7 @@ MIT License — see [LICENSE](LICENSE).
 
 ## 👤 Author
 
-**Paula Silva** · [@paulanunes85](https://github.com/paulanunes85) · Microsoft Latam Software GBB
+**Paula Silva** · [@paulanunes85](https://github.com/paulanunes85) · Software Global Black Belt, Microsoft Americas
 
 ---
 

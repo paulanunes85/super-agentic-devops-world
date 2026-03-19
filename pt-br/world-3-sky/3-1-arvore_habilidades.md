@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-1 -- Arvore de Habilidades: Seu Caminho de Evolucao"
 description: "A arvore de habilidades do desenvolvedor mapeada como a progressao de Small Mario ate Star Mario — 5 niveis, multiplos caminhos, habilidades que se desbloqueiam"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "skill-tree", "carreira", "progress
 
 | Versao | Data       | Autor                                      | Descricao                     |
 |--------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial (Edicao Mario)|
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial (Edicao Mario)|
 
 ---
 

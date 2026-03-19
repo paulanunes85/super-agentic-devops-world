@@ -1,7 +1,7 @@
 ---
 title: "Level 3-9 -- RPG Classes: Programming Languages"
 description: "Discover the main programming languages -- Python, JavaScript, TypeScript, C#, Java, Go, Rust, C/C++, HTML/CSS and SQL -- like character classes in an RPG, each with strengths, weaknesses and specializations"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -27,7 +27,7 @@ tags:
 
 | Version | Date       | Author                                  | Description        |
 |---------|------------|----------------------------------------|--------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation  |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation  |
 
 ---
 

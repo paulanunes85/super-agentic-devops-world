@@ -1,7 +1,7 @@
 ---
 title: "Super Agentic DevOps World — Brand Guide"
 subtitle: "Made for Sofia"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "published"
@@ -59,7 +59,7 @@ license: "CC BY 4.0"
 
 ### Brand Story
 
-Sofia is the daughter of **Paula Silva** (Microsoft Latam Software GBB). When Sofia asked her mother to teach her about software development, Paula realized that traditional tutorials, documentation, and courses weren't designed for someone starting from absolute zero. The jargon was intimidating, the concepts felt abstract, and the learning curve felt like a wall.
+Sofia is the daughter of **Paula Silva** (Software Global Black Belt, Microsoft Americas). When Sofia asked her mother to teach her about software development, Paula realized that traditional tutorials, documentation, and courses weren't designed for someone starting from absolute zero. The jargon was intimidating, the concepts felt abstract, and the learning curve felt like a wall.
 
 So Paula decided to explain everything through something Sofia already loved: **video games**. Specifically, **Super Mario World** — a game where the rules are simple, the progression is clear, and anyone can play.
 
@@ -448,7 +448,7 @@ Every chapter in the guide must follow this structure for consistency. Copy-past
 ---
 title: "Level X-Y — [Mario Title]: [Technical Title]"
 description: "[One sentence describing what the reader will learn]"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "YYYY-MM-DD"
 version: "1.0.0"
 status: "draft | review | published"
@@ -682,7 +682,7 @@ This certificate is awarded when a learner completes all 8 Worlds.
 ║  Date: [DATE]                                            ║
 ║                                                          ║
 ║  Paula Silva                                             ║
-║  Microsoft Latam Software GBB                            ║
+║  Software Global Black Belt, Microsoft Americas                            ║
 ║                                                          ║
 ╚══════════════════════════════════════════════════════════╝
 ```
@@ -792,7 +792,7 @@ For easy access during content creation, here is a one-glance summary:
 | **Body Font** | Inter |
 | **Code Font** | JetBrains Mono |
 | **Hashtags** | #SuperAgenticDevOpsWorld #MadeForSofia #AgenticDevOps |
-| **Author** | Paula Silva, Microsoft Latam Software GBB |
+| **Author** | Paula Silva, Software Global Black Belt, Microsoft Americas |
 
 ---
 

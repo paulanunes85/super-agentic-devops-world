@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-4 -- Treinando Antes da Batalha: Testes de Software"
 description: "Testes de software desmistificados com analogia Mario — testes unitarios como bonecos de treino, integracao como duplas de inimigos, E2E como simulacao completa de batalha, e TDD como planejar a luta antes de lutar"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "testes", "jest", "tdd", "qa", "tes
 
 | Versao | Data       | Autor                                      | Descricao                     |
 |--------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial (Edicao Mario)|
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial (Edicao Mario)|
 
 ---
 

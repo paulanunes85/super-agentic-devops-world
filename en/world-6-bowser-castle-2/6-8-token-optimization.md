@@ -1,7 +1,7 @@
 ---
 title: "Level 6-8 -- Wise Coins: How to Save Tokens in GitHub Copilot"
 description: "Complete guide to token optimization in GitHub Copilot, covering context management, chat, completions, agent mode, enterprise governance, and ROI metrics -- all with Super Mario Bros. analogies."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

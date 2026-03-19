@@ -1,7 +1,7 @@
 ---
 title: "Fase 2-BOSS -- Boss Battle: Exercicios Praticos Level 2"
 description: "Exercicios praticos do World 2 (Cavernas Subterraneas): crie ambientes, construa APIs, configure seguranca, DNS, metodologias agile, IaC e observabilidade"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -26,7 +26,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

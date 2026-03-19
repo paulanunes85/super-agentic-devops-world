@@ -1,7 +1,7 @@
 ---
 title: "Capitulo 4H — Referencia Rapida (Cheat Sheet) / O Mapa Completo do Mushroom Kingdom"
 description: "Guia de referencia rapida com todos os conceitos, comandos e configuracoes do Agentic DevOps em um unico lugar."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-6", "cheat-sheet", "reference"]
 ---
 
 **Versao:** 2.0 — Edicao Mushroom Kingdom
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Preparado para:** Sofia
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)

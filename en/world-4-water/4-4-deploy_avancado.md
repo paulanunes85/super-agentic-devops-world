@@ -1,7 +1,7 @@
 ---
 title: "Level 4-4 -- Launch Strategies: Advanced Deploy"
 description: "Blue-green, canary, rolling, feature flags, A/B testing and rollback — how to change the castle doors without visitors noticing"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -25,7 +25,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation     |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation     |
 
 ---
 

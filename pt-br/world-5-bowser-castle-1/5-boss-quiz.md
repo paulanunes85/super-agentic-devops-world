@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-BOSS -- Boss Battle: Quiz de Revisao do World 5"
 description: "Quiz completo com 20 questoes cobrindo todos os temas do World 5: evolucao do DevOps, maturidade em IA, GitHub Copilot, agentes, MCP e Three Horizons."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

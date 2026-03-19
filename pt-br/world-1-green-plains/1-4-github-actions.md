@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-4 — Os Lakitus Trabalhadores: GitHub Actions e CI/CD"
 description: "Introducao a GitHub Actions e CI/CD — os ajudantes automaticos na nuvem que testam e deployam seu codigo."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

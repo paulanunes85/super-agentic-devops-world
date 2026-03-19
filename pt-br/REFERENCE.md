@@ -1,7 +1,7 @@
 ---
 title: "Analogia Mario — Guia de Referencia Completo"
 description: "Mapeamento completo de conceitos Agentic DevOps para analogias Super Mario Bros"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

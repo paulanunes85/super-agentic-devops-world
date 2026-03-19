@@ -14,7 +14,7 @@ analogias de Super Mario World para qualquer pessoa entender.**
 [![EN](https://img.shields.io/badge/lang-EN-blue?style=for-the-badge)](../README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](../LICENSE)
 
-*Criado por [Paula Silva](https://github.com/paulanunes85) · Microsoft Latam Software GBB*
+*Criado por [Paula Silva](https://github.com/paulanunes85) · Software Global Black Belt, Microsoft Americas*
 
 </div>
 
@@ -102,7 +102,9 @@ Cada conceito tem um equivalente no Mario:
 
 ## 🚀 Por Onde Comecar
 
-**Iniciante completo?** Comece em [Mundo 1, Fase 1-1: VS Code](world-1-green-plains/1-1-vs-code.md)
+> [!TIP]
+> **Iniciante completo?** Comece em [Mundo 1, Fase 1-1: VS Code](world-1-green-plains/1-1-vs-code.md)
+> e siga os mundos em ordem — cada um constroi sobre o anterior.
 
 **Ja sabe o basico?** Va direto ao que precisa:
 
@@ -195,17 +197,22 @@ Como Tudo Se Conecta · Boss Rush · Proximos Passos · Glossario (124+ termos)
 
 ## 🎨 Branding
 
-| Elemento | Valor |
-|:---|:---|
-| 🔴 Mario Red | `#E52521` |
-| 🔵 Sky Blue | `#049CD8` |
-| 🟡 Coin Gold | `#FBD000` |
-| 🟢 Pipe Green | `#43B047` |
-| 🔤 Titulos | Press Start 2P |
-| 📝 Corpo | Inter |
-| 💻 Codigo | JetBrains Mono |
+> [!NOTE]
+> Este projeto tem uma identidade visual completa inspirada no Super Mario World.
+> Veja o [Brand Guide](../BRAND_GUIDE.md) completo.
 
-Veja o [Brand Guide](../BRAND_GUIDE.md) completo.
+```diff
++ ██ Mario Red    #E52521  — Acoes, destaques, CTAs
++ ██ Sky Blue     #049CD8  — Ferramentas, plataformas, headers
++ ██ Coin Gold    #FBD000  — Conquistas, dados, resultados
++ ██ Pipe Green   #43B047  — Sucesso, fluxo, conexoes
+```
+
+| Fonte | Uso |
+|:---|:---|
+| `Press Start 2P` | Titulos (pixel retro) |
+| `Inter` | Texto corpo |
+| `JetBrains Mono` | Blocos de codigo |
 
 ---
 
@@ -230,7 +237,7 @@ MIT License — veja [LICENSE](../LICENSE).
 
 ## 👤 Autora
 
-**Paula Silva** · [@paulanunes85](https://github.com/paulanunes85) · Microsoft Latam Software GBB
+**Paula Silva** · [@paulanunes85](https://github.com/paulanunes85) · Software Global Black Belt, Microsoft Americas
 
 ---
 

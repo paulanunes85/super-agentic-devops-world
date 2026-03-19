@@ -1,7 +1,7 @@
 ---
 title: "Level 3-10 -- Weapons and Armor: Frameworks and Libraries"
 description: "Understand the difference between frameworks and libraries, and get to know React, Vue, Angular, Express, Next.js, .NET, Django, and Spring -- like the weapons and armor that equip the characters of the Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -29,7 +29,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

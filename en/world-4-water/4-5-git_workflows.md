@@ -1,7 +1,7 @@
 ---
 title: "Level 4-5 -- Workflows: Git Workflows"
 description: "Git Flow, GitHub Flow, trunk-based development and GitLab Flow — how to organize the team's work in the Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation     |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation     |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Fase 2-6 -- A Alianca entre Classes: DevOps e IaC"
 description: "DevOps como a alianca entre desenvolvedores e operacoes, e Infrastructure as Code com Terraform, Bicep e ARM Templates para construir castelos automaticamente"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

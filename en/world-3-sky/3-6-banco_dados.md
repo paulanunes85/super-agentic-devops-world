@@ -1,7 +1,7 @@
 ---
 title: "Level 3-6 -- The Castle of Data: Databases"
 description: "Databases demystified with a Mario analogy -- SQL as organized chests, NoSQL as mixed loot bags, CRUD as the castle's basic operations, and Prisma as Toad's magic assistant"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "databases", "sql", "nosql", "postg
 
 | Version | Date       | Author                                     | Description                   |
 |---------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation (Mario Edition)|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation (Mario Edition)|
 
 ---
 

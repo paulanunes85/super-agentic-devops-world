@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-3 -- A Arte de Empacotar: Docker e Containers"
 description: "Docker desmistificado com analogia Mario — imagens como receitas, containers como pratos prontos, Dockerfile como ficha de receita, e Docker Compose como planejador de refeicoes"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 
 | Versao | Data       | Autor                                      | Descricao                     |
 |--------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial (Edicao Mario)|
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial (Edicao Mario)|
 
 ---
 

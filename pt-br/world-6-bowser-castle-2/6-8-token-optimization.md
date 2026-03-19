@@ -1,7 +1,7 @@
 ---
 title: "Fase 6-8 -- Moedas Sabias: Como Economizar Tokens no GitHub Copilot"
 description: "Guia completo de otimizacao de tokens no GitHub Copilot, cobrindo gerenciamento de contexto, chat, completions, agent mode, governanca enterprise e metricas de ROI -- tudo com analogias do Super Mario Bros."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

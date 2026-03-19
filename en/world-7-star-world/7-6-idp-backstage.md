@@ -1,7 +1,7 @@
 ---
 title: "Level 7-6 — The Central Plaza: IDP and Backstage"
 description: "Internal Developer Platform and Backstage: the central plaza of development with Mario analogies"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-7", "idp", "backstage", "developer-plat
 
 **Prepared for:** Sofia
 **Version:** 2.0 — Mushroom Kingdom Edition
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** English
 **Collection:** Agentic DevOps — Super Mario Bros Edition

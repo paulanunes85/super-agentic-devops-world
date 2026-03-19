@@ -1,7 +1,7 @@
 ---
 title: "Level 1-6 — The Magic of the Game: Azure AI and AI Foundry"
 description: "Introduction to Azure AI services, GitHub Copilot, and Azure AI Foundry — the magic that transforms development."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

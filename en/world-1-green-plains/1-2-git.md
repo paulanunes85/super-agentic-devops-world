@@ -1,7 +1,7 @@
 ---
 title: "Level 1-2 — Save Game: Git and the Save System"
 description: "Learn Git from scratch — the version control system that works like the most powerful save game ever created."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

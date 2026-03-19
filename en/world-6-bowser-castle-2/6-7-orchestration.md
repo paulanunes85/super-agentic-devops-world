@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4G — Multi-Agent Orchestration / Coordinated Multiplayer"
 description: "How to orchestrate multiple AI agents working together using the Lean Agent + Rich Skill pattern."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -22,7 +22,7 @@ tags: ["agentic-devops", "mario", "world-6", "orchestration", "multi-agent"]
 
 **Prepared for:** Sofia
 **Version:** 2.0 — Mushroom Kingdom Edition
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** English (translated from pt-BR)
 **Collection:** Agentic DevOps — Super Mario Bros Edition

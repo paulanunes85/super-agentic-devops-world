@@ -1,7 +1,7 @@
 ---
 title: "Fase 4-1 -- Protecao Avancada: Auth, JWT, OAuth"
 description: "Autenticacao, autorizacao, JWT tokens, OAuth 2.0, social login e RBAC — como provar que voce e Mario e nao Bowser disfarçado"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

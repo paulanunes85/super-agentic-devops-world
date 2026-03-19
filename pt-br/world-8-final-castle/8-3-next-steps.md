@@ -1,7 +1,7 @@
 ---
 title: "Fase 8-3 -- O Fim e o Comeco: Proximos Passos"
 description: "Recursos de aprendizado, learning paths, certificacoes, comunidades e proximos passos apos completar o guia de Agentic DevOps. Inclui URLs reais para Microsoft Learn, GitHub Skills, e outros recursos."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

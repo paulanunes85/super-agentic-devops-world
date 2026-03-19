@@ -1,7 +1,7 @@
 ---
 title: "Level 5-BOSS -- Boss Battle: World 5 Review Quiz"
 description: "Complete quiz with 20 questions covering all World 5 topics: DevOps evolution, AI maturity, GitHub Copilot, agents, MCP and Three Horizons."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

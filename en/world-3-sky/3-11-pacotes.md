@@ -1,7 +1,7 @@
 ---
 title: "Level 3-11 -- The Inventory: Packages and Dependencies"
 description: "Master package managers (npm, pip, NuGet), package.json, requirements.txt, lock files, semantic versioning of dependencies, and dependency hell -- like the inventory system of the Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -26,7 +26,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

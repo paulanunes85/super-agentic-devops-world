@@ -1,7 +1,7 @@
 ---
 title: "Level 1-4 — The Working Lakitus: GitHub Actions and CI/CD"
 description: "Introduction to GitHub Actions and CI/CD — the automatic cloud helpers that test and deploy your code."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

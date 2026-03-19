@@ -1,7 +1,7 @@
 ---
 title: "Level 5-1 -- From Swords to Robots: The Evolution of DevOps"
 description: "The evolutionary journey from Traditional DevOps to DevSecOps to Agentic DevOps, told through the analogy of the Mushroom Kingdom's combat eras."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

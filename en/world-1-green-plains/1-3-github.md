@@ -1,7 +1,7 @@
 ---
 title: "Level 1-3 — Multiplayer Server: GitHub (Repos, Issues, PRs, Projects)"
 description: "GitHub as the multiplayer platform where developers collaborate — from repositories to Pull Requests."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

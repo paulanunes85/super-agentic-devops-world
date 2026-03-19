@@ -1,7 +1,7 @@
 ---
 title: "Indice Completo — Mapa do Mushroom Kingdom"
 description: "Indice completo dos 8 Worlds com 69 fases do guia Agentic DevOps Edicao Mario"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Capitulo 4F — MCP (Model Context Protocol) / Os Warp Zones"
 description: "Como usar o Model Context Protocol para conectar seus agentes de IA a ferramentas e servicos externos."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -22,7 +22,7 @@ tags: ["agentic-devops", "mario", "world-6", "mcp", "model-context-protocol"]
 
 **Preparado para:** Sofia
 **Versao:** 2.0 — Edicao Mushroom Kingdom
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps — Edicao Super Mario Bros

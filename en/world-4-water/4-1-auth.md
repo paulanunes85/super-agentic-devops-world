@@ -1,7 +1,7 @@
 ---
 title: "Level 4-1 -- Advanced Protection: Auth, JWT, OAuth"
 description: "Authentication, authorization, JWT tokens, OAuth 2.0, social login, and RBAC — how to prove you are Mario and not Bowser in disguise"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Version | Date       | Author                                  | Description        |
 |---------|------------|----------------------------------------|--------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation   |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation   |
 
 ---
 

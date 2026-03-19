@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-9 -- As Classes do RPG: Linguagens de Programacao"
 description: "Conheca as principais linguagens de programacao -- Python, JavaScript, TypeScript, C#, Java, Go, Rust, C/C++, HTML/CSS e SQL -- como classes de personagem num RPG, cada uma com forcas, fraquezas e especializacoes"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -27,7 +27,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Fase 7-1 — A Forja de Magikoopa: Azure AI Foundry"
 description: "Azure AI Foundry: Model Catalog, Prompt Flow, Evaluation e Deployment com analogias Mario"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -20,7 +20,7 @@ tags: ["agentic-devops", "mario", "world-7", "ai-foundry", "azure-ai"]
 
 **Preparado para:** Sofia
 **Versao:** 2.0 (Edicao Mushroom Kingdom)
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps — World 7: Star World (AI Frameworks)

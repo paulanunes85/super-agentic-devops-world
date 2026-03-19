@@ -1,7 +1,7 @@
 ---
 title: "Fase 4-2 -- Niveis de Servico: Modelos de Nuvem"
 description: "IaaS, PaaS, SaaS e Serverless explicados como niveis de castelo no Mushroom Kingdom — do terreno vazio ao castelo mobiliado"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

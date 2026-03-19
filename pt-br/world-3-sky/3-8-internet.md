@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-8 -- Os Canos do Mushroom Kingdom: Como a Internet Funciona"
 description: "Entenda TCP/IP, HTTP/HTTPS, DNS, portas, request/response e status codes -- como o sistema de encanamento (canos verdes) que conecta todo o Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -24,7 +24,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

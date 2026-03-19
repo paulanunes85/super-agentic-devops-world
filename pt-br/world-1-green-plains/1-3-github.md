@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-3 — Servidor Multiplayer: GitHub (Repos, Issues, PRs, Projects)"
 description: "GitHub como a plataforma multiplayer onde desenvolvedores colaboram — de repositorios a Pull Requests."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

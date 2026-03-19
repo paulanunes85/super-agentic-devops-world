@@ -1,7 +1,7 @@
 ---
 title: "Level 5-5 -- Who's Who in the Mushroom Kingdom: Types of Agents"
 description: "Types of agents: IDE, Background, Development, and Productivity with Mario analogies"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -20,7 +20,7 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ide-agent", "background-
 
 **Prepared for:** Sofia
 **Version:** 1.0 (Mushroom Kingdom Edition)
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** Brazilian Portuguese (pt-BR)
 **Collection:** Agentic DevOps -- Complete Software Development Guide

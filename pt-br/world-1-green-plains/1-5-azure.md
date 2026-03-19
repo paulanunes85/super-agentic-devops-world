@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-5 — O Mundo Aberto: Azure"
 description: "Introducao ao Azure — a nuvem da Microsoft como o mundo aberto onde suas aplicacoes ganham vida."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-6 -- O Castelo dos Dados: Bancos de Dados"
 description: "Bancos de dados desmistificados com analogia Mario — SQL como baus organizados, NoSQL como sacos de loot misto, CRUD como operacoes basicas do castelo, e Prisma como o assistente magico do Toad"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "banco-de-dados", "sql", "nosql", "
 
 | Versao | Data       | Autor                                      | Descricao                     |
 |--------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial (Edicao Mario)|
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial (Edicao Mario)|
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-8 -- Os Tres Horizontes: Estrategia de Evolucao"
 description: "O framework Three Horizons para adocao progressiva de IA e Agentic DevOps nas organizacoes, desde a fundacao ate a transformacao completa."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

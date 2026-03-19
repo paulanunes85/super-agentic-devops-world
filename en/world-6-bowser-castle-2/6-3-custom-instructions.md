@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4C — Custom Instructions / The Game Rulebook"
 description: "How to configure Custom Instructions to define the permanent rules that Copilot follows in all contexts."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-6", "instructions"]
 
 **Prepared for:** Sofia
 **Version:** 2.0 (Mario Edition)
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** English (EN)
 **Collection:** Agentic DevOps

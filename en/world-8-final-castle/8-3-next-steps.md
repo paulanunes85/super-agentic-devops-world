@@ -1,7 +1,7 @@
 ---
 title: "Level 8-3 -- The End and the Beginning: Next Steps"
 description: "Learning resources, learning paths, certifications, communities and next steps after completing the Agentic DevOps guide. Includes real URLs for Microsoft Learn, GitHub Skills, and other resources."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

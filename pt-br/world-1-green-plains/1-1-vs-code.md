@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-1 — Apertando START: VS Code, o Console do Jogo"
 description: "Primeiro contato com o VS Code — o console onde toda a aventura de desenvolvimento acontece."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Fase 2-5 -- As Regras do Torneio: Metodologias Ageis"
 description: "Agile, Scrum e Kanban explicados como torneios e sistemas de quest do Mushroom Kingdom -- como organizar equipes de desenvolvimento"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -23,7 +23,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

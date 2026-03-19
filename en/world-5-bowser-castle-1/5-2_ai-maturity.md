@@ -1,7 +1,7 @@
 ---
 title: "Level 5-2 -- From Apprentice to Legendary: AI Maturity Levels"
 description: "The five maturity levels in AI adoption for software development, from Level 0 (no AI) to Level 4 (Autonomous AI), including Spec-Driven Development."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

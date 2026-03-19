@@ -1,7 +1,7 @@
 ---
 title: "Level 8-2 -- Boss Rush: Review of All Worlds"
 description: "Complete review with 8 challenging scenarios based on real situations, each combining knowledge from multiple Worlds. Boss Rush mode -- face all bosses with all your power-ups."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

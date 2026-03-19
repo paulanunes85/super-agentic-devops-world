@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-7 — O Fluxo Completo: Como Tudo Se Conecta (World 1)"
 description: "Visao panoramica de como VS Code, Git, GitHub, Actions, Azure e AI se conectam no fluxo completo de desenvolvimento."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

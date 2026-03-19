@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-BOSS — Boss Battle: Exercicios Praticos Level 1"
 description: "Exercicios praticos que cobrem todos os fundamentos do World 1 — a boss battle contra Bowser Jr."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

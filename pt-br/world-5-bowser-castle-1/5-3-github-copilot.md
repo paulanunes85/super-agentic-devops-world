@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-3 -- O Companion Definitivo: GitHub Copilot Completo"
 description: "Guia completo de todos os modos e capacidades do GitHub Copilot, desde Completions ate Coding Agent, com analogias detalhadas do universo Mario."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

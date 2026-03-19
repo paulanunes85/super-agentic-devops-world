@@ -1,7 +1,7 @@
 ---
 title: "Level 5-7 -- Universal Warp Zones: MCP in Depth"
 description: "Deep dive into the Model Context Protocol (MCP) -- protocol, servers, clients, tools and resources. How MCP standardizes communication between AI agents and external tools."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

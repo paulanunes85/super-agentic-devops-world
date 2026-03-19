@@ -1,7 +1,7 @@
 ---
 title: "Capitulo 4G — Orquestracao Multi-Agente / O Multiplayer Coordenado"
 description: "Como orquestrar multiplos agentes de IA trabalhando em conjunto usando o padrao Lean Agent + Rich Skill."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -22,7 +22,7 @@ tags: ["agentic-devops", "mario", "world-6", "orchestration", "multi-agent"]
 
 **Preparado para:** Sofia
 **Versao:** 2.0 — Edicao Mushroom Kingdom
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps — Edicao Super Mario Bros

@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-1 -- Das Espadas aos Robos: A Evolucao do DevOps"
 description: "A jornada evolutiva do DevOps Tradicional ao DevSecOps ate o Agentic DevOps, contada atraves da analogia das eras de combate do Mushroom Kingdom."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

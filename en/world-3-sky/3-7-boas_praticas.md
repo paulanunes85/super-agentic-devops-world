@@ -1,7 +1,7 @@
 ---
 title: "Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules"
 description: "Learn the essential best practices for any professional project: semantic versioning, documentation, .gitignore, CONTRIBUTING, CODE_OF_CONDUCT and CODEOWNERS -- like the rules of the Mushroom Kingdom Guild"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -25,7 +25,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

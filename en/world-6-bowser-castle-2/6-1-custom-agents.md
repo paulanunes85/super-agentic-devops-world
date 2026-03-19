@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4A -- Custom Agents & .agent.md / The Character Select Screen"
 description: "How to create personalized Custom Agents using .agent.md files to assemble your team of AI playable characters."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-6", "agents", "agent-md"]
 
 **Prepared for:** Sofia
 **Version:** 2.0 (Mushroom Kingdom Edition)
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** English (EN)
 **Collection:** Agentic DevOps -- Complete Software Development Guide

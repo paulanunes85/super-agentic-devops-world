@@ -1,7 +1,7 @@
 ---
 title: "Level 5-3 -- The Ultimate Companion: Complete GitHub Copilot Guide"
 description: "Complete guide to all modes and capabilities of GitHub Copilot, from Completions to Coding Agent, with detailed analogies from the Mario universe."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

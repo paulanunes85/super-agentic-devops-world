@@ -1,7 +1,7 @@
 ---
 title: "Capitulo 4B — Agent Skills & SKILL.md / A Loja de Power-Ups"
 description: "Como criar e organizar Agent Skills usando arquivos SKILL.md para montar a colecao de poderes dos seus personagens de IA."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-6", "skills", "skill-md"]
 
 **Preparado para:** Sofia
 **Versao:** 2.0 (Edicao Mushroom Kingdom)
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps

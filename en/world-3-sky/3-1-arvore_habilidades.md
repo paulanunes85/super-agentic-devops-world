@@ -1,7 +1,7 @@
 ---
 title: "Level 3-1 -- Skill Tree: Your Evolution Path"
 description: "The developer skill tree mapped as the progression from Small Mario to Star Mario — 5 levels, multiple paths, skills that unlock each other"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "skill-tree", "career", "progressio
 
 | Version | Date       | Author                                     | Description                   |
 |---------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation (Mario Edition)|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation (Mario Edition)|
 
 ---
 

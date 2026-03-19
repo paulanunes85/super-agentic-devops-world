@@ -1,7 +1,7 @@
 ---
 title: "Complete Index — Mushroom Kingdom Map"
 description: "Complete index of all 8 Worlds with 69 levels of the Agentic DevOps Mario Edition guide"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

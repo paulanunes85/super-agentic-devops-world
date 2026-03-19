@@ -1,7 +1,7 @@
 ---
 title: "Fase 7-6 — A Praca Central: IDP e Backstage"
 description: "Internal Developer Platform e Backstage: a praca central do desenvolvimento com analogias Mario"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -21,7 +21,7 @@ tags: ["agentic-devops", "mario", "world-7", "idp", "backstage", "developer-plat
 
 **Preparado para:** Sofia
 **Versao:** 2.0 — Edicao Mushroom Kingdom
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps — Edicao Super Mario Bros

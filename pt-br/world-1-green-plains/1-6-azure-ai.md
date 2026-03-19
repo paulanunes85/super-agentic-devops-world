@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-6 — A Magia do Jogo: Azure AI e AI Foundry"
 description: "Introducao aos servicos de IA do Azure, GitHub Copilot e Azure AI Foundry — a magia que transforma o desenvolvimento."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

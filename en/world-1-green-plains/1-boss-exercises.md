@@ -1,7 +1,7 @@
 ---
 title: "Level 1-BOSS — Boss Battle: Practical Exercises Level 1"
 description: "Practical exercises covering all the fundamentals of World 1 — the boss battle against Bowser Jr."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

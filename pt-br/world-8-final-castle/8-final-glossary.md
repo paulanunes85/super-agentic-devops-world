@@ -1,7 +1,7 @@
 ---
 title: "Fase 8-FINAL -- Enciclopedia do Mushroom Kingdom: Glossario Definitivo"
 description: "Glossario completo com 120+ termos cobrindo todos os 8 Worlds do Agentic DevOps, cada um com sua analogia Mario correspondente. A referencia definitiva do Mushroom Kingdom."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

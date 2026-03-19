@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4D — Prompt Files (.prompt.md) / The Warp Pipes"
 description: "How to create reusable Prompt Files using .prompt.md to automate recurring tasks as magic shortcuts."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "2.0.0"
 status: "draft"
@@ -22,7 +22,7 @@ tags: ["agentic-devops", "mario", "world-6", "prompts", "prompt-md"]
 
 **Prepared for:** Sofia
 **Version:** 2.0 — Mario Edition
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** English (EN)
 **Collection:** Agentic DevOps

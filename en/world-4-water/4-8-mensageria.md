@@ -1,7 +1,7 @@
 ---
 title: "Level 4-8 -- Mushroom Kingdom Mail: Messaging and Queues"
 description: "Message queues, RabbitMQ, Azure Service Bus, pub/sub, asynchronous communication and dead letter queues — the Mushroom Kingdom postal system"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -25,7 +25,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Level 1-1 — Pressing START: VS Code, the Game Console"
 description: "First contact with VS Code — the console where the entire development adventure takes place."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

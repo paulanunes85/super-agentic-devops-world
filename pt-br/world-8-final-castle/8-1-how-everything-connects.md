@@ -1,7 +1,7 @@
 ---
 title: "Fase 8-1 -- O Mapa Completo: Como Tudo Se Conecta"
 description: "Capitulo capstone que mostra como todos os 8 Worlds do Agentic DevOps se conectam, incluindo o mapa completo em ASCII art, fluxos de conexao entre ferramentas, e um cenario real de um dia na vida usando todas as ferramentas."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Level 2-BOSS -- Boss Battle: Practical Exercises Level 2"
 description: "Practical exercises from World 2 (Underground Caves): create environments, build APIs, configure security, DNS, agile methodologies, IaC, and observability"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -26,7 +26,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

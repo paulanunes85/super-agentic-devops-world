@@ -1,7 +1,7 @@
 ---
 title: "Fase 1-2 — Save Game: Git e o Sistema de Saves"
 description: "Aprenda Git do zero — o sistema de controle de versao que funciona como o save game mais poderoso ja criado."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

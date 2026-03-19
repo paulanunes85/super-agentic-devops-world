@@ -1,7 +1,7 @@
 ---
 title: "Fase 3-7 -- Boas Praticas da Guilda: SemVer, README e Regras do Repositorio"
 description: "Aprenda as boas praticas essenciais de qualquer projeto profissional: versionamento semantico, documentacao, .gitignore, CONTRIBUTING, CODE_OF_CONDUCT e CODEOWNERS -- como as regras da Guilda do Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -25,7 +25,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

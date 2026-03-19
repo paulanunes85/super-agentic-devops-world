@@ -1,7 +1,7 @@
 ---
 title: "Level 5-8 -- The Three Horizons: Evolution Strategy"
 description: "The Three Horizons framework for progressive adoption of AI and Agentic DevOps in organizations, from foundation to complete transformation."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

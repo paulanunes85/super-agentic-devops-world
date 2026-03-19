@@ -1,7 +1,7 @@
 ---
 title: "Level 5-6 -- The Yoshis that Fly Solo: Autonomous Agents"
 description: "Autonomous agents, planning loops, and guardrails explained with Mario analogies"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -20,7 +20,7 @@ tags: ["agentic-devops", "mario", "world-5", "autonomous-agents", "guardrails"]
 
 **Prepared for:** Sofia
 **Version:** 1.0 (Mushroom Kingdom Edition)
-**Author:** Paula Silva | Microsoft Latam Software GBB
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Date:** March 2026
 **Language:** Brazilian Portuguese (pt-BR)
 **Collection:** Agentic DevOps -- Complete Software Development Guide

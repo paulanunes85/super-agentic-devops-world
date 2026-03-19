@@ -1,7 +1,7 @@
 ---
 title: "Fase 2-4 -- O Mapa do Mundo: DNS e Dominios"
 description: "Como a internet encontra seu castelo: DNS, dominios, IPs, resolucao de nomes e como tudo se conecta no Mushroom Kingdom digital"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -23,7 +23,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Level 3-BOSS -- Boss Battle: Practical Exercises Level 3"
 description: "Practical exercises for World 3 (Sky World): create Dockerfiles, write tests with Jest, configure package.json, master the terminal, choose languages and frameworks -- Boss Battle against Kamek the Magikoopa"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -26,7 +26,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|----------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

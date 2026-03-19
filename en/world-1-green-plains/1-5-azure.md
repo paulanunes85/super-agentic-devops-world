@@ -1,7 +1,7 @@
 ---
 title: "Level 1-5 — The Open World: Azure"
 description: "Introduction to Azure — Microsoft's cloud as the open world where your applications come to life."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

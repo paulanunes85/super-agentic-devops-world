@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-7 -- Warp Zones Universais: MCP em Profundidade"
 description: "Deep dive no Model Context Protocol (MCP) -- protocolo, servidores, clientes, ferramentas e recursos. Como MCP padroniza a comunicacao entre agentes de IA e ferramentas externas."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Level 3-3 -- The Art of Packaging: Docker and Containers"
 description: "Docker demystified with Mario analogy — images as recipes, containers as finished dishes, Dockerfile as the recipe card, and Docker Compose as the meal planner"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 
 | Version | Date       | Author                                     | Description                   |
 |---------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation (Mario Edition)|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation (Mario Edition)|
 
 ---
 

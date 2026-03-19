@@ -1,7 +1,7 @@
 ---
 title: "Level 2-2 -- The Messenger Between Kingdoms: APIs"
 description: "How different parts of a system talk to each other through APIs, HTTP methods, status codes, and the difference between Frontend, Backend, and Full Stack"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -25,7 +25,7 @@ tags:
 
 | Version | Date       | Author                                  | Description          |
 |---------|------------|----------------------------------------|--------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation    |
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
 
 ---
 

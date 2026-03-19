@@ -1,7 +1,7 @@
 ---
 title: "Level 8-1 -- The Complete Map: How Everything Connects"
 description: "Capstone chapter showing how all 8 Worlds of Agentic DevOps connect, including the complete ASCII art map, tool connection flows, and a real-life day-in-the-life scenario using all tools."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Level 3-4 -- Training Before the Battle: Software Testing"
 description: "Software testing demystified with a Mario analogy -- unit tests as training dummies, integration as enemy combos, E2E as full battle simulation, and TDD as planning the fight before fighting"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -16,7 +16,7 @@ tags: ["agentic-devops", "mario", "world-3", "testing", "jest", "tdd", "qa", "te
 
 | Version | Date       | Author                                     | Description                   |
 |---------|------------|--------------------------------------------|-------------------------------|
-| 1.0.0   | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Initial creation (Mario Edition)|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation (Mario Edition)|
 
 ---
 

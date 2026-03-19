@@ -1,7 +1,7 @@
 ---
 title: "Fase 2-1 -- Mundos Paralelos: Ambientes (Dev, Staging, Producao)"
 description: "Entenda por que existem copias diferentes do seu jogo e como Dev, Staging e Producao funcionam como mundos paralelos no Mushroom Kingdom"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -23,7 +23,7 @@ tags:
 
 | Versao | Data       | Autor                                  | Descricao          |
 |--------|------------|----------------------------------------|--------------------|
-| 1.0.0  | 2026-03-18 | Paula Silva - Microsoft Latam Software GBB | Criacao inicial    |
+| 1.0.0  | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Criacao inicial    |
 
 ---
 

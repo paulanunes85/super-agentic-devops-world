@@ -1,7 +1,7 @@
 ---
 title: "Level 1-7 — The Complete Flow: How Everything Connects (World 1)"
 description: "Panoramic view of how VS Code, Git, GitHub, Actions, Azure, and AI connect in the complete development flow."
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"

@@ -1,7 +1,7 @@
 ---
 title: "Fase 5-5 -- Quem e Quem no Mushroom Kingdom: Tipos de Agente"
 description: "Tipos de agente: IDE, Background, Desenvolvimento e Produtivo com analogias Mario"
-author: "Paula Silva | Microsoft Latam Software GBB"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
 date: "2026-03-18"
 version: "1.0.0"
 status: "draft"
@@ -20,7 +20,7 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ide-agent", "background-
 
 **Preparado para:** Sofia
 **Versao:** 1.0 (Edicao Mushroom Kingdom)
-**Autora:** Paula Silva | Microsoft Latam Software GBB
+**Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Data:** Marco 2026
 **Idioma:** Portugues do Brasil (pt-BR)
 **Colecao:** Agentic DevOps -- Guia Completo de Desenvolvimento de Software
