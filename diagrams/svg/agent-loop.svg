@@ -12,7 +12,7 @@
   <rect width="800" height="560" fill="#FAFAFA" rx="4"/>
 
   <!-- Title -->
-  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">The Agent Loop &mdash; Sense-Think-Act Cycle</text>
+  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">The Agent Loop — Sense-Think-Act Cycle</text>
   <text x="400" y="56" text-anchor="middle" font-size="13" fill="#666666">A continuous cycle that drives autonomous behavior</text>
 
   <!-- Center label -->
@@ -92,29 +92,29 @@
   <!-- Legend -->
   <g>
     <rect x="30" y="425" width="740" height="120" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
-    <text x="50" y="450" font-size="13" font-weight="bold" fill="#333333">Legend &mdash; The Agent Loop (Continuous Cycle)</text>
+    <text x="50" y="450" font-size="13" font-weight="bold" fill="#333333">Legend — The Agent Loop (Continuous Cycle)</text>
 
     <circle cx="62" cy="472" r="8" fill="#049CD8" opacity="0.15" stroke="#049CD8" stroke-width="1.5"/>
     <text x="62" y="476" text-anchor="middle" font-size="9" font-weight="bold" fill="#049CD8">1</text>
-    <text x="78" y="476" font-size="11" fill="#333333">Observe &mdash; Read environment, files, user input</text>
+    <text x="78" y="476" font-size="11" fill="#333333">Observe — Read environment, files, user input</text>
 
     <circle cx="62" cy="496" r="8" fill="#E52521" opacity="0.15" stroke="#E52521" stroke-width="1.5"/>
     <text x="62" y="500" text-anchor="middle" font-size="9" font-weight="bold" fill="#E52521">2</text>
-    <text x="78" y="500" font-size="11" fill="#333333">Think &mdash; LLM reasoning about what to do</text>
+    <text x="78" y="500" font-size="11" fill="#333333">Think — LLM reasoning about what to do</text>
 
     <circle cx="62" cy="520" r="8" fill="#FBD000" opacity="0.15" stroke="#B89A00" stroke-width="1.5"/>
     <text x="62" y="524" text-anchor="middle" font-size="9" font-weight="bold" fill="#B89A00">3</text>
-    <text x="78" y="524" font-size="11" fill="#333333">Plan &mdash; Select tools and approach</text>
+    <text x="78" y="524" font-size="11" fill="#333333">Plan — Select tools and approach</text>
 
     <circle cx="420" cy="472" r="8" fill="#43B047" opacity="0.15" stroke="#43B047" stroke-width="1.5"/>
     <text x="420" y="476" text-anchor="middle" font-size="9" font-weight="bold" fill="#43B047">4</text>
-    <text x="436" y="476" font-size="11" fill="#333333">Act &mdash; Execute commands, write code, call APIs</text>
+    <text x="436" y="476" font-size="11" fill="#333333">Act — Execute commands, write code, call APIs</text>
 
     <circle cx="420" cy="496" r="8" fill="#7B2D8E" opacity="0.15" stroke="#7B2D8E" stroke-width="1.5"/>
     <text x="420" y="500" text-anchor="middle" font-size="9" font-weight="bold" fill="#7B2D8E">5</text>
-    <text x="436" y="500" font-size="11" fill="#333333">Get Result &mdash; Evaluate output, check for errors</text>
+    <text x="436" y="500" font-size="11" fill="#333333">Get Result — Evaluate output, check for errors</text>
 
     <line x1="420" y1="520" x2="450" y2="520" stroke="#43B047" stroke-width="2.5" marker-end="url(#al-arrow)"/>
-    <text x="458" y="524" font-size="11" fill="#333333">Flow direction &mdash; cycle repeats until goal is met</text>
+    <text x="458" y="524" font-size="11" fill="#333333">Flow direction — cycle repeats until goal is met</text>
   </g>
 </svg>

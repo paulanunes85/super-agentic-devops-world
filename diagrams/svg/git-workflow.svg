@@ -15,7 +15,7 @@
   <rect width="900" height="520" fill="#FAFAFA" rx="4"/>
 
   <!-- Title -->
-  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">Git Save Game System &mdash; How Code Flows</text>
+  <text x="450" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">Git Save Game System — How Code Flows</text>
   <text x="450" y="56" text-anchor="middle" font-size="13" fill="#666666">From your editor to the cloud, step by step</text>
 
   <!-- Main flow boxes -->

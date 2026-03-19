@@ -12,7 +12,7 @@
   <rect width="1100" height="480" fill="#FAFAFA" rx="4"/>
 
   <!-- Title -->
-  <text x="550" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">CI/CD Pipeline &mdash; Lakitu Assembly Line</text>
+  <text x="550" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">CI/CD Pipeline — Lakitu Assembly Line</text>
   <text x="550" y="56" text-anchor="middle" font-size="13" fill="#666666">Automated journey from code to production</text>
 
   <!-- Pipeline stages - Row 1 -->

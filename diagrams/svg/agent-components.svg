@@ -81,24 +81,24 @@
   <!-- Legend -->
   <g>
     <rect x="30" y="420" width="740" height="125" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
-    <text x="50" y="445" font-size="13" font-weight="bold" fill="#333333">Legend &mdash; 5 Components of an AI Agent</text>
+    <text x="50" y="445" font-size="13" font-weight="bold" fill="#333333">Legend — 5 Components of an AI Agent</text>
 
     <rect x="50" y="460" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
-    <text x="74" y="473" font-size="11" fill="#333333">Brain (LLM) &mdash; The reasoning engine (GPT, Claude, etc.)</text>
+    <text x="74" y="473" font-size="11" fill="#333333">Brain (LLM) — The reasoning engine (GPT, Claude, etc.)</text>
 
     <rect x="50" y="484" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
-    <text x="74" y="497" font-size="11" fill="#333333">Senses (Context) &mdash; Reads files, APIs, user input</text>
+    <text x="74" y="497" font-size="11" fill="#333333">Senses (Context) — Reads files, APIs, user input</text>
 
     <rect x="50" y="508" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
-    <text x="74" y="521" font-size="11" fill="#333333">Hands (Tools) &mdash; Writes code, runs commands, calls APIs</text>
+    <text x="74" y="521" font-size="11" fill="#333333">Hands (Tools) — Writes code, runs commands, calls APIs</text>
 
     <rect x="420" y="460" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
-    <text x="444" y="473" font-size="11" fill="#333333">Memory &mdash; Conversation history, embeddings, state</text>
+    <text x="444" y="473" font-size="11" fill="#333333">Memory — Conversation history, embeddings, state</text>
 
     <rect x="420" y="484" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#7B2D8E" stroke-width="2"/>
-    <text x="444" y="497" font-size="11" fill="#333333">Goals &mdash; User-defined objectives that drive behavior</text>
+    <text x="444" y="497" font-size="11" fill="#333333">Goals — User-defined objectives that drive behavior</text>
 
     <circle cx="428" cy="520" r="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
-    <text x="444" y="524" font-size="11" fill="#333333">Agent &mdash; The autonomous entity orchestrating all components</text>
+    <text x="444" y="524" font-size="11" fill="#333333">Agent — The autonomous entity orchestrating all components</text>
   </g>
 </svg>

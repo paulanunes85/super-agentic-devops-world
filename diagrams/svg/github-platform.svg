@@ -97,7 +97,7 @@
   <!-- Legend -->
   <g>
     <rect x="30" y="460" width="740" height="85" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
-    <text x="50" y="485" font-size="13" font-weight="bold" fill="#333333">Legend &mdash; GitHub Core Features</text>
+    <text x="50" y="485" font-size="13" font-weight="bold" fill="#333333">Legend — GitHub Core Features</text>
 
     <rect x="50" y="500" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
     <text x="74" y="513" font-size="11" fill="#333333">Core features (Repos, Issues, PRs, Projects)</text>
