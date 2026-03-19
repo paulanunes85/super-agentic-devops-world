@@ -108,6 +108,11 @@ format: md
 ## Introduction -- The Most Powerful Companion in the Mushroom Kingdom
 
 <div align="center">
+<img src="/img/diagrams/copilot-decision-tree.svg" alt="Copilot mode decision tree" width="780" />
+<br/><em>Copilot mode decision tree</em>
+</div>
+
+<div align="center">
 <img src="/img/diagrams/copilot-modes.svg" alt="GitHub Copilot modes spectrum by autonomy level" width="800" />
 <br/><em>GitHub Copilot modes spectrum by autonomy level</em>
 </div>

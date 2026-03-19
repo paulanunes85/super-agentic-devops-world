@@ -227,6 +227,11 @@ The workflow of a Background Agent follows a clear pattern:
 
 ## Section 3 -- IDE vs Background: Complete Comparison Table
 
+<div align="center">
+<img src="../../diagrams/svg/agent-types-quadrant.svg" alt="Agent types quadrant" width="780" />
+<br/><em>Agent types quadrant</em>
+</div>
+
 | Characteristic | IDE Agent | Background Agent | Hybrid |
 |---|---|---|---|
 | **Where it runs** | In your editor (local) | In the cloud (remote) | Both |

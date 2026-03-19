@@ -92,6 +92,11 @@ format: md
 
 ## Prologue: The Class Selection Screen
 
+<div align="center">
+<img src="/img/diagrams/languages-map.svg" alt="Programming languages map" width="780" />
+<br/><em>Programming languages map</em>
+</div>
+
 Sofia arrived at an enormous room in the Mushroom Kingdom. On the walls, dozens of weapons and armor gleamed -- each with unique powers. In the center, a hologram spun showing character sheets.
 
 Toadette appeared with a thick book under her arm.

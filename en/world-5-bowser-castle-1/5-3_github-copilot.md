@@ -947,6 +947,11 @@ gh copilot explain "awk '{print $2}' /etc/passwd | sort | uniq -c | sort -rn"
 
 ## Section 13 -- The Companion Journey: Which Mode to Use When
 
+<div align="center">
+<img src="../../diagrams/svg/copilot-decision-tree.svg" alt="Copilot mode decision tree" width="780" />
+<br/><em>Copilot mode decision tree</em>
+</div>
+
 ### 13.1 Decision Tree
 
 ```

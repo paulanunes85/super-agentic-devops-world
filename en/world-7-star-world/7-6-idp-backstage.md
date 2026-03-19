@@ -203,6 +203,11 @@ Technical leadership has complete visibility:
 
 ## 3. Backstage by Spotify — The Most Popular IDP
 
+<div align="center">
+<img src="../../diagrams/svg/backstage-hub.svg" alt="Backstage hub architecture" width="780" />
+<br/><em>Backstage hub architecture</em>
+</div>
+
 ### The History
 
 In 2020, **Spotify** open-sourced their internal IDP: **Backstage**. They had more than 2000 microservices and needed a way to organize everything. The solution was to build a centralized portal where any developer could find any service, create new projects, and access documentation — all in a single place.

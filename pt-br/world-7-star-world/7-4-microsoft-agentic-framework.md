@@ -67,6 +67,11 @@ A Microsoft fez a mesma coisa para agentes de IA. Vamos conhecer cada peca.
 
 ## 1. O Ecossistema Microsoft para Agentes de IA
 
+<div align="center">
+<img src="../../diagrams/svg/microsoft-ai-stack.svg" alt="Stack Microsoft AI" width="780" />
+<br/><em>Stack Microsoft AI</em>
+</div>
+
 Antes de mergulhar em cada ferramenta, vamos ver o mapa completo:
 
 ```

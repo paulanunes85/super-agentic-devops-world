@@ -77,6 +77,11 @@ format: md
 
 ## Prologue: The Branch Chaos
 
+<div align="center">
+<img src="/img/diagrams/git-branching.svg" alt="Git Flow vs GitHub Flow" width="780" />
+<br/><em>Git Flow vs GitHub Flow</em>
+</div>
+
 Sofia's team had grown. Now there were 5 developers working on TodoApp at the same time. And chaos took over.
 
 Mario was working on the notifications feature. Luigi, on the teams feature. Toad, on a critical bug. Peach, on a performance improvement. All on the `main` branch. All pushing at the same time. Conflicts every hour. Broken code at every merge.

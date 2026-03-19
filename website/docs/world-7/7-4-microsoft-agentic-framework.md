@@ -30,6 +30,11 @@ format: md
 
 ## TABLE OF CONTENTS
 
+<div align="center">
+<img src="/img/diagrams/microsoft-ai-stack.svg" alt="Microsoft AI stack" width="780" />
+<br/><em>Microsoft AI stack</em>
+</div>
+
 1. [Introduction — The Workshop of Heroes](#introduction)
 2. [The Microsoft Ecosystem for AI Agents](#ecosystem)
 3. [Semantic Kernel — The Universal Magic Engine](#semantic-kernel)

@@ -129,6 +129,11 @@ Para um agente ser verdadeiramente autonomo, ele precisa dominar 5 capacidades:
 
 ## Secao 2 -- O Loop de Planejamento Autonomo
 
+<div align="center">
+<img src="../../diagrams/svg/autonomous-agent-flow.svg" alt="Fluxo do agente autonomo" width="780" />
+<br/><em>Fluxo do agente autonomo</em>
+</div>
+
 ### As 6 Etapas do Planejamento
 
 Quando um agente autonomo recebe um objetivo, ele executa um loop de planejamento sofisticado:

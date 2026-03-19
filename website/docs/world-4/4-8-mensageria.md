@@ -81,6 +81,11 @@ format: md
 
 ## Prologue: The Problem with Direct Deliveries
 
+<div align="center">
+<img src="/img/diagrams/message-queue.svg" alt="Message queue pattern" width="780" />
+<br/><em>Message queue pattern</em>
+</div>
+
 Sofia's TodoApp now had multiple services: authentication, tasks, notifications, and reports. But every time a user created a task, the Todo Service needed to directly call the Notification Service to send an email AND the Analytics Service to record the metric.
 
 Problem: if the Notification Service was down, the task creation **failed entirely**. The user couldn't create a task just because the email service was having problems.

@@ -87,6 +87,11 @@ format: md
 
 ## Prologue: The Mario Who Only Knew World 1
 
+<div align="center">
+<img src="/img/diagrams/rag-detailed-flow.svg" alt="Detailed RAG architecture" width="780" />
+<br/><em>Detailed RAG architecture</em>
+</div>
+
 Sofia was exploring Star World when she came across a curious situation. There was a Mario sitting on a bench, looking frustrated. Next to him, a group of Toads was trying to get him to answer questions.
 
 *"Mario, what's the secret to defeating Bowser in World 7?"* — asked a Toad.

@@ -77,6 +77,11 @@ format: md
 
 ## Prologue: The Castle Blueprint
 
+<div align="center">
+<img src="/img/diagrams/architecture-patterns.svg" alt="Architecture patterns comparison" width="780" />
+<br/><em>Architecture patterns comparison</em>
+</div>
+
 Sofia was planning to expand the TodoApp. She was going to add notifications, a team system, reports, and calendar integration. But with each new feature, the code got more confusing, slower, and harder to maintain.
 
 Toadette — the Code Reviewer — stopped Sofia mid-commit.

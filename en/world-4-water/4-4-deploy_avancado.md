@@ -94,6 +94,11 @@ Yoshi — the DevOps engineer — showed up shaking his head.
 
 ## 1. The Problem with Traditional Deploy
 
+<div align="center">
+<img src="../../diagrams/svg/deploy-strategies.svg" alt="Deployment strategies" width="780" />
+<br/><em>Deployment strategies</em>
+</div>
+
 ### 1.1 The "Big Bang" Deploy
 
 Traditional deploy works like this:

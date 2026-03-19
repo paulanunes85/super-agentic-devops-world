@@ -78,6 +78,11 @@ format: md
 
 ## Prologue: The Invisible Changing of the Guard
 
+<div align="center">
+<img src="/img/diagrams/deploy-strategies.svg" alt="Deployment strategies" width="780" />
+<br/><em>Deployment strategies</em>
+</div>
+
 Sofia had just added an amazing feature to TodoApp — email notifications. She ran all the tests, reviewed the code, and felt confident. She clicked "deploy" and... 500 users lost access for 3 minutes while the new code was being installed.
 
 Yoshi — the DevOps engineer — showed up shaking his head.

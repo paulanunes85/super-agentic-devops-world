@@ -555,6 +555,11 @@ Agentes em Actions que usam MCP (Model Context Protocol) para acessar ferramenta
 
 ## Tabela Comparativa Completa — Os 4 Canais
 
+<div align="center">
+<img src="../../diagrams/svg/four-channels-detailed.svg" alt="4 canais de operacao detalhados" width="780" />
+<br/><em>4 canais de operacao detalhados</em>
+</div>
+
 Esta e a tabela mais importante deste capitulo. Imprima, cole na parede, consulte sempre:
 
 | Aspecto | Canal 1: IDE | Canal 2: Chat Portal | Canal 3: ChatOps | Canal 4: Background |

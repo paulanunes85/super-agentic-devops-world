@@ -98,6 +98,11 @@ Toad laughed. "Can you equip legendary armor at RPG level 1? No! First you level
 
 ## Section 1 -- The 5 AI Maturity Levels
 
+<div align="center">
+<img src="../../diagrams/svg/ai-maturity-levels.svg" alt="AI maturity levels" width="780" />
+<br/><em>AI maturity levels</em>
+</div>
+
 ### 1.1 Overview of the Levels
 
 Just like in an RPG where you level up from level 1 to the max level, development teams evolve in how they use AI. There are 5 maturity levels:

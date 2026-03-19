@@ -94,6 +94,11 @@ Yoshi — o DevOps — apareceu balancando a cabeca.
 
 ## 1. O Problema do Deploy Tradicional
 
+<div align="center">
+<img src="../../diagrams/svg/deploy-strategies.svg" alt="Estrategias de deploy" width="780" />
+<br/><em>Estrategias de deploy</em>
+</div>
+
 ### 1.1 O Deploy "Big Bang"
 
 O deploy tradicional funciona assim:

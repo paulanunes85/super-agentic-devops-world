@@ -30,6 +30,11 @@ format: md
 
 ## TABLE OF CONTENTS
 
+<div align="center">
+<img src="/img/diagrams/backstage-hub.svg" alt="Backstage hub architecture" width="780" />
+<br/><em>Backstage hub architecture</em>
+</div>
+
 1. [Introduction — The Central Castle](#introduction)
 2. [What Is an IDP (Internal Developer Platform)](#what-is-idp)
 3. [Why IDPs Matter — The Pain Without Them](#why-they-matter)

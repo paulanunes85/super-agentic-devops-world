@@ -66,6 +66,11 @@ Microsoft did the same thing for AI agents. Let's explore each piece.
 
 ## 1. The Microsoft Ecosystem for AI Agents
 
+<div align="center">
+<img src="../../diagrams/svg/microsoft-ai-stack.svg" alt="Microsoft AI stack" width="780" />
+<br/><em>Microsoft AI stack</em>
+</div>
+
 Before diving into each tool, let's see the complete map:
 
 ```

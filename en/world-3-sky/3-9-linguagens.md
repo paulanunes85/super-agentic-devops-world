@@ -106,6 +106,11 @@ Toadette smiled. *"In the real world, the best adventurers are MULTICLASS -- the
 
 ## 1. Why Are There So Many Languages?
 
+<div align="center">
+<img src="../../diagrams/svg/languages-map.svg" alt="Programming languages map" width="780" />
+<br/><em>Programming languages map</em>
+</div>
+
 ### 1.1 The Need for Diversity
 
 There are hundreds of programming languages because **different problems require different tools**. You don't use a hammer to tighten a screw, and you don't use a screwdriver to drive a nail.

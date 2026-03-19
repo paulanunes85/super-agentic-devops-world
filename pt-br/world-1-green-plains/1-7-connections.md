@@ -91,6 +91,11 @@ Era como aquele momento no Mario onde voce descobre que os canos verdes nao sao 
 
 ### 1.3 Diagrama: O Mapa Completo do World 1
 
+<div align="center">
+<img src="../../diagrams/svg/connections-flow.svg" alt="Fluxo completo de conexoes do World 1" width="780" />
+<br/><em>Fluxo completo</em>
+</div>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║                        WORLD 1 — PLANICIE VERDE                        ║

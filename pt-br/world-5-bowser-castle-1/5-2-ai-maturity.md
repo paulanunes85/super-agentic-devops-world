@@ -98,6 +98,11 @@ O Toad riu. "Voce consegue equipar a armadura lendaria no nivel 1 do RPG? Nao! P
 
 ## Secao 1 -- Os 5 Niveis de Maturidade em IA
 
+<div align="center">
+<img src="../../diagrams/svg/ai-maturity-levels.svg" alt="Niveis de maturidade em IA" width="780" />
+<br/><em>Niveis de maturidade em IA</em>
+</div>
+
 ### 1.1 Visao Geral dos Niveis
 
 Assim como no RPG voce evolui do nivel 1 ao nivel maximo, as equipes de desenvolvimento evoluem em como usam IA. Existem 5 niveis de maturidade:

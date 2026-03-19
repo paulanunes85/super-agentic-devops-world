@@ -157,6 +157,11 @@ ASYNCHRONOUS:
 
 ## 2. Message Queues: Parakoopa Mail Carriers
 
+<div align="center">
+<img src="../../diagrams/svg/message-queue.svg" alt="Message queue pattern" width="780" />
+<br/><em>Message queue pattern</em>
+</div>
+
 ### 2.1 What Is a Message Queue
 
 A **Message Queue** is an asynchronous communication mechanism where messages are stored in a queue until they are processed.

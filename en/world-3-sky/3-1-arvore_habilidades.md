@@ -135,6 +135,11 @@ The goal of the skill tree is to take you from stage 1 to stage 4 in each skill,
 
 ## 2. The 5 Levels of Evolution
 
+<div align="center">
+<img src="../../diagrams/svg/skill-tree.svg" alt="Skill tree progression" width="780" />
+<br/><em>Skill tree progression</em>
+</div>
+
 ### 2.1 Level 1 -- Apprentice (Small Mario)
 
 **XP Level: 1-10**

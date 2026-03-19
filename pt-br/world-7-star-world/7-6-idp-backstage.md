@@ -204,6 +204,11 @@ Lideranca tecnica tem visao completa:
 
 ## 3. Backstage by Spotify — O IDP Mais Popular
 
+<div align="center">
+<img src="../../diagrams/svg/backstage-hub.svg" alt="Arquitetura do Backstage" width="780" />
+<br/><em>Arquitetura do Backstage</em>
+</div>
+
 ### A Historia
 
 Em 2020, o **Spotify** abriu o codigo do seu IDP interno: o **Backstage**. Eles tinham mais de 2000 microservicos e precisavam de uma forma de organizar tudo. A solucao foi construir um portal centralizado onde qualquer desenvolvedor pudesse encontrar qualquer servico, criar novos projetos, e acessar documentacao — tudo num unico lugar.

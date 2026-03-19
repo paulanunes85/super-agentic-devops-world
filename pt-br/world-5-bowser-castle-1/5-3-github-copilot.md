@@ -948,6 +948,11 @@ gh copilot explain "awk '{print $2}' /etc/passwd | sort | uniq -c | sort -rn"
 
 ## Secao 13 -- A Jornada do Companion: Qual Modo Usar Quando
 
+<div align="center">
+<img src="../../diagrams/svg/copilot-decision-tree.svg" alt="Arvore de decisao do Copilot" width="780" />
+<br/><em>Arvore de decisao do Copilot</em>
+</div>
+
 ### 13.1 Arvore de Decisao
 
 ```

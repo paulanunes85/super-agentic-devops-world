@@ -61,6 +61,11 @@ format: md
 
 ## Prologue — The Complete Map of World 1
 
+<div align="center">
+<img src="/img/diagrams/connections-flow.svg" alt="Complete developer flow" width="780" />
+<br/><em>Complete developer flow</em>
+</div>
+
 Sofia stopped at the top of a green hill and looked back. Behind her, six completed levels. For the first time, she could see all of World 1 — from Level 1-1 to here. And for the first time, she understood how everything connected.
 
 "Each level seemed isolated when I was playing it," Sofia reflected. "VS Code was one thing. Git was another. GitHub another. But now, looking from above, I can see: they're all **pipes** that connect. What I do in VS Code goes to Git, which goes to GitHub, which wakes up the Lakitus, which publish to Azure. And Copilot is with me in every level."

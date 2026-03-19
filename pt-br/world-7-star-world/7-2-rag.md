@@ -215,6 +215,11 @@ Ou na linguagem Mario:
 
 ## 3. Como RAG Funciona: Passo a Passo
 
+<div align="center">
+<img src="../../diagrams/svg/rag-detailed-flow.svg" alt="Arquitetura RAG detalhada" width="780" />
+<br/><em>Arquitetura RAG detalhada</em>
+</div>
+
 RAG funciona em tres fases distintas. Vamos detalhar cada uma.
 
 ### 3.1 Fase 1: Indexacao (Preparar a Biblioteca)

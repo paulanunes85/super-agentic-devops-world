@@ -69,6 +69,11 @@ format: md
 
 ## Introduction -- The Yoshi that Learned to Fly
 
+<div align="center">
+<img src="/img/diagrams/autonomous-agent-flow.svg" alt="Autonomous agent planning flow" width="780" />
+<br/><em>Autonomous agent planning flow</em>
+</div>
+
 Sofia was at the top of a mountain in World 5 when she saw something incredible. A blue Yoshi took off from a distant platform, flew over a valley full of Koopas, dodged three Bullet Bills, collected a star hidden behind a cloud, and landed smoothly on the next platform -- all by himself, with no one riding him.
 
 "He... he did all that by himself?!" Sofia exclaimed, jaw dropped.

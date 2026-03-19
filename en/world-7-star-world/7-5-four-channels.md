@@ -554,6 +554,11 @@ Agents in Actions that use MCP (Model Context Protocol) to access external tools
 
 ## Complete Comparative Table — The 4 Channels
 
+<div align="center">
+<img src="../../diagrams/svg/four-channels-detailed.svg" alt="4 channels of operation detailed" width="780" />
+<br/><em>4 channels of operation detailed</em>
+</div>
+
 This is the most important table in this chapter. Print it, stick it on the wall, always refer to it:
 
 | Aspect | Channel 1: IDE | Channel 2: Chat Portal | Channel 3: ChatOps | Channel 4: Background |

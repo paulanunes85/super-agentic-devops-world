@@ -106,6 +106,11 @@ Toadette sorriu. *"No mundo real, os melhores aventureiros sao MULTICLASSE -- do
 
 ## 1. Por Que Existem Tantas Linguagens?
 
+<div align="center">
+<img src="../../diagrams/svg/languages-map.svg" alt="Mapa de linguagens de programacao" width="780" />
+<br/><em>Mapa de linguagens</em>
+</div>
+
 ### 1.1 A Necessidade de Diversidade
 
 Existem centenas de linguagens de programacao porque **problemas diferentes exigem ferramentas diferentes**. Voce nao usa um martelo para apertar um parafuso, e nao usa uma chave de fenda para pregar um prego.

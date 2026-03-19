@@ -228,6 +228,11 @@ O fluxo de trabalho de um Background Agent segue um padrao claro:
 
 ## Secao 3 -- IDE vs Background: Tabela Comparativa Completa
 
+<div align="center">
+<img src="../../diagrams/svg/agent-types-quadrant.svg" alt="Quadrante de tipos de agente" width="780" />
+<br/><em>Quadrante de tipos de agente</em>
+</div>
+
 | Caracteristica | IDE Agent | Background Agent | Hibrido |
 |---|---|---|---|
 | **Onde roda** | No seu editor (local) | Na nuvem (remoto) | Ambos |

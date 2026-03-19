@@ -90,6 +90,11 @@ It was like that moment in Mario where you discover that the green pipes aren't 
 
 ### 1.3 Diagram: The Complete Map of World 1
 
+<div align="center">
+<img src="../../diagrams/svg/connections-flow.svg" alt="Complete developer flow" width="780" />
+<br/><em>Complete developer flow</em>
+</div>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║                        WORLD 1 — GREEN PLAINS                          ║

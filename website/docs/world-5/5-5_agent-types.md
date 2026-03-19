@@ -60,6 +60,11 @@ format: md
 
 ## Introduction -- The Character Guild of the Mushroom Kingdom
 
+<div align="center">
+<img src="/img/diagrams/agent-types-quadrant.svg" alt="Agent types quadrant" width="780" />
+<br/><em>Agent types quadrant</em>
+</div>
+
 Sofia entered a huge room, lit by torches on the walls. It was the **Character Guild** of the Mushroom Kingdom -- a place she had never seen before. In the center, a large mural showed dozens of characters organized into categories, each with a small sign explaining their role.
 
 "Wow," Sofia murmured, looking at the wall. "I thought only Mario, Luigi, Toad, and Peach existed. But there are people here I've never seen!"

@@ -128,6 +128,11 @@ For an agent to be truly autonomous, it needs to master 5 capabilities:
 
 ## Section 2 -- The Autonomous Planning Loop
 
+<div align="center">
+<img src="../../diagrams/svg/autonomous-agent-flow.svg" alt="Autonomous agent planning flow" width="780" />
+<br/><em>Autonomous agent planning flow</em>
+</div>
+
 ### The 6 Stages of Planning
 
 When an autonomous agent receives a goal, it executes a sophisticated planning loop:

@@ -30,6 +30,11 @@ format: md
 
 ## TABLE OF CONTENTS
 
+<div align="center">
+<img src="/img/diagrams/four-channels-detailed.svg" alt="4 channels of operation detailed" width="780" />
+<br/><em>4 channels of operation detailed</em>
+</div>
+
 1. [Introduction — The 4 Worlds Where Agents Live](#introduction)
 2. [Channel 1 — IDE (Yoshi by Your Side)](#channel-1-ide)
 3. [Channel 2 — Chat Portal / IDP (The Central Plaza with NPCs)](#channel-2-portal)

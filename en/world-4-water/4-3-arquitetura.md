@@ -811,6 +811,11 @@ Phase 4: [Auth Service]  +  [Todo Service]  +  [Email Service]  +  [Report Servi
 
 ## 9. Comparison: Which Architecture to Choose?
 
+<div align="center">
+<img src="../../diagrams/svg/architecture-patterns.svg" alt="Architecture patterns comparison" width="780" />
+<br/><em>Architecture patterns comparison</em>
+</div>
+
 ### 9.1 Comparison Table
 
 | Criteria | Monolith | Microservices | Serverless | Event-Driven |

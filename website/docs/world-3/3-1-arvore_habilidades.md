@@ -68,6 +68,11 @@ format: md
 
 ## Prologue: The Character Select Screen
 
+<div align="center">
+<img src="/img/diagrams/skill-tree.svg" alt="Skill tree progression" width="780" />
+<br/><em>Skill tree progression</em>
+</div>
+
 Sofia opened the game and was fascinated. On the screen, a massive tree spread out like a constellation map. Each star was a skill. Some shone brightly -- the ones she had already mastered. Others were dimmed, waiting to be unlocked. Lines connected the stars, showing which skills paved the way for others.
 
 Yoshi landed beside her.

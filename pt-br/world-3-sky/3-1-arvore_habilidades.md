@@ -136,6 +136,11 @@ O objetivo da arvore de habilidades e te levar do estagio 1 ao estagio 4 em cada
 
 ## 2. Os 5 Niveis de Evolucao
 
+<div align="center">
+<img src="../../diagrams/svg/skill-tree.svg" alt="Arvore de habilidades do desenvolvedor" width="780" />
+<br/><em>Arvore de habilidades</em>
+</div>
+
 ### 2.1 Nivel 1 -- Aprendiz (Small Mario)
 
 **Nivel de XP: 1-10**

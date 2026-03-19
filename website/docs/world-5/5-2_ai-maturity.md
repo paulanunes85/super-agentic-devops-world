@@ -82,6 +82,11 @@ format: md
 
 ## Introduction -- The Hero Evolution Mural
 
+<div align="center">
+<img src="/img/diagrams/ai-maturity-levels.svg" alt="AI maturity levels" width="780" />
+<br/><em>AI maturity levels</em>
+</div>
+
 Sofia was walking through the castle corridor when she stopped in front of a giant mural painted on the wall. The mural showed the evolution of a hero in five stages:
 
 In the first image, a small and fragile warrior, fighting Goombas with bare hands. In the second, the same warrior now with a simple sword and a tip booklet on his belt. In the third, the warrior wielding a glowing sword that seemed to have a life of its own -- an enchanted sword with built-in magic. In the fourth, the warrior accompanied by a powerful companion that fought alongside him, thinking and acting on its own. And in the fifth and final image, the warrior had become a commander, directing an entire army of coordinated companions conquering entire worlds.

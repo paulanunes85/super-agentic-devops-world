@@ -157,6 +157,11 @@ ASSINCRONO:
 
 ## 2. Message Queues: Parakoopas Carteiros
 
+<div align="center">
+<img src="../../diagrams/svg/message-queue.svg" alt="Padrao de fila de mensagens" width="780" />
+<br/><em>Padrao de fila de mensagens</em>
+</div>
+
 ### 2.1 O Que E uma Fila de Mensagens
 
 Uma **Message Queue** e um mecanismo de comunicacao assincrona onde mensagens sao armazenadas em uma fila ate serem processadas.

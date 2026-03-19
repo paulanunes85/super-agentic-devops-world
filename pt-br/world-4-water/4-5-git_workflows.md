@@ -744,6 +744,11 @@ jobs:
 
 ## 9. Comparacao de Workflows
 
+<div align="center">
+<img src="../../diagrams/svg/git-branching.svg" alt="Git Flow vs GitHub Flow" width="780" />
+<br/><em>Git Flow vs GitHub Flow</em>
+</div>
+
 ### 9.1 Tabela Comparativa
 
 | Criterio | Git Flow | GitHub Flow | Trunk-Based | GitLab Flow |

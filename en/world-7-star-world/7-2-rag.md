@@ -214,6 +214,11 @@ Or in Mario language:
 
 ## 3. How RAG Works: Step by Step
 
+<div align="center">
+<img src="../../diagrams/svg/rag-detailed-flow.svg" alt="Detailed RAG architecture" width="780" />
+<br/><em>Detailed RAG architecture</em>
+</div>
+
 RAG works in three distinct phases. Let's detail each one.
 
 ### 3.1 Phase 1: Indexing (Preparing the Library)
