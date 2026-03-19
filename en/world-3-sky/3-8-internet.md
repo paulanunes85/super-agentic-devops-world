@@ -139,14 +139,6 @@ The Internet is, fundamentally, a **network of networks**. Billions of computers
 
 TCP/IP (Transmission Control Protocol / Internet Protocol) is the set of rules that defines how data travels across the internet. It is organized into 4 layers:
 
-```
-╔══════════════════════════════════════════════════╗
-║  4. APPLICATION  (HTTP, HTTPS, FTP, SMTP, DNS)   ║  <- What travels through the pipe
-║  3. TRANSPORT    (TCP, UDP)                       ║  <- How the pipe guarantees delivery
-║  2. INTERNET     (IP, ICMP)                       ║  <- Origin and destination address
-║  1. ACCESS       (Ethernet, Wi-Fi, Fiber)         ║  <- The physical pipe
-╚══════════════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Think of the pipe system in 4 levels:
 > 1. **The physical pipe** (green tube, metal, connected to the ground) = Access Layer

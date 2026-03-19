@@ -96,39 +96,6 @@ Era como aquele momento no Mario onde voce descobre que os canos verdes nao sao 
 <br/><em>Fluxo completo</em>
 </div>
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                        WORLD 1 — PLANICIE VERDE                        ║
-║                        O Mapa Completo do Fluxo                        ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                        ║
-║   [1-1 VS Code]                                                        ║
-║   O Console      ═══════╗                                              ║
-║   do Jogo                ║ Ctrl+S                                      ║
-║                          ▼                                              ║
-║                   [1-2 Git]                                             ║
-║                   O Memory    ═══════╗                                  ║
-║                   Card               ║ git push                        ║
-║                                      ▼                                  ║
-║                               [1-3 GitHub]                              ║
-║                               O Servidor   ═══════╗                    ║
-║                               Multiplayer         ║ on: push           ║
-║                                                    ▼                    ║
-║                                             [1-4 Actions]              ║
-║                                             Os Lakitus  ═══════╗       ║
-║                                             Trabalhadores      ║ deploy║
-║                                                                ▼       ║
-║                                                         [1-5 Azure]    ║
-║                                                         O Mundo        ║
-║                                                         Aberto         ║
-║                                                                        ║
-║   [1-6 Azure AI / Copilot] ◄═══════════════════════════════════════╗   ║
-║   A Magia do Jogo — presente em TODAS as estacoes                  ║   ║
-║                                                                        ║
-║   [1-7 VOCE ESTA AQUI] — Vendo tudo de cima                          ║
-║                                                                        ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
 
 ---
 
@@ -387,36 +354,7 @@ No Mario, canos verdes conectam areas que parecem distantes. No desenvolvimento 
 ### 9.2 Mapa Completo das Conexoes
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║          ┌──────────────────────────────────────────────┐            ║
-║          │            GITHUB COPILOT (IA)               │            ║
-║          │     Companion presente em todas as fases      │            ║
-║          └──────┬───────────┬──────────┬────────────────┘            ║
-║                 │           │          │                              ║
-║                 ▼           ▼          ▼                              ║
-║           ┌──────────┐ ┌──────────┐ ┌──────────┐                    ║
-║           │ VS CODE  │ │  GITHUB  │ │  AZURE   │                    ║
-║           │ (Console)│ │ (Server) │ │ (Mundo)  │                    ║
-║           └────┬─────┘ └────┬─────┘ └────┬─────┘                    ║
-║                │            │            │                            ║
-║           ┌────┴─────┐     │       ┌────┴─────┐                     ║
-║           │   GIT    │     │       │  AZURE   │                     ║
-║           │ (Memory  ├─────┘       │  MONITOR │                     ║
-║           │  Card)   │             │ (Torres) │                     ║
-║           └──────────┘             └──────────┘                     ║
-║                                                                      ║
-║     ┌────────────────────────────────────────────┐                  ║
-║     │            GITHUB ACTIONS (Lakitus)         │                  ║
-║     │  Conecta GitHub ao Azure automaticamente    │                  ║
-║     └────────────────────────────────────────────┘                  ║
-║                                                                      ║
-║  ┌─────────────────────────────────────────────────────────┐        ║
-║  │                    AZURE AI FOUNDRY                      │        ║
-║  │     Quando a app precisa de IA propria (feiticos custom) │        ║
-║  └─────────────────────────────────────────────────────────┘        ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+
 
   FLUXO: Voce → VS Code → Git → GitHub → Actions → Azure → Usuarios
 ```

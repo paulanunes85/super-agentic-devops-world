@@ -139,14 +139,6 @@ A Internet e, fundamentalmente, uma **rede de redes**. Bilhoes de computadores c
 
 TCP/IP (Transmission Control Protocol / Internet Protocol) e o conjunto de regras que define como dados viajam pela internet. E organizado em 4 camadas:
 
-```
-╔══════════════════════════════════════════════════╗
-║  4. APLICACAO  (HTTP, HTTPS, FTP, SMTP, DNS)     ║  <- O que viaja pelo cano
-║  3. TRANSPORTE (TCP, UDP)                         ║  <- Como o cano garante entrega
-║  2. INTERNET   (IP, ICMP)                         ║  <- Endereco de origem e destino
-║  1. ACESSO     (Ethernet, Wi-Fi, Fibra)           ║  <- O cano fisico
-╚══════════════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Pense no sistema de canos em 4 niveis:
 > 1. **O cano fisico** (tubo verde, metal, conectado ao chao) = Camada de Acesso

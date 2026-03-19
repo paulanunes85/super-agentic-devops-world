@@ -612,7 +612,7 @@ Aqui esta como a evolucao dos Power-Ups se compara a evolucao do Mario:
 
 ```
 TELA DE POWER-UPS — Progressao do Jogador
-==========================================
+
 
 Level 1  -> Small Mario (Pulo Basico)
              = Companion sem Skills

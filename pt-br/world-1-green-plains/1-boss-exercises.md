@@ -48,21 +48,6 @@ Sofia chegou ao final do World 1. A frente dela, um portao de pedra com o simbol
 
 As regras sao simples:
 
-```
-╔═══════════════════════════════════════════╗
-║         BOSS BATTLE — BOWSER JR.         ║
-║                                           ║
-║  10 Quests (salas de desafio)             ║
-║  Dificuldade crescente                    ║
-║  Cada quest vale pontos                   ║
-║  Para derrotar Bowser Jr: 70+ pontos     ║
-║                                           ║
-║  Sem consulta? Bonus de 20%              ║
-║  Com consulta? Normal (sem penalidade)   ║
-║                                           ║
-║  "It's-a boss time!"                     ║
-╚═══════════════════════════════════════════╝
-```
 
 ---
 
@@ -665,28 +650,6 @@ Se algo der erro, leia a mensagem de erro com calma. 90% das vezes, a resposta e
 | **50-69** | **D Rank** — Quase la... | Tente de novo — revise as fases |
 | **0-49** | **Game Over** | Volte ao World 1-1 e refaca as fases |
 
-```
-╔═══════════════════════════════════════════════════╗
-║                                                   ║
-║    ★ ★ ★  BOWSER JR. DERROTADO!  ★ ★ ★          ║
-║                                                   ║
-║    "Thank you Sofia!                              ║
-║     You have cleared World 1!"                    ║
-║                                                   ║
-║    Habilidades desbloqueadas:                     ║
-║    ✓ Desenvolvimento Local (VS Code + Git)        ║
-║    ✓ Colaboracao (GitHub)                         ║
-║    ✓ Automacao (GitHub Actions)                   ║
-║    ✓ Cloud (Azure)                                ║
-║    ✓ IA (Copilot + Azure AI)                      ║
-║                                                   ║
-║    → WORLD 2 DESBLOQUEADO!                        ║
-║      Cavernas Subterraneas (Infraestrutura)       ║
-║                                                   ║
-║    "It's-a me, Developer!"                        ║
-║                                                   ║
-╚═══════════════════════════════════════════════════╝
-```
 
 ---
 

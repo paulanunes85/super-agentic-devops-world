@@ -151,16 +151,10 @@ This LOOKS correct, but the model **made it all up**. The actual policy could be
 
 ```
 MARIO WITHOUT RAG (pure LLM)
-==============================
+
 
 Mario's Knowledge:
-  World 1: ████████████████████ 100% (knows everything!)
-  World 2: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 3: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 4: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 5: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 6: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
-  World 7: ░░░░░░░░░░░░░░░░░░░  0%  (never been there)
+
 
 Question: "How to defeat the World 5 boss?"
 
@@ -229,7 +223,7 @@ Indexing happens **before** any question is asked. It's the process of preparing
 
 ```
 PHASE 1: INDEXING (happens ONCE, before use)
-=============================================
+
 
 1. COLLECT DOCUMENTS
    ┌──────────────────────────────────────────┐
@@ -276,7 +270,7 @@ Retrieval happens **when a question arrives**. The system needs to find the most
 
 ```
 PHASE 2: RETRIEVAL (happens with EVERY question)
-==================================================
+
 
 1. RECEIVE THE QUESTION
    "What is the store's return policy?"
@@ -318,7 +312,7 @@ Generation is the final step: combining the original question with the found chu
 
 ```
 PHASE 3: GENERATION (combine question + context + LLM)
-=======================================================
+
 
 1. BUILD THE ENRICHED PROMPT
    ┌──────────────────────────────────────────────┐
@@ -355,7 +349,7 @@ PHASE 3: GENERATION (combine question + context + LLM)
 
 ```
 COMPLETE RAG ARCHITECTURE
-===========================
+
 
                          ┌─────────────────────┐
                          │   YOUR DOCUMENTS     │
@@ -432,7 +426,7 @@ Notice that the first two sentences have **similar** vectors (similar meanings),
 
 ```
 EMBEDDING MAP (simplified in 2D)
-==================================
+
 
          "return                 "return
           policy"                deadline"
@@ -582,7 +576,7 @@ USER QUESTION:
 
 ```
 NORMAL MARIO (LLM without RAG)
-================================
+
   ┌─────────┐
   │  MARIO  │  Brain: only what he learned in training
   │  (LLM)  │  Backpack: EMPTY
@@ -590,7 +584,7 @@ NORMAL MARIO (LLM without RAG)
   └─────────┘
 
 RAG MARIO (LLM with RAG)
-==========================
+
   ┌─────────┐  ┌──────────────────────┐
   │  MARIO  │  │  MAGIC LIBRARY       │
   │  (LLM)  │──│  (Vector Database)   │
@@ -697,7 +691,7 @@ RAG **is not necessary** (and adds unnecessary complexity) in certain scenarios:
 
 ```
 DO I NEED RAG? DECISION FLOW
-==============================
+
 
 Is the information the LLM needs in its training?
   │
@@ -741,7 +735,7 @@ A complete RAG architecture has the following components:
 
 ```
 RAG ARCHITECTURE — COMPLETE VIEW
-==================================
+
 
                     INDEXING PHASE (once)
    ┌────────────────────────────────────────────────────┐
@@ -1067,7 +1061,7 @@ AGENTIC RAG:
 
 ```
 RAG PROGRESSION — From Novice to Master
-=========================================
+
 
 Level 1 -> Librarian Apprentice
              = Basic RAG with Playground "On Your Data"

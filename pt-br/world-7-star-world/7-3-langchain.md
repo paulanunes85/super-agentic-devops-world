@@ -485,7 +485,7 @@ print(resultado)
 
 ```
 COMBO "EXPLICADOR MARIO":
-=========================
+
 
 Power-Up 1: PROMPT (instrucoes)
   → Transforma {conceito} em uma mensagem formatada
@@ -575,7 +575,7 @@ chain = RunnableParallel(
 
 ```
 NOTACAO DE COMBOS — COMPARACAO
-================================
+
 
 JOGO DE LUTA:
   Hadouken = ↓↘→ + Soco
@@ -634,7 +634,7 @@ Um Agent funciona em um **ciclo de decisao** que se repete ate a tarefa ser conc
 
 ```
 CICLO DO AGENT
-===============
+
 
      ┌──────────────────────────────────────┐
      │                                      │
@@ -658,7 +658,7 @@ O padrao mais usado em Agents e o **ReAct** (Reasoning + Acting). O Agent altern
 
 ```
 EXEMPLO DE CICLO ReAct:
-========================
+
 
 Pergunta: "Qual o clima em Sao Paulo hoje e quanto e 25°C em Fahrenheit?"
 
@@ -777,7 +777,7 @@ print(resultado["output"])
 
 ```
 AGENT MARIO EM ACAO
-====================
+
 
 Situacao: Mario entra numa sala com 3 inimigos diferentes
 
@@ -1023,7 +1023,7 @@ print(r3.content)
 
 ```
 DIARIO DE AVENTURAS DO MARIO (Memory)
-=======================================
+
 
 Pagina 1 (World 1):
   "Aprendi que Goombas morrem com um pulo.
@@ -1190,7 +1190,7 @@ print(resposta3)
 
 ```
 FLUXO DO ASSISTENTE MARIO
-==========================
+
 
 1. PERGUNTA ENTRA
    "O que sao variaveis em Python?"
@@ -1284,7 +1284,7 @@ Semantic Kernel e o framework de IA da **Microsoft** (alternativa ao LangChain):
 
 ```
 QUAL FRAMEWORK USAR? FLUXO DE DECISAO
-=======================================
+
 
 Sua tarefa e simples (1-2 chamadas ao LLM)?
   │
@@ -1339,7 +1339,7 @@ Sua tarefa e simples (1-2 chamadas ao LLM)?
 
 ```
 PROGRESSAO LANGCHAIN — De Novato a Mestre
-==========================================
+
 
 Nivel 1 -> Aprendiz de Combos
              = Chain simples: prompt | model | parser

@@ -431,14 +431,14 @@ ACTIONS TO START H3:
 ### 7.3 Realistic Timeline
 
 ```
-MONTH 1-6:    ████████████████████████████████  HORIZON 1
+
               Foundation, standardization, migration
 
-MONTH 4-12:             ████████████████████████████████  HORIZON 2
+
                         Copilot, GHAS, IDP, acceleration
                         (overlap with late H1)
 
-MONTH 10-24:                         ████████████████████████████████  HORIZON 3
+
                                      Agents, MCP, Spec-Driven, transformation
                                      (overlap with late H2)
 ```

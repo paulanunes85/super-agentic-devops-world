@@ -484,7 +484,7 @@ print(result)
 
 ```
 COMBO "MARIO EXPLAINER":
-=========================
+
 
 Power-Up 1: PROMPT (instructions)
   → Transforms {concept} into a formatted message
@@ -574,7 +574,7 @@ chain = RunnableParallel(
 
 ```
 COMBO NOTATION — COMPARISON
-==============================
+
 
 FIGHTING GAME:
   Hadouken = ↓↘→ + Punch
@@ -633,7 +633,7 @@ An Agent works in a **decision cycle** that repeats until the task is complete:
 
 ```
 AGENT CYCLE
-============
+
 
      ┌──────────────────────────────────────┐
      │                                      │
@@ -657,7 +657,7 @@ The most used pattern in Agents is **ReAct** (Reasoning + Acting). The Agent alt
 
 ```
 ReAct CYCLE EXAMPLE:
-=====================
+
 
 Question: "What's the weather in Sao Paulo today and how much is 25C in Fahrenheit?"
 
@@ -776,7 +776,7 @@ print(result["output"])
 
 ```
 AGENT MARIO IN ACTION
-======================
+
 
 Situation: Mario enters a room with 3 different enemies
 
@@ -1022,7 +1022,7 @@ print(r3.content)
 
 ```
 MARIO'S ADVENTURE DIARY (Memory)
-==================================
+
 
 Page 1 (World 1):
   "Learned that Goombas die with a jump.
@@ -1189,7 +1189,7 @@ print(response3)
 
 ```
 MARIO ASSISTANT FLOW
-=====================
+
 
 1. QUESTION ENTERS
    "What are variables in Python?"
@@ -1283,7 +1283,7 @@ Semantic Kernel is **Microsoft's** AI framework (LangChain alternative):
 
 ```
 WHICH FRAMEWORK TO USE? DECISION FLOW
-=======================================
+
 
 Is your task simple (1-2 LLM calls)?
   │
@@ -1338,7 +1338,7 @@ Is your task simple (1-2 LLM calls)?
 
 ```
 LANGCHAIN PROGRESSION — From Novice to Master
-===============================================
+
 
 Level 1 -> Combo Apprentice
              = Simple chain: prompt | model | parser

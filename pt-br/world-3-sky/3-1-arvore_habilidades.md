@@ -151,7 +151,7 @@ Small Mario e o comeco de tudo. Pequeno, vulneravel, morre com um unico toque de
 
 ```
 NIVEL 1 -- APRENDIZ (Small Mario)
-==================================
+
 [x] Entender o que e codigo
 [x] Instalar VS Code
 [x] Criar e salvar arquivos
@@ -186,7 +186,7 @@ Super Mario pegou o primeiro cogumelo. Ele e maior, mais forte, aguenta um golpe
 
 ```
 NIVEL 2 -- EXPLORADOR (Super Mario)
-=====================================
+
 [x] JavaScript intermediario (arrays, objetos, loops)
 [x] DOM manipulation
 [x] Fetch API / chamadas HTTP
@@ -219,7 +219,7 @@ Fire Mario tem a Flor de Fogo. Ele nao so se defende -- agora ele **ataca**. No 
 
 ```
 NIVEL 3 -- CONSTRUTOR (Fire Mario)
-====================================
+
 [x] React ou framework frontend equivalente
 [x] TypeScript
 [x] REST API design
@@ -252,7 +252,7 @@ Cape Mario pode voar. Literalmente. Ele ve o mundo de cima, entende padroes que 
 
 ```
 NIVEL 4 -- ESPECIALISTA (Cape Mario)
-======================================
+
 [x] Arquitetura de software (padroes de design)
 [x] Microsservicos ou serverless
 [x] Kubernetes basico
@@ -285,7 +285,7 @@ Star Mario e invencivel. Tudo que ele toca vira ouro. No mundo dev, o Lendario e
 
 ```
 NIVEL 5 -- LENDARIO (Star Mario)
-==================================
+
 [x] Definicao de padroes organizacionais
 [x] Agentic DevOps e automacao com IA
 [x] Arquitetura de sistemas distribuidos

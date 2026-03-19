@@ -151,16 +151,10 @@ Isso PARECE correto, mas o modelo **inventou** tudo. A politica real pode ser co
 
 ```
 MARIO SEM RAG (LLM puro)
-=========================
+
 
 Conhecimento do Mario:
-  World 1: ████████████████████ 100% (conhece tudo!)
-  World 2: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
-  World 3: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
-  World 4: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
-  World 5: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
-  World 6: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
-  World 7: ░░░░░░░░░░░░░░░░░░░  0%  (nunca esteve la)
+
 
 Pergunta: "Como derrotar o chefe do World 5?"
 
@@ -230,7 +224,7 @@ A indexacao acontece **antes** de qualquer pergunta ser feita. E o processo de p
 
 ```
 FASE 1: INDEXACAO (acontece UMA VEZ, antes do uso)
-===================================================
+
 
 1. COLETAR DOCUMENTOS
    ┌──────────────────────────────────────────┐
@@ -277,7 +271,7 @@ A recuperacao acontece **quando uma pergunta chega**. O sistema precisa encontra
 
 ```
 FASE 2: RECUPERACAO (acontece A CADA pergunta)
-================================================
+
 
 1. RECEBER A PERGUNTA
    "Qual e a politica de devolucao da loja?"
@@ -320,7 +314,7 @@ A geracao e o passo final: combinar a pergunta original com os chunks encontrado
 
 ```
 FASE 3: GERACAO (combinar pergunta + contexto + LLM)
-=====================================================
+
 
 1. MONTAR O PROMPT ENRIQUECIDO
    ┌──────────────────────────────────────────────┐
@@ -357,7 +351,7 @@ FASE 3: GERACAO (combinar pergunta + contexto + LLM)
 
 ```
 ARQUITETURA RAG COMPLETA
-=========================
+
 
                          ┌─────────────────────┐
                          │   SEUS DOCUMENTOS    │
@@ -434,7 +428,7 @@ Note que as duas primeiras frases tem vetores **parecidos** (significados simila
 
 ```
 MAPA DE EMBEDDINGS (simplificado em 2D)
-=========================================
+
 
          "politica de          "prazo de
           devolucao"            devolucao"
@@ -584,7 +578,7 @@ PERGUNTA DO USUARIO:
 
 ```
 MARIO NORMAL (LLM sem RAG)
-===========================
+
   ┌─────────┐
   │  MARIO  │  Cerebro: so o que aprendeu no treinamento
   │  (LLM)  │  Mochila: VAZIA
@@ -592,7 +586,7 @@ MARIO NORMAL (LLM sem RAG)
   └─────────┘
 
 RAG MARIO (LLM com RAG)
-=========================
+
   ┌─────────┐  ┌──────────────────────┐
   │  MARIO  │  │  BIBLIOTECA MAGICA   │
   │  (LLM)  │──│  (Vector Database)   │
@@ -699,7 +693,7 @@ RAG **nao e necessario** (e adiciona complexidade desnecessaria) em certos cenar
 
 ```
 PRECISO DE RAG? FLUXO DE DECISAO
-==================================
+
 
 A informacao que o LLM precisa esta no treinamento dele?
   │
@@ -743,7 +737,7 @@ Uma arquitetura RAG completa tem os seguintes componentes:
 
 ```
 ARQUITETURA RAG — VISAO COMPLETA
-=================================
+
 
                     FASE DE INDEXACAO (uma vez)
    ┌────────────────────────────────────────────────────┐
@@ -1068,7 +1062,7 @@ AGENTIC RAG:
 
 ```
 PROGRESSAO RAG — De Novato a Mestre
-=====================================
+
 
 Nivel 1 -> Aprendiz de Bibliotecario
              = RAG basico com Playground "On Your Data"

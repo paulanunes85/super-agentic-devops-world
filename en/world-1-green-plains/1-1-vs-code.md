@@ -551,9 +551,9 @@ node fase1-1.js
 You should see:
 
 ```
-=================================
+
    WELCOME TO MUSHROOM KINGDOM
-=================================
+
 
 Hero: Sofia
 Location: World 1-1

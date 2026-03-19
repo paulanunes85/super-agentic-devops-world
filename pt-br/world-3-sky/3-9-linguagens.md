@@ -145,24 +145,6 @@ Existem centenas de linguagens de programacao porque **problemas diferentes exig
 
 ### 2.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: MAGO                          ║
-║  NOME: Python                          ║
-║  CRIADOR: Guido van Rossum (1991)      ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ██████░░░░  6/10    ║
-║  Velocidade ...... ████░░░░░░  4/10    ║
-║  Versatilidade ... ██████████ 10/10    ║
-║  Facilidade ...... █████████░  9/10    ║
-║  Ecossistema ..... █████████░  9/10    ║
-║  Empregabilidade . █████████░  9/10    ║
-║                                        ║
-║  TIPO: Interpretada, Dinamica, Forte   ║
-║  PARADIGMA: Multi-paradigma            ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Python e o **Mago** -- versatil, poderoso, capaz de fazer quase tudo. Domina feiticos de IA, automacao, web, dados. Nao e o mais rapido em combate corpo a corpo (performance), mas seus feiticos alcancam tudo. Ideal para quem esta comecando porque os feiticos sao faceis de aprender.
 
@@ -227,24 +209,6 @@ print(mario.atacar())  # "Mario ataca com poder 10!"
 
 ### 3.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: LADINO (Rogue)                ║
-║  NOME: JavaScript                      ║
-║  CRIADOR: Brendan Eich (1995)          ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ███████░░░  7/10    ║
-║  Velocidade ...... ████████░░  8/10    ║
-║  Versatilidade ... █████████░  9/10    ║
-║  Facilidade ...... ███████░░░  7/10    ║
-║  Ecossistema ..... ██████████ 10/10    ║
-║  Empregabilidade . ██████████ 10/10    ║
-║                                        ║
-║  TIPO: JIT, Dinamica, Fraca            ║
-║  PARADIGMA: Multi-paradigma            ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** JavaScript e o **Ladino** -- rapido, esta em TODOS os lugares (navegador, servidor, mobile, desktop), e incrivelmente versatil. Mas tem armadilhas escondidas (coercao de tipos, `this` confuso, `undefined` vs `null`). Um Ladino experiente e devastador; um Ladino novato cai nas proprias armadilhas.
 
@@ -326,25 +290,6 @@ const total = powerUps.reduce((acc, p) => acc + p.length, 0);
 
 ### 4.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: LADINO BLINDADO               ║
-║  NOME: TypeScript                      ║
-║  CRIADOR: Microsoft / Anders Hejlsberg ║
-║  ANO: 2012                             ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ████████░░  8/10    ║
-║  Velocidade ...... ████████░░  8/10    ║
-║  Versatilidade ... █████████░  9/10    ║
-║  Facilidade ...... ██████░░░░  6/10    ║
-║  Ecossistema ..... ██████████ 10/10    ║
-║  Empregabilidade . ██████████ 10/10    ║
-║                                        ║
-║  TIPO: JIT (compila para JS), Estatica ║
-║  PARADIGMA: Multi-paradigma            ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** TypeScript e o **Ladino com armadura** -- tem toda a agilidade e versatilidade do JavaScript (Ladino), mas com uma armadura de tipos que protege contra as armadilhas. Anda um pouco mais devagar (precisa compilar), mas chega vivo ao final da fase com muito mais frequencia. E como Mario pegando uma armadura: fica mais pesado, mas protegido.
 
@@ -409,25 +354,6 @@ calcularDano("Mario", 42); // ERRO: string nao e Personagem!
 
 ### 5.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: CAVALEIRO (Knight)            ║
-║  NOME: C# (C-Sharp)                   ║
-║  CRIADOR: Microsoft / Anders Hejlsberg ║
-║  ANO: 2000                             ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... █████████░  9/10    ║
-║  Velocidade ...... ████████░░  8/10    ║
-║  Versatilidade ... ████████░░  8/10    ║
-║  Facilidade ...... ███████░░░  7/10    ║
-║  Ecossistema ..... ████████░░  8/10    ║
-║  Empregabilidade . ████████░░  8/10    ║
-║                                        ║
-║  TIPO: Compilada (JIT), Estatica,Forte ║
-║  PARADIGMA: OOP + Funcional            ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** C# e o **Cavaleiro** -- o campeao da Microsoft. Armadura completa (tipagem forte), espada poderosa (performance), treinamento formal (orientacao a objetos). Excelente para construir castelos (aplicacoes enterprise), servir ao reino (Azure/cloud), e proteger territorios (seguranca). Nao e tao rapido quanto o Ladino, mas e mais resistente.
 
@@ -499,24 +425,6 @@ public async Task<List<Tarefa>> BuscarTarefasAsync()
 
 ### 6.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: TANQUE (Tank)                 ║
-║  NOME: Java                            ║
-║  CRIADOR: James Gosling / Sun (1995)   ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... █████████░  9/10    ║
-║  Velocidade ...... ███████░░░  7/10    ║
-║  Versatilidade ... ███████░░░  7/10    ║
-║  Facilidade ...... █████░░░░░  5/10    ║
-║  Ecossistema ..... █████████░  9/10    ║
-║  Empregabilidade . █████████░  9/10    ║
-║                                        ║
-║  TIPO: Compilada (JIT/JVM), Estatica   ║
-║  PARADIGMA: OOP                        ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Java e o **Tanque** -- lento para arrancar (verbose, muita configuracao), mas quando comeca a andar, e IMPARAVEL. Roda em qualquer terreno (JVM = qualquer sistema operacional). Usado em grandes batalhas (sistemas bancarios, telecomunicacoes, governo). Nao e elegante, mas e indestrutivel em combate prolongado.
 
@@ -556,24 +464,6 @@ Resultado
 
 ### 7.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: SPEED RUNNER                  ║
-║  NOME: Go (Golang)                     ║
-║  CRIADOR: Google (2009)                ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ████████░░  8/10    ║
-║  Velocidade ...... █████████░  9/10    ║
-║  Versatilidade ... ██████░░░░  6/10    ║
-║  Facilidade ...... ████████░░  8/10    ║
-║  Ecossistema ..... ███████░░░  7/10    ║
-║  Empregabilidade . ████████░░  8/10    ║
-║                                        ║
-║  TIPO: Compilada, Estatica, Forte      ║
-║  PARADIGMA: Procedural + Concorrencia  ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Go e o **Speed Runner** -- feito para velocidade e eficiencia. Compila em segundos, binario unico sem dependencias, leve e rapido. Ideal para fases onde cada milissegundo conta (microservicos, CLIs, infraestrutura). Nao tem feiticos elaborados (sem generics ate recentemente, sem heranca), mas o que faz, faz RAPIDO.
 
@@ -623,24 +513,6 @@ func main() {
 
 ### 8.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: FORTALEZA INDESTRUTIVEL       ║
-║  NOME: Rust                            ║
-║  CRIADOR: Mozilla (2010)               ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ██████████ 10/10    ║
-║  Velocidade ...... ██████████ 10/10    ║
-║  Versatilidade ... ███████░░░  7/10    ║
-║  Facilidade ...... ███░░░░░░░  3/10    ║
-║  Ecossistema ..... ██████░░░░  6/10    ║
-║  Empregabilidade . ███████░░░  7/10    ║
-║                                        ║
-║  TIPO: Compilada, Estatica, Forte      ║
-║  PARADIGMA: Multi-paradigma            ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Rust e a **Fortaleza Indestrutivel**. Performance maxima (nível C/C++) COM seguranca de memoria garantida pelo compilador. E como construir um castelo que e simultaneamente rapido de percorrer E impossivel de invadir. O custo? Aprender a construir e MUITO mais dificil. O Borrow Checker (guarda impiedoso) rejeita seu codigo se nao for perfeito. Mas uma vez construido, o castelo e inexpugnavel.
 
@@ -686,24 +558,6 @@ fn calcular_tamanho(s: &String) -> usize {
 
 ### 9.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: ANCIAO LENDARIO               ║
-║  NOME: C (1972) / C++ (1979)           ║
-║  CRIADOR: Dennis Ritchie / Bjarne S.   ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ██████████ 10/10    ║
-║  Velocidade ...... ██████████ 10/10    ║
-║  Versatilidade ... ████████░░  8/10    ║
-║  Facilidade ...... ██░░░░░░░░  2/10    ║
-║  Ecossistema ..... ███████░░░  7/10    ║
-║  Empregabilidade . ███████░░░  7/10    ║
-║                                        ║
-║  TIPO: Compilada, Estatica, Fraca      ║
-║  PARADIGMA: Procedural (C) / OOP(C++)  ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** C e C++ sao os **Ancioes Lendarios** -- os fundadores do reino. Todos os outros personagens foram construidos sobre seu legado. Linux, Windows, macOS, Python, JavaScript, Java -- todos escritos em C ou C++ por baixo dos panos. Poder absoluto, mas com grande poder vem grande responsabilidade (e bugs de memoria). Sao como o mapa original do primeiro Mario -- todo jogo moderno foi construido sobre aquela base.
 
@@ -725,25 +579,6 @@ fn calcular_tamanho(s: &String) -> usize {
 
 ### 10.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: ARTESAO VISUAL                ║
-║  NOME: HTML + CSS                      ║
-║  NOTA: NAO sao linguagens de           ║
-║        programacao! Sao linguagens de  ║
-║        marcacao (HTML) e estilo (CSS)  ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ███░░░░░░░  3/10    ║
-║  Velocidade ...... ██████████ 10/10    ║
-║  Versatilidade ... █████░░░░░  5/10    ║
-║  Facilidade ...... █████████░  9/10    ║
-║  Ecossistema ..... ████████░░  8/10    ║
-║  Empregabilidade . ██████████ 10/10    ║
-║                                        ║
-║  TIPO: Marcacao + Estilo (declarativo) ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** HTML e CSS sao os **Artesaos Visuais** do reino. HTML e o arquiteto que define a ESTRUTURA do castelo (paredes, portas, janelas). CSS e o decorador que define a APARENCIA (cores, tamanhos, posicoes). Sem eles, nao existe interface visual. Eles nao lutam (nao sao linguagens de programacao), mas sem eles, nao haveria castelos para proteger.
 
@@ -824,23 +659,6 @@ header {
 
 ### 11.1 Ficha do Personagem
 
-```
-╔════════════════════════════════════════╗
-║  CLASSE: BIBLIOTECARIO                 ║
-║  NOME: SQL (Structured Query Language) ║
-║  CRIADOR: IBM (1970s)                  ║
-║                                        ║
-║  STATS:                                ║
-║  Forca ........... ████████░░  8/10    ║
-║  Velocidade ...... ████████░░  8/10    ║
-║  Versatilidade ... ████░░░░░░  4/10    ║
-║  Facilidade ...... ████████░░  8/10    ║
-║  Ecossistema ..... █████████░  9/10    ║
-║  Empregabilidade . █████████░  9/10    ║
-║                                        ║
-║  TIPO: Declarativa, dominio-especifico ║
-╚════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** SQL e o **Bibliotecario do Castelo** -- nao luta, nao constroi, mas SABE ONDE TUDO ESTA. Quer encontrar todas as moedas coletadas no World 3? SQL encontra. Quer saber quantas vidas Mario perdeu na fase 2-4? SQL responde. Todo castelo (aplicacao) que guarda tesouros (dados) precisa de um Bibliotecario.
 

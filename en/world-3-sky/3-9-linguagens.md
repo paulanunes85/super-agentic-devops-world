@@ -144,24 +144,6 @@ There are hundreds of programming languages because **different problems require
 
 ### 2.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: MAGE                           ║
-║  NAME: Python                          ║
-║  CREATOR: Guido van Rossum (1991)      ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ██████░░░░  6/10   ║
-║  Speed ............ ████░░░░░░  4/10   ║
-║  Versatility ...... ██████████ 10/10   ║
-║  Ease of Use ...... █████████░  9/10   ║
-║  Ecosystem ........ █████████░  9/10   ║
-║  Employability .... █████████░  9/10   ║
-║                                        ║
-║  TYPE: Interpreted, Dynamic, Strong    ║
-║  PARADIGM: Multi-paradigm             ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Python is the **Mage** -- versatile, powerful, capable of doing almost anything. Masters AI spells, automation, web, data. Not the fastest in melee combat (performance), but its spells reach everything. Ideal for beginners because the spells are easy to learn.
 
@@ -226,24 +208,6 @@ print(mario.attack())  # "Mario attacks with power 10!"
 
 ### 3.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: ROGUE                          ║
-║  NAME: JavaScript                      ║
-║  CREATOR: Brendan Eich (1995)          ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ███████░░░  7/10   ║
-║  Speed ............ ████████░░  8/10   ║
-║  Versatility ...... █████████░  9/10   ║
-║  Ease of Use ...... ███████░░░  7/10   ║
-║  Ecosystem ........ ██████████ 10/10   ║
-║  Employability .... ██████████ 10/10   ║
-║                                        ║
-║  TYPE: JIT, Dynamic, Weak              ║
-║  PARADIGM: Multi-paradigm             ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** JavaScript is the **Rogue** -- fast, present in ALL places (browser, server, mobile, desktop), and incredibly versatile. But it has hidden traps (type coercion, confusing `this`, `undefined` vs `null`). An experienced Rogue is devastating; a novice Rogue falls into their own traps.
 
@@ -325,25 +289,6 @@ const total = powerUps.reduce((acc, p) => acc + p.length, 0);
 
 ### 4.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: ARMORED ROGUE                  ║
-║  NAME: TypeScript                      ║
-║  CREATOR: Microsoft / Anders Hejlsberg ║
-║  YEAR: 2012                            ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ████████░░  8/10   ║
-║  Speed ............ ████████░░  8/10   ║
-║  Versatility ...... █████████░  9/10   ║
-║  Ease of Use ...... ██████░░░░  6/10   ║
-║  Ecosystem ........ ██████████ 10/10   ║
-║  Employability .... ██████████ 10/10   ║
-║                                        ║
-║  TYPE: JIT (compiles to JS), Static    ║
-║  PARADIGM: Multi-paradigm             ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** TypeScript is the **Armored Rogue** -- has all the agility and versatility of JavaScript (Rogue), but with type armor that protects against traps. Moves a bit slower (needs to compile), but arrives alive at the end of the level much more often. It's like Mario picking up armor: becomes heavier, but protected.
 
@@ -408,25 +353,6 @@ calculateDamage("Mario", 42); // ERROR: string is not a Character!
 
 ### 5.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: KNIGHT                         ║
-║  NAME: C# (C-Sharp)                   ║
-║  CREATOR: Microsoft / Anders Hejlsberg ║
-║  YEAR: 2000                            ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... █████████░  9/10   ║
-║  Speed ............ ████████░░  8/10   ║
-║  Versatility ...... ████████░░  8/10   ║
-║  Ease of Use ...... ███████░░░  7/10   ║
-║  Ecosystem ........ ████████░░  8/10   ║
-║  Employability .... ████████░░  8/10   ║
-║                                        ║
-║  TYPE: Compiled (JIT), Static, Strong  ║
-║  PARADIGM: OOP + Functional           ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** C# is the **Knight** -- Microsoft's champion. Full armor (strong typing), powerful sword (performance), formal training (object-oriented). Excellent for building castles (enterprise applications), serving the kingdom (Azure/cloud), and protecting territories (security). Not as fast as the Rogue, but more resilient.
 
@@ -498,24 +424,6 @@ public async Task<List<Task>> FetchTasksAsync()
 
 ### 6.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: TANK                           ║
-║  NAME: Java                            ║
-║  CREATOR: James Gosling / Sun (1995)   ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... █████████░  9/10   ║
-║  Speed ............ ███████░░░  7/10   ║
-║  Versatility ...... ███████░░░  7/10   ║
-║  Ease of Use ...... █████░░░░░  5/10   ║
-║  Ecosystem ........ █████████░  9/10   ║
-║  Employability .... █████████░  9/10   ║
-║                                        ║
-║  TYPE: Compiled (JIT/JVM), Static      ║
-║  PARADIGM: OOP                         ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Java is the **Tank** -- slow to start (verbose, lots of configuration), but once it gets going, it's UNSTOPPABLE. Runs on any terrain (JVM = any operating system). Used in large battles (banking systems, telecommunications, government). Not elegant, but indestructible in prolonged combat.
 
@@ -555,24 +463,6 @@ Result
 
 ### 7.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: SPEED RUNNER                   ║
-║  NAME: Go (Golang)                     ║
-║  CREATOR: Google (2009)                ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ████████░░  8/10   ║
-║  Speed ............ █████████░  9/10   ║
-║  Versatility ...... ██████░░░░  6/10   ║
-║  Ease of Use ...... ████████░░  8/10   ║
-║  Ecosystem ........ ███████░░░  7/10   ║
-║  Employability .... ████████░░  8/10   ║
-║                                        ║
-║  TYPE: Compiled, Static, Strong        ║
-║  PARADIGM: Procedural + Concurrency   ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Go is the **Speed Runner** -- built for speed and efficiency. Compiles in seconds, single binary with no dependencies, lightweight and fast. Ideal for levels where every millisecond counts (microservices, CLIs, infrastructure). Doesn't have elaborate spells (no generics until recently, no inheritance), but what it does, it does FAST.
 
@@ -622,24 +512,6 @@ func main() {
 
 ### 8.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: INDESTRUCTIBLE FORTRESS        ║
-║  NAME: Rust                            ║
-║  CREATOR: Mozilla (2010)               ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ██████████ 10/10   ║
-║  Speed ............ ██████████ 10/10   ║
-║  Versatility ...... ███████░░░  7/10   ║
-║  Ease of Use ...... ███░░░░░░░  3/10   ║
-║  Ecosystem ........ ██████░░░░  6/10   ║
-║  Employability .... ███████░░░  7/10   ║
-║                                        ║
-║  TYPE: Compiled, Static, Strong        ║
-║  PARADIGM: Multi-paradigm             ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** Rust is the **Indestructible Fortress**. Maximum performance (C/C++ level) WITH memory safety guaranteed by the compiler. It's like building a castle that is simultaneously fast to traverse AND impossible to invade. The cost? Learning to build is MUCH harder. The Borrow Checker (merciless guard) rejects your code if it's not perfect. But once built, the castle is impregnable.
 
@@ -685,24 +557,6 @@ fn calculate_length(s: &String) -> usize {
 
 ### 9.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: LEGENDARY ELDER                ║
-║  NAME: C (1972) / C++ (1979)           ║
-║  CREATOR: Dennis Ritchie / Bjarne S.   ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ██████████ 10/10   ║
-║  Speed ............ ██████████ 10/10   ║
-║  Versatility ...... ████████░░  8/10   ║
-║  Ease of Use ...... ██░░░░░░░░  2/10   ║
-║  Ecosystem ........ ███████░░░  7/10   ║
-║  Employability .... ███████░░░  7/10   ║
-║                                        ║
-║  TYPE: Compiled, Static, Weak          ║
-║  PARADIGM: Procedural (C) / OOP (C++) ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** C and C++ are the **Legendary Elders** -- the founders of the kingdom. All other characters were built on their legacy. Linux, Windows, macOS, Python, JavaScript, Java -- all written in C or C++ under the hood. Absolute power, but with great power comes great responsibility (and memory bugs). They're like the original map of the first Mario -- every modern game was built on that foundation.
 
@@ -724,26 +578,6 @@ fn calculate_length(s: &String) -> usize {
 
 ### 10.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: VISUAL ARTISAN                 ║
-║  NAME: HTML + CSS                      ║
-║  NOTE: These are NOT programming       ║
-║        languages! They are markup      ║
-║        (HTML) and styling (CSS)        ║
-║        languages                       ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ███░░░░░░░  3/10   ║
-║  Speed ............ ██████████ 10/10   ║
-║  Versatility ...... █████░░░░░  5/10   ║
-║  Ease of Use ...... █████████░  9/10   ║
-║  Ecosystem ........ ████████░░  8/10   ║
-║  Employability .... ██████████ 10/10   ║
-║                                        ║
-║  TYPE: Markup + Style (declarative)    ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** HTML and CSS are the **Visual Artisans** of the kingdom. HTML is the architect who defines the castle's STRUCTURE (walls, doors, windows). CSS is the decorator who defines the APPEARANCE (colors, sizes, positions). Without them, there is no visual interface. They don't fight (they're not programming languages), but without them, there would be no castles to protect.
 
@@ -824,23 +658,6 @@ header {
 
 ### 11.1 Character Sheet
 
-```
-╔════════════════════════════════════════╗
-║  CLASS: LIBRARIAN                      ║
-║  NAME: SQL (Structured Query Language) ║
-║  CREATOR: IBM (1970s)                  ║
-║                                        ║
-║  STATS:                                ║
-║  Strength ......... ████████░░  8/10   ║
-║  Speed ............ ████████░░  8/10   ║
-║  Versatility ...... ████░░░░░░  4/10   ║
-║  Ease of Use ...... ████████░░  8/10   ║
-║  Ecosystem ........ █████████░  9/10   ║
-║  Employability .... █████████░  9/10   ║
-║                                        ║
-║  TYPE: Declarative, domain-specific    ║
-╚════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** SQL is the **Castle's Librarian** -- doesn't fight, doesn't build, but KNOWS WHERE EVERYTHING IS. Want to find all coins collected in World 3? SQL finds them. Want to know how many lives Mario lost in level 2-4? SQL answers. Every castle (application) that stores treasures (data) needs a Librarian.
 

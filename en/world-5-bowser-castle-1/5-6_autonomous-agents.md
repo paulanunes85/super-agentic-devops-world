@@ -611,22 +611,6 @@ The agent may access sensitive resources, leak information, or execute dangerous
 
 ### The Golden Rule
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   GOLDEN RULE OF AUTONOMOUS AGENTS:                          ║
-║                                                              ║
-║   "Never give an agent more power than you're willing        ║
-║    to fix if it makes a mistake."                            ║
-║                                                              ║
-║   If the agent can edit 5 files and get it wrong → OK,       ║
-║   you revert the PR in 2 clicks.                             ║
-║                                                              ║
-║   If the agent can delete the production database and get    ║
-║   it wrong → NOT OK. You don't revert that in 2 clicks.     ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
 
 > **MARIO ANALOGY:** You let Yoshi fly through the level collecting coins? Sure -- if he messes up, you lost some coins. You let Yoshi fly solo to the game's final Boss and fight for you? Probably not -- if he loses, you lose the entire game. The level of autonomy should be proportional to the cost of failure.
 

@@ -1196,10 +1196,10 @@ python src/main.py
 ### Exemplos de Conversa
 
 ```
-================================================================
+
   TOAD HELPER
   Seu assistente de IA para o projeto
-================================================================
+
 
 Sofia: O que faz este projeto?
 
@@ -1408,10 +1408,8 @@ Sofia terminou a Boss Battle. Seu Toad Helper esta funcionando — respondendo p
 │                                                             │
 │  STAR WORLD (WORLD 7) — COMPLETO!                           │
 │                                                             │
-│  Fase 7-4: Conheceu os frameworks      ████████████ 100%    │
-│  Fase 7-5: Entendeu os 4 canais        ████████████ 100%    │
-│  Fase 7-6: Dominou IDP e Backstage     ████████████ 100%    │
-│  Fase 7-BOSS: Construiu um agente      ████████████ 100%    │
+
+
 │                                                             │
 │  ★ ★ ★ STAR WORLD COMPLETE ★ ★ ★                           │
 │                                                             │

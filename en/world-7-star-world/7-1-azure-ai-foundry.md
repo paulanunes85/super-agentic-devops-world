@@ -385,7 +385,7 @@ Imagine Magikoopa needs to create an **Invincibility Potion** (equivalent to Sta
 
 ```
 INVINCIBILITY POTION RECIPE (Magikoopa's Prompt Flow)
-=====================================================
+
 
 Step 1: GATHER INGREDIENTS (Input node)
    → Golden Mushroom + Star Water + Rainbow Dust
@@ -438,7 +438,7 @@ Fine-tuning is the process of **taking a pre-trained model and adjusting it with
 
 ```
 FINE-TUNING PROCESS IN AZURE AI FOUNDRY
-========================================
+
 
 1. PREPARE DATA
    ┌────────────────────────────────────┐
@@ -584,7 +584,7 @@ Every forge has **safety rules**. Magikoopa's Forge is no different:
 
 ```
 MAGIKOOPA'S FORGE RULES (Responsible AI)
-==========================================
+
 
 Rule 1: NO FORBIDDEN SPELLS
    → Weapons of mass destruction spells are not allowed
@@ -799,7 +799,7 @@ print(response.json()["choices"][0]["message"]["content"])
 
 ```
 PROGRESSION IN MAGIKOOPA'S FORGE
-==================================
+
 
 Level 1 -> Apprentice (Playground)
              = Tests basic spells at the experiment table

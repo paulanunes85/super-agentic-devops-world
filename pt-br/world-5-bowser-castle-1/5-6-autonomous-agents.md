@@ -610,22 +610,6 @@ O agente pode acessar recursos sensiveis, vazar informacoes, ou executar acoes p
 
 ### A Regra de Ouro
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   REGRA DE OURO DOS AGENTES AUTONOMOS:                      ║
-║                                                              ║
-║   "Nunca de a um agente mais poder do que voce esta          ║
-║    disposto a consertar se ele errar."                       ║
-║                                                              ║
-║   Se o agente pode editar 5 arquivos e errar → OK,          ║
-║   voce reverte o PR em 2 cliques.                            ║
-║                                                              ║
-║   Se o agente pode deletar o banco de producao e errar →     ║
-║   NAO OK. Voce nao reverte isso em 2 cliques.               ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
 
 > **ANALOGIA MARIO:** Voce deixa o Yoshi voar pela fase coletando moedas? Claro -- se ele errar, voce perdeu umas moedas. Voce deixa o Yoshi voar sozinho ate o Boss final do jogo e lutar por voce? Provavelmente nao -- se ele perder, voce perde o jogo inteiro. O nivel de autonomia deve ser proporcional ao custo do erro.
 

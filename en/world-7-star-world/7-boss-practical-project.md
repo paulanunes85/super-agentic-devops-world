@@ -1195,10 +1195,10 @@ python src/main.py
 ### Conversation Examples
 
 ```
-================================================================
+
   TOAD HELPER
   Your AI assistant for the project
-================================================================
+
 
 Sofia: What does this project do?
 
@@ -1406,10 +1406,8 @@ Sofia finished the Boss Battle. Her Toad Helper is working — answering questio
 │                                                             │
 │  STAR WORLD (WORLD 7) — COMPLETE!                           │
 │                                                             │
-│  Level 7-4: Learned the frameworks     ████████████ 100%    │
-│  Level 7-5: Understood the 4 channels  ████████████ 100%    │
-│  Level 7-6: Mastered IDP and Backstage ████████████ 100%    │
-│  Level 7-BOSS: Built an agent          ████████████ 100%    │
+
+
 │                                                             │
 │  ★ ★ ★ STAR WORLD COMPLETE ★ ★ ★                           │
 │                                                             │

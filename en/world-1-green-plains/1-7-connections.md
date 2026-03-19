@@ -95,39 +95,6 @@ It was like that moment in Mario where you discover that the green pipes aren't 
 <br/><em>Complete developer flow</em>
 </div>
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                        WORLD 1 — GREEN PLAINS                          ║
-║                        The Complete Flow Map                           ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║                                                                        ║
-║   [1-1 VS Code]                                                        ║
-║   The Game       ═══════╗                                              ║
-║   Console                ║ Ctrl+S                                      ║
-║                          ▼                                              ║
-║                   [1-2 Git]                                             ║
-║                   The Memory  ═══════╗                                  ║
-║                   Card               ║ git push                        ║
-║                                      ▼                                  ║
-║                               [1-3 GitHub]                              ║
-║                               The Multiplayer ═══════╗                 ║
-║                               Server                 ║ on: push        ║
-║                                                       ▼                ║
-║                                             [1-4 Actions]              ║
-║                                             The Lakitus  ═══════╗      ║
-║                                             Workers              ║deploy║
-║                                                                  ▼     ║
-║                                                         [1-5 Azure]    ║
-║                                                         The Open       ║
-║                                                         World          ║
-║                                                                        ║
-║   [1-6 Azure AI / Copilot] ◄═══════════════════════════════════════╗   ║
-║   The Game's Magic — present at ALL stations                       ║   ║
-║                                                                        ║
-║   [1-7 YOU ARE HERE] — Seeing everything from above                    ║
-║                                                                        ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
 
 ---
 
@@ -386,36 +353,7 @@ In Mario, green pipes connect areas that seem distant. In software development, 
 ### 9.2 Complete Connection Map
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║          ┌──────────────────────────────────────────────┐            ║
-║          │            GITHUB COPILOT (AI)               │            ║
-║          │     Companion present in all levels           │            ║
-║          └──────┬───────────┬──────────┬────────────────┘            ║
-║                 │           │          │                              ║
-║                 ▼           ▼          ▼                              ║
-║           ┌──────────┐ ┌──────────┐ ┌──────────┐                    ║
-║           │ VS CODE  │ │  GITHUB  │ │  AZURE   │                    ║
-║           │ (Console)│ │ (Server) │ │ (World)  │                    ║
-║           └────┬─────┘ └────┬─────┘ └────┬─────┘                    ║
-║                │            │            │                            ║
-║           ┌────┴─────┐     │       ┌────┴─────┐                     ║
-║           │   GIT    │     │       │  AZURE   │                     ║
-║           │ (Memory  ├─────┘       │  MONITOR │                     ║
-║           │  Card)   │             │ (Towers) │                     ║
-║           └──────────┘             └──────────┘                     ║
-║                                                                      ║
-║     ┌────────────────────────────────────────────┐                  ║
-║     │            GITHUB ACTIONS (Lakitus)         │                  ║
-║     │  Connects GitHub to Azure automatically     │                  ║
-║     └────────────────────────────────────────────┘                  ║
-║                                                                      ║
-║  ┌─────────────────────────────────────────────────────────┐        ║
-║  │                    AZURE AI FOUNDRY                      │        ║
-║  │     When the app needs its own AI (custom spells)        │        ║
-║  └─────────────────────────────────────────────────────────┘        ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+
 
   FLOW: You → VS Code → Git → GitHub → Actions → Azure → Users
 ```

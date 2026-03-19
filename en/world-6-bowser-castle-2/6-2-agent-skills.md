@@ -611,7 +611,7 @@ Here's how the Power-Up evolution compares to Mario's evolution:
 
 ```
 POWER-UP SCREEN — Player Progression
-==========================================
+
 
 Level 1  -> Small Mario (Basic Jump)
              = Companion without Skills

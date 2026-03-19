@@ -431,14 +431,14 @@ ACOES PARA INICIAR H3:
 ### 7.3 Timeline Realista
 
 ```
-MES 1-6:    ████████████████████████████████  HORIZONTE 1
+
             Fundacao, padronizacao, migracao
 
-MES 4-12:             ████████████████████████████████  HORIZONTE 2
+
                       Copilot, GHAS, IDP, aceleracao
                       (sobreposicao com H1 final)
 
-MES 10-24:                           ████████████████████████████████  HORIZONTE 3
+
                                      Agents, MCP, Spec-Driven, transformacao
                                      (sobreposicao com H2 final)
 ```

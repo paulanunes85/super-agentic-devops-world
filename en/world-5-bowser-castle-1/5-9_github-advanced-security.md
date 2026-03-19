@@ -566,15 +566,10 @@ SECURITY OVERVIEW -- Mushroom Kingdom Corp
 ─────────────────────────────────────────────
 
 TOTAL ALERTS:    23
-  Critical:       2  ████░░░░░░  (ATTENTION!)
-  High:           5  ██████████
-  Medium:        10  ████████████████████
-  Low:            6  ████████████
+
 
 COVERAGE:
-  Code Scanning:    45/50 repos (90%)  ██████████████████░░
-  Secret Scanning:  50/50 repos (100%) ████████████████████
-  Dependabot:       48/50 repos (96%)  ███████████████████░
+
 
 TREND (last 30 days):
   Open alerts:    ↓ 15%  (improving!)

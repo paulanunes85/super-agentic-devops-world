@@ -386,7 +386,7 @@ Imagine que Magikoopa precisa criar uma **Pocao de Invencibilidade** (equivalent
 
 ```
 RECEITA DE POCAO DE INVENCIBILIDADE (Prompt Flow de Magikoopa)
-==============================================================
+
 
 Passo 1: REUNIR INGREDIENTES (no de Entrada)
    → Cogumelo Dourado + Agua da Estrela + Po de Arco-Iris
@@ -439,7 +439,7 @@ Fine-tuning e o processo de **pegar um modelo pre-treinado e ajusta-lo com seus 
 
 ```
 PROCESSO DE FINE-TUNING NO AZURE AI FOUNDRY
-============================================
+
 
 1. PREPARAR DADOS
    ┌────────────────────────────────────┐
@@ -585,7 +585,7 @@ Toda forja tem **regras de seguranca**. A Forja de Magikoopa nao e diferente:
 
 ```
 REGRAS DA FORJA DE MAGIKOOPA (Responsible AI)
-==============================================
+
 
 Regra 1: NENHUM FEITICO PROIBIDO
    → Feiticos de destruicao em massa nao sao permitidos
@@ -800,7 +800,7 @@ print(response.json()["choices"][0]["message"]["content"])
 
 ```
 PROGRESSAO NA FORJA DE MAGIKOOPA
-=================================
+
 
 Nivel 1 -> Aprendiz (Playground)
              = Testa feiticos basicos na mesa de experimentos

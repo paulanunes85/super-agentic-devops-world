@@ -552,9 +552,9 @@ node fase1-1.js
 Voce devera ver:
 
 ```
-=================================
+
    BEM-VINDA AO MUSHROOM KINGDOM
-=================================
+
 
 Heroi: Sofia
 Localizacao: World 1-1
