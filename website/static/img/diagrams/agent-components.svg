@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="Arial, sans-serif">
+  <defs>
+    <filter id="ac-shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+    <marker id="ac-arrow-red" viewBox="0 0 10 7" refX="0" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E52521"/>
+    </marker>
+    <marker id="ac-arrow-blue" viewBox="0 0 10 7" refX="0" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#049CD8"/>
+    </marker>
+    <marker id="ac-arrow-green" viewBox="0 0 10 7" refX="0" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#43B047"/>
+    </marker>
+    <marker id="ac-arrow-gold" viewBox="0 0 10 7" refX="0" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FBD000"/>
+    </marker>
+    <marker id="ac-arrow-purple" viewBox="0 0 10 7" refX="0" refY="3.5" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7B2D8E"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="560" fill="#FAFAFA" rx="4"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">What is an AI Agent?</text>
+  <text x="400" y="56" text-anchor="middle" font-size="13" fill="#666666">Five essential components working together</text>
+
+  <!-- Central AGENT circle -->
+  <g filter="url(#ac-shadow)">
+    <circle cx="400" cy="250" r="65" fill="#FFFFFF" stroke="#333333" stroke-width="3"/>
+    <text x="400" y="240" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">AGENT</text>
+    <text x="400" y="262" text-anchor="middle" font-size="11" fill="#666666">Autonomous</text>
+    <text x="400" y="276" text-anchor="middle" font-size="11" fill="#666666">Software Entity</text>
+  </g>
+
+  <!-- Component 1: Brain (LLM) - Top -->
+  <line x1="400" y1="185" x2="400" y2="125" stroke="#E52521" stroke-width="2.5" marker-end="url(#ac-arrow-red)"/>
+  <g filter="url(#ac-shadow)">
+    <rect x="310" y="70" width="180" height="55" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+    <text x="400" y="94" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Brain (LLM)</text>
+    <text x="400" y="114" text-anchor="middle" font-size="11" fill="#666666">Reasoning &amp; decision making</text>
+  </g>
+
+  <!-- Component 2: Senses (Context) - Top Right -->
+  <line x1="452" y1="210" x2="550" y2="145" stroke="#049CD8" stroke-width="2.5" marker-end="url(#ac-arrow-blue)"/>
+  <g filter="url(#ac-shadow)">
+    <rect x="530" y="90" width="180" height="55" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+    <text x="620" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Senses (Context)</text>
+    <text x="620" y="134" text-anchor="middle" font-size="11" fill="#666666">Input &amp; environment awareness</text>
+  </g>
+
+  <!-- Component 3: Hands (Tools) - Right -->
+  <line x1="460" y1="270" x2="560" y2="300" stroke="#43B047" stroke-width="2.5" marker-end="url(#ac-arrow-green)"/>
+  <g filter="url(#ac-shadow)">
+    <rect x="560" y="275" width="180" height="55" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+    <text x="650" y="299" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Hands (Tools)</text>
+    <text x="650" y="319" text-anchor="middle" font-size="11" fill="#666666">Execute actions in the world</text>
+  </g>
+
+  <!-- Component 4: Memory - Bottom Left -->
+  <line x1="348" y1="290" x2="240" y2="345" stroke="#FBD000" stroke-width="2.5" marker-end="url(#ac-arrow-gold)"/>
+  <g filter="url(#ac-shadow)">
+    <rect x="80" y="320" width="180" height="55" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+    <text x="170" y="344" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Memory</text>
+    <text x="170" y="364" text-anchor="middle" font-size="11" fill="#666666">Short &amp; long-term recall</text>
+  </g>
+
+  <!-- Component 5: Goals - Top Left -->
+  <line x1="348" y1="210" x2="240" y2="145" stroke="#7B2D8E" stroke-width="2.5" marker-end="url(#ac-arrow-purple)"/>
+  <g filter="url(#ac-shadow)">
+    <rect x="80" y="90" width="180" height="55" rx="8" fill="#FFFFFF" stroke="#7B2D8E" stroke-width="2.5"/>
+    <text x="170" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Goals</text>
+    <text x="170" y="134" text-anchor="middle" font-size="11" fill="#666666">Objectives &amp; intent</text>
+  </g>
+
+  <!-- Decorative ring around agent -->
+  <circle cx="400" cy="250" r="80" fill="none" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Legend -->
+  <g>
+    <rect x="30" y="420" width="740" height="125" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+    <text x="50" y="445" font-size="13" font-weight="bold" fill="#333333">Legend — 5 Components of an AI Agent</text>
+
+    <rect x="50" y="460" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+    <text x="74" y="473" font-size="11" fill="#333333">Brain (LLM) — The reasoning engine (GPT, Claude, etc.)</text>
+
+    <rect x="50" y="484" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+    <text x="74" y="497" font-size="11" fill="#333333">Senses (Context) — Reads files, APIs, user input</text>
+
+    <rect x="50" y="508" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+    <text x="74" y="521" font-size="11" fill="#333333">Hands (Tools) — Writes code, runs commands, calls APIs</text>
+
+    <rect x="420" y="460" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+    <text x="444" y="473" font-size="11" fill="#333333">Memory — Conversation history, embeddings, state</text>
+
+    <rect x="420" y="484" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#7B2D8E" stroke-width="2"/>
+    <text x="444" y="497" font-size="11" fill="#333333">Goals — User-defined objectives that drive behavior</text>
+
+    <circle cx="428" cy="520" r="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    <text x="444" y="524" font-size="11" fill="#333333">Agent — The autonomous entity orchestrating all components</text>
+  </g>
+</svg>

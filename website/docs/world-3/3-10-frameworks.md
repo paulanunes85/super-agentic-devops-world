@@ -1,0 +1,697 @@
+---
+title: "Level 3-10 -- Weapons and Armor: Frameworks and Libraries"
+description: "Understand the difference between frameworks and libraries, and get to know React, Vue, Angular, Express, Next.js, .NET, Django, and Spring -- like the weapons and armor that equip the characters of the Mushroom Kingdom"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
+date: "2026-03-18"
+tags:
+  - agentic-devops
+  - mario
+  - world-3
+  - frameworks
+  - bibliotecas
+  - react
+  - angular
+  - vue
+  - express
+  - nextjs
+  - dotnet
+  - django
+  - spring
+sidebar_position: 2
+format: md
+---
+
+# Level 3-10 -- Weapons and Armor: Frameworks and Libraries
+
+---
+
+## Change Log
+
+| Version | Date       | Author                                  | Description          |
+|---------|------------|----------------------------------------|----------------------|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation    |
+
+---
+
+## Table of Contents
+
+- [Prologue: The Castle Equipment Room](#prologue-the-castle-equipment-room)
+- [1. Framework vs Library: The Fundamental Difference](#1-framework-vs-library-the-fundamental-difference)
+  - [1.1 What Is a Library](#11-what-is-a-library)
+  - [1.2 What Is a Framework](#12-what-is-a-framework)
+  - [1.3 Inversion of Control: Who's in Charge?](#13-inversion-of-control-whos-in-charge)
+  - [1.4 Comparison Table](#14-comparison-table)
+- [2. Frontend Frameworks and Libraries](#2-frontend-frameworks-and-libraries)
+  - [2.1 React -- Luigi's Special Boots](#21-react----luigis-special-boots)
+  - [2.2 Vue.js -- The Magical Adaptation Necklace](#22-vuejs----the-magical-adaptation-necklace)
+  - [2.3 Angular -- The Complete Imperial Armor](#23-angular----the-complete-imperial-armor)
+  - [2.4 Svelte -- The Ninja's Lightweight Suit](#24-svelte----the-ninjas-lightweight-suit)
+  - [2.5 Frontend Comparison](#25-frontend-comparison)
+- [3. Full-Stack and Meta-Frameworks](#3-full-stack-and-meta-frameworks)
+  - [3.1 Next.js -- The Hero's Complete Suit](#31-nextjs----the-heros-complete-suit)
+  - [3.2 Nuxt.js -- The Complete Suit Vue Edition](#32-nuxtjs----the-complete-suit-vue-edition)
+  - [3.3 Remix -- The Retro-Modern Suit](#33-remix----the-retro-modern-suit)
+  - [3.4 Astro -- The Stellar Suit (Static Content)](#34-astro----the-stellar-suit-static-content)
+- [4. Backend Frameworks](#4-backend-frameworks)
+  - [4.1 Express.js -- Toad's Speed Potion](#41-expressjs----toads-speed-potion)
+  - [4.2 Fastify -- The Turbocharged Speed Potion](#42-fastify----the-turbocharged-speed-potion)
+  - [4.3 ASP.NET Core -- The Knight's Forge](#43-aspnet-core----the-knights-forge)
+  - [4.4 Django -- The Mage's Staff (Python)](#44-django----the-mages-staff-python)
+  - [4.5 FastAPI -- The Modern Staff (Python)](#45-fastapi----the-modern-staff-python)
+  - [4.6 Spring Boot -- The Tank's Hammer (Java)](#46-spring-boot----the-tanks-hammer-java)
+  - [4.7 Backend Comparison](#47-backend-comparison)
+- [5. CSS Frameworks](#5-css-frameworks)
+  - [5.1 Tailwind CSS -- The Modular Paint Kit](#51-tailwind-css----the-modular-paint-kit)
+  - [5.2 Bootstrap -- The Ready-Made Decoration Kit](#52-bootstrap----the-ready-made-decoration-kit)
+- [6. Testing Frameworks](#6-testing-frameworks)
+  - [6.1 Jest -- The Training Ground](#61-jest----the-training-ground)
+  - [6.2 Vitest -- The Modern Training Ground](#62-vitest----the-modern-training-ground)
+  - [6.3 Playwright and Cypress -- Battle Simulator](#63-playwright-and-cypress----battle-simulator)
+- [7. ORMs: The Librarian's Translators](#7-orms-the-librarians-translators)
+  - [7.1 Prisma (TypeScript/JavaScript)](#71-prisma-typescriptjavascript)
+  - [7.2 Entity Framework (C#)](#72-entity-framework-c)
+  - [7.3 SQLAlchemy and Django ORM (Python)](#73-sqlalchemy-and-django-orm-python)
+- [8. How to Choose the Right Framework](#8-how-to-choose-the-right-framework)
+  - [8.1 Selection Criteria](#81-selection-criteria)
+  - [8.2 Practical Decision Guide](#82-practical-decision-guide)
+  - [8.3 Selection Pitfalls](#83-selection-pitfalls)
+- [9. The Complete Ecosystem: Technology Stack](#9-the-complete-ecosystem-technology-stack)
+  - [9.1 What Is a Stack](#91-what-is-a-stack)
+  - [9.2 Popular Stacks](#92-popular-stacks)
+- [10. Final Comparison Table](#10-final-comparison-table)
+- [References](#references)
+
+---
+
+## Prologue: The Castle Equipment Room
+
+Sofia had chosen her classes: JavaScript/TypeScript as her main, Python as her secondary. But when she opened the editor to start coding, she realized that writing everything from scratch was... way too slow.
+
+*"You want to build an entire castle brick by brick?"* asked Luigi, the Frontend Engineer, popping in through the window. *"I use these SPECIAL BOOTS"* -- he showed shiny boots with the React logo. *"With them, I jump higher, land softer, and build interfaces in half the time."*
+
+Toad appeared through the back door with a glowing flask. *"And I use this SPEED POTION"* -- he showed a flask with the Express logo. *"With it, I create backend servers in minutes."*
+
+Toadette opened the armory door. Dozens of weapons and armor pieces gleamed on the shelves, each with a label: React, Vue, Angular, Express, Next.js, Django, Spring...
+
+*"Sofia, these are the guild's Weapons and Armor. A Mage without a staff is still a Mage, but a much less efficient one. A Knight without armor is still a Knight, but a much more vulnerable one. Frameworks and libraries are the tools that multiply your power."*
+
+*"But what's the difference between a weapon and armor? Between a framework and a library?"*
+
+Toadette smiled. *"Excellent question. Welcome to Level 3-10."*
+
+---
+
+## 1. Framework vs Library: The Fundamental Difference
+
+### 1.1 What Is a Library
+
+A **library** is a set of functions/tools that YOU call when you need them. You are in control. The library is a passive tool.
+
+```javascript
+// Using the 'lodash' library -- YOU decide when to call it
+import _ from 'lodash';
+
+const numeros = [1, 5, 3, 8, 2];
+const ordenados = _.sortBy(numeros);  // You called the function
+console.log(ordenados);               // [1, 2, 3, 5, 8]
+```
+
+> **MARIO ANALOGY:** A library is an **individual weapon** that YOU wield. A sword. A shield. A potion. You decide when to use it, how to use it, and you can drop it whenever you want. The weapon is under YOUR control.
+
+### 1.2 What Is a Framework
+
+A **framework** is a complete structure that defines HOW your code should be organized. The framework calls YOUR code. You fill in the blanks.
+
+```javascript
+// Using the Express framework -- IT defines the structure
+import express from 'express';
+const app = express();
+
+// You "fill in" the slots that the framework defines
+app.get('/api/tarefas', (req, res) => {
+    // The framework calls THIS function when someone accesses /api/tarefas
+    res.json([{ id: 1, titulo: "Estudar" }]);
+});
+
+// The framework controls the main loop
+app.listen(3000);
+```
+
+> **MARIO ANALOGY:** A framework is a **complete suit of armor** that you WEAR. The armor defines how you move, which weapons you can use, and your posture. You don't "use" the armor -- you "wear" the armor and adapt to it. The armor controls the form; you control the content.
+
+### 1.3 Inversion of Control: Who's in Charge?
+
+The technical difference is called **Inversion of Control (IoC)**:
+
+```
+LIBRARY:    Your Code   --->  calls  --->  Library
+            (you command)                  (it obeys)
+
+FRAMEWORK:  Framework   --->  calls  --->  Your Code
+            (it commands)                  (you fill in)
+```
+
+> **MARIO ANALOGY:**
+> - **Library** = You pick up the sword and decide when to strike. The sword does nothing on its own.
+> - **Framework** = You wear the armor and it says: "When an enemy appears on port 80, this function will be executed." The armor controls the flow; you define what happens at each point.
+
+### 1.4 Comparison Table
+
+| Aspect | Library | Framework |
+|--------|---------|-----------|
+| **Who controls** | You | Framework |
+| **Flexibility** | High (use whatever you want) | Medium (follow the structure) |
+| **Structure** | You define it | Already defined |
+| **Learning curve** | Low | Medium-High |
+| **Productivity** | You build everything | Much comes ready-made |
+| **Replacement** | Easy (swap for another) | Hard (major refactoring) |
+| **Mario Analogy** | Individual weapon | Complete armor |
+
+---
+
+## 2. Frontend Frameworks and Libraries
+
+### 2.1 React -- Luigi's Special Boots
+
+**React** is a **library** (technically!) created by Facebook/Meta for building user interfaces. It is the most popular in the world.
+
+> **MARIO ANALOGY:** React is **Luigi's Special Boots** -- they drastically improve the ability to jump (build UI), are lightweight and flexible. They are not a complete suit of armor (you need to add routing, state management, etc.), but the boots are so good that most heroes choose them.
+
+**Features:**
+
+- **Components**: Everything is divided into reusable pieces
+- **Virtual DOM**: Efficient interface updates
+- **JSX**: HTML inside JavaScript
+- **Unidirectional**: Data flows in one direction (parent -> child)
+- **Huge ecosystem**: Thousands of complementary libraries
+
+```jsx
+// React: Task Component
+function Tarefa({ titulo, feita, onToggle }) {
+  return (
+    <div className={feita ? "tarefa-feita" : "tarefa-pendente"}>
+      <input type="checkbox" checked={feita} onChange={onToggle} />
+      <span>{titulo}</span>
+    </div>
+  );
+}
+
+// Using the component
+function ListaTarefas() {
+  const [tarefas, setTarefas] = useState([
+    { id: 1, titulo: "Salvar a Princesa", feita: false },
+    { id: 2, titulo: "Coletar moedas", feita: true },
+  ]);
+
+  return (
+    <div>
+      <h1>Minhas Tarefas</h1>
+      {tarefas.map(t => (
+        <Tarefa
+          key={t.id}
+          titulo={t.titulo}
+          feita={t.feita}
+          onToggle={() => toggleTarefa(t.id)}
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+### 2.2 Vue.js -- The Magical Adaptation Necklace
+
+**Vue.js** is a progressive framework -- you can use a little or a lot, depending on your needs.
+
+> **MARIO ANALOGY:** Vue is a **Magical Adaptation Necklace** -- it starts simple (add it to any HTML page) and becomes more powerful as you need it. Ideal for those coming from HTML/CSS who want to add interactivity gradually.
+
+**Features:**
+
+- **Progressive**: Use a little or a lot
+- **Template syntax**: Familiar HTML with directives
+- **Reactivity**: Data changes, interface updates automatically
+- **Composition API**: Modern logic organization
+
+```vue
+<!-- Vue: Task Component -->
+<template>
+  <div :class="tarefa.feita ? 'tarefa-feita' : 'tarefa-pendente'">
+    <input type="checkbox" v-model="tarefa.feita" />
+    <span>{{ tarefa.titulo }}</span>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const tarefas = ref([
+  { id: 1, titulo: "Salvar a Princesa", feita: false },
+  { id: 2, titulo: "Coletar moedas", feita: true },
+])
+</script>
+```
+
+### 2.3 Angular -- The Complete Imperial Armor
+
+**Angular** is a complete framework created by Google. It comes with EVERYTHING: routing, forms, HTTP client, tests, etc.
+
+> **MARIO ANALOGY:** Angular is the **Complete Imperial Armor** -- heavy, with all pieces included (helmet, breastplate, pauldrons, greaves). You don't need to buy anything separately. Ideal for large battles (enterprise applications), but overkill for a simple level.
+
+**Features:**
+
+- **All included**: Router, forms, HTTP, animations, i18n
+- **TypeScript required**: Typing from the start
+- **RxJS**: Reactive programming with Observables
+- **Powerful CLI**: Automatically generates components, services, modules
+- **Opinionated**: One "right" way to do things
+
+### 2.4 Svelte -- The Ninja's Lightweight Suit
+
+**Svelte** is a compiler that transforms components into pure JavaScript, without a framework runtime.
+
+> **MARIO ANALOGY:** Svelte is the **Ninja's Lightweight Suit** -- almost invisible, weighs nothing, and is incredibly fast. Instead of loading an entire framework in the browser, Svelte compiles everything at build time. The result is pure JavaScript, with no overhead.
+
+### 2.5 Frontend Comparison
+
+| Aspect | React | Vue | Angular | Svelte |
+|--------|-------|-----|---------|--------|
+| **Type** | Library | Progressive framework | Complete framework | Compiler |
+| **Creator** | Meta/Facebook | Evan You (indie) | Google | Rich Harris |
+| **Language** | JSX (JS + HTML) | Template + JS | TypeScript | Svelte syntax |
+| **Learning curve** | Medium | Easy-Medium | High | Easy |
+| **Ecosystem** | Huge | Large | Large | Growing |
+| **Performance** | Good | Good | Good | Excellent |
+| **Bundle size** | Medium | Small | Large | Very small |
+| **Job market** | Dominant | Strong in Asia/Europe | Enterprise | Growing |
+| **Mario Analogy** | Luigi's Boots | Magical Necklace | Imperial Armor | Ninja Suit |
+| **Ideal for** | Most projects | Smooth transition | Large enterprise | Critical performance |
+
+---
+
+## 3. Full-Stack and Meta-Frameworks
+
+### 3.1 Next.js -- The Hero's Complete Suit
+
+**Next.js** is a React meta-framework that adds: Server-Side Rendering (SSR), Static Site Generation (SSG), API routes, file-based routing, and much more.
+
+> **MARIO ANALOGY:** Next.js is the **Hero's Complete Suit** -- includes Luigi's Boots (React), plus a helmet (SSR), cape (ISR), utility belt (API routes), and built-in map (file-based routing). It is the natural evolution for those who start with React.
+
+**What Next.js adds to React:**
+
+| Feature | Pure React | Next.js |
+|---------|-----------|---------|
+| **Routing** | Needs separate installation | Automatic (folders = routes) |
+| **SSR** | Not available | Native |
+| **SSG** | Not available | Native |
+| **API Routes** | Needs separate backend | Built-in backend |
+| **Image optimization** | Manual | Automatic |
+| **SEO** | Difficult | Easy |
+
+### 3.2 Nuxt.js -- The Complete Suit Vue Edition
+
+The same as Next.js, but for Vue instead of React.
+
+### 3.3 Remix -- The Retro-Modern Suit
+
+Remix is a React framework that embraces web fundamentals (HTML forms, HTTP, progressive enhancement).
+
+### 3.4 Astro -- The Stellar Suit (Static Content)
+
+Astro is ideal for content-heavy sites (blogs, docs, marketing) -- it ships zero JavaScript by default.
+
+---
+
+## 4. Backend Frameworks
+
+### 4.1 Express.js -- Toad's Speed Potion
+
+**Express.js** is the minimalist backend framework for Node.js. Simple, flexible, and the most used in the Node world.
+
+> **MARIO ANALOGY:** Express is **Toad's Speed Potion** -- it makes Toad run faster (a functional HTTP server in very few lines), but doesn't provide armor (you need to add middleware for authentication, validation, CORS, etc.).
+
+```javascript
+import express from 'express';
+const app = express();
+
+app.use(express.json());
+
+// Complete CRUD in a few lines
+let tarefas = [
+  { id: 1, titulo: "Estudar Express", feita: false }
+];
+
+app.get('/api/tarefas', (req, res) => {
+  res.json(tarefas);
+});
+
+app.post('/api/tarefas', (req, res) => {
+  const nova = { id: Date.now(), ...req.body, feita: false };
+  tarefas.push(nova);
+  res.status(201).json(nova);
+});
+
+app.put('/api/tarefas/:id', (req, res) => {
+  const tarefa = tarefas.find(t => t.id === parseInt(req.params.id));
+  if (!tarefa) return res.status(404).json({ erro: "Nao encontrada" });
+  Object.assign(tarefa, req.body);
+  res.json(tarefa);
+});
+
+app.delete('/api/tarefas/:id', (req, res) => {
+  tarefas = tarefas.filter(t => t.id !== parseInt(req.params.id));
+  res.status(204).send();
+});
+
+app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
+```
+
+### 4.2 Fastify -- The Turbocharged Speed Potion
+
+Alternative to Express, focused on performance and automatic validation with JSON Schema.
+
+### 4.3 ASP.NET Core -- The Knight's Forge
+
+**ASP.NET Core** is Microsoft's backend framework for C#. Robust, performant, and strongly typed.
+
+> **MARIO ANALOGY:** ASP.NET Core is the **Knight's Forge** -- where complete suits of armor are manufactured. It comes with everything: authentication, authorization, dependency injection, ORM, validation, automatic documentation. The Knight (C#) gears up here for the biggest battles.
+
+```csharp
+// ASP.NET Core -- Minimal API
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+var tarefas = new List<Tarefa>
+{
+    new(1, "Estudar ASP.NET", false)
+};
+
+app.MapGet("/api/tarefas", () => tarefas);
+
+app.MapPost("/api/tarefas", (Tarefa tarefa) =>
+{
+    tarefas.Add(tarefa);
+    return Results.Created($"/api/tarefas/{tarefa.Id}", tarefa);
+});
+
+app.Run();
+
+record Tarefa(int Id, string Titulo, bool Feita);
+```
+
+### 4.4 Django -- The Mage's Staff (Python)
+
+**Django** is the "batteries included" Python web framework -- it comes with ORM, admin panel, authentication, forms, and everything else.
+
+> **MARIO ANALOGY:** Django is the **Mage's Staff** -- it dramatically amplifies the Mage's (Python) powers. It comes with pre-loaded spells (admin, auth, ORM). Django's motto is "batteries included."
+
+**What Django offers "for free":**
+
+- Automatic admin panel (visual CRUD for your models)
+- Complete ORM (no need to write SQL)
+- Authentication system
+- Protection against CSRF, XSS, SQL Injection
+- Forms with validation
+- Internationalization (i18n)
+
+### 4.5 FastAPI -- The Modern Staff (Python)
+
+FastAPI is the modern Python framework, focused on APIs with typing, automatic documentation (Swagger/OpenAPI), and performance.
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Tarefa(BaseModel):
+    titulo: str
+    feita: bool = False
+
+tarefas: list[Tarefa] = []
+
+@app.get("/api/tarefas")
+def listar():
+    return tarefas
+
+@app.post("/api/tarefas", status_code=201)
+def criar(tarefa: Tarefa):
+    tarefas.append(tarefa)
+    return tarefa
+
+# Run: uvicorn main:app --reload
+# Automatic documentation at: /docs
+```
+
+### 4.6 Spring Boot -- The Tank's Hammer (Java)
+
+**Spring Boot** is the Java backend framework. Huge ecosystem, dominant in enterprise.
+
+> **MARIO ANALOGY:** Spring Boot is the **Tank's Hammer** -- heavy, but when it hits, it gets the job done. Gigantic ecosystem, configuration that can be complex, but incredibly powerful and reliable for large systems.
+
+### 4.7 Backend Comparison
+
+| Aspect | Express | ASP.NET | Django | FastAPI | Spring Boot |
+|--------|---------|---------|--------|---------|-------------|
+| **Language** | JavaScript | C# | Python | Python | Java |
+| **Philosophy** | Minimalist | Complete | Batteries included | Modern, typed | Enterprise |
+| **Performance** | Good | Excellent | Good | Excellent | Very Good |
+| **Learning curve** | Easy | Medium | Medium | Easy | High |
+| **Ecosystem** | Huge (npm) | Large | Large | Growing | Huge |
+| **Best for** | Quick APIs | Enterprise/Azure | Full-stack Python | Modern APIs | Enterprise Java |
+| **Mario Analogy** | Speed Potion | Knight's Forge | Mage's Staff | Modern Staff | Tank's Hammer |
+
+---
+
+## 5. CSS Frameworks
+
+### 5.1 Tailwind CSS -- The Modular Paint Kit
+
+Tailwind doesn't give you ready-made components -- it gives you **utility classes** that you combine:
+
+```html
+<!-- Tailwind: utility classes directly in HTML -->
+<div class="bg-yellow-400 rounded-lg p-4 shadow-md hover:bg-yellow-500">
+  <h2 class="text-xl font-bold text-gray-800">Minha Tarefa</h2>
+  <p class="text-gray-600 mt-2">Salvar a Princesa Peach</p>
+</div>
+```
+
+> **MARIO ANALOGY:** Tailwind is a **modular paint kit** -- instead of ready-made paintings, you have hundreds of paints and brushes. More manual work, but total control over the result.
+
+### 5.2 Bootstrap -- The Ready-Made Decoration Kit
+
+Bootstrap gives you **ready-made components** (buttons, cards, navbars):
+
+```html
+<!-- Bootstrap: pre-built components -->
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Minha Tarefa</h5>
+    <p class="card-text">Salvar a Princesa Peach</p>
+    <button class="btn btn-primary">Completar</button>
+  </div>
+</div>
+```
+
+> **MARIO ANALOGY:** Bootstrap is a **ready-made decoration kit** -- furniture, curtains, paintings all come ready. Just place them where you want. Quick and easy, but all the castles end up looking the same.
+
+---
+
+## 6. Testing Frameworks
+
+### 6.1 Jest -- The Training Ground
+
+**Jest** is the most used testing framework in the JavaScript ecosystem. Created by Meta.
+
+> **MARIO ANALOGY:** Jest is the **Training Ground** where you practice against dummies before the real battle. Each test is a dummy configured to simulate a situation. If you defeat all the dummies, you're ready for the level.
+
+```javascript
+// tarefa.test.js
+describe('Gerenciador de Tarefas', () => {
+  test('deve criar uma tarefa', () => {
+    const tarefa = criarTarefa("Estudar Jest");
+    expect(tarefa.titulo).toBe("Estudar Jest");
+    expect(tarefa.feita).toBe(false);
+  });
+
+  test('deve marcar tarefa como feita', () => {
+    const tarefa = criarTarefa("Estudar Jest");
+    completarTarefa(tarefa);
+    expect(tarefa.feita).toBe(true);
+  });
+
+  test('nao deve criar tarefa sem titulo', () => {
+    expect(() => criarTarefa("")).toThrow("Titulo obrigatorio");
+  });
+});
+```
+
+### 6.2 Vitest -- The Modern Training Ground
+
+Alternative to Jest optimized for Vite projects (faster, compatible with Jest's API).
+
+### 6.3 Playwright and Cypress -- Battle Simulator
+
+End-to-end tests that simulate a real user navigating through the application:
+
+```javascript
+// Playwright: simulates a real user
+test('deve criar uma nova tarefa', async ({ page }) => {
+  await page.goto('http://localhost:3000');
+  await page.fill('#titulo-input', 'Nova tarefa');
+  await page.click('#botao-criar');
+  await expect(page.locator('.tarefa')).toContainText('Nova tarefa');
+});
+```
+
+> **MARIO ANALOGY:** Playwright/Cypress are like a **complete battle simulator** -- it's not against dummies, it's an entire simulated level. The simulator presses buttons, navigates menus, and verifies that everything works as if it were a real player.
+
+---
+
+## 7. ORMs: The Librarian's Translators
+
+ORMs (Object-Relational Mapping) allow you to interact with the database using your language's code, without writing SQL directly.
+
+### 7.1 Prisma (TypeScript/JavaScript)
+
+```typescript
+// Define model (schema.prisma)
+// model Tarefa {
+//   id     Int     @id @default(autoincrement())
+//   titulo String
+//   feita  Boolean @default(false)
+// }
+
+// Use in code
+const tarefas = await prisma.tarefa.findMany({
+  where: { feita: false },
+  orderBy: { id: 'desc' },
+});
+
+const nova = await prisma.tarefa.create({
+  data: { titulo: "Estudar Prisma" },
+});
+```
+
+### 7.2 Entity Framework (C#)
+
+```csharp
+// C# with Entity Framework
+var tarefas = await _context.Tarefas
+    .Where(t => !t.Feita)
+    .OrderByDescending(t => t.Id)
+    .ToListAsync();
+```
+
+### 7.3 SQLAlchemy and Django ORM (Python)
+
+```python
+# Django ORM
+tarefas = Tarefa.objects.filter(feita=False).order_by('-id')
+
+# SQLAlchemy
+tarefas = session.query(Tarefa).filter(Tarefa.feita == False).all()
+```
+
+> **MARIO ANALOGY:** ORMs are like **magical translators** between the Librarian (SQL) and the other characters. Instead of learning the Librarian's language (raw SQL), you speak in YOUR language and the translator converts it. Convenient, but sometimes the translation isn't perfect.
+
+---
+
+## 8. How to Choose the Right Framework
+
+### 8.1 Selection Criteria
+
+| Criterion | Questions to ask |
+|-----------|-----------------|
+| **Project size** | Is it a small MVP or an enterprise system? |
+| **Team** | How many people? What experience? |
+| **Performance** | What are the speed requirements? |
+| **Ecosystem** | Are there libraries for what I need? |
+| **Community** | Easy to find help? Active Stack Overflow? |
+| **Market** | Easy to hire devs with this skill? |
+| **Documentation** | Good and up-to-date documentation? |
+| **Longevity** | Will the framework still exist in 5 years? |
+
+### 8.2 Practical Decision Guide
+
+| Scenario | Frontend | Backend | Why |
+|----------|----------|---------|-----|
+| **Quick startup MVP** | Next.js (React) | Next.js (API routes) | Full-stack in a single framework |
+| **Microsoft enterprise app** | React or Blazor | ASP.NET Core | Complete Microsoft ecosystem |
+| **Data science with web** | React or Vue | Django / FastAPI | Python for data + web |
+| **Java legacy system** | Angular | Spring Boot | Java enterprise ecosystem |
+| **Blog/marketing site** | Astro | Not needed | Static content, zero JS |
+| **Mobile + web app** | React | Express / Next.js | React Native reuses knowledge |
+
+### 8.3 Selection Pitfalls
+
+1. **"Trendy framework"** -- Don't choose just because it's new and popular. Stability matters.
+2. **"Resume Driven Development"** -- Don't choose just to put it on your resume.
+3. **"Overengineering"** -- Don't use Angular for a 3-page landing page.
+4. **"Underengineering"** -- Don't use Express without structure for a banking system.
+5. **"I'll build my own"** -- 99.9% of the time, use something that already exists.
+
+---
+
+## 9. The Complete Ecosystem: Technology Stack
+
+### 9.1 What Is a Stack
+
+A **stack** is the complete set of technologies used in a project.
+
+### 9.2 Popular Stacks
+
+| Stack | Frontend | Backend | Database | Mario Analogy |
+|-------|----------|---------|----------|---------------|
+| **MERN** | React | Express (Node.js) | MongoDB | Versatile Rogue kit |
+| **PERN** | React | Express (Node.js) | PostgreSQL | Improved Rogue kit |
+| **T3** | Next.js + tRPC | Next.js | Prisma + PostgreSQL | Premium Armored Rogue kit |
+| **LAMP** | HTML/PHP | Apache + PHP | MySQL | Classic retro kit |
+| **.NET Full** | Blazor/React | ASP.NET Core | SQL Server | Complete Knight kit |
+| **Django Full** | Django Templates | Django | PostgreSQL | Complete Mage kit |
+| **Spring Full** | Angular/React | Spring Boot | PostgreSQL | Complete Tank kit |
+
+---
+
+## 10. Final Comparison Table
+
+| Framework | Type | Language | Mario Analogy | Ideal for |
+|-----------|------|----------|---------------|-----------|
+| **React** | Frontend Lib | JavaScript/TS | Luigi's Boots | Interactive UI |
+| **Vue** | Frontend Framework | JavaScript/TS | Magical Necklace | Smooth transition |
+| **Angular** | Frontend Framework | TypeScript | Imperial Armor | Large enterprise |
+| **Svelte** | Frontend Compiler | Svelte | Ninja Suit | Maximum performance |
+| **Next.js** | Meta-framework | React/TS | Complete Suit | Full-stack React |
+| **Express** | Backend Framework | JavaScript | Speed Potion | Quick Node APIs |
+| **ASP.NET** | Backend Framework | C# | Knight's Forge | Microsoft enterprise |
+| **Django** | Backend Framework | Python | Mage's Staff | Full-stack Python |
+| **FastAPI** | Backend Framework | Python | Modern Staff | Modern Python APIs |
+| **Spring Boot** | Backend Framework | Java | Tank's Hammer | Enterprise Java |
+| **Jest** | Testing Framework | JavaScript | Training Ground | JS unit tests |
+| **Prisma** | ORM | TypeScript | Magical Translator | TS database |
+| **Tailwind** | CSS Framework | CSS | Paint Kit | Custom styling |
+
+> **GOLDEN RULE:** There is no perfect framework. There is the right framework for YOUR project, YOUR team, and YOUR moment. The best framework is the one you master and that solves your problem.
+
+---
+
+## References
+
+- [React -- Official Documentation](https://react.dev/)
+- [Vue.js -- Official Documentation](https://vuejs.org/)
+- [Angular -- Official Documentation](https://angular.dev/)
+- [Svelte -- Official Documentation](https://svelte.dev/)
+- [Next.js -- Official Documentation](https://nextjs.org/docs)
+- [Express.js -- Official Documentation](https://expressjs.com/)
+- [ASP.NET Core -- Microsoft Documentation](https://learn.microsoft.com/pt-br/aspnet/core/)
+- [Django -- Official Documentation](https://docs.djangoproject.com/pt-br/)
+- [FastAPI -- Official Documentation](https://fastapi.tiangolo.com/)
+- [Spring Boot -- Official Documentation](https://spring.io/projects/spring-boot)
+- [Jest -- Official Documentation](https://jestjs.io/)
+- [Prisma -- Official Documentation](https://www.prisma.io/docs)
+- [Tailwind CSS -- Official Documentation](https://tailwindcss.com/docs)
+- [State of JS 2025 -- Survey](https://stateofjs.com/)
+
+---
+
+*End of Level 3-10. Sofia now knows the available weapons and armor. In the next level, she learns to manage her inventory: packages and dependencies.*

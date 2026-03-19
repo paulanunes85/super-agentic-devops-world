@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Arial, sans-serif">
+  <rect width="1000" height="700" fill="#FAFAFA" rx="8"/>
+  <text x="500" y="32" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">The Complete Ecosystem — How Everything Connects</text>
+  <text x="500" y="52" text-anchor="middle" font-size="12" fill="#666">Super Agentic DevOps World — The Big Picture</text>
+
+  <defs>
+    <marker id="eArrowB" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#049CD8"/>
+    </marker>
+    <marker id="eArrowG" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#43B047"/>
+    </marker>
+    <marker id="eArrowGo" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#FBD000"/>
+    </marker>
+    <marker id="eArrowR" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#E52521"/>
+    </marker>
+    <marker id="eArrowGr" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <path d="M0,0 L7,2.5 L0,5 Z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- ========== HORIZONTAL MAIN FLOW (blue) ========== -->
+  <!-- VS Code -->
+  <rect x="30" y="120" width="120" height="60" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <text x="90" y="147" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">VS Code</text>
+  <text x="90" y="163" text-anchor="middle" font-size="9" fill="#666">IDE / Editor</text>
+
+  <!-- Git -->
+  <rect x="195" y="120" width="100" height="60" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="245" y="147" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Git</text>
+  <text x="245" y="163" text-anchor="middle" font-size="9" fill="#666">Version Control</text>
+
+  <!-- GitHub -->
+  <rect x="340" y="110" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <text x="405" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">GitHub</text>
+  <text x="405" y="158" text-anchor="middle" font-size="9" fill="#666">Repos, Issues, PRs</text>
+  <text x="405" y="173" text-anchor="middle" font-size="9" fill="#666">Code Review</text>
+
+  <!-- GitHub Actions -->
+  <rect x="520" y="120" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <text x="585" y="147" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Actions</text>
+  <text x="585" y="163" text-anchor="middle" font-size="9" fill="#666">CI/CD Pipelines</text>
+
+  <!-- Azure -->
+  <rect x="700" y="110" width="130" height="80" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <text x="765" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Azure</text>
+  <text x="765" y="158" text-anchor="middle" font-size="9" fill="#666">Cloud Platform</text>
+  <text x="765" y="173" text-anchor="middle" font-size="9" fill="#666">Deployment Target</text>
+
+  <!-- Horizontal arrows -->
+  <line x1="150" y1="150" x2="195" y2="150" stroke="#049CD8" stroke-width="2" marker-end="url(#eArrowB)"/>
+  <line x1="295" y1="150" x2="340" y2="150" stroke="#049CD8" stroke-width="2" marker-end="url(#eArrowB)"/>
+  <line x1="470" y1="150" x2="520" y2="150" stroke="#049CD8" stroke-width="2" marker-end="url(#eArrowB)"/>
+  <line x1="650" y1="150" x2="700" y2="150" stroke="#049CD8" stroke-width="2" marker-end="url(#eArrowB)"/>
+
+  <!-- ========== VERTICAL BRANCH: GitHub → Copilot → Agents (green) ========== -->
+  <!-- Copilot -->
+  <rect x="340" y="240" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <text x="405" y="267" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Copilot</text>
+  <text x="405" y="283" text-anchor="middle" font-size="9" fill="#666">AI Pair Programmer</text>
+
+  <!-- Agents -->
+  <rect x="340" y="340" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="405" y="367" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">AI Agents</text>
+  <text x="405" y="383" text-anchor="middle" font-size="9" fill="#666">Coding Agent, Copilot</text>
+
+  <!-- Custom Skills / Extensions -->
+  <rect x="340" y="440" width="130" height="55" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <text x="405" y="465" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Skills</text>
+  <text x="405" y="480" text-anchor="middle" font-size="9" fill="#666">Custom Extensions</text>
+
+  <!-- MCP -->
+  <rect x="340" y="530" width="130" height="55" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <text x="405" y="555" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">MCP</text>
+  <text x="405" y="570" text-anchor="middle" font-size="9" fill="#666">Model Context Protocol</text>
+
+  <!-- Vertical arrows (green) -->
+  <line x1="405" y1="190" x2="405" y2="240" stroke="#43B047" stroke-width="2" marker-end="url(#eArrowG)"/>
+  <line x1="405" y1="300" x2="405" y2="340" stroke="#43B047" stroke-width="2" marker-end="url(#eArrowG)"/>
+  <line x1="405" y1="400" x2="405" y2="440" stroke="#43B047" stroke-width="2" marker-end="url(#eArrowG)"/>
+  <line x1="405" y1="495" x2="405" y2="530" stroke="#43B047" stroke-width="2" marker-end="url(#eArrowG)"/>
+
+  <!-- ========== BRANCH: Azure → AI Foundry → RAG (gold) ========== -->
+  <!-- AI Foundry -->
+  <rect x="700" y="240" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+  <text x="765" y="265" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">AI Foundry</text>
+  <text x="765" y="280" text-anchor="middle" font-size="9" fill="#666">Model Catalog</text>
+
+  <!-- RAG -->
+  <rect x="700" y="340" width="130" height="60" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+  <text x="765" y="365" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">RAG</text>
+  <text x="765" y="380" text-anchor="middle" font-size="9" fill="#666">Grounded Answers</text>
+
+  <!-- Vector DB -->
+  <rect x="700" y="440" width="130" height="50" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="765" y="465" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Vector DB</text>
+  <text x="765" y="478" text-anchor="middle" font-size="9" fill="#666">AI Search</text>
+
+  <!-- Gold vertical arrows -->
+  <line x1="765" y1="190" x2="765" y2="240" stroke="#FBD000" stroke-width="2" marker-end="url(#eArrowGo)"/>
+  <line x1="765" y1="300" x2="765" y2="340" stroke="#FBD000" stroke-width="2" marker-end="url(#eArrowGo)"/>
+  <line x1="765" y1="400" x2="765" y2="440" stroke="#FBD000" stroke-width="2" marker-end="url(#eArrowGo)"/>
+
+  <!-- ========== MCP → External Tools (red) ========== -->
+  <!-- Figma -->
+  <rect x="130" y="525" width="100" height="45" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+  <text x="180" y="548" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Figma</text>
+  <text x="180" y="562" text-anchor="middle" font-size="8" fill="#666">Design</text>
+
+  <!-- Database -->
+  <rect x="130" y="585" width="100" height="45" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+  <text x="180" y="608" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">PostgreSQL</text>
+  <text x="180" y="622" text-anchor="middle" font-size="8" fill="#666">Database</text>
+
+  <!-- Slack -->
+  <rect x="555" y="525" width="100" height="45" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+  <text x="605" y="548" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Slack</text>
+  <text x="605" y="562" text-anchor="middle" font-size="8" fill="#666">Messaging</text>
+
+  <!-- Jira -->
+  <rect x="555" y="585" width="100" height="45" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+  <text x="605" y="608" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Monitoring</text>
+  <text x="605" y="622" text-anchor="middle" font-size="8" fill="#666">Observability</text>
+
+  <!-- Red arrows from MCP to external tools -->
+  <line x1="340" y1="555" x2="230" y2="547" stroke="#E52521" stroke-width="1.5" marker-end="url(#eArrowR)"/>
+  <line x1="340" y1="560" x2="230" y2="600" stroke="#E52521" stroke-width="1.5" marker-end="url(#eArrowR)"/>
+  <line x1="470" y1="555" x2="555" y2="547" stroke="#E52521" stroke-width="1.5" marker-end="url(#eArrowR)"/>
+  <line x1="470" y1="560" x2="555" y2="600" stroke="#E52521" stroke-width="1.5" marker-end="url(#eArrowR)"/>
+
+  <!-- ========== IDP / Backstage (central hub, all colors connect) ========== -->
+  <rect x="120" y="280" width="155" height="70" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+  <text x="197" y="307" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">IDP</text>
+  <text x="197" y="323" text-anchor="middle" font-size="10" fill="#666">Backstage / Portal</text>
+  <text x="197" y="338" text-anchor="middle" font-size="9" fill="#999">Developer Hub</text>
+
+  <!-- Connections to IDP -->
+  <line x1="195" y1="280" x2="245" y2="180" stroke="#049CD8" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#eArrowB)"/>
+  <line x1="275" y1="310" x2="340" y2="270" stroke="#43B047" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#eArrowG)"/>
+  <line x1="275" y1="325" x2="340" y2="365" stroke="#43B047" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#eArrowG)"/>
+  <path d="M197,350 L197,480 Q197,500 220,510 L340,540" stroke="#E52521" stroke-width="1.5" stroke-dasharray="4,3" fill="none" marker-end="url(#eArrowR)"/>
+
+  <!-- Connection from Actions to AI Foundry -->
+  <path d="M585,180 L585,215 Q585,230 600,230 L700,265" stroke="#FBD000" stroke-width="1.5" stroke-dasharray="4,3" fill="none" marker-end="url(#eArrowGo)"/>
+
+  <!-- Connection Copilot ↔ Agents to Azure AI -->
+  <line x1="470" y1="370" x2="700" y2="370" stroke="#888" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#eArrowGr)"/>
+  <text x="585" y="365" text-anchor="middle" font-size="8" fill="#888">AI models</text>
+
+  <!-- Docker label (under Actions) -->
+  <rect x="520" y="195" width="130" height="40" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="585" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">Docker</text>
+  <text x="585" y="228" text-anchor="middle" font-size="8" fill="#666">Containers / Registry</text>
+  <line x1="585" y1="180" x2="585" y2="195" stroke="#049CD8" stroke-width="1.5" marker-end="url(#eArrowB)"/>
+
+  <!-- SDD label (connected to Agents) -->
+  <rect x="190" y="380" width="110" height="40" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="1.5"/>
+  <text x="245" y="400" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">SDD</text>
+  <text x="245" y="413" text-anchor="middle" font-size="8" fill="#666">Spec-Driven Dev</text>
+  <line x1="305" y1="395" x2="340" y2="375" stroke="#43B047" stroke-width="1.5" marker-end="url(#eArrowG)"/>
+
+  <!-- 4 Channels label (connected to VS Code) -->
+  <rect x="20" y="210" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="1.5"/>
+  <text x="80" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#333333">4 Channels</text>
+  <text x="80" y="241" text-anchor="middle" font-size="8" fill="#666">IDE, Chat, Ops, BG</text>
+  <line x1="80" y1="210" x2="80" y2="180" stroke="#049CD8" stroke-width="1.5" marker-end="url(#eArrowB)"/>
+
+  <!-- ========== LEGEND ========== -->
+  <rect x="30" y="640" width="940" height="50" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="55" y="662" font-size="12" font-weight="bold" fill="#333333">Legend</text>
+
+  <rect x="120" y="652" width="14" height="14" rx="3" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+  <text x="140" y="664" font-size="10" fill="#333333">Core DevOps Pipeline</text>
+  <text x="140" y="678" font-size="8" fill="#666">(VS Code, Git, GitHub, Actions, Azure)</text>
+
+  <rect x="330" y="652" width="14" height="14" rx="3" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+  <text x="350" y="664" font-size="10" fill="#333333">AI / Agent Layer</text>
+  <text x="350" y="678" font-size="8" fill="#666">(Copilot, Agents, Skills, MCP, SDD)</text>
+
+  <rect x="530" y="652" width="14" height="14" rx="3" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+  <text x="550" y="664" font-size="10" fill="#333333">AI Platform / Knowledge</text>
+  <text x="550" y="678" font-size="8" fill="#666">(AI Foundry, RAG, Vector DB)</text>
+
+  <rect x="740" y="652" width="14" height="14" rx="3" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+  <text x="760" y="664" font-size="10" fill="#333333">External Tools / IDP</text>
+  <text x="760" y="678" font-size="8" fill="#666">(Figma, DB, Slack, Backstage)</text>
+
+  <!-- Dashed = integration line -->
+  <line x1="900" y1="660" x2="940" y2="660" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="903" y="678" font-size="8" fill="#666">Integration</text>
+</svg>

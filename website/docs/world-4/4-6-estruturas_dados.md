@@ -1,0 +1,1007 @@
+---
+title: "Level 4-6 -- Coins, Stars and Mushrooms: Data Structures and JSON"
+description: "Arrays, objects, JSON, parsing, nested structures and API responses — how to organize the treasures of the Mushroom Kingdom"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
+date: "2026-03-18"
+tags:
+  - agentic-devops
+  - mario
+  - world-4
+  - estruturas-dados
+  - json
+  - arrays
+  - objetos
+  - api
+sidebar_position: 6
+format: md
+---
+
+# Level 4-6 -- Coins, Stars and Mushrooms: Data Structures and JSON
+
+---
+
+## Change Log
+
+| Version | Date       | Author                                  | Description          |
+|---------|------------|----------------------------------------|----------------------|
+| 1.0.0   | 2026-03-18 | Paula Silva - Software Global Black Belt, Microsoft Americas | Initial creation     |
+
+---
+
+## Table of Contents
+
+- [Prologue: Mario's Inventory](#prologue-marios-inventory)
+- [1. Why Do Data Structures Matter?](#1-why-do-data-structures-matter)
+  - [1.1 Data Is Everywhere](#11-data-is-everywhere)
+  - [1.2 The Problem with Unorganized Data](#12-the-problem-with-unorganized-data)
+- [2. Primitive Types: The Basic Items](#2-primitive-types-the-basic-items)
+  - [2.1 String, Number, Boolean, Null, Undefined](#21-string-number-boolean-null-undefined)
+  - [2.2 When to Use Each Type](#22-when-to-use-each-type)
+- [3. Arrays: Row of Coins](#3-arrays-row-of-coins)
+  - [3.1 What Is an Array](#31-what-is-an-array)
+  - [3.2 Basic Array Operations](#32-basic-array-operations)
+  - [3.3 Powerful Array Methods](#33-powerful-array-methods)
+  - [3.4 Chaining Methods](#34-chaining-methods)
+- [4. Objects: Treasure Chest](#4-objects-treasure-chest)
+  - [4.1 What Is an Object](#41-what-is-an-object)
+  - [4.2 Accessing Properties](#42-accessing-properties)
+  - [4.3 Manipulating Objects](#43-manipulating-objects)
+  - [4.4 Destructuring: Opening the Chest](#44-destructuring-opening-the-chest)
+  - [4.5 Spread Operator: Cloning the Chest](#45-spread-operator-cloning-the-chest)
+- [5. JSON: The Universal Treasure Map](#5-json-the-universal-treasure-map)
+  - [5.1 What Is JSON](#51-what-is-json)
+  - [5.2 JSON Rules](#52-json-rules)
+  - [5.3 JSON vs JavaScript Object](#53-json-vs-javascript-object)
+  - [5.4 Parsing and Stringify](#54-parsing-and-stringify)
+- [6. Nested Structures: Chest Within a Chest](#6-nested-structures-chest-within-a-chest)
+  - [6.1 Arrays of Objects](#61-arrays-of-objects)
+  - [6.2 Objects with Arrays](#62-objects-with-arrays)
+  - [6.3 Deeply Nested Structures](#63-deeply-nested-structures)
+  - [6.4 Accessing Nested Data Safely](#64-accessing-nested-data-safely)
+- [7. API Responses: The Standard Format](#7-api-responses-the-standard-format)
+  - [7.1 Standard Response Structure](#71-standard-response-structure)
+  - [7.2 Pagination](#72-pagination)
+  - [7.3 Standardized Errors](#73-standardized-errors)
+  - [7.4 Consuming APIs: Fetch and Axios](#74-consuming-apis-fetch-and-axios)
+- [8. Map, Set and Other Structures](#8-map-set-and-other-structures)
+  - [8.1 Map: The Translation Dictionary](#81-map-the-translation-dictionary)
+  - [8.2 Set: The Collection Without Duplicates](#82-set-the-collection-without-duplicates)
+  - [8.3 Stack and Queue: Pile and Line](#83-stack-and-queue-pile-and-line)
+- [9. TypeScript: Types for Your Structures](#9-typescript-types-for-your-structures)
+  - [9.1 Interfaces and Types](#91-interfaces-and-types)
+  - [9.2 Generics: Flexible Structures](#92-generics-flexible-structures)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
+
+## Prologue: Mario's Inventory
+
+Sofia was building the TodoApp API and needed to decide how to organize the data. When a user requested the task list, how should the server respond? How to represent a task that has a title, description, priority, creation date, and subtasks?
+
+Toad — the data guardian — sat down with Sofia.
+
+*"Sofia, think about Mario's inventory. Mario collects many items: coins, mushrooms, stars, fire flowers. Each item has different properties. A coin only has a value. A mushroom has a type and effect. A star has a duration. How do you organize all of this?"*
+
+Sofia thought. *"A list of items?"*
+
+*"Yes! A list (**array**) of items. And each item is an **object** with properties. And the universal format for exchanging this information between systems is **JSON**. It's the treasure map that ANY system can read."*
+
+---
+
+## 1. Why Do Data Structures Matter?
+
+### 1.1 Data Is Everywhere
+
+All software works with data. All data needs organization.
+
+| Where | Data | Structure |
+|-------|------|-----------|
+| **Database** | Users, tasks, comments | Tables and relations |
+| **API** | Requests and responses | JSON |
+| **Frontend** | Application state | Objects and arrays |
+| **Configuration** | App settings | JSON, YAML, ENV |
+| **Cache** | Temporary data | Key-value pairs |
+
+### 1.2 The Problem with Unorganized Data
+
+```javascript
+// BAD: Unorganized data
+const todoTitle = "Buy mushrooms";
+const todoPriority = "high";
+const todoCompleted = false;
+const todoUserId = "mario-001";
+// What if you have 100 tasks? 400 variables?
+
+// GOOD: Organized data in an object
+const todo = {
+  title: "Buy mushrooms",
+  priority: "high",
+  completed: false,
+  userId: "mario-001"
+};
+
+// BETTER: Task list as an array of objects
+const todos = [
+  { title: "Buy mushrooms", priority: "high", completed: false },
+  { title: "Save Peach", priority: "urgent", completed: false },
+  { title: "Collect 100 coins", priority: "medium", completed: true }
+];
+```
+
+---
+
+## 2. Primitive Types: The Basic Items
+
+### 2.1 String, Number, Boolean, Null, Undefined
+
+| Type | What It Is | Example | Mario Analogy |
+|------|-----------|---------|---------------|
+| **String** | Text | `"Mario"` | Name written on the hat |
+| **Number** | Number | `42`, `3.14` | Number of coins |
+| **Boolean** | True/False | `true`, `false` | Star active? Yes/No |
+| **Null** | Intentionally empty | `null` | Empty item slot (by choice) |
+| **Undefined** | Not defined | `undefined` | Slot that never existed |
+
+```javascript
+const playerName = "Mario";        // String
+const coins = 42;                  // Number
+const hasStarPower = true;         // Boolean
+const equippedItem = null;         // Null — Mario chose not to equip anything
+let nextPowerUp;                   // Undefined — not yet defined
+```
+
+### 2.2 When to Use Each Type
+
+```javascript
+// In the TodoApp
+const todo = {
+  id: "todo-001",              // String (unique identifier)
+  title: "Buy mushrooms",     // String (user text)
+  priority: 3,                 // Number (1-5)
+  completed: false,            // Boolean (yes/no)
+  deletedAt: null,            // Null (not deleted — soft delete)
+  // description: ???          // Undefined (optional field not provided)
+};
+```
+
+---
+
+## 3. Arrays: Row of Coins
+
+### 3.1 What Is an Array
+
+An **array** is an ordered list of elements. Each element has a position (index) starting at 0.
+
+> **Mario Analogy**: An array is a **row of coins** lined up. The first coin is at position 0, the second at position 1, and so on. You can add coins at the end, remove from the beginning, or grab a specific coin by position.
+
+```javascript
+// Simple array — row of coins
+const coins = ["gold", "gold", "silver", "gold", "star-coin"];
+//              [0]     [1]     [2]       [3]     [4]
+
+console.log(coins[0]);       // "gold" — first coin
+console.log(coins[4]);       // "star-coin" — last coin
+console.log(coins.length);   // 5 — total coins
+```
+
+### 3.2 Basic Array Operations
+
+```javascript
+const items = ["mushroom", "fire-flower", "star"];
+
+// Add at the end
+items.push("cape-feather");
+// ["mushroom", "fire-flower", "star", "cape-feather"]
+
+// Add at the beginning
+items.unshift("coin");
+// ["coin", "mushroom", "fire-flower", "star", "cape-feather"]
+
+// Remove from the end
+const lastItem = items.pop();
+// lastItem = "cape-feather"
+// ["coin", "mushroom", "fire-flower", "star"]
+
+// Remove from the beginning
+const firstItem = items.shift();
+// firstItem = "coin"
+// ["mushroom", "fire-flower", "star"]
+
+// Check if it contains
+items.includes("star");     // true
+items.includes("yoshi");    // false
+
+// Find position
+items.indexOf("fire-flower"); // 1
+items.indexOf("yoshi");       // -1 (not found)
+
+// Size
+items.length;                 // 3
+```
+
+### 3.3 Powerful Array Methods
+
+```javascript
+const todos = [
+  { id: 1, title: "Save Peach", priority: "high", completed: false },
+  { id: 2, title: "Collect coins", priority: "low", completed: true },
+  { id: 3, title: "Defeat Bowser", priority: "high", completed: false },
+  { id: 4, title: "Find Yoshi", priority: "medium", completed: true },
+  { id: 5, title: "Buy mushrooms", priority: "low", completed: false },
+];
+
+// FILTER: Filter (get only those that meet a condition)
+const pending = todos.filter(todo => !todo.completed);
+// [{ id: 1, ... }, { id: 3, ... }, { id: 5, ... }]
+
+const highPriority = todos.filter(todo => todo.priority === "high");
+// [{ id: 1, title: "Save Peach" }, { id: 3, title: "Defeat Bowser" }]
+
+// MAP: Transform (create a new array with modified items)
+const titles = todos.map(todo => todo.title);
+// ["Save Peach", "Collect coins", "Defeat Bowser", ...]
+
+const withStatus = todos.map(todo => ({
+  ...todo,
+  status: todo.completed ? "DONE" : "PENDING"
+}));
+
+// FIND: Find the first one that meets the condition
+const bowserTask = todos.find(todo => todo.title.includes("Bowser"));
+// { id: 3, title: "Defeat Bowser", ... }
+
+// SOME: Does any meet the condition? (returns boolean)
+const hasUrgent = todos.some(todo => todo.priority === "high");
+// true
+
+// EVERY: Do all meet the condition? (returns boolean)
+const allDone = todos.every(todo => todo.completed);
+// false
+
+// REDUCE: Accumulate/aggregate values
+const totalCompleted = todos.reduce((count, todo) => {
+  return todo.completed ? count + 1 : count;
+}, 0);
+// 2
+
+// SORT: Sort
+const byPriority = [...todos].sort((a, b) => {
+  const order = { high: 1, medium: 2, low: 3 };
+  return order[a.priority] - order[b.priority];
+});
+```
+
+> **Mario Analogy**:
+> - **filter** = grab only the gold coins (ignore the silver ones)
+> - **map** = transform all coins into stars
+> - **find** = find the first golden star
+> - **some** = is any coin special?
+> - **every** = have all coins been collected?
+> - **reduce** = count the total value of all coins
+
+### 3.4 Chaining Methods
+
+```javascript
+// Get the titles of pending high-priority tasks, in uppercase
+const urgentTitles = todos
+  .filter(todo => !todo.completed)           // Only pending
+  .filter(todo => todo.priority === "high")  // Only high priority
+  .map(todo => todo.title.toUpperCase())     // Get title in uppercase
+  .sort();                                    // Sort A-Z
+
+// ["DEFEAT BOWSER", "SAVE PEACH"]
+```
+
+---
+
+## 4. Objects: Treasure Chest
+
+### 4.1 What Is an Object
+
+An **object** is a collection of **key-value** pairs. Each key is unique and maps to a value.
+
+> **Mario Analogy**: An object is a **treasure chest** with labeled compartments. Each compartment (key) has a label (name) and holds an item (value). You open the "name" compartment and find "Mario". Open "coins" and find 42.
+
+```javascript
+// Object: Mario's Treasure Chest
+const mario = {
+  name: "Mario",              // String
+  coins: 42,                  // Number
+  lives: 3,                   // Number
+  hasStarPower: false,        // Boolean
+  currentWorld: "4-6",        // String
+  items: ["mushroom", "fire-flower"],  // Array
+  stats: {                    // Nested object
+    jumps: 1247,
+    enemies: 89,
+    deaths: 12
+  }
+};
+```
+
+### 4.2 Accessing Properties
+
+```javascript
+// Dot notation (most common)
+mario.name;          // "Mario"
+mario.coins;         // 42
+mario.stats.jumps;   // 1247
+
+// Bracket notation (for dynamic keys)
+mario["name"];       // "Mario"
+const key = "coins";
+mario[key];          // 42
+
+// Check if property exists
+"name" in mario;             // true
+"powerLevel" in mario;       // false
+mario.hasOwnProperty("coins"); // true
+```
+
+### 4.3 Manipulating Objects
+
+```javascript
+const todo = {
+  id: "todo-001",
+  title: "Save Peach",
+  completed: false
+};
+
+// Add property
+todo.priority = "high";
+todo.createdAt = new Date().toISOString();
+
+// Modify property
+todo.completed = true;
+todo.title = "Save Peach (URGENT)";
+
+// Remove property
+delete todo.priority;
+
+// List keys
+Object.keys(todo);     // ["id", "title", "completed", "createdAt"]
+
+// List values
+Object.values(todo);   // ["todo-001", "Save Peach (URGENT)", true, "2026-03-18..."]
+
+// List [key, value] pairs
+Object.entries(todo);  // [["id", "todo-001"], ["title", "Save Peach..."], ...]
+
+// Iterate over properties
+for (const [key, value] of Object.entries(todo)) {
+  console.log(`${key}: ${value}`);
+}
+```
+
+### 4.4 Destructuring: Opening the Chest
+
+**Destructuring** allows you to extract values from objects into variables elegantly.
+
+> **Mario Analogy**: Instead of opening the chest and grabbing each item one by one, you open the chest and all the items you need jump directly into your hands.
+
+```javascript
+const todo = {
+  id: "todo-001",
+  title: "Save Peach",
+  priority: "high",
+  completed: false,
+  userId: "mario-001"
+};
+
+// Without destructuring (verbose)
+const id = todo.id;
+const title = todo.title;
+const priority = todo.priority;
+
+// With destructuring (elegant)
+const { id, title, priority } = todo;
+
+// With rename
+const { id: todoId, title: todoTitle } = todo;
+
+// With default value
+const { category = "general" } = todo;  // "general" (doesn't exist in todo)
+
+// In function parameters
+function displayTodo({ title, priority, completed }) {
+  console.log(`[${priority}] ${title} - ${completed ? 'DONE' : 'PENDING'}`);
+}
+displayTodo(todo);  // [high] Save Peach - PENDING
+```
+
+### 4.5 Spread Operator: Cloning the Chest
+
+**Spread operator (...)** allows you to clone and combine objects.
+
+> **Mario Analogy**: Spread is like creating an **exact copy** of a treasure chest. You can copy everything and add extra items, or combine two chests into one.
+
+```javascript
+const todo = { id: 1, title: "Save Peach", completed: false };
+
+// Clone object (shallow copy)
+const todoCopy = { ...todo };
+
+// Clone and modify
+const updatedTodo = { ...todo, completed: true, updatedAt: new Date() };
+// { id: 1, title: "Save Peach", completed: true, updatedAt: ... }
+
+// Combine objects
+const defaults = { priority: "medium", category: "general" };
+const userInput = { title: "New task", priority: "high" };
+const newTodo = { ...defaults, ...userInput, id: generateId() };
+// { priority: "high", category: "general", title: "New task", id: "..." }
+// Note: priority from userInput overwrote the one from defaults
+```
+
+---
+
+## 5. JSON: The Universal Treasure Map
+
+### 5.1 What Is JSON
+
+**JSON (JavaScript Object Notation)** is a lightweight text format for data exchange. It is the standard format for communication between APIs.
+
+> **Mario Analogy**: JSON is the **universal treasure map** of the Mushroom Kingdom. It doesn't matter if you speak Mario's language (JavaScript), Luigi's (Python), or Toad's (Java) — everyone can read the same JSON map. It's the Esperanto of data.
+
+```json
+{
+  "player": "Mario",
+  "world": "4-6",
+  "coins": 42,
+  "lives": 3,
+  "hasStarPower": false,
+  "items": ["mushroom", "fire-flower"],
+  "currentPosition": {
+    "x": 128,
+    "y": 64
+  }
+}
+```
+
+### 5.2 JSON Rules
+
+| Rule | Valid | Invalid |
+|------|-------|---------|
+| Keys MUST be strings with double quotes | `"name": "Mario"` | `name: "Mario"` or `'name': 'Mario'` |
+| Strings MUST use double quotes | `"Mario"` | `'Mario'` |
+| No trailing comma | `{"a": 1, "b": 2}` | `{"a": 1, "b": 2,}` |
+| No comments | (no comments) | `// this is a comment` |
+| No functions | (data only) | `"action": function() {}` |
+| No undefined | `null` | `undefined` |
+
+```json
+// VALID ✅
+{
+  "name": "Mario",
+  "age": 35,
+  "isHero": true,
+  "enemy": null,
+  "items": ["mushroom", "star"]
+}
+
+// INVALID ❌
+{
+  name: "Mario",          // key without quotes
+  'age': 35,              // single quotes
+  "isHero": true,
+  "items": ["mushroom",], // trailing comma
+  // comment              // comments not allowed
+}
+```
+
+### 5.3 JSON vs JavaScript Object
+
+```javascript
+// JavaScript Object — lives in program memory
+const marioObj = {
+  name: "Mario",       // key without quotes (valid in JS)
+  greet() {            // can have functions
+    return `Hi, I'm ${this.name}`;
+  },
+  age: undefined       // can have undefined
+};
+
+// JSON — TEXT format for transport
+const marioJson = '{"name": "Mario", "age": 35, "isHero": true}';
+// No functions, no undefined, keys with double quotes
+```
+
+### 5.4 Parsing and Stringify
+
+```javascript
+// JSON.stringify — Object → JSON Text (pack the chest for transport)
+const todo = { id: 1, title: "Save Peach", completed: false };
+const jsonString = JSON.stringify(todo);
+// '{"id":1,"title":"Save Peach","completed":false}'
+
+// With pretty formatting (for debug)
+const prettyJson = JSON.stringify(todo, null, 2);
+// {
+//   "id": 1,
+//   "title": "Save Peach",
+//   "completed": false
+// }
+
+// JSON.parse — JSON Text → Object (open the transported chest)
+const jsonFromApi = '{"id":1,"title":"Save Peach","completed":false}';
+const todoObj = JSON.parse(jsonFromApi);
+console.log(todoObj.title);  // "Save Peach"
+
+// CAUTION: JSON.parse can throw an error if the JSON is invalid
+try {
+  const data = JSON.parse("this is not json");
+} catch (error) {
+  console.error("Invalid JSON:", error.message);
+  // SyntaxError: Unexpected token t in JSON at position 0
+}
+```
+
+> **Mario Analogy**:
+> - `JSON.stringify` = pack the treasure chest to send by mail (object → text)
+> - `JSON.parse` = unpack the chest when it arrives (text → object)
+
+---
+
+## 6. Nested Structures: Chest Within a Chest
+
+### 6.1 Arrays of Objects
+
+The most common structure in APIs: a list of "things", where each "thing" has properties.
+
+```javascript
+// Array of tasks — each task is an object
+const todos = [
+  {
+    id: "todo-001",
+    title: "Save Peach",
+    priority: "high",
+    completed: false,
+    tags: ["urgent", "main"]
+  },
+  {
+    id: "todo-002",
+    title: "Collect 100 coins",
+    priority: "medium",
+    completed: true,
+    tags: ["collection"]
+  },
+  {
+    id: "todo-003",
+    title: "Find all stars",
+    priority: "low",
+    completed: false,
+    tags: ["collection", "exploration"]
+  }
+];
+
+// Common operations
+const pending = todos.filter(t => !t.completed);
+const urgent = todos.filter(t => t.tags.includes("urgent"));
+const titles = todos.map(t => t.title);
+```
+
+### 6.2 Objects with Arrays
+
+```javascript
+// User with task list
+const user = {
+  id: "mario-001",
+  name: "Mario",
+  email: "mario@mushroom.com",
+  role: "admin",
+  todos: [
+    { id: 1, title: "Save Peach", completed: false },
+    { id: 2, title: "Defeat Bowser", completed: false }
+  ],
+  teams: ["mushroom-squad", "star-team"],
+  settings: {
+    theme: "dark",
+    language: "pt-BR",
+    notifications: {
+      email: true,
+      push: false,
+      sms: false
+    }
+  }
+};
+```
+
+### 6.3 Deeply Nested Structures
+
+```json
+{
+  "game": {
+    "title": "Super Mario Bros",
+    "worlds": [
+      {
+        "id": 4,
+        "name": "Water World",
+        "theme": "underwater",
+        "levels": [
+          {
+            "id": "4-1",
+            "name": "Advanced Protection",
+            "enemies": [
+              { "type": "Cheep Cheep", "count": 12, "speed": "medium" },
+              { "type": "Blooper", "count": 5, "speed": "fast" }
+            ],
+            "powerUps": ["mushroom", "fire-flower"],
+            "secrets": {
+              "hiddenBlocks": 3,
+              "warpPipe": { "destination": "4-3", "hidden": true }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+### 6.4 Accessing Nested Data Safely
+
+```javascript
+const data = { game: { worlds: [{ levels: [{ name: "4-1" }] }] } };
+
+// DANGEROUS: If any level is null/undefined, CRASH
+const levelName = data.game.worlds[0].levels[0].name; // Works here...
+const bad = data.game.worlds[5].levels[0].name; // TypeError: Cannot read property 'levels' of undefined
+
+// SAFE: Optional Chaining (?.)
+const safeName = data?.game?.worlds?.[0]?.levels?.[0]?.name;
+// "4-1" (or undefined if any part doesn't exist)
+
+const safeNotFound = data?.game?.worlds?.[5]?.levels?.[0]?.name;
+// undefined (no crash!)
+
+// With default value (Nullish Coalescing ??)
+const nameOrDefault = data?.game?.worlds?.[5]?.levels?.[0]?.name ?? "Unknown level";
+// "Unknown level"
+```
+
+> **Mario Analogy**: Optional chaining is like opening a chest with care. If the chest doesn't exist, you simply stop — instead of exploding trying to open something that isn't there.
+
+---
+
+## 7. API Responses: The Standard Format
+
+### 7.1 Standard Response Structure
+
+```javascript
+// SUCCESS response — list
+{
+  "success": true,
+  "data": [
+    { "id": 1, "title": "Save Peach", "completed": false },
+    { "id": 2, "title": "Collect coins", "completed": true }
+  ],
+  "meta": {
+    "total": 42,
+    "page": 1,
+    "perPage": 10,
+    "totalPages": 5
+  }
+}
+
+// SUCCESS response — single item
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "title": "Save Peach",
+    "priority": "high",
+    "completed": false,
+    "createdAt": "2026-03-18T10:30:00Z",
+    "updatedAt": "2026-03-18T14:20:00Z"
+  }
+}
+
+// ERROR response
+{
+  "success": false,
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "Task not found",
+    "details": {
+      "todoId": "todo-999",
+      "hint": "Check if the ID is correct"
+    }
+  }
+}
+```
+
+### 7.2 Pagination
+
+```javascript
+// Request: GET /api/todos?page=2&perPage=10&sort=createdAt&order=desc
+
+// Response with pagination
+{
+  "success": true,
+  "data": [
+    // ... 10 tasks from page 2
+  ],
+  "meta": {
+    "total": 42,
+    "page": 2,
+    "perPage": 10,
+    "totalPages": 5,
+    "hasNextPage": true,
+    "hasPreviousPage": true
+  },
+  "links": {
+    "self": "/api/todos?page=2&perPage=10",
+    "first": "/api/todos?page=1&perPage=10",
+    "previous": "/api/todos?page=1&perPage=10",
+    "next": "/api/todos?page=3&perPage=10",
+    "last": "/api/todos?page=5&perPage=10"
+  }
+}
+```
+
+### 7.3 Standardized Errors
+
+| Status Code | Meaning | When to Use |
+|-------------|---------|-------------|
+| **200** | OK | General success |
+| **201** | Created | Resource created successfully |
+| **204** | No Content | Deleted successfully (no body) |
+| **400** | Bad Request | Invalid data sent |
+| **401** | Unauthorized | Not authenticated |
+| **403** | Forbidden | Authenticated but without permission |
+| **404** | Not Found | Resource not found |
+| **409** | Conflict | Conflict (e.g., duplicate email) |
+| **422** | Unprocessable Entity | Validation failed |
+| **429** | Too Many Requests | Rate limit exceeded |
+| **500** | Internal Server Error | Bug on the server |
+
+### 7.4 Consuming APIs: Fetch and Axios
+
+```javascript
+// Using Fetch (native in browser and Node.js 18+)
+async function getTodos() {
+  try {
+    const response = await fetch('/api/todos', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const result = await response.json();  // Parse the JSON
+    return result.data;  // Array of todos
+  } catch (error) {
+    console.error('Error fetching tasks:', error);
+    throw error;
+  }
+}
+
+// Using Axios (popular library)
+const axios = require('axios');
+
+async function createTodo(title, priority) {
+  try {
+    const response = await axios.post('/api/todos', {
+      title,
+      priority
+    }, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+
+    return response.data.data;  // The created todo
+  } catch (error) {
+    if (error.response) {
+      // Server responded with error
+      console.error('Error:', error.response.data.error.message);
+    } else {
+      // Network error
+      console.error('Network error:', error.message);
+    }
+    throw error;
+  }
+}
+```
+
+---
+
+## 8. Map, Set and Other Structures
+
+### 8.1 Map: The Translation Dictionary
+
+**Map** is like an object, but with keys of ANY type (not just strings).
+
+> **Mario Analogy**: Map is a **translation dictionary** where the "key" can be anything — an object, a number, another map. While objects only accept strings as keys, Map accepts everything.
+
+```javascript
+const userCache = new Map();
+
+// Keys can be any type
+userCache.set("mario-001", { name: "Mario", role: "admin" });
+userCache.set("luigi-002", { name: "Luigi", role: "user" });
+
+// Operations
+userCache.get("mario-001");      // { name: "Mario", role: "admin" }
+userCache.has("mario-001");      // true
+userCache.size;                  // 2
+userCache.delete("luigi-002");   // Removes Luigi
+
+// Iterate
+for (const [key, value] of userCache) {
+  console.log(`${key}: ${value.name}`);
+}
+```
+
+### 8.2 Set: The Collection Without Duplicates
+
+**Set** is a collection where each value is **unique** — no duplicates allowed.
+
+> **Mario Analogy**: Set is like a **sticker collection** — you can't have two identical stickers. If you try to add one that's already there, it's ignored.
+
+```javascript
+const uniqueTags = new Set();
+
+uniqueTags.add("urgent");
+uniqueTags.add("work");
+uniqueTags.add("urgent");    // Ignored! Already exists
+uniqueTags.add("personal");
+
+console.log(uniqueTags.size);  // 3 (not 4!)
+console.log([...uniqueTags]);  // ["urgent", "work", "personal"]
+
+// Practical use: remove duplicates from an array
+const tags = ["mario", "luigi", "mario", "toad", "luigi"];
+const uniqueArray = [...new Set(tags)];
+// ["mario", "luigi", "toad"]
+```
+
+### 8.3 Stack and Queue: Pile and Line
+
+```javascript
+// STACK (Pile) — LIFO: Last In, First Out
+// Analogy: Pile of coins — the last one placed is the first one removed
+const stack = [];
+stack.push("coin-1");  // Place on top
+stack.push("coin-2");
+stack.push("coin-3");
+stack.pop();             // Removes "coin-3" (top)
+
+// QUEUE (Line) — FIFO: First In, First Out
+// Analogy: Line of Toads waiting to enter the castle
+const queue = [];
+queue.push("Toad-1");   // Join the end of the line
+queue.push("Toad-2");
+queue.push("Toad-3");
+queue.shift();           // Removes "Toad-1" (first in line)
+```
+
+---
+
+## 9. TypeScript: Types for Your Structures
+
+### 9.1 Interfaces and Types
+
+```typescript
+// Define the SHAPE of data with TypeScript
+interface Todo {
+  id: string;
+  title: string;
+  description?: string;     // Optional (?)
+  priority: 'low' | 'medium' | 'high';  // Union type
+  completed: boolean;
+  createdAt: string;
+  updatedAt: string;
+  userId: string;
+  tags: string[];            // Array of strings
+  subtasks?: Subtask[];      // Optional array of subtasks
+}
+
+interface Subtask {
+  id: string;
+  title: string;
+  completed: boolean;
+}
+
+interface User {
+  id: string;
+  name: string;
+  email: string;
+  role: 'admin' | 'moderator' | 'user';
+  todos: Todo[];
+  settings: UserSettings;
+}
+
+interface UserSettings {
+  theme: 'light' | 'dark';
+  language: string;
+  notifications: {
+    email: boolean;
+    push: boolean;
+    sms: boolean;
+  };
+}
+
+// Generic API Response
+interface ApiResponse<T> {
+  success: boolean;
+  data: T;
+  meta?: {
+    total: number;
+    page: number;
+    perPage: number;
+    totalPages: number;
+  };
+  error?: {
+    code: string;
+    message: string;
+  };
+}
+
+// Usage
+type TodoListResponse = ApiResponse<Todo[]>;
+type SingleTodoResponse = ApiResponse<Todo>;
+type UserResponse = ApiResponse<User>;
+```
+
+### 9.2 Generics: Flexible Structures
+
+```typescript
+// Generic function that works with any type
+function findById<T extends { id: string }>(items: T[], id: string): T | undefined {
+  return items.find(item => item.id === id);
+}
+
+// Works with Todo
+const todo = findById<Todo>(todos, "todo-001");
+
+// Works with User
+const user = findById<User>(users, "mario-001");
+
+// Works with anything that has 'id'
+```
+
+---
+
+## 10. Final Summary Table
+
+| Concept | What It Is | Mario Analogy |
+|---------|-----------|---------------|
+| **Array** | Ordered list of elements | Row of coins [coin, coin, coin] |
+| **Object** | Key-value collection | Treasure chest {name: "star", power: 100} |
+| **JSON** | Text format for data exchange | Universal treasure map |
+| **Nesting** | Structure within a structure | Chest within a chest |
+| **filter** | Select items that meet a condition | Grab only the gold coins |
+| **map** | Transform each item | Transform coins into stars |
+| **find** | Find the first item | Find the golden star |
+| **reduce** | Accumulate values | Count the total coins |
+| **Destructuring** | Extract values elegantly | Open chest and items jump into your hands |
+| **Spread** | Clone/combine structures | Clone the treasure chest |
+| **Optional Chaining** | Access nested data safely | Open the chest with care |
+| **Map (structure)** | Dictionary with keys of any type | Translation dictionary |
+| **Set** | Collection without duplicates | Sticker collection |
+| **Stack** | Pile (LIFO) | Pile of coins |
+| **Queue** | Line (FIFO) | Line of Toads |
+
+---
+
+## References
+
+- [MDN — JavaScript Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+- [MDN — Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [MDN — JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [MDN — Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+- [MDN — Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [MDN — Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [TypeScript — Interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html)
+- [JSON.org — Specification](https://www.json.org/json-en.html)
+- [Axios — HTTP Client](https://axios-http.com/docs/intro)
+- [Microsoft — REST API Guidelines](https://github.com/microsoft/api-guidelines)
+
+---
+
+*Level 4-6 complete! You learned how to organize data with arrays, objects, and JSON. In the next level, we'll explore cache and performance — how to make everything run at Super Star speed. Get ready for Level 4-7!*

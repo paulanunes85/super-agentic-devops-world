@@ -1,0 +1,760 @@
+---
+title: "Level 7-4 — The Framework of Heroes: Microsoft Agentic Framework"
+description: "Microsoft Agentic Framework: Semantic Kernel, AutoGen, AI Agents SDK and Copilot Studio with Mario analogies"
+author: "Paula Silva | Software Global Black Belt, Microsoft Americas"
+date: "2026-03-18"
+tags: ["agentic-devops", "mario", "world-7", "semantic-kernel", "autogen", "ai-agents-sdk"]
+sidebar_position: 4
+format: md
+---
+
+## Change Log
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
+
+# Level 7-4 — The Framework of Heroes: Microsoft Agentic Framework
+## The Complete Arsenal for Building AI Agents
+
+---
+
+**Prepared for:** Sofia
+**Version:** 2.0 — Mushroom Kingdom Edition
+**Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
+**Date:** March 2026
+**Language:** English
+**Collection:** Agentic DevOps — Super Mario Bros Edition
+
+---
+
+## TABLE OF CONTENTS
+
+1. [Introduction — The Workshop of Heroes](#introduction)
+2. [The Microsoft Ecosystem for AI Agents](#ecosystem)
+3. [Semantic Kernel — The Universal Magic Engine](#semantic-kernel)
+4. [AutoGen — The Automatic Team Builder](#autogen)
+5. [AI Agents SDK (Azure AI Agent Service) — The Official Development Kit](#ai-agents-sdk)
+6. [Copilot Studio — The Mario Maker of Agents](#copilot-studio)
+7. [Comparative Table — The 4 Frameworks](#comparative-table)
+8. [When to Use Which — Decision Guide](#when-to-use)
+9. [How They Connect — Complementary Pieces](#how-they-connect)
+10. [Practical Example with Semantic Kernel](#practical-example)
+11. [Conclusion — The Complete Arsenal](#conclusion)
+
+---
+
+## Introduction — The Workshop of Heroes
+
+Sofia arrived at a special level of Star World. At the entrance, there was a huge sign:
+
+> **"WELCOME TO THE WORKSHOP OF HEROES — Here you don't play with characters... you CREATE characters!"**
+
+Up until now, Sofia played with Mario, Luigi, Toad, Yoshi and Peach — characters that already existed. But what if she could **create her own characters**? Define their powers, their abilities, their weaknesses? What if she could assemble entire teams of characters that talk to each other and solve problems on their own?
+
+That's exactly what the **Microsoft Agentic Framework** offers. It's not a single tool — it's a **complete ecosystem of tools** for building, training, coordinating and managing AI agents. Each tool has its role, and together they form the most powerful arsenal available for creating intelligent agents.
+
+Think of it this way: Nintendo didn't make just one Mario game. They created an **ecosystem**:
+- A **game engine** (the engine that runs any game)
+- A **level creator** (Mario Maker)
+- A **development kit** (for studios to create official games)
+- A **multiplayer system** (for players to cooperate)
+
+Microsoft did the same thing for AI agents. Let's explore each piece.
+
+---
+
+## 1. The Microsoft Ecosystem for AI Agents
+
+Before diving into each tool, let's see the complete map:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  MICROSOFT AGENTIC FRAMEWORK                     │
+│                  The Complete Ecosystem                           │
+│                                                                   │
+│  ┌──────────────────┐  ┌──────────────────┐                     │
+│  │  SEMANTIC KERNEL  │  │     AUTOGEN       │                     │
+│  │  Universal Magic  │  │  Automatic Team   │                     │
+│  │  Engine           │  │  Builder          │                     │
+│  │                   │  │                   │                     │
+│  │  SDK (C#/Py/Java) │  │  Multi-Agent      │                     │
+│  │  Plugins          │  │  Conversational   │                     │
+│  │  Planners         │  │  Self-coordination│                     │
+│  │  Memory           │  │                   │                     │
+│  └──────────────────┘  └──────────────────┘                     │
+│                                                                   │
+│  ┌──────────────────┐  ┌──────────────────┐                     │
+│  │  AI AGENTS SDK    │  │  COPILOT STUDIO   │                     │
+│  │  Official         │  │  Mario Maker of   │                     │
+│  │  Development Kit  │  │  Agents           │                     │
+│  │                   │  │                   │                     │
+│  │  Azure AI Agent   │  │  Low-code/No-code │                     │
+│  │  Service          │  │  Visual Builder   │                     │
+│  │  Deploy & Manage  │  │  Ready templates  │                     │
+│  └──────────────────┘  └──────────────────┘                     │
+│                                                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+Each tool solves a different problem. None replaces the other. Together, they cover the **full spectrum** of agent creation — from the simplest to the most complex, from the most technical to the most visual.
+
+---
+
+## 2. Semantic Kernel — The Universal Magic Engine
+
+### What It Is
+
+**Semantic Kernel** is an open-source SDK (Software Development Kit) that connects your application to **any LLM** (Large Language Model). It works as an **abstraction layer** — you write your code once, and it works with OpenAI, Azure OpenAI, Hugging Face, Ollama, or any other AI provider.
+
+Available in **C#, Python and Java**, Semantic Kernel is the foundation upon which many Microsoft agents are built.
+
+### Mario Analogy: The Universal Controller
+
+Imagine a game controller that works with **any console**:
+
+- Plugged into **Xbox**? Works.
+- Plugged into **PlayStation**? Works.
+- Plugged into **Nintendo Switch**? Works.
+- Plugged into **PC**? Works.
+
+You don't need to buy a different controller for each console. One controller, all consoles. **Semantic Kernel is that universal controller** — one SDK, all LLMs.
+
+```
+┌──────────────────────────────────────────────────┐
+│              SEMANTIC KERNEL                      │
+│           (The Universal Controller)              │
+│                                                   │
+│    Your App ──► Semantic Kernel ──┬──► OpenAI     │
+│                                   ├──► Azure OpenAI│
+│                                   ├──► Hugging Face│
+│                                   ├──► Ollama      │
+│                                   └──► Any LLM     │
+│                                                   │
+│    One codebase. Any model. Any time.             │
+└──────────────────────────────────────────────────┘
+```
+
+### The 3 Superpowers of Semantic Kernel
+
+**Superpower 1: Plugins (Item Inventory)**
+
+Plugins are like the **items in Mario's inventory**. Each plugin adds a new ability to your agent:
+
+| Plugin | What It Does | Mario Analogy |
+|---|---|---|
+| **WebSearch Plugin** | Searches for information on the web | Telescope — sees beyond the current scene |
+| **FileIO Plugin** | Reads and writes files | Backpack — stores and carries items |
+| **Math Plugin** | Performs complex calculations | Coin calculator |
+| **HTTP Plugin** | Calls external APIs | Warp Pipe to other worlds |
+| **Custom Plugin** | Any function YOU create | Custom item you forged yourself |
+
+You can create as many plugins as you want. Each one is a Python (or C#, or Java) function that the agent can call when needed. The agent **decides on its own** when to use each plugin — like Mario deciding when to use the Fire Flower or the Cape Feather.
+
+**Superpower 2: Planners (Strategists)**
+
+Planners are the **strategists** of Semantic Kernel. They receive a complex objective and create an **action plan** using the available plugins.
+
+Imagine you ask Mario: *"Save Princess Peach"*. Mario doesn't just run off without thinking. He:
+1. Looks at the map
+2. Identifies the obstacles
+3. Chooses which power-ups he needs
+4. Defines the order of levels
+5. Executes the plan
+
+The Planner does exactly that:
+1. Receives the objective (*"Analyze the repository and suggest improvements"*)
+2. Identifies which plugins are available
+3. Creates a step-by-step plan
+4. Executes each step in the correct order
+5. Returns the final result
+
+**Superpower 3: Memory (Adventure Journal)**
+
+Memory is the agent's **adventure journal**. It remembers previous conversations, decisions made, facts learned.
+
+Without Memory, each conversation with the agent starts from zero — as if Mario lost all his memory every time he dies. With Memory, the agent accumulates knowledge:
+
+- *"In the last conversation, the user said they prefer Python"*
+- *"The repository uses PostgreSQL, not MySQL"*
+- *"The team decided to use React 18 with Server Components"*
+
+| Memory Type | What It Stores | Mario Analogy |
+|---|---|---|
+| **Short-term** | Current conversation | What happened in this level |
+| **Long-term** | Permanent facts | Complete map of the game already explored |
+| **Working** | Current task context | Current inventory of power-ups |
+
+### Semantic Kernel Architecture
+
+```
+┌─────────────────────────────────────────────────────┐
+│                    YOUR APPLICATION                    │
+│                                                       │
+│  ┌─────────────┐  ┌──────────┐  ┌─────────────────┐ │
+│  │   PLUGINS    │  │ PLANNERS │  │     MEMORY       │ │
+│  │             │  │          │  │                   │ │
+│  │ WebSearch   │  │ Receives │  │ Short-term       │ │
+│  │ FileIO      │  │ objective│  │ Long-term        │ │
+│  │ Math        │  │ Creates  │  │ Working          │ │
+│  │ HTTP        │  │ plan     │  │                   │ │
+│  │ Custom...   │  │ Executes │  │ Vector (RAG)     │ │
+│  └──────┬──────┘  └────┬─────┘  └────────┬──────────┘ │
+│         │              │                  │            │
+│  ┌──────▼──────────────▼──────────────────▼──────────┐ │
+│  │              SEMANTIC KERNEL (SDK)                  │ │
+│  │         Orchestrates everything, manages the flow   │ │
+│  └──────────────────────┬────────────────────────────┘ │
+│                         │                              │
+│  ┌──────────────────────▼────────────────────────────┐ │
+│  │           LLM CONNECTOR                            │ │
+│  │   OpenAI │ Azure OpenAI │ HuggingFace │ Ollama    │ │
+│  └────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 3. AutoGen — The Automatic Team Builder
+
+### What It Is
+
+**AutoGen** is an open-source framework for creating **multi-agent conversational systems**. Instead of a single agent, you create **multiple agents that talk to each other** to solve complex problems.
+
+The fundamental difference: in Semantic Kernel, you program the flow. In AutoGen, you **describe the agents and the mission**, and they organize themselves.
+
+### Mario Analogy: The Auto-Team Builder
+
+Imagine you arrive at a Mario level and, instead of manually choosing each character and defining the strategy, you simply say:
+
+> *"I need to save the Princess in Castle 8. Assemble the team and figure it out."*
+
+And magically:
+- **Mario** introduces himself as leader
+- **Luigi** says *"I'll handle the high platforms"*
+- **Toad** says *"I'll handle the secrets and items"*
+- **Yoshi** says *"I'll handle transportation"*
+
+They **talk to each other**, decide the strategy, distribute tasks, and execute — all automatically. You just gave the mission. The team assembled and coordinated itself.
+
+### How AutoGen Works
+
+```
+┌──────────────────────────────────────────────────────┐
+│                      AUTOGEN                          │
+│                                                       │
+│   You: "Analyze this code and suggest improvements"   │
+│                                                       │
+│   ┌──────────┐    ┌──────────┐    ┌──────────┐       │
+│   │ Agent 1  │◄──►│ Agent 2  │◄──►│ Agent 3  │       │
+│   │ Analyst  │    │ Reviewer │    │ Writer   │       │
+│   │          │    │          │    │          │       │
+│   │ "Found   │    │ "I agree │    │ "Rewrote │      │
+│   │  3 issues"│    │  with 2  │    │  the code"│      │
+│   │          │    │  of them"│    │           │      │
+│   └──────────┘    └──────────┘    └──────────┘       │
+│                                                       │
+│   Agents talk to each other until reaching consensus  │
+│   Final result: improved code + report                │
+└──────────────────────────────────────────────────────┘
+```
+
+**Key characteristics of AutoGen:**
+
+| Characteristic | Description | Mario Analogy |
+|---|---|---|
+| **Multi-Agent Conversation** | Agents exchange messages like in a chat | Characters planning strategy before the level |
+| **Defined Roles** | Each agent has a persona and specialty | Each character has their sheet with unique powers |
+| **Self-Coordination** | Agents decide on their own who speaks when | Team organizes without Player 1 dictating everything |
+| **Human-in-the-Loop** | Human can join the conversation when needed | Human player intervenes when the team is lost |
+| **Automatic Termination** | Conversation ends when the goal is reached | Level complete when the flag is reached |
+
+### AutoGen Flow Example
+
+1. **You create the agents:** Define 3 agents — an Analyst, a Reviewer, a Writer
+2. **You define the mission:** *"Review the auth.py file and suggest security improvements"*
+3. **The agents converse:**
+   - Analyst: *"I found that the login() function doesn't validate password length"*
+   - Reviewer: *"I agree, and I also noticed there's no rate limiting"*
+   - Writer: *"I'll rewrite the function with the suggested fixes"*
+   - Analyst: *"The rewrite looks good, but it's missing the empty password case"*
+   - Writer: *"Fixed. Here's the final version"*
+   - Reviewer: *"Approved. All issues have been addressed"*
+4. **Result:** Fixed code + change report
+
+### When to Use AutoGen
+
+- Problems that benefit from **multiple perspectives** (like a debate among specialists)
+- Tasks that require **iteration** (draft -> review -> correction -> approval)
+- Scenarios where you want agents to **challenge each other** (red team / blue team)
+- Rapid prototyping of **multi-agent flows** without programming all coordination logic
+
+---
+
+## 4. AI Agents SDK (Azure AI Agent Service) — The Official Development Kit
+
+### What It Is
+
+The **AI Agents SDK** (formerly Azure AI Agent Service) is Microsoft's official kit for **building, deploying and managing AI agents at scale** on Azure cloud. If Semantic Kernel is the engine and AutoGen is the conversation framework, the AI Agents SDK is the **production platform** — where agents live, run and are monitored in the real world.
+
+### Mario Analogy: Nintendo's Official Development Kit
+
+When Nintendo wants external studios to create games for the Switch, they provide an **official development kit** (devkit). This kit includes:
+
+- Special hardware for testing
+- Build tools
+- Quality guidelines
+- The eShop publishing system
+- Performance monitoring
+
+The **AI Agents SDK** is Microsoft's official devkit for AI agents:
+
+| Nintendo DevKit | AI Agents SDK | What It Does |
+|---|---|---|
+| Test hardware | Azure environment | Where the agent runs |
+| Build tools | Build SDK | How to build the agent |
+| Quality guidelines | Best practices | How to do it right |
+| Publishing system | Deploy pipeline | How to launch the agent |
+| Monitoring | Observability | How to know if it's working |
+
+### AI Agents SDK Capabilities
+
+**1. Build**
+
+Create agents using Python or C# with access to:
+- OpenAI and Azure OpenAI models
+- Tools (functions the agent can call)
+- File search (document search)
+- Code interpreter (runs code)
+- Bing grounding (web search with sources)
+
+**2. Deploy**
+
+Deploy agents on Azure infrastructure with:
+- Automatic scaling (more users = more resources)
+- High availability (if one server goes down, another takes over)
+- Enterprise security (authentication, authorization, private network)
+- Compliance (GDPR, HIPAA, SOC2)
+
+**3. Manage**
+
+Monitor and manage agents in production:
+- Logs of all conversations
+- Performance metrics (latency, tokens, costs)
+- Alerts when something goes wrong
+- Versioning (version 1, version 2, rollback)
+
+```
+┌──────────────────────────────────────────────────────┐
+│               AI AGENTS SDK (Azure)                   │
+│           The Official Development Kit                │
+│                                                       │
+│  ┌─────────┐   ┌──────────┐   ┌───────────────┐     │
+│  │  BUILD   │──►│  DEPLOY  │──►│    MANAGE      │     │
+│  │         │   │          │   │               │     │
+│  │ Python  │   │ Azure    │   │ Logs          │     │
+│  │ C#      │   │ Scale    │   │ Metrics       │     │
+│  │ Tools   │   │ Security │   │ Alerts        │     │
+│  │ Files   │   │ HA       │   │ Versions      │     │
+│  └─────────┘   └──────────┘   └───────────────┘     │
+│                                                       │
+│  Agents in PRODUCTION, for REAL users                 │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+## 5. Copilot Studio — The Mario Maker of Agents
+
+### What It Is
+
+**Copilot Studio** is a **low-code/no-code** platform for creating AI agents without needing to program. You use a visual drag-and-drop interface to define flows, connect data, and publish agents that respond in natural language.
+
+### Mario Analogy: Mario Maker
+
+Remember **Super Mario Maker**? The game where you don't PLAY levels — you **CREATE levels**? You drag blocks, position enemies, place power-ups, define the path, and publish for the world to play. No programming needed. No game design knowledge needed. Just creativity and willingness.
+
+**Copilot Studio is the Mario Maker of AI agents:**
+
+| Mario Maker | Copilot Studio | What It Does |
+|---|---|---|
+| Drag blocks | Drag components | Build visually |
+| Position enemies | Define conditions | Create decision logic |
+| Place power-ups | Connect tools | Add capabilities |
+| Test the level | Test the agent | Verify it works |
+| Publish | Deploy | Launch for users |
+| No programming | Low-code | Accessible to all |
+
+### Who Uses Copilot Studio
+
+- **Business analysts** who want to automate processes
+- **Project managers** who want FAQ agents
+- **Support teams** who want intelligent chatbots
+- **Developers** who want to prototype quickly before coding
+- **Anyone** who wants to create an agent without writing a line of code
+
+### Copilot Studio Capabilities
+
+**1. Visual Interface**
+Build conversation flows by dragging components. Define questions, answers, conditions, loops, and actions.
+
+**2. Connectors**
+Connect to more than 1000 data sources: SharePoint, Dynamics 365, Salesforce, databases, REST APIs, and much more.
+
+**3. Generative AI**
+The agent uses generative AI to answer questions not covered in defined flows — it queries documents, websites, and knowledge bases.
+
+**4. Multi-Channel**
+Publish the agent on: Microsoft Teams, websites, mobile apps, WhatsApp, Facebook Messenger, and more.
+
+**5. Analytics**
+Dashboards showing: how many conversations, user satisfaction, most asked topics, drop-off points.
+
+```
+┌──────────────────────────────────────────────────────┐
+│                  COPILOT STUDIO                       │
+│              The Mario Maker of Agents                │
+│                                                       │
+│   ┌─────────────────────────────────────────────┐    │
+│   │          VISUAL INTERFACE                    │    │
+│   │   [Question] ──► [Condition] ──► [Answer]    │    │
+│   │       │              │              │        │    │
+│   │       ▼              ▼              ▼        │    │
+│   │   [API Action]  [AI Query]    [Feedback]     │    │
+│   └─────────────────────────────────────────────┘    │
+│                                                       │
+│   Publishes to: Teams │ Web │ Mobile │ WhatsApp       │
+│                                                       │
+│   NO CODE. Drag, drop, publish.                       │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+## 6. Comparative Table — The 4 Frameworks
+
+This is the most important table in this chapter. Keep it as a reference:
+
+| Aspect | Semantic Kernel | AutoGen | AI Agents SDK | Copilot Studio |
+|---|---|---|---|---|
+| **What it is** | SDK to connect apps to LLMs | Multi-agent conversational framework | Deploy and management platform | Visual low-code builder |
+| **Mario Analogy** | Universal controller (works on any console) | Automatic team builder | Nintendo's official development kit | Mario Maker (create without programming) |
+| **Languages** | C#, Python, Java | Python | Python, C# | Visual (no-code/low-code) |
+| **Complexity** | Medium | Medium-High | Medium-High | Low |
+| **Audience** | Developers | Researchers and advanced developers | Developers and platform teams | Analysts, managers, anyone |
+| **Best for** | Integrating AI into existing apps | Creating multi-agent systems | Enterprise production deployment | Quick agents without code |
+| **Multi-Agent** | Basic (via manual orchestration) | Native (main feature) | Supported | Limited |
+| **Deploy** | You manage | You manage | Azure manages | Microsoft manages |
+| **Initial Cost** | Free (open-source) | Free (open-source) | Pay-as-you-go (Azure) | Microsoft license |
+| **Learning Curve** | Moderate | Steep | Moderate | Gentle |
+| **Open Source** | Yes | Yes | SDK yes, service no | No |
+| **Azure Integration** | Excellent | Good | Native | Native |
+| **Ideal for** | Any app that needs AI | Complex multi-perspective problems | Enterprises at scale | Prototyping and automation |
+
+### Summary Analogy
+
+Think of the 4 frameworks as **4 ways to create Mario characters**:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                          │
+│  SEMANTIC KERNEL = Program the character from scratch    │
+│  (You define each animation, each power, each interaction)│
+│                                                          │
+│  AUTOGEN = Describe the team and they organize themselves │
+│  ("I need 3 characters to solve this puzzle")            │
+│                                                          │
+│  AI AGENTS SDK = Publish the character on the eShop      │
+│  (Build, deploy, monitor, scale to millions)             │
+│                                                          │
+│  COPILOT STUDIO = Mario Maker                            │
+│  (Drag blocks, position, test, publish)                  │
+│                                                          │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 7. When to Use Which — Decision Guide
+
+### Decision Tree
+
+```
+Do you want to build an AI agent?
+│
+├── Can you program?
+│   │
+│   ├── YES
+│   │   │
+│   │   ├── Is it a SINGLE agent integrated into your app?
+│   │   │   └── ✦ SEMANTIC KERNEL
+│   │   │
+│   │   ├── Are they MULTIPLE agents that talk to each other?
+│   │   │   └── ✦ AUTOGEN
+│   │   │
+│   │   ├── Need to run in PRODUCTION with enterprise scale?
+│   │   │   └── ✦ AI AGENTS SDK
+│   │   │
+│   │   └── Want to prototype QUICKLY before coding?
+│   │       └── ✦ COPILOT STUDIO (then migrate to code)
+│   │
+│   └── NO
+│       └── ✦ COPILOT STUDIO
+│
+└── Are you a large company?
+    │
+    ├── YES → ✦ AI AGENTS SDK + SEMANTIC KERNEL
+    └── NO → ✦ SEMANTIC KERNEL or AUTOGEN
+```
+
+### Practical Scenarios
+
+| Scenario | Recommended Framework | Why |
+|---|---|---|
+| *"I want to add AI chat to my React app"* | Semantic Kernel | Integrates into your existing app, connects to any LLM |
+| *"I want 3 agents to debate architecture solutions"* | AutoGen | Multi-agent conversation is the strong point |
+| *"I want a support agent for 10,000 users"* | AI Agents SDK | Scale, security, enterprise monitoring |
+| *"I want a FAQ bot for the HR team"* | Copilot Studio | No code, fast, integrates with Teams |
+| *"I want a DevOps agent that does automatic deploys"* | Semantic Kernel + AI Agents SDK | SK for logic, AI Agents SDK to run in production |
+| *"I want to experiment before deciding"* | AutoGen or Copilot Studio | Quick for prototyping and validating ideas |
+
+---
+
+## 8. How They Connect — Complementary Pieces
+
+This is a **critical** point that many people get confused about: the 4 frameworks **are NOT competitors**. They are **complementary pieces** of the same puzzle.
+
+### The Restaurant Analogy
+
+Think of a restaurant:
+
+| Restaurant Piece | Framework | Function |
+|---|---|---|
+| **Stove and pots** | Semantic Kernel | The tools for cooking (base SDK) |
+| **Team of chefs** | AutoGen | Multiple chefs coordinating complex dishes |
+| **Industrial kitchen + delivery** | AI Agents SDK | Infrastructure to serve hundreds of customers |
+| **Self-service digital menu** | Copilot Studio | Easy interface for the end customer |
+
+You don't choose between having a stove OR chefs OR delivery. You **use them all together**!
+
+### How They Connect in Practice
+
+```
+┌───────────────────────────────────────────────────────────┐
+│                     REAL FLOW                              │
+│                                                            │
+│  1. PROTOTYPING (Copilot Studio)                          │
+│     "Let's validate the idea with a quick visual agent"    │
+│     ▼                                                      │
+│  2. DEVELOPMENT (Semantic Kernel)                          │
+│     "Idea validated! Let's code with plugins and planner"  │
+│     ▼                                                      │
+│  3. MULTI-AGENT (AutoGen)                                 │
+│     "We need agents that talk to each other"               │
+│     ▼                                                      │
+│  4. PRODUCTION (AI Agents SDK)                             │
+│     "All ready! Let's deploy on Azure with scale"          │
+│                                                            │
+└───────────────────────────────────────────────────────────┘
+```
+
+**Concrete example:**
+
+1. The product team creates a prototype in **Copilot Studio** to test with users
+2. The feedback is positive! The engineering team rewrites it using **Semantic Kernel** with custom plugins
+3. The agent needs to consult 3 specialists (security, performance, architecture) — they use **AutoGen** for the multi-agent flow
+4. The agent goes to production on **AI Agents SDK** with monitoring, scale and security
+
+Each tool shines at a different phase of the agent's lifecycle.
+
+---
+
+## 9. Practical Example with Semantic Kernel
+
+Let's look at real code. This example creates a simple agent that uses Semantic Kernel to answer questions about a project.
+
+### Installation
+
+```bash
+# Install Semantic Kernel for Python
+pip install semantic-kernel
+
+# Install the Azure OpenAI connector (or OpenAI)
+pip install semantic-kernel[azure]
+```
+
+### Code: Basic Agent with Semantic Kernel
+
+```python
+# basic_agent.py
+# A simple agent using Semantic Kernel
+# Analogy: Creating a basic Toad that answers questions
+
+import asyncio
+from semantic_kernel import Kernel
+from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
+from semantic_kernel.functions import kernel_function
+
+# ============================================
+# STEP 1: Create the Kernel (the Universal Engine)
+# Analogy: Turn on the console and connect the controller
+# ============================================
+kernel = Kernel()
+
+# Connect to the AI model (the agent's "brain")
+# Works with Azure OpenAI, OpenAI, or others
+ai_service = AzureChatCompletion(
+    deployment_name="gpt-4o",           # Which model to use
+    endpoint="https://YOUR-ENDPOINT.openai.azure.com/",
+    api_key="YOUR-KEY-HERE"            # NEVER commit this!
+)
+kernel.add_service(ai_service)
+
+# ============================================
+# STEP 2: Create a Plugin (Inventory Item)
+# Analogy: Give Toad the ability to read files
+# ============================================
+class ProjectPlugin:
+    """Plugin that reads project information.
+    Analogy: Toad's backpack with maps of the kingdom."""
+
+    @kernel_function(
+        name="read_readme",
+        description="Reads the project's README file"
+    )
+    def read_readme(self) -> str:
+        """Reads README.md and returns the content.
+        Analogy: Toad opens the castle map."""
+        try:
+            with open("README.md", "r", encoding="utf-8") as f:
+                return f.read()
+        except FileNotFoundError:
+            return "README.md not found in the current directory."
+
+    @kernel_function(
+        name="list_files",
+        description="Lists the project files"
+    )
+    def list_files(self) -> str:
+        """Lists files in the current directory.
+        Analogy: Toad looks around and lists what he sees."""
+        import os
+        files = os.listdir(".")
+        return "\n".join(files)
+
+# Register the plugin in the kernel
+# Analogy: Toad stores the items in his backpack
+kernel.add_plugin(ProjectPlugin(), plugin_name="project")
+
+# ============================================
+# STEP 3: Use the Agent
+# Analogy: Ask Toad about the kingdom
+# ============================================
+async def main():
+    """Main function — talks with the agent."""
+    print("=" * 50)
+    print("  TOAD HELPER - Project Assistant")
+    print("  (Type 'exit' to quit)")
+    print("=" * 50)
+
+    while True:
+        # Receive question from user
+        question = input("\nYou: ")
+
+        if question.lower() in ["sair", "exit", "quit"]:
+            print("\nToad: Until the next adventure! 🍄")
+            break
+
+        # Send to the agent for processing
+        # The kernel decides if it needs to use a plugin
+        result = await kernel.invoke_prompt(question)
+        print(f"\nToad: {result}")
+
+# Start the agent
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+### What This Code Does
+
+```
+┌──────────────────────────────────────────────────┐
+│              AGENT FLOW                           │
+│                                                   │
+│  User: "What does this project do?"               │
+│       │                                           │
+│       ▼                                           │
+│  Kernel receives the question                     │
+│       │                                           │
+│       ▼                                           │
+│  Planner analyzes: "I need to read the README"    │
+│       │                                           │
+│       ▼                                           │
+│  Plugin 'read_readme' is called automatically     │
+│       │                                           │
+│       ▼                                           │
+│  README content + Question → LLM                  │
+│       │                                           │
+│       ▼                                           │
+│  LLM generates response based on README           │
+│       │                                           │
+│       ▼                                           │
+│  Toad: "This project is a task app that..."       │
+└──────────────────────────────────────────────────┘
+```
+
+### Important Points in the Code
+
+| Line | What It Does | Mario Analogy |
+|---|---|---|
+| `Kernel()` | Creates the universal engine | Turn on the console |
+| `AzureChatCompletion(...)` | Connects to the AI model | Connect the controller |
+| `@kernel_function` | Defines a plugin ability | Teaches Toad a new power |
+| `kernel.add_plugin(...)` | Registers the plugin | Toad stores item in backpack |
+| `kernel.invoke_prompt(...)` | Sends question to the agent | Talk to Toad |
+
+---
+
+## Conclusion — The Complete Arsenal
+
+Sofia now knows the **complete arsenal** for creating AI agents:
+
+| Framework | When to Use | First Thing to Do |
+|---|---|---|
+| **Semantic Kernel** | Need to integrate AI into your app | `pip install semantic-kernel` |
+| **AutoGen** | Need agents that talk to each other | `pip install autogen-agentchat` |
+| **AI Agents SDK** | Need to run in enterprise production | Create resource on Azure AI |
+| **Copilot Studio** | Need a quick agent without code | Access copilot.microsoft.com |
+
+Remember: these tools **are not competitors**. They're like Mario's different power-ups — each has its ideal moment, and combined they're even more powerful.
+
+The Universal Controller (Semantic Kernel) works with any console. The Team Builder (AutoGen) creates teams automatically. The Official Kit (AI Agents SDK) takes everything to production. And Mario Maker (Copilot Studio) lets anyone create without programming.
+
+Together, they form the most complete ecosystem for building AI agents. And Sofia now has access to all of it.
+
+---
+
+| Previous: Level 7-3 | Next: Level 7-5 — The 4 Worlds of Agents |
+|---|---|
+
+---
+
+**Skill Unlocked!**
+Sofia now knows Microsoft's complete ecosystem for AI agents.
+She collects the Universal Controller, the Team Builder, the Official Kit and Mario Maker!
+
+**POWER-UP UNLOCKED: You now know Microsoft's 4 frameworks for building AI agents!**
+
+**Sources:**
+- Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
+- AutoGen — https://microsoft.github.io/autogen/
+- Azure AI Agent Service — https://learn.microsoft.com/en-us/azure/ai-services/agents/
+- Copilot Studio — https://learn.microsoft.com/en-us/microsoft-copilot-studio/
+
+---
+
+## References
+
+- Semantic Kernel — https://learn.microsoft.com/en-us/semantic-kernel/
+- AutoGen — https://microsoft.github.io/autogen/
+- Azure AI Agent Service — https://learn.microsoft.com/en-us/azure/ai-services/agents/

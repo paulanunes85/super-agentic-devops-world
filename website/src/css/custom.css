@@ -1,0 +1,137 @@
+/**
+ * Super Agentic DevOps World — Mario-themed CSS
+ * Colors from Super Mario World palette
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  /* Mario Red as primary */
+  --ifm-color-primary: #E52521;
+  --ifm-color-primary-dark: #CE1F1C;
+  --ifm-color-primary-darker: #C21E1A;
+  --ifm-color-primary-darkest: #9F1816;
+  --ifm-color-primary-light: #E83B37;
+  --ifm-color-primary-lighter: #EA4743;
+  --ifm-color-primary-lightest: #EF6E6B;
+
+  /* Mario palette */
+  --mario-red: #E52521;
+  --mario-blue: #049CD8;
+  --mario-gold: #FBD000;
+  --mario-green: #43B047;
+  --mario-brown: #8B5E3C;
+  --mario-purple: #9B59B6;
+  --mario-orange: #FF6B35;
+  --mario-dark-red: #8B0000;
+
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Inter', system-ui, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Cascadia Code', monospace;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #FF6B6B;
+  --ifm-color-primary-dark: #FF5252;
+  --ifm-color-primary-darker: #FF4545;
+  --ifm-color-primary-darkest: #FF1A1A;
+  --ifm-color-primary-light: #FF8484;
+  --ifm-color-primary-lighter: #FF9191;
+  --ifm-color-primary-lightest: #FFBCBC;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Pixel font for special elements */
+.hero__title,
+.badge-text {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* World badges in sidebar */
+.menu__link {
+  font-size: 0.95rem;
+}
+
+/* Admonition colors matching Mario palette */
+.alert--info {
+  --ifm-alert-background-color: rgba(4, 156, 216, 0.1);
+  --ifm-alert-border-color: var(--mario-blue);
+}
+
+.alert--success {
+  --ifm-alert-background-color: rgba(67, 176, 71, 0.1);
+  --ifm-alert-border-color: var(--mario-green);
+}
+
+.alert--warning {
+  --ifm-alert-background-color: rgba(251, 208, 0, 0.1);
+  --ifm-alert-border-color: var(--mario-gold);
+}
+
+.alert--danger {
+  --ifm-alert-background-color: rgba(229, 37, 33, 0.1);
+  --ifm-alert-border-color: var(--mario-red);
+}
+
+/* SVG diagrams responsive */
+.docs-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Achievement badges */
+.achievement {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin: 2px;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: var(--mario-red);
+  color: white;
+  padding: 8px 12px;
+}
+
+[data-theme='dark'] th {
+  background-color: #8B0000;
+}
+
+td {
+  padding: 8px 12px;
+}
+
+/* Hero section on homepage */
+.hero {
+  background: linear-gradient(135deg, #E52521 0%, #049CD8 50%, #43B047 100%);
+}
+
+.hero__title {
+  font-size: 2rem;
+  color: white;
+}
+
+.hero__subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+}
+
+/* Navigation breadcrumb */
+.breadcrumbs__link {
+  font-size: 0.9rem;
+}
+
+/* Footer */
+.footer--dark {
+  background-color: #1A1A2E;
+}

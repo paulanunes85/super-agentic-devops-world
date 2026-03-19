@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="Arial, sans-serif">
+  <rect width="1100" height="640" fill="#FAFAFA" rx="12"/>
+
+  <text x="550" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">Super Agentic DevOps World</text>
+  <text x="550" y="58" text-anchor="middle" font-size="13" fill="#666666">8 Worlds from beginner to advanced</text>
+
+  <!-- Row 1: Worlds 1-4 -->
+  <rect x="20" y="80" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="3"/>
+  <rect x="20" y="80" width="250" height="28" rx="8" fill="#43B047"/>
+  <text x="145" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">World 1 - Green Plains</text>
+  <text x="35" y="125" font-size="11" fill="#333333">VS Code, Git, GitHub</text>
+  <text x="35" y="142" font-size="11" fill="#333333">GitHub Actions, CI/CD</text>
+  <text x="35" y="159" font-size="11" fill="#333333">Azure, AI Foundry</text>
+  <text x="35" y="180" font-size="10" fill="#999999">8 Levels</text>
+
+  <line x1="270" y1="155" x2="290" y2="155" stroke="#666" stroke-width="2"/>
+  <polygon points="288,151 296,155 288,159" fill="#666"/>
+
+  <rect x="290" y="80" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#8B5E3C" stroke-width="3"/>
+  <rect x="290" y="80" width="250" height="28" rx="8" fill="#8B5E3C"/>
+  <text x="415" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">World 2 - Underground</text>
+  <text x="305" y="125" font-size="11" fill="#333333">Environments, APIs</text>
+  <text x="305" y="142" font-size="11" fill="#333333">Security, DNS, DevOps</text>
+  <text x="305" y="159" font-size="11" fill="#333333">IaC, Observability</text>
+  <text x="305" y="180" font-size="10" fill="#999999">8 Levels</text>
+
+  <line x1="540" y1="155" x2="560" y2="155" stroke="#666" stroke-width="2"/>
+  <polygon points="558,151 566,155 558,159" fill="#666"/>
+
+  <rect x="560" y="80" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#87CEEB" stroke-width="3"/>
+  <rect x="560" y="80" width="250" height="28" rx="8" fill="#87CEEB"/>
+  <text x="685" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">World 3 - Sky World</text>
+  <text x="575" y="125" font-size="11" fill="#333333">Terminal, Docker, Tests</text>
+  <text x="575" y="142" font-size="11" fill="#333333">Databases, Languages</text>
+  <text x="575" y="159" font-size="11" fill="#333333">Frameworks, Packages</text>
+  <text x="575" y="180" font-size="10" fill="#999999">12 Levels</text>
+
+  <line x1="810" y1="155" x2="830" y2="155" stroke="#666" stroke-width="2"/>
+  <polygon points="828,151 836,155 828,159" fill="#666"/>
+
+  <rect x="830" y="80" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#1E90FF" stroke-width="3"/>
+  <rect x="830" y="80" width="250" height="28" rx="8" fill="#1E90FF"/>
+  <text x="955" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">World 4 - Water World</text>
+  <text x="845" y="125" font-size="11" fill="#333333">Auth/JWT, Cloud Models</text>
+  <text x="845" y="142" font-size="11" fill="#333333">Architecture, Deploy</text>
+  <text x="845" y="159" font-size="11" fill="#333333">Cache, Messaging</text>
+  <text x="845" y="180" font-size="10" fill="#999999">9 Levels</text>
+
+  <!-- Connector down -->
+  <line x1="955" y1="230" x2="955" y2="290" stroke="#666" stroke-width="2"/>
+  <polygon points="951,288 955,296 959,288" fill="#666"/>
+
+  <!-- Row 2: Worlds 5-8 (right to left) -->
+  <rect x="830" y="296" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#FF6B35" stroke-width="3"/>
+  <rect x="830" y="296" width="250" height="28" rx="8" fill="#FF6B35"/>
+  <text x="955" y="316" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">World 5 - Bowser Castle 1</text>
+  <text x="845" y="341" font-size="11" fill="#333333">Copilot (all modes)</text>
+  <text x="845" y="358" font-size="11" fill="#333333">AI Agents, Autonomous</text>
+  <text x="845" y="375" font-size="11" fill="#333333">GHAS, SDD, MCP</text>
+  <text x="845" y="396" font-size="10" fill="#999999">11 Levels</text>
+
+  <line x1="830" y1="371" x2="810" y2="371" stroke="#666" stroke-width="2"/>
+  <polygon points="812,367 804,371 812,375" fill="#666"/>
+
+  <rect x="560" y="296" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#8B0000" stroke-width="3"/>
+  <rect x="560" y="296" width="250" height="28" rx="8" fill="#8B0000"/>
+  <text x="685" y="316" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFFFFF">World 6 - Bowser Castle 2</text>
+  <text x="575" y="341" font-size="11" fill="#333333">Custom Agents, Skills</text>
+  <text x="575" y="358" font-size="11" fill="#333333">Instructions, Hooks, MCP</text>
+  <text x="575" y="375" font-size="11" fill="#333333">Orchestration, Tokens</text>
+  <text x="575" y="396" font-size="10" fill="#999999">10 Levels</text>
+
+  <line x1="560" y1="371" x2="540" y2="371" stroke="#666" stroke-width="2"/>
+  <polygon points="542,367 534,371 542,375" fill="#666"/>
+
+  <rect x="290" y="296" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#9B59B6" stroke-width="3"/>
+  <rect x="290" y="296" width="250" height="28" rx="8" fill="#9B59B6"/>
+  <text x="415" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">World 7 - Star World</text>
+  <text x="305" y="341" font-size="11" fill="#333333">AI Foundry, RAG</text>
+  <text x="305" y="358" font-size="11" fill="#333333">LangChain, Semantic Kernel</text>
+  <text x="305" y="375" font-size="11" fill="#333333">4 Channels, IDP/Backstage</text>
+  <text x="305" y="396" font-size="10" fill="#999999">7 Levels</text>
+
+  <line x1="290" y1="371" x2="270" y2="371" stroke="#666" stroke-width="2"/>
+  <polygon points="272,367 264,371 272,375" fill="#666"/>
+
+  <rect x="20" y="296" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#FFD700" stroke-width="3"/>
+  <rect x="20" y="296" width="250" height="28" rx="8" fill="#FFD700"/>
+  <text x="145" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">World 8 - Final Castle</text>
+  <text x="35" y="341" font-size="11" fill="#333333">How Everything Connects</text>
+  <text x="35" y="358" font-size="11" fill="#333333">Boss Rush Review</text>
+  <text x="35" y="375" font-size="11" fill="#333333">Glossary (124+ terms)</text>
+  <text x="35" y="396" font-size="10" fill="#999999">4 Levels</text>
+
+  <!-- Legend -->
+  <rect x="20" y="476" width="1060" height="145" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="550" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Legend</text>
+
+  <rect x="40" y="515" width="14" height="14" fill="#43B047" rx="3"/>
+  <text x="60" y="527" font-size="11" fill="#333333">W1 Green Plains</text>
+  <rect x="200" y="515" width="14" height="14" fill="#8B5E3C" rx="3"/>
+  <text x="220" y="527" font-size="11" fill="#333333">W2 Underground</text>
+  <rect x="360" y="515" width="14" height="14" fill="#87CEEB" rx="3"/>
+  <text x="380" y="527" font-size="11" fill="#333333">W3 Sky World</text>
+  <rect x="520" y="515" width="14" height="14" fill="#1E90FF" rx="3"/>
+  <text x="540" y="527" font-size="11" fill="#333333">W4 Water World</text>
+
+  <rect x="40" y="545" width="14" height="14" fill="#FF6B35" rx="3"/>
+  <text x="60" y="557" font-size="11" fill="#333333">W5 Bowser Castle 1</text>
+  <rect x="200" y="545" width="14" height="14" fill="#8B0000" rx="3"/>
+  <text x="220" y="557" font-size="11" fill="#333333">W6 Bowser Castle 2</text>
+  <rect x="360" y="545" width="14" height="14" fill="#9B59B6" rx="3"/>
+  <text x="380" y="557" font-size="11" fill="#333333">W7 Star World</text>
+  <rect x="520" y="545" width="14" height="14" fill="#FFD700" rx="3"/>
+  <text x="540" y="557" font-size="11" fill="#333333">W8 Final Castle</text>
+
+  <text x="40" y="590" font-size="11" fill="#999999">Beginner (World 1) to Advanced (World 8) - Each world builds on the previous</text>
+  <text x="40" y="607" font-size="11" fill="#999999">Total: 69 levels + SDD special chapter</text>
+</svg>

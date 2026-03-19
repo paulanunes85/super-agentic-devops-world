@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <rect width="800" height="500" fill="#FAFAFA" rx="8"/>
+  <text x="400" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">GitHub Copilot Modes — Autonomy Spectrum</text>
+
+  <!-- Gradient bar -->
+  <defs>
+    <linearGradient id="spectrumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#049CD8;stop-opacity:1"/>
+      <stop offset="25%" style="stop-color:#43B047;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FBD000;stop-opacity:1"/>
+      <stop offset="75%" style="stop-color:#E8851C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E52521;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spectrum bar -->
+  <rect x="50" y="55" width="700" height="14" rx="7" fill="url(#spectrumGrad)"/>
+  <text x="50" y="50" font-size="10" font-weight="bold" fill="#049CD8">LOW AUTONOMY</text>
+  <text x="750" y="50" text-anchor="end" font-size="10" font-weight="bold" fill="#E52521">HIGH AUTONOMY</text>
+
+  <!-- Mode 1: Completions -->
+  <rect x="18" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+  <rect x="18" y="85" width="105" height="30" rx="8" fill="#049CD8"/>
+  <rect x="18" y="102" width="105" height="13" fill="#049CD8"/>
+  <text x="70" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Completions</text>
+  <text x="70" y="135" text-anchor="middle" font-size="9" fill="#333333">Ghost text</text>
+  <text x="70" y="149" text-anchor="middle" font-size="9" fill="#333333">suggestions as</text>
+  <text x="70" y="163" text-anchor="middle" font-size="9" fill="#333333">you type</text>
+  <text x="70" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#049CD8">Tab to accept</text>
+  <text x="70" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 95%</text>
+
+  <!-- Mode 2: Chat -->
+  <rect x="133" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#1E8F3E" stroke-width="2"/>
+  <rect x="133" y="85" width="105" height="30" rx="8" fill="#1E8F3E"/>
+  <rect x="133" y="102" width="105" height="13" fill="#1E8F3E"/>
+  <text x="185" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Chat</text>
+  <text x="185" y="135" text-anchor="middle" font-size="9" fill="#333333">Side panel Q&amp;A</text>
+  <text x="185" y="149" text-anchor="middle" font-size="9" fill="#333333">about code,</text>
+  <text x="185" y="163" text-anchor="middle" font-size="9" fill="#333333">explain, debug</text>
+  <text x="185" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#1E8F3E">Ask anything</text>
+  <text x="185" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 80%</text>
+
+  <!-- Mode 3: Inline Chat -->
+  <rect x="248" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+  <rect x="248" y="85" width="105" height="30" rx="8" fill="#43B047"/>
+  <rect x="248" y="102" width="105" height="13" fill="#43B047"/>
+  <text x="300" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Inline Chat</text>
+  <text x="300" y="135" text-anchor="middle" font-size="9" fill="#333333">Edit code in</text>
+  <text x="300" y="149" text-anchor="middle" font-size="9" fill="#333333">place with</text>
+  <text x="300" y="163" text-anchor="middle" font-size="9" fill="#333333">natural language</text>
+  <text x="300" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#43B047">Cmd+I to invoke</text>
+  <text x="300" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 70%</text>
+
+  <!-- Mode 4: Ask Mode -->
+  <rect x="363" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#C5A200" stroke-width="2"/>
+  <rect x="363" y="85" width="105" height="30" rx="8" fill="#C5A200"/>
+  <rect x="363" y="102" width="105" height="13" fill="#C5A200"/>
+  <text x="415" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Ask Mode</text>
+  <text x="415" y="135" text-anchor="middle" font-size="9" fill="#333333">Explore codebase</text>
+  <text x="415" y="149" text-anchor="middle" font-size="9" fill="#333333">read-only, no</text>
+  <text x="415" y="163" text-anchor="middle" font-size="9" fill="#333333">file changes</text>
+  <text x="415" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#C5A200">Deep analysis</text>
+  <text x="415" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 60%</text>
+
+  <!-- Mode 5: Edit Mode -->
+  <rect x="478" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#E8851C" stroke-width="2"/>
+  <rect x="478" y="85" width="105" height="30" rx="8" fill="#E8851C"/>
+  <rect x="478" y="102" width="105" height="13" fill="#E8851C"/>
+  <text x="530" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Edit Mode</text>
+  <text x="530" y="135" text-anchor="middle" font-size="9" fill="#333333">Multi-file edits</text>
+  <text x="530" y="149" text-anchor="middle" font-size="9" fill="#333333">across workspace</text>
+  <text x="530" y="163" text-anchor="middle" font-size="9" fill="#333333">with review</text>
+  <text x="530" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#E8851C">Iterative editing</text>
+  <text x="530" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 40%</text>
+
+  <!-- Mode 6: Agent Mode -->
+  <rect x="593" y="85" width="105" height="130" rx="8" fill="#FFFFFF" stroke="#D63F2F" stroke-width="2"/>
+  <rect x="593" y="85" width="105" height="30" rx="8" fill="#D63F2F"/>
+  <rect x="593" y="102" width="105" height="13" fill="#D63F2F"/>
+  <text x="645" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">Agent Mode</text>
+  <text x="645" y="135" text-anchor="middle" font-size="9" fill="#333333">Autonomous task</text>
+  <text x="645" y="149" text-anchor="middle" font-size="9" fill="#333333">execution, tools,</text>
+  <text x="645" y="163" text-anchor="middle" font-size="9" fill="#333333">terminal, MCP</text>
+  <text x="645" y="185" text-anchor="middle" font-size="8" font-weight="bold" fill="#D63F2F">Full autonomy</text>
+  <text x="645" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 20%</text>
+
+  <!-- Mode 7: Coding Agent -->
+  <rect x="708" y="85" width="78" height="130" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+  <rect x="708" y="85" width="78" height="30" rx="8" fill="#E52521"/>
+  <rect x="708" y="102" width="78" height="13" fill="#E52521"/>
+  <text x="747" y="105" text-anchor="middle" font-size="9" font-weight="bold" fill="#FFFFFF">Coding</text>
+  <text x="747" y="130" text-anchor="middle" font-size="9" fill="#333333">Runs in</text>
+  <text x="747" y="144" text-anchor="middle" font-size="9" fill="#333333">cloud, async</text>
+  <text x="747" y="158" text-anchor="middle" font-size="9" fill="#333333">full repo</text>
+  <text x="747" y="172" text-anchor="middle" font-size="9" fill="#333333">access</text>
+  <text x="747" y="192" text-anchor="middle" font-size="8" font-weight="bold" fill="#E52521">Background</text>
+  <text x="747" y="205" text-anchor="middle" font-size="8" fill="#666">Human: 5%</text>
+
+  <!-- Comparison sections -->
+  <text x="400" y="245" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">How They Compare</text>
+
+  <!-- Speed row -->
+  <rect x="50" y="260" width="700" height="32" rx="6" fill="#FFFFFF" stroke="#DDD" stroke-width="1"/>
+  <text x="70" y="281" font-size="10" font-weight="bold" fill="#333333">Speed</text>
+  <text x="178" y="281" text-anchor="middle" font-size="9" fill="#333333">Instant</text>
+  <text x="290" y="281" text-anchor="middle" font-size="9" fill="#333333">Seconds</text>
+  <text x="400" y="281" text-anchor="middle" font-size="9" fill="#333333">Seconds</text>
+  <text x="510" y="281" text-anchor="middle" font-size="9" fill="#333333">Minutes</text>
+  <text x="635" y="281" text-anchor="middle" font-size="9" fill="#333333">Minutes</text>
+  <text x="735" y="281" text-anchor="middle" font-size="9" fill="#333333">Hours</text>
+
+  <!-- Scope row -->
+  <rect x="50" y="296" width="700" height="32" rx="6" fill="#FFFFFF" stroke="#DDD" stroke-width="1"/>
+  <text x="70" y="317" font-size="10" font-weight="bold" fill="#333333">Scope</text>
+  <text x="178" y="317" text-anchor="middle" font-size="9" fill="#333333">Line</text>
+  <text x="290" y="317" text-anchor="middle" font-size="9" fill="#333333">File</text>
+  <text x="400" y="317" text-anchor="middle" font-size="9" fill="#333333">Function</text>
+  <text x="510" y="317" text-anchor="middle" font-size="9" fill="#333333">Codebase</text>
+  <text x="635" y="317" text-anchor="middle" font-size="9" fill="#333333">Project</text>
+  <text x="735" y="317" text-anchor="middle" font-size="9" fill="#333333">Repo</text>
+
+  <!-- Control row -->
+  <rect x="50" y="332" width="700" height="32" rx="6" fill="#FFFFFF" stroke="#DDD" stroke-width="1"/>
+  <text x="70" y="353" font-size="10" font-weight="bold" fill="#333333">Control</text>
+  <text x="178" y="353" text-anchor="middle" font-size="9" fill="#333333">Full</text>
+  <text x="290" y="353" text-anchor="middle" font-size="9" fill="#333333">Full</text>
+  <text x="400" y="353" text-anchor="middle" font-size="9" fill="#333333">High</text>
+  <text x="510" y="353" text-anchor="middle" font-size="9" fill="#333333">Medium</text>
+  <text x="635" y="353" text-anchor="middle" font-size="9" fill="#333333">Low</text>
+  <text x="735" y="353" text-anchor="middle" font-size="9" fill="#333333">Minimal</text>
+
+  <!-- Key insight -->
+  <rect x="100" y="380" width="600" height="40" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="400" y="397" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Key Insight: Choose the right mode for the right task.</text>
+  <text x="400" y="412" text-anchor="middle" font-size="10" fill="#666">More autonomy = more power, but requires more trust and guardrails.</text>
+
+  <!-- Legend -->
+  <rect x="120" y="440" width="560" height="50" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="145" y="460" font-size="11" font-weight="bold" fill="#333333">Legend</text>
+  <rect x="145" y="468" width="30" height="8" rx="4" fill="#049CD8"/>
+  <text x="180" y="476" font-size="9" fill="#333333">Low autonomy</text>
+  <rect x="265" y="468" width="30" height="8" rx="4" fill="#43B047"/>
+  <text x="300" y="476" font-size="9" fill="#333333">Medium</text>
+  <rect x="355" y="468" width="30" height="8" rx="4" fill="#FBD000"/>
+  <text x="390" y="476" font-size="9" fill="#333333">Moderate</text>
+  <rect x="445" y="468" width="30" height="8" rx="4" fill="#E8851C"/>
+  <text x="480" y="476" font-size="9" fill="#333333">High</text>
+  <rect x="520" y="468" width="30" height="8" rx="4" fill="#E52521"/>
+  <text x="555" y="476" font-size="9" fill="#333333">Full autonomy</text>
+  <text x="620" y="476" font-size="9" fill="#666">| Copilot modes by autonomy level</text>
+</svg>
