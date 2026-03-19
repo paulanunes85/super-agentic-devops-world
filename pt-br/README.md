@@ -74,29 +74,16 @@ Cada conceito tem um equivalente no Mario:
 
 <br>
 
-> 🌿 **[Mundo 1 — Planicie Verde](world-1-green-plains/)** · 8 Fases
-> VS Code · Git · GitHub · Actions · Azure · AI Foundry
-
-> 🕳️ **[Mundo 2 — Cavernas](world-2-underground/)** · 8 Fases
-> Ambientes · APIs · Seguranca · DNS · DevOps · Observabilidade
-
-> ☁️ **[Mundo 3 — Mundo Aereo](world-3-sky/)** · 12 Fases
-> Terminal · Docker · Testes · Banco de Dados · Linguagens · Frameworks
-
-> 🌊 **[Mundo 4 — Mundo Aquatico](world-4-water/)** · 9 Fases
-> Auth/JWT · Modelos de Nuvem · Arquitetura · Deploy · Cache · Filas
-
-> 🏰 **[Mundo 5 — Castelo de Bowser Pt1](world-5-bowser-castle-1/)** · 11 Fases
-> Copilot · Agentes de IA · Agentes Autonomos · GHAS · SDD
-
-> 🔥 **[Mundo 6 — Castelo de Bowser Pt2](world-6-bowser-castle-2/)** · 10 Fases
-> Custom Agents · Skills · Instructions · Hooks · MCP · Orquestracao
-
-> ⭐ **[Mundo 7 — Star World](world-7-star-world/)** · 7 Fases
-> AI Foundry · RAG · LangChain · Microsoft Framework · IDP/Backstage
-
-> 👑 **[Mundo 8 — Castelo Final](world-8-final-castle/)** · 4 Fases
-> Como Tudo Se Conecta · Boss Rush · Glossario (124+ termos)
+| | Mundo | Fases | Topicos Principais |
+|:---:|:---|:---:|:---|
+| 🌿 | **[Mundo 1 — Planicie Verde](world-1-green-plains/)** | 8 | VS Code, Git, GitHub, Actions, Azure |
+| 🕳️ | **[Mundo 2 — Cavernas](world-2-underground/)** | 8 | APIs, Seguranca, DNS, DevOps |
+| ☁️ | **[Mundo 3 — Mundo Aereo](world-3-sky/)** | 12 | Docker, Testes, DB, Linguagens |
+| 🌊 | **[Mundo 4 — Mundo Aquatico](world-4-water/)** | 9 | Auth, Arquitetura, Deploy, Cache |
+| 🏰 | **[Mundo 5 — Castelo Bowser 1](world-5-bowser-castle-1/)** | 11 | Copilot, Agentes, GHAS, SDD |
+| 🔥 | **[Mundo 6 — Castelo Bowser 2](world-6-bowser-castle-2/)** | 10 | Skills, Hooks, MCP, Orquestracao |
+| ⭐ | **[Mundo 7 — Star World](world-7-star-world/)** | 7 | RAG, LangChain, IDP/Backstage |
+| 👑 | **[Mundo 8 — Castelo Final](world-8-final-castle/)** | 4 | Visao Completa, Glossario (124+) |
 
 ---
 
@@ -108,63 +95,44 @@ Cada conceito tem um equivalente no Mario:
 
 **Ja sabe o basico?** Va direto ao que precisa:
 
-| Topico | Fase |
-|:---|:---|
-| 🤖 GitHub Copilot | [Mundo 5 · Fase 5-3](world-5-bowser-castle-1/5-3-github-copilot.md) |
-| 🧠 O que e um Agente de IA | [Mundo 5 · Fase 5-4](world-5-bowser-castle-1/5-4-what-is-an-agent.md) |
-| 📚 RAG | [Mundo 7 · Fase 7-2](world-7-star-world/7-2-rag.md) |
-| 📐 Spec-Driven Development | [Mundo 5 · Fase 5-10](world-5-bowser-castle-1/5-10-sdd.md) |
-| ⚙️ Custom Agents | [Mundo 6 · Fase 6-1](world-6-bowser-castle-2/6-1-custom-agents.md) |
-| 🏗️ Microsoft Agentic Framework | [Mundo 7 · Fase 7-4](world-7-star-world/7-4-microsoft-agentic-framework.md) |
-| 🔨 Projeto Pratico | [Mundo 7 · Boss](world-7-star-world/7-boss-practical-project.md) |
+| | Topico | Fase |
+|:---:|:---|:---|
+| 🤖 | GitHub Copilot | [M5 · F5-3](world-5-bowser-castle-1/5-3-github-copilot.md) |
+| 🧠 | O que e um Agente de IA | [M5 · F5-4](world-5-bowser-castle-1/5-4-what-is-an-agent.md) |
+| 📚 | RAG | [M7 · F7-2](world-7-star-world/7-2-rag.md) |
+| 📐 | Spec-Driven Development | [M5 · F5-10](world-5-bowser-castle-1/5-10-sdd.md) |
+| ⚙️ | Custom Agents | [M6 · F6-1](world-6-bowser-castle-2/6-1-custom-agents.md) |
+| 🏗️ | Microsoft Agentic Framework | [M7 · F7-4](world-7-star-world/7-4-microsoft-agentic-framework.md) |
+| 🔨 | Projeto Pratico | [M7 · Boss](world-7-star-world/7-boss-practical-project.md) |
 
 ---
 
 ## 📖 Topicos Cobertos
 
-<details>
-<summary><strong>Clique para ver a lista completa (56 topicos)</strong></summary>
-<br>
-
-**Mundo 1 — Fundamentos:**
-VS Code · Git · GitHub (Repos, Issues, PRs, Projects) · GitHub Actions · Azure · AI Foundry
-
-**Mundo 2 — Infraestrutura:**
-Ambientes · REST APIs · Seguranca · DNS · Agile/Scrum · DevOps/IaC · Observabilidade
-
-**Mundo 3 — Ferramentas e Linguagens:**
-Terminal · Docker · Testes · Open Source · Banco de Dados · Internet/HTTP · Linguagens · Frameworks · Pacotes
-
-**Mundo 4 — Arquitetura Avancada:**
-Auth/JWT/OAuth · Modelos de Nuvem · Microservicos · Deploy · Git Workflows · Estruturas de Dados · Cache · Mensageria
-
-**Mundo 5 — IA e Agentes:**
-Evolucao DevOps · Maturidade IA · GitHub Copilot (todos os modos) · O que e um Agente · Tipos · Autonomos · MCP · GHAS · SDD
-
-**Mundo 6 — Ecossistema Copilot:**
-Custom Agents · Skills · Instructions · Prompts · Hooks · MCP Pratico · Orquestracao · Token Optimization
-
-**Mundo 7 — Frameworks de IA:**
-Azure AI Foundry · RAG · LangChain · Semantic Kernel/AutoGen · 4 Canais · IDP/Backstage
-
-**Mundo 8 — Visao Completa:**
-Como Tudo Se Conecta · Boss Rush · Proximos Passos · Glossario (124+ termos)
-
-</details>
+| Mundo | Tema | Topicos |
+|:---:|:---|:---|
+| 🌿 M1 | Fundamentos | VS Code · Git · GitHub · Actions · Azure · AI Foundry |
+| 🕳️ M2 | Infraestrutura | Ambientes · APIs · Seguranca · DNS · Agile · DevOps · Observabilidade |
+| ☁️ M3 | Ferramentas | Terminal · Docker · Testes · DB · Internet · Linguagens · Frameworks |
+| 🌊 M4 | Arquitetura | Auth/JWT · Cloud · Microservicos · Deploy · Cache · Filas |
+| 🏰 M5 | IA e Agentes | Copilot · Agentes · Autonomos · MCP · GHAS · SDD |
+| 🔥 M6 | Ecossistema Copilot | Custom Agents · Skills · Instructions · Hooks · MCP · Orquestracao |
+| ⭐ M7 | Frameworks IA | AI Foundry · RAG · LangChain · Semantic Kernel · IDP/Backstage |
+| 👑 M8 | Visao Completa | Como Tudo Conecta · Boss Rush · Proximos Passos · Glossario |
 
 ---
 
 ## 📊 Diagramas
 
-14 diagramas SVG profissionais com design inspirado no Mario
+14 diagramas SVG profissionais com design Mario
 (bordas coloridas, preenchimento branco, texto preto, legendas):
 
 <details>
-<summary><strong>Clique para ver todos os diagramas</strong></summary>
+<summary><strong>Clique para ver todos os 14 diagramas</strong></summary>
 <br>
 
-| | Diagrama | Fase | Preview |
-|:---:|:---|:---:|:---:|
+| | Diagrama | Fase | Descricao |
+|:---:|:---|:---:|:---|
 | 🗺️ | [World Map](../diagrams/svg/world-map.svg) | Indice | 8 Mundos conectados |
 | 💾 | [Git Workflow](../diagrams/svg/git-workflow.svg) | 1-2 | Working Dir → Staging → Repo |
 | 🐙 | [GitHub Platform](../diagrams/svg/github-platform.svg) | 1-3 | Hub de recursos |
@@ -172,7 +140,7 @@ Como Tudo Se Conecta · Boss Rush · Proximos Passos · Glossario (124+ termos)
 | 🐳 | [Docker](../diagrams/svg/docker-architecture.svg) | 3-3 | Dockerfile → Image → Container |
 | 📈 | [DevOps Evolution](../diagrams/svg/devops-evolution.svg) | 5-1 | Traditional → Agentic |
 | 🤖 | [Copilot Modes](../diagrams/svg/copilot-modes.svg) | 5-3 | 7 modos por autonomia |
-| 🧠 | [Agent Components](../diagrams/svg/agent-components.svg) | 5-4 | Brain · Senses · Hands · Memory · Goals |
+| 🧠 | [Agent Components](../diagrams/svg/agent-components.svg) | 5-4 | Brain · Senses · Hands · Memory |
 | 🔄 | [Agent Loop](../diagrams/svg/agent-loop.svg) | 5-4 | Observe → Think → Plan → Act |
 | 🌀 | [MCP Architecture](../diagrams/svg/mcp-architecture.svg) | 5-7 | Client ↔ Protocol ↔ Servers |
 | 📐 | [SDD Flow](../diagrams/svg/sdd-flow.svg) | 5-10 | Ciclo Spec-Driven Development |
@@ -201,12 +169,12 @@ Como Tudo Se Conecta · Boss Rush · Proximos Passos · Glossario (124+ termos)
 > Este projeto tem uma identidade visual completa inspirada no Super Mario World.
 > Veja o [Brand Guide](../BRAND_GUIDE.md) completo.
 
-```diff
-+ ██ Mario Red    #E52521  — Acoes, destaques, CTAs
-+ ██ Sky Blue     #049CD8  — Ferramentas, plataformas, headers
-+ ██ Coin Gold    #FBD000  — Conquistas, dados, resultados
-+ ██ Pipe Green   #43B047  — Sucesso, fluxo, conexoes
-```
+| Cor | Hex | Uso |
+|:---|:---|:---|
+| 🔴 Mario Red | `#E52521` | Acoes, destaques, CTAs |
+| 🔵 Sky Blue | `#049CD8` | Ferramentas, plataformas |
+| 🟡 Coin Gold | `#FBD000` | Conquistas, dados |
+| 🟢 Pipe Green | `#43B047` | Sucesso, fluxo, conexoes |
 
 | Fonte | Uso |
 |:---|:---|
