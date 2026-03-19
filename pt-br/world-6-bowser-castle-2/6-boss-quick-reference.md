@@ -20,6 +20,16 @@ tags: ["agentic-devops", "mario", "world-6", "cheat-sheet", "reference"]
 
 ---
 
+## Sumario
+
+- [Secao 1 — Estrutura de Diretorios](#secao-1--estrutura-de-diretorios)
+- [Secao 2 — Tabela Decisoria](#secao-2--tabela-decisoria)
+- [Secao 3 — Cheat Sheet de Frontmatter](#secao-3--cheat-sheet-de-frontmatter)
+- [Secao 4 — Inventario Completo](#secao-4--inventario-completo)
+- [Secao 5 — Glossario Gamer](#secao-5--glossario-gamer)
+
+---
+
 **Versao:** 2.0 — Edicao Mushroom Kingdom
 **Autora:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Preparado para:** Sofia

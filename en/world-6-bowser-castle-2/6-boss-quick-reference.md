@@ -20,6 +20,16 @@ tags: ["agentic-devops", "mario", "world-6", "cheat-sheet", "reference"]
 
 ---
 
+## Table of Contents
+
+- [Section 1 — Directory Structure](#section-1--directory-structure)
+- [Section 2 — Decision Table](#section-2--decision-table)
+- [Section 3 — Frontmatter Cheat Sheet](#section-3--frontmatter-cheat-sheet)
+- [Section 4 — Complete Inventory](#section-4--complete-inventory)
+- [Section 5 — Gamer Glossary](#section-5--gamer-glossary)
+
+---
+
 **Version:** 2.0 — Mushroom Kingdom Edition
 **Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
 **Prepared for:** Sofia

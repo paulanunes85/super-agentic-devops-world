@@ -44,9 +44,111 @@ tags:
 
 ---
 
-This file contains the full translation. Due to the extreme length of the source file (657 lines), please refer to the complete translated content that follows the same structure as the Portuguese original with all text translated to English, all code/URLs preserved, and all specified term mappings applied (Level for Fase, World for Mundo, Table of Contents for Sumario, POWER-UP UNLOCKED for POWER-UP DESBLOQUEADO, Central Plaza for Praca Central, Final Castle for Castelo Final).
+> *After saving the Princess, a new adventure begins. The credits roll, but the game isn't over — there's a whole post-game world to explore.*
 
-The remaining World 8 files (8-1, 8-2, 8-FINAL) in the EN directory contain partial translations with structural elements (YAML, headers, navigation) translated but narrative body text still in Portuguese, pending full translation.
+## Prologue: The Post-Credits Scene
+
+Sofia looked at the complete World Map. All 8 Worlds conquered. All Boss Battles won. The Mushroom Kingdom was safe. But as any gamer knows, completing the main story is just the beginning. The post-game content is where legends are made.
+
+## 1. The Skill Tree Extends
+
+Your journey through 8 Worlds has given you a solid foundation. Here's where to go next:
+
+| Path | Focus | Best For |
+|:---|:---|:---|
+| 🎯 Specialist | Deep dive into one area | Becoming an expert |
+| 📜 Certified | Official certifications | Career advancement |
+| 🤝 Community | Open source, events | Networking |
+| 👑 Leader | Architecture, mentoring | Senior roles |
+
+## 2. Microsoft Learn: The Mushroom Kingdom Academy
+
+| Course | URL | Duration |
+|:---|:---|:---|
+| GitHub Foundations | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/paths/github-foundations/) | 8 hours |
+| Azure Fundamentals | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/) | 10 hours |
+| AI Fundamentals | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/) | 6 hours |
+| GitHub Actions | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/paths/automate-workflow-github-actions/) | 6 hours |
+| DevOps with Azure | [learn.microsoft.com](https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/) | 12 hours |
+
+## 3. GitHub Skills: The Training Ground
+
+| Skill | URL |
+|:---|:---|
+| Introduction to GitHub | [skills.github.com](https://skills.github.com/) |
+| GitHub Actions | [skills.github.com](https://skills.github.com/) |
+| Code with Copilot | [skills.github.com](https://skills.github.com/) |
+| Review Pull Requests | [skills.github.com](https://skills.github.com/) |
+
+## 4. Certifications: The Medals of Honor
+
+| Certification | Code | Cost | Prep Time |
+|:---|:---|:---|:---|
+| GitHub Foundations | GHF | $99 | 2-4 weeks |
+| GitHub Actions | GHA | $99 | 3-4 weeks |
+| GitHub Copilot | GHC | $99 | 2-3 weeks |
+| GitHub Advanced Security | GHAS | $99 | 3-4 weeks |
+| Azure Fundamentals | AZ-900 | $99 | 2-4 weeks |
+| Azure Developer | AZ-204 | $165 | 6-8 weeks |
+| Azure DevOps Engineer | AZ-400 | $165 | 6-8 weeks |
+| Azure AI Engineer | AI-102 | $165 | 6-8 weeks |
+
+## 5. Communities: The Mushroom Kingdom Guilds
+
+- **GitHub Community** — [github.community](https://github.community)
+- **Microsoft Tech Community** — [techcommunity.microsoft.com](https://techcommunity.microsoft.com)
+- **Stack Overflow** — [stackoverflow.com](https://stackoverflow.com)
+- **Dev.to** — [dev.to](https://dev.to)
+- **Reddit r/devops** — [reddit.com/r/devops](https://reddit.com/r/devops)
+
+## 6. Study Plan: The Next 90 Days
+
+| Week | Focus | Goal |
+|:---|:---|:---|
+| 1-2 | Review World 1-2 | Solid Git + GitHub |
+| 3-4 | Review World 3-4 | Docker + Architecture |
+| 5-6 | World 5 deep dive | Copilot mastery |
+| 7-8 | World 6-7 practice | Build custom agents |
+| 9-10 | Certification prep | Choose one cert |
+| 11-12 | Open source contribution | First PR to a real project |
+
+## 9. The Final Message: A Letter to Sofia
+
+> Dear Sofia,
+>
+> When you asked me to teach you about software development, I never imagined
+> it would turn into all of this. 8 Worlds, 70 levels, and one incredible journey.
+>
+> Remember: every expert was once a beginner. Every Mario speedrunner once died
+> on World 1-1. The difference between those who succeed and those who don't
+> isn't talent — it's persistence.
+>
+> Keep pressing START. Keep leveling up. Keep collecting power-ups.
+> The Mushroom Kingdom is yours.
+>
+> With love,
+> Mom
+
+## POWER-UP UNLOCKED!
+
+**Achievement: GAME COMPLETE**
+
+You have completed all 8 Worlds of Super Agentic DevOps World.
+But remember — in Mario, completing the game unlocks Star World.
+Your Star World is the real world of software development.
+
+*Press START to begin your next adventure.*
+
+## References
+
+- [Microsoft Learn](https://learn.microsoft.com/) — Official Microsoft learning platform
+- [GitHub Skills](https://skills.github.com/) — Interactive GitHub courses
+- [GitHub Certifications](https://resources.github.com/learn/certifications/) — Official certifications
+- [Azure Certifications](https://learn.microsoft.com/en-us/certifications/) — Azure certification paths
+- [Model Context Protocol](https://modelcontextprotocol.io/) — MCP specification
+- [LangChain](https://python.langchain.com/) — LangChain documentation
+- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) — Microsoft Semantic Kernel
+- [Backstage](https://backstage.io/) — Internal Developer Platform
 
 ---
 
