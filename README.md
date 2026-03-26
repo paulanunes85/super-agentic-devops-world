@@ -210,8 +210,6 @@ MIT License — see [LICENSE](LICENSE).
 
 <div align="center">
 
-<img src="images/super-agentic-devops-world-made-for-sofia.jpeg-02.jpeg" alt="Super Agentic DevOps World — Made for Sofia" width="700">
-
 ### Press START to learn 🎮
 
 *Every developer starts at World 1-1*
