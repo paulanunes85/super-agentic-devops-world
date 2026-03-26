@@ -4,6 +4,8 @@
 
 ### Made for Sofia
 
+<img src="images/super-agentic-devops-world-made-for-sofia.jpeg-01.jpeg" alt="Super Agentic DevOps World — Banner" width="900">
+
 **The complete guide to Agentic DevOps, AI Agents,
 and modern software development — explained through
 Super Mario World analogies so anyone can understand.**
@@ -207,6 +209,8 @@ MIT License — see [LICENSE](LICENSE).
 ---
 
 <div align="center">
+
+<img src="images/super-agentic-devops-world-made-for-sofia.jpeg-02.jpeg" alt="Super Agentic DevOps World — Made for Sofia" width="700">
 
 ### Press START to learn 🎮
 
