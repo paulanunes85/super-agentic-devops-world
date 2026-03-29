@@ -19,6 +19,11 @@ tags:
 
 # Level 5-BOSS -- Boss Battle: World 5 Review Quiz
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-5-hero.png" alt="Level 5-BOSS -- Boss Battle: World 5 Review Quiz" />
+</div>
+
+
 ## Change Log
 
 | Version | Date       | Author       | Description                        |

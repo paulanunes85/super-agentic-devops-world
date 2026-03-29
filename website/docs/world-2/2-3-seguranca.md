@@ -18,6 +18,11 @@ tags:
 
 # Level 2-3 -- Protection Spells: Security
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-3-seguranca.png" alt="Level 2-3 -- Protection Spells: Security" />
+</div>
+
+
 ---
 
 ## Change Log

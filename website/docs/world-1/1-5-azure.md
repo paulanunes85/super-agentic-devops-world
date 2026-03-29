@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "azure", "cloud", "fundamentals"]
 
 # Level 1-5 — The Open World: Azure
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-5-azure.png" alt="Level 1-5 — The Open World: Azure" />
+</div>
+
+
 ---
 
 ## Change Log

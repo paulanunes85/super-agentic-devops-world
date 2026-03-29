@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-6", "orchestration", "multi-agent"]
 | 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
 
 # Chapter 4G — Multi-Agent Orchestration
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-6-hero.png" alt="Chapter 4G — Multi-Agent Orchestration / Coordinated Multiplayer" />
+</div>
+
 ## Coordinated Multiplayer — Playing as a Team
 
 ---

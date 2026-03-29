@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-7", "rag", "embeddings", "vector-databa
 
 # Level 7-2 — The Magic Library: RAG (Retrieval-Augmented Generation)
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/7-2-rag.png" alt="Level 7-2 — The Magic Library: RAG (Retrieval-Augmented Generation)" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

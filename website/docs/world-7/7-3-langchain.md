@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-7", "langchain", "chains", "agents"]
 
 # Level 7-3 — The Power-Up Chain: LangChain
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/7-3-langchain.png" alt="Level 7-3 — The Power-Up Chain: LangChain" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

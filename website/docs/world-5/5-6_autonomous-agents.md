@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-5", "autonomous-agents", "guardrails"]
 
 # Level 5-6 -- The Yoshis that Fly Solo: Autonomous Agents
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-5-hero.png" alt="Level 5-6 -- The Yoshis that Fly Solo: Autonomous Agents" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

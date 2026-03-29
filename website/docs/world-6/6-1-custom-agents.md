@@ -17,6 +17,11 @@ tags: ["agentic-devops", "mario", "world-6", "agents", "agent-md"]
 
 # Chapter 4A -- Custom Agents & .agent.md / The Character Select Screen -- How to Create Playable Characters for Your AI Team
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/6-1-custom-agents.png" alt="Chapter 4A -- Custom Agents & .agent.md / The Character Select Screen" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

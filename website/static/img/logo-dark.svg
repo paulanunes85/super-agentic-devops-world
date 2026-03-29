@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- AI Agent Robot - Dark Mode - Pixel Art Style -->
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#7DD3FC" opacity="0.1"/>
+  <circle cx="64" cy="64" r="56" fill="#7DD3FC" opacity="0.08"/>
+
+  <!-- Cape (behind body) -->
+  <polygon points="40,58 28,90 38,95 48,78" fill="#FBD000"/>
+  <polygon points="88,58 100,90 90,95 80,78" fill="#FBD000"/>
+  <polygon points="28,90 24,105 38,100 38,95" fill="#E5A800"/>
+  <polygon points="100,90 104,105 90,100 90,95" fill="#E5A800"/>
+
+  <!-- Body -->
+  <rect x="42" y="56" width="44" height="36" rx="6" fill="#E0E8F0"/>
+  <rect x="44" y="58" width="40" height="32" rx="5" fill="#F0F4F8"/>
+
+  <!-- AI Badge -->
+  <rect x="52" y="66" width="24" height="16" rx="4" fill="#7DD3FC"/>
+  <text x="64" y="79" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="11" fill="#1A1A2E">AI</text>
+
+  <!-- Head -->
+  <rect x="38" y="20" width="52" height="40" rx="10" fill="#E0E8F0"/>
+  <rect x="40" y="22" width="48" height="36" rx="9" fill="#F0F4F8"/>
+
+  <!-- Visor -->
+  <rect x="44" y="32" width="40" height="16" rx="6" fill="#0F0F23"/>
+
+  <!-- Eyes (brighter for dark mode) -->
+  <circle cx="54" cy="40" r="5" fill="#7DD3FC"/>
+  <circle cx="74" cy="40" r="5" fill="#7DD3FC"/>
+  <circle cx="54" cy="40" r="2.5" fill="#BAE6FD"/>
+  <circle cx="74" cy="40" r="2.5" fill="#BAE6FD"/>
+  <circle cx="55" cy="39" r="1" fill="white"/>
+  <circle cx="75" cy="39" r="1" fill="white"/>
+
+  <!-- Antenna -->
+  <rect x="62" y="12" width="4" height="10" rx="2" fill="#E0E8F0"/>
+  <circle cx="64" cy="10" r="4" fill="#FF6B6B"/>
+  <circle cx="64" cy="10" r="2" fill="#FF9191" opacity="0.9"/>
+
+  <!-- Brain -->
+  <ellipse cx="64" cy="26" rx="12" ry="7" fill="#FF8FAB" opacity="0.7"/>
+  <path d="M56,26 Q60,20 64,24 Q68,20 72,26" fill="#FF6B8A" opacity="0.6"/>
+
+  <!-- Glasses frame -->
+  <rect x="42" y="30" width="44" height="20" rx="8" fill="none" stroke="#AAAAAA" stroke-width="2"/>
+
+  <!-- Arms -->
+  <rect x="30" y="60" width="14" height="6" rx="3" fill="#E0E8F0"/>
+  <rect x="84" y="60" width="14" height="6" rx="3" fill="#E0E8F0"/>
+
+  <!-- Left hand -->
+  <circle cx="28" cy="63" r="5" fill="#F0F4F8"/>
+  <rect x="20" y="62" width="8" height="3" rx="1" fill="#AAAAAA"/>
+
+  <!-- Right hand -->
+  <circle cx="100" cy="63" r="5" fill="#F0F4F8"/>
+  <rect x="100" y="56" width="3" height="10" rx="1.5" fill="#F0F4F8"/>
+  <rect x="104" y="58" width="3" height="8" rx="1.5" fill="#F0F4F8"/>
+  <rect x="108" y="59" width="3" height="7" rx="1.5" fill="#F0F4F8"/>
+
+  <!-- Legs -->
+  <rect x="48" y="90" width="12" height="16" rx="4" fill="#E0E8F0"/>
+  <rect x="68" y="90" width="12" height="16" rx="4" fill="#E0E8F0"/>
+
+  <!-- Boots -->
+  <rect x="46" y="102" width="16" height="8" rx="4" fill="#FF6B6B"/>
+  <rect x="66" y="102" width="16" height="8" rx="4" fill="#FF6B6B"/>
+
+  <!-- Shield accent -->
+  <path d="M64,118 L54,112 L54,116 Q64,124 74,116 L74,112 Z" fill="#43B047" opacity="0.5"/>
+</svg>

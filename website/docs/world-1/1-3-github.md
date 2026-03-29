@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentals"]
 
 # Level 1-3 — Multiplayer Server: GitHub (Repos, Issues, PRs, Projects)
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-3-github.png" alt="Level 1-3 — Multiplayer Server: GitHub (Repos, Issues, PRs, Projects)" />
+</div>
+
+
 ---
 
 ## Change Log

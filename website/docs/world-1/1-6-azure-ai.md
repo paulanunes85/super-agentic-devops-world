@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "azure-ai", "ai-foundry", "copilot"
 
 # Level 1-6 — The Magic of the Game: Azure AI and AI Foundry
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-6-azure-ai.png" alt="Level 1-6 — The Magic of the Game: Azure AI and AI Foundry" />
+</div>
+
+
 ---
 
 ## Change Log

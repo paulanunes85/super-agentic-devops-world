@@ -19,6 +19,11 @@ tags:
 
 # Level 2-2 -- The Messenger Between Kingdoms: APIs
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-2-apis.png" alt="Level 2-2 -- The Messenger Between Kingdoms: APIs" />
+</div>
+
+
 ---
 
 ## Change Log

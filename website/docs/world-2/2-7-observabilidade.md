@@ -18,6 +18,11 @@ tags:
 
 # Level 2-7 -- The Character's Senses: Observability
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-7-observabilidade.png" alt="Level 2-7 -- The Character's Senses: Observability" />
+</div>
+
+
 ---
 
 ## Change Log

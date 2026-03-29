@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-6", "cheat-sheet", "reference"]
 | 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
 
 # Chapter 4H — Quick Reference (Cheat Sheet)
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-6-hero.png" alt="Chapter 4H — Quick Reference (Cheat Sheet) / The Complete Map of the Mushroom Kingdom" />
+</div>
+
 ## The Complete Map of the Mushroom Kingdom — Everything You Need to Know in One Place
 
 ---

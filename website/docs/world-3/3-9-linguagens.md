@@ -21,6 +21,11 @@ tags:
 
 # Level 3-9 -- RPG Classes: Programming Languages
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/3-9-linguagens.png" alt="Level 3-9 -- RPG Classes: Programming Languages" />
+</div>
+
+
 ---
 
 ## Change Log

@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "testing", "jest", "tdd", "qa", "te
 
 # Level 3-4 -- Training Before the Battle: Software Testing
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/3-4-testes.png" alt="Level 3-4 -- Training Before the Battle: Software Testing" />
+</div>
+
+
 ---
 
 ## Change Log

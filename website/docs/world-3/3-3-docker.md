@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 
 # Level 3-3 -- The Art of Packaging: Docker and Containers
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/3-3-docker.png" alt="Level 3-3 -- The Art of Packaging: Docker and Containers" />
+</div>
+
+
 ---
 
 ## Change Log

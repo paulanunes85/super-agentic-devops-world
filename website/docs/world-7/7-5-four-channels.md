@@ -15,6 +15,11 @@ tags: ["agentic-devops", "mario", "world-7", "channels", "ide", "chatops", "back
 | 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
 
 # Level 7-5 — The 4 Worlds of Agents: Communication and Operation Channels
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-7-hero.png" alt="Level 7-5 — The 4 Worlds of Agents: Communication and Operation Channels" />
+</div>
+
 ## Where Agents Live, Work, and Communicate
 
 ---

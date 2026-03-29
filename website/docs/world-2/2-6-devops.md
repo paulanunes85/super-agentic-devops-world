@@ -18,6 +18,11 @@ tags:
 
 # Level 2-6 -- The Alliance between Classes: DevOps and IaC
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-6-devops.png" alt="Level 2-6 -- The Alliance between Classes: DevOps and IaC" />
+</div>
+
+
 ---
 
 ## Change Log

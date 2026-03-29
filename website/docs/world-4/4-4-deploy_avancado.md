@@ -19,6 +19,11 @@ tags:
 
 # Level 4-4 -- Launch Strategies: Advanced Deploy
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/4-4-deploy_avancado.png" alt="Level 4-4 -- Launch Strategies: Advanced Deploy" />
+</div>
+
+
 ---
 
 ## Change Log

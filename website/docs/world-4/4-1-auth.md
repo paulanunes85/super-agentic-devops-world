@@ -18,6 +18,11 @@ tags:
 
 # Level 4-1 -- Advanced Protection: Auth, JWT, OAuth
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/4-1-auth.png" alt="Level 4-1 -- Advanced Protection: Auth, JWT, OAuth" />
+</div>
+
+
 ---
 
 ## Change Log

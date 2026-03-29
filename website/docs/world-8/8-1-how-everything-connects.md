@@ -16,6 +16,11 @@ tags:
 
 # Level 8-1 -- The Complete Map: How Everything Connects
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-8-hero.png" alt="Level 8-1 -- The Complete Map: How Everything Connects" />
+</div>
+
+
 ---
 
 ## Change Log

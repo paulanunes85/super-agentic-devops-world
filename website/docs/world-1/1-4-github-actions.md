@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundame
 
 # Level 1-4 — The Working Lakitus: GitHub Actions and CI/CD
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-4-github-actions.png" alt="Level 1-4 — The Working Lakitus: GitHub Actions and CI/CD" />
+</div>
+
+
 ---
 
 ## Change Log

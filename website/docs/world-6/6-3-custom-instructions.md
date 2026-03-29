@@ -17,6 +17,11 @@ tags: ["agentic-devops", "mario", "world-6", "instructions"]
 
 # Chapter 4C — Custom Instructions / The Game Rulebook — Game Rules that Copilot Always Follows
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-6-hero.png" alt="Chapter 4C — Custom Instructions / The Game Rulebook" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

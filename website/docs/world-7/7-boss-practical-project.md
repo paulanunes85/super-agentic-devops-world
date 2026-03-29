@@ -15,6 +15,11 @@ tags: ["agentic-devops", "mario", "world-7", "project", "rag-agent", "hands-on"]
 | 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
 
 # Level 7-BOSS — Boss Battle: Building Your First Agent
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-7-hero.png" alt="Level 7-BOSS — Boss Battle: Building Your First Agent" />
+</div>
+
 ## The Final Hands-On Project — Toad Helper, Your AI Assistant
 
 ---

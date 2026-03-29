@@ -16,6 +16,11 @@ tags:
 
 # Level 8-FINAL -- Mushroom Kingdom Encyclopedia: Definitive Glossary
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-8-hero.png" alt="Level 8-FINAL -- Mushroom Kingdom Encyclopedia: Definitive Glossary" />
+</div>
+
+
 ---
 
 ## Change Log

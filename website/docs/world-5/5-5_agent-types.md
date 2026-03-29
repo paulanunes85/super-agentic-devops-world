@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ide-agent", "background-
 
 # Level 5-5 -- Who's Who in the Mushroom Kingdom: Types of Agents
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-5-hero.png" alt="Level 5-5 -- Who's Who in the Mushroom Kingdom: Types of Agents" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

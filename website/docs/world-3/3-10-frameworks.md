@@ -23,6 +23,11 @@ tags:
 
 # Level 3-10 -- Weapons and Armor: Frameworks and Libraries
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-10 -- Weapons and Armor: Frameworks and Libraries" />
+</div>
+
+
 ---
 
 ## Change Log

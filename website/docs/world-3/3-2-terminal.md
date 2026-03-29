@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "terminal", "bash", "powershell", "
 
 # Level 3-2 -- The Command Console: Terminal
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/3-2-terminal.png" alt="Level 3-2 -- The Command Console: Terminal" />
+</div>
+
+
 ---
 
 ## Change Log

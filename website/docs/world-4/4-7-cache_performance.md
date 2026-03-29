@@ -18,6 +18,11 @@ tags:
 
 # Level 4-7 -- Super Star Mode: Cache and Performance
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/4-7-cache_performance.png" alt="Level 4-7 -- Super Star Mode: Cache and Performance" />
+</div>
+
+
 ---
 
 ## Change Log

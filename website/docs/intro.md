@@ -15,23 +15,9 @@ format: md
 |---------|------|--------|---------|
 | 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
 
-```
-================================================================
-    _____                   _   _        ____             ___
-   / __  |                 | | (_)      |  _ \           / _ \
-   / /__| | __ _  ___ _ __ | |_ _  ___  | | | | _____  _| | | |_ __  ___
-  / ___  |/ _` |/ _ \ '_ \| __| |/ __| | | | / _ \ \ / / | | | '_ \/ __|
- / /   | | (_| |  __/ | | | |_| | (__  | |_| |  __/\ V /| |_| | |_) \__ \
-/_/    |_|\__, |\___|_| |_|\__|_|\___| |____/ \___| \_/  \___/| .__/|___/
-           __/ |                                               | |
-          |___/                                                |_|
-
-          ========================================
-            SUPER MARIO BROS EDITION
-            The Complete Mushroom Kingdom Guide
-          ========================================
-================================================================
-```
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/intro-banner.png" alt="Super Agentic DevOps World — Complete Guide" />
+</div>
 
 # COMPLETE WORLD MAP
 ## General Index — All Levels, All Worlds
@@ -42,20 +28,13 @@ format: md
 > The BOSS level of each World is always a hands-on exercise or review.
 
 <div align="center">
-<img src="/img/diagrams/world-map.svg" alt="Complete map of all 8 Worlds" width="800" />
+<img src="/super-agentic-devops-world/img/diagrams/world-map.svg" alt="Complete map of all 8 Worlds" width="800" />
 <br/><em>Complete map of all 8 Worlds</em>
 </div>
 
 ---
 
-```
-    ___
-   /   \        WORLD 1
-  | o o |       Green Plains
-  |  >  |       ~~~~~~~~~~~~
-   \___/        "Every hero starts here"
-  /|   |\
-```
+<img src="/super-agentic-devops-world/img/worlds/world-1.png" alt="World 1 — Green Plains" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 1 — Green Plains (Fundamentals)
 **Theme**: The first steps. Everything is green, sunny, simple.
@@ -77,15 +56,7 @@ format: md
 
 ---
 
-```
-    _____
-   /     \      WORLD 2
-  | .   . |     Underground Caves
-  |   U   |     ~~~~~~~~~~~~~~~~
-   \_____/      "Below the surface"
-   /|   |\
-  / |   | \
-```
+<img src="/super-agentic-devops-world/img/worlds/world-2.png" alt="World 2 — Underground" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 2 — Underground Caves (Infrastructure)
 **Theme**: What happens beneath the scenery. Pipes, tunnels, structure.
@@ -107,15 +78,7 @@ format: md
 
 ---
 
-```
-      .  *  .
-    *  .    .  *
-  .    __ __    .   WORLD 3
- *    /  V  \   *   Sky World
-  .  |       |  .   ~~~~~~~~~
-   * |  ___  | *    "Flying high"
-      \_____/
-```
+<img src="/super-agentic-devops-world/img/worlds/world-3.png" alt="World 3 — Sky World" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 3 — Sky World (Tools and Languages)
 **Theme**: Leveling up. Platforms in the sky, wind, speed.
@@ -141,15 +104,7 @@ format: md
 
 ---
 
-```
-   ~  ~  ~  ~  ~
-  ~ ~~~~ ~~~~ ~ ~
- ~  ~  ~  ~  ~  ~   WORLD 4
-  ~ ~ WATER ~ ~ ~    Water World
- ~  ~ WORLD ~ ~  ~   ~~~~~~~~~~~~
-  ~ ~~~~ ~~~~ ~ ~    "Deep waters"
-   ~  ~  ~  ~  ~
-```
+<img src="/super-agentic-devops-world/img/worlds/world-4.png" alt="World 4 — Water World" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 4 — Water World (Advanced Architecture)
 **Theme**: Depth. Currents, pressure, complex navigation.
@@ -172,19 +127,7 @@ format: md
 
 ---
 
-```
-   /\      /\
-  /  \    /  \
- / B  \  / O  \     WORLD 5
-/  O   \/  W   \    Bowser's Castle Pt1
-\  W   /\  S   /    ~~~~~~~~~~~~~~~~~~~~
- \  S /  \  E /     "AI and Agents"
-  \/  R   \  /
-   \  1   /\/
-    \    /
-     \  /
-      \/
-```
+<img src="/super-agentic-devops-world/img/worlds/world-5.png" alt="World 5 — Bowser's Castle 1" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 5 — Bowser's Castle Pt1 (AI and Agents)
 **Theme**: Enemy territory. Lava, traps, Dry Bones. This is where things get serious.
@@ -208,16 +151,7 @@ format: md
 
 ---
 
-```
-   _______________
-  |   |   |   |   |
-  | B | O | W | S |     WORLD 6
-  | O | W | S | E |     Bowser's Castle Pt2
-  | W | S | E | R |     ~~~~~~~~~~~~~~~~~~~~
-  | S | E | R | 2 |     "Copilot Ecosystem"
-  |___|___|___|___|
-  |_______________|
-```
+<img src="/super-agentic-devops-world/img/worlds/world-6.png" alt="World 6 — Bowser's Castle 2" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 6 — Bowser's Castle Pt2 (Copilot Ecosystem)
 **Theme**: Deeper into the castle. Secret rooms, complex mechanisms, keys and locks.
@@ -240,17 +174,7 @@ format: md
 
 ---
 
-```
-          *
-         /|\
-        / | \
-       /  *  \       WORLD 7
-      / * | * \      Star World
-     /  * * *  \     ~~~~~~~~~~
-    /   *   *   \    "AI Frameworks"
-   / *    *    * \
-  /___*___*___*___\
-```
+<img src="/super-agentic-devops-world/img/worlds/world-7.png" alt="World 7 — Star World" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 7 — Star World (AI Frameworks)
 **Theme**: The secret world. Only those who completed the previous worlds can reach it. Rare power-ups, special challenges.
@@ -271,18 +195,7 @@ format: md
 
 ---
 
-```
-   ==================
-   |                |
-   |   +---------+  |
-   |   | FINAL   |  |     WORLD 8
-   |   | CASTLE  |  |     Final Castle
-   |   +---------+  |     ~~~~~~~~~~~~
-   |    |       |   |     "Complete Vision"
-   |    |  |||  |   |
-   =====|  |||  |====
-        |_______|
-```
+<img src="/super-agentic-devops-world/img/worlds/world-8.png" alt="World 8 — Final Castle" width="80" style="float: left; margin-right: 1rem" />
 
 ## WORLD 8 — Final Castle (Complete Vision)
 **Theme**: The final battle. Everything together. Everything connected. The grand finale.
@@ -302,72 +215,27 @@ format: md
 
 ## GENERAL SUMMARY
 
-```
-+--------------------------------------------------+
-|           MUSHROOM KINGDOM — STATS               |
-+--------------------------------------------------+
-|                                                  |
-|  Total Worlds:   8                               |
-|  Total Levels:   68                              |
-|                                                  |
-|  DONE:           9 levels  (World 6)             |
-|  PARTIAL:        3 levels  (World 5)             |
-|  NEW:            56 levels (Worlds 1-5, 7, 8)    |
-|                                                  |
-+--------------------------------------------------+
-|  Difficulty:                                     |
-|                                                  |
-|  World 1  [====------]  Beginner                 |
-|  World 2  [=====-----]  Beginner+                |
-|  World 3  [======----]  Intermediate             |
-|  World 4  [=======---]  Intermediate+            |
-|  World 5  [========--]  Advanced                 |
-|  World 6  [========--]  Advanced                 |
-|  World 7  [==========-]  Specialist              |
-|  World 8  [==========]  Master                   |
-|                                                  |
-+--------------------------------------------------+
-```
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/intro-stats.png" alt="Mushroom Kingdom Stats" />
+</div>
+
+| Stat | Value |
+|---|---|
+| Total Worlds | 8 |
+| Total Levels | 68 |
+| DONE | 9 levels (World 6) |
+| PARTIAL | 3 levels (World 5) |
+| NEW | 56 levels (Worlds 1-5, 7, 8) |
 
 ---
 
 ## RECOMMENDED READING FLOW
 
-```
-START
-  |
-  v
-[World 1] Green Plains ----------> Basic fundamentals
-  |
-  v
-[World 2] Underground Caves -----> Infrastructure
-  |
-  v
-[World 3] Sky World -------------> Tools
-  |                                 (you can skip levels you already know)
-  v
-[World 4] Water World -----------> Architecture
-  |
-  v
-[World 5] Bowser's Castle 1 ----> AI and Agents
-  |
-  v
-[World 6] Bowser's Castle 2 ----> Copilot in practice
-  |
-  v
-[World 7] Star World ------------> Advanced frameworks
-  |                                 (optional for beginners)
-  v
-[World 8] Final Castle ----------> Everything together
-  |
-  v
- END
-  |
-  v
-"Thank you Mario!
- But our princess is in another castle!"
- (Just kidding — you ARRIVED at the right castle.)
-```
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/intro-flow.png" alt="Recommended Reading Flow — World Map" />
+</div>
+
+> **START** at World 1 and follow the path through all 8 worlds. You can skip levels you already know in Worlds 3-4. World 7 is optional for beginners. **GAME COMPLETE** when you finish World 8!
 
 ---
 

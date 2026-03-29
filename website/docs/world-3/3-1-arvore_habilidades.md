@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "skill-tree", "career", "progressio
 
 # Level 3-1 -- Skill Tree: Your Evolution Path
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-1 -- Skill Tree: Your Evolution Path" />
+</div>
+
+
 ---
 
 ## Change Log

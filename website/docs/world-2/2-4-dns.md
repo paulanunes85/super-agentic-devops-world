@@ -17,6 +17,11 @@ tags:
 
 # Level 2-4 -- The World Map: DNS and Domains
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-4-dns.png" alt="Level 2-4 -- The World Map: DNS and Domains" />
+</div>
+
+
 ---
 
 ## Change Log

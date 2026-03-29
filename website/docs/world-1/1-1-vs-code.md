@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "vs-code", "fundamentals"]
 
 # Level 1-1 — Pressing START: VS Code, the Game Console
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-1-vs-code.png" alt="Level 1-1 — Pressing START: VS Code, the Game Console" />
+</div>
+
+
 ---
 
 ## Change Log

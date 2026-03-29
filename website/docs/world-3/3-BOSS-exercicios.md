@@ -20,6 +20,11 @@ tags:
 
 # Level 3-BOSS -- Boss Battle: Practical Exercises Level 3
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-BOSS -- Boss Battle: Practical Exercises Level 3" />
+</div>
+
+
 ---
 
 ## Change Log

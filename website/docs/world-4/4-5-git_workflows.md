@@ -18,6 +18,11 @@ tags:
 
 # Level 4-5 -- Workflows: Git Workflows
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-4-hero.png" alt="Level 4-5 -- Workflows: Git Workflows" />
+</div>
+
+
 ---
 
 ## Change Log

@@ -21,6 +21,11 @@ tags:
 
 # Level 5-3 -- The Ultimate Companion: Complete GitHub Copilot Guide
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/5-3-github-copilot.png" alt="Level 5-3 -- The Ultimate Companion: Complete GitHub Copilot Guide" />
+</div>
+
+
 ## Change Log
 
 | Version | Date       | Author       | Description                        |

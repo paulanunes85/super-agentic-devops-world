@@ -17,6 +17,11 @@ tags: ["agentic-devops", "mario", "world-6", "skills", "skill-md"]
 
 # Chapter 4B — Agent Skills & SKILL.md / The Power-Up Shop — How to Build the Powers Collection for Your Characters
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/6-2-agent-skills.png" alt="Chapter 4B — Agent Skills & SKILL.md / The Power-Up Shop" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

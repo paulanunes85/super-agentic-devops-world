@@ -18,6 +18,11 @@ tags:
 
 # Level 4-2 -- Service Tiers: Cloud Models
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-4-hero.png" alt="Level 4-2 -- Service Tiers: Cloud Models" />
+</div>
+
+
 ---
 
 ## Change Log

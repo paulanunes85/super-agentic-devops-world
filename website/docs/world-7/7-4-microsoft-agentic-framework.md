@@ -15,6 +15,11 @@ tags: ["agentic-devops", "mario", "world-7", "semantic-kernel", "autogen", "ai-a
 | 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
 
 # Level 7-4 — The Framework of Heroes: Microsoft Agentic Framework
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-7-hero.png" alt="Level 7-4 — The Framework of Heroes: Microsoft Agentic Framework" />
+</div>
+
 ## The Complete Arsenal for Building AI Agents
 
 ---

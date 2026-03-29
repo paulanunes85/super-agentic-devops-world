@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-6", "prompts", "prompt-md"]
 | 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
 
 # Chapter 4D — Prompt Files (.prompt.md)
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-6-hero.png" alt="Chapter 4D — Prompt Files (.prompt.md) / The Warp Pipes" />
+</div>
+
 ## The Warp Pipes — Reusable Magic Shortcuts
 
 ---

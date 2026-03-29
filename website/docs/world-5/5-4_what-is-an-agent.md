@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 
 # Level 5-4 -- NPCs that Came to Life: What Is an AI Agent
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/5-4-what-is-an-agent.png" alt="Level 5-4 -- NPCs that Came to Life: What Is an AI Agent" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

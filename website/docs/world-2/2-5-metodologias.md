@@ -17,6 +17,11 @@ tags:
 
 # Level 2-5 -- The Tournament Rules: Agile Methodologies
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-2-hero.png" alt="Level 2-5 -- The Tournament Rules: Agile Methodologies" />
+</div>
+
+
 ---
 
 ## Change Log

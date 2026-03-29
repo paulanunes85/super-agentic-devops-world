@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "exercises", "boss-battle", "fundam
 
 # Level 1-BOSS — Boss Battle: Practical Exercises Level 1
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-1-hero.png" alt="Level 1-BOSS — Boss Battle: Practical Exercises Level 1" />
+</div>
+
+
 ---
 
 ## Change Log

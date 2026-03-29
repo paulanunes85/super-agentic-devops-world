@@ -20,6 +20,11 @@ tags:
 
 # Level 3-11 -- The Inventory: Packages and Dependencies
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-11 -- The Inventory: Packages and Dependencies" />
+</div>
+
+
 ---
 
 ## Change Log

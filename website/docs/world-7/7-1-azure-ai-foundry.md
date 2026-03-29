@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-7", "ai-foundry", "azure-ai"]
 
 # Level 7-1 — Magikoopa's Forge: Azure AI Foundry
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/7-1-azure-ai-foundry.png" alt="Level 7-1 — Magikoopa's Forge: Azure AI Foundry" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

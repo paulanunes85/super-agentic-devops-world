@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-6", "mcp", "model-context-protocol"]
 | 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
 
 # Chapter 4F — MCP (Model Context Protocol)
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/6-6-mcp-practical.png" alt="Chapter 4F — MCP (Model Context Protocol) / The Warp Zones" />
+</div>
+
 ## The Warp Zones — Connecting Your Characters to Other Worlds
 
 ---

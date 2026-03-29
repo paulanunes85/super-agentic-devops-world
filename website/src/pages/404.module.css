@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  background: #0A0A1A;
+  padding: 2rem;
+}
+
+.screen {
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+  padding: 2rem;
+}
+
+.scanlines {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.15) 2px,
+    rgba(0, 0, 0, 0.15) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.gameOver {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 2rem;
+  color: #E52521;
+  text-shadow:
+    4px 4px 0 #6B0F0F,
+    0 0 20px rgba(229, 37, 33, 0.5);
+  margin-bottom: 1.5rem;
+  animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.image {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  border: 3px solid #8B5E3C;
+  margin: 1rem 0;
+  image-rendering: pixelated;
+}
+
+.errorCode {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1rem;
+  color: #FBD000;
+  text-shadow: 2px 2px 0 #8B6914;
+  margin: 1rem 0 0.5rem;
+}
+
+.message {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.continueBtn {
+  display: inline-block;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  background: linear-gradient(180deg, #43B047 0%, #2E7D32 100%);
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 32px;
+  cursor: pointer;
+  text-decoration: none !important;
+  box-shadow: 0 6px 0 #1B5E20, 0 8px 10px rgba(0,0,0,0.3);
+  transition: all 0.15s;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.continueBtn:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 9px 0 #1B5E20, 0 12px 15px rgba(0,0,0,0.3);
+  color: white !important;
+}
+
+.hint {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.45rem;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 2rem;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@media screen and (max-width: 600px) {
+  .gameOver { font-size: 1.3rem; }
+  .errorCode { font-size: 0.7rem; }
+  .continueBtn { font-size: 0.6rem; padding: 10px 20px; }
+}

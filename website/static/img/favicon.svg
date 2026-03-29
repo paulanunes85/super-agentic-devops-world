@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Favicon: AI Agent Head only -->
+  <rect width="32" height="32" rx="6" fill="#049CD8"/>
+
+  <!-- Head -->
+  <rect x="6" y="7" width="20" height="16" rx="4" fill="#D4DCE8"/>
+
+  <!-- Visor -->
+  <rect x="8" y="11" width="16" height="7" rx="3" fill="#1A1A2E"/>
+
+  <!-- Eyes -->
+  <circle cx="13" cy="14.5" r="2" fill="#7DD3FC"/>
+  <circle cx="19" cy="14.5" r="2" fill="#7DD3FC"/>
+  <circle cx="13" cy="14.5" r="0.8" fill="white"/>
+  <circle cx="19" cy="14.5" r="0.8" fill="white"/>
+
+  <!-- Antenna -->
+  <rect x="15" y="3" width="2" height="5" rx="1" fill="#D4DCE8"/>
+  <circle cx="16" cy="3" r="2" fill="#E52521"/>
+
+  <!-- Brain hint -->
+  <ellipse cx="16" cy="9.5" rx="5" ry="2.5" fill="#FF8FAB" opacity="0.5"/>
+
+  <!-- AI text -->
+  <text x="16" y="28" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="5" fill="white">AI</text>
+</svg>

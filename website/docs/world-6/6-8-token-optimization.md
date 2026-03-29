@@ -17,6 +17,11 @@ tags:
 
 # Level 6-8 -- Wise Coins: How to Save Tokens in GitHub Copilot
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-6-hero.png" alt="Level 6-8 -- Wise Coins: How to Save Tokens in GitHub Copilot" />
+</div>
+
+
 ---
 
 ## Change Log

@@ -19,6 +19,11 @@ tags:
 
 # Level 4-3 -- The Fortress Map: Software Architecture
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/4-3-arquitetura.png" alt="Level 4-3 -- The Fortress Map: Software Architecture" />
+</div>
+
+
 ---
 
 ## Change Log

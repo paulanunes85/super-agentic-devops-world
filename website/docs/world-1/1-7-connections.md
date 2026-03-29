@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "complete-flow", "fundamentals"]
 
 # Level 1-7 — The Complete Flow: How Everything Connects (World 1)
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-1-hero.png" alt="Level 1-7 — The Complete Flow: How Everything Connects (World 1)" />
+</div>
+
+
 ---
 
 ## Change Log

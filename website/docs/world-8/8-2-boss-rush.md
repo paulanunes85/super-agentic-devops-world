@@ -16,6 +16,11 @@ tags:
 
 # Level 8-2 -- Boss Rush: Review of All Worlds
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/8-2-boss-rush.png" alt="Level 8-2 -- Boss Rush: Review of All Worlds" />
+</div>
+
+
 ---
 
 ## Change Log

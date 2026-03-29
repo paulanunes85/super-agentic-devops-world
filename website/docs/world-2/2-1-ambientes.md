@@ -17,6 +17,11 @@ tags:
 
 # Level 2-1 -- Parallel Worlds: Environments (Dev, Staging, Production)
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/2-1-ambientes.png" alt="Level 2-1 -- Parallel Worlds: Environments (Dev, Staging, Production)" />
+</div>
+
+
 ---
 
 ## Change Log

@@ -19,6 +19,11 @@ tags:
 
 # Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-7 -- Guild Best Practices: SemVer, README and Repository Rules" />
+</div>
+
+
 ---
 
 ## Change Log

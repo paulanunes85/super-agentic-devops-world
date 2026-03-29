@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
 
 # Level 1-2 — Save Game: Git and the Save System
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/1-2-git.png" alt="Level 1-2 — Save Game: Git and the Save System" />
+</div>
+
+
 ---
 
 ## Change Log

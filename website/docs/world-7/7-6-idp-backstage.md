@@ -15,6 +15,11 @@ tags: ["agentic-devops", "mario", "world-7", "idp", "backstage", "developer-plat
 | 1.0.0 | 2026-03-18 | Paula Silva | Initial version — Super Mario Bros Edition |
 
 # Level 7-6 — The Central Plaza: IDP and Backstage
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/7-6-idp-backstage.png" alt="Level 7-6 — The Central Plaza: IDP and Backstage" />
+</div>
+
 ## The Hub That Connects Everything in the Mushroom Kingdom
 
 ---

@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "databases", "sql", "nosql", "postg
 
 # Level 3-6 -- The Castle of Data: Databases
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/3-6-banco_dados.png" alt="Level 3-6 -- The Castle of Data: Databases" />
+</div>
+
+
 ---
 
 ## Change Log

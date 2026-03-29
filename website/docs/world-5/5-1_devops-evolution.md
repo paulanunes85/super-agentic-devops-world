@@ -18,6 +18,11 @@ tags:
 
 # Level 5-1 -- From Swords to Robots: The Evolution of DevOps
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/5-1-devops-evolution.png" alt="Level 5-1 -- From Swords to Robots: The Evolution of DevOps" />
+</div>
+
+
 ## Change Log
 
 | Version | Date       | Author       | Description                        |

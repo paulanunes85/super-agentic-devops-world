@@ -20,6 +20,11 @@ tags:
 
 # Level 2-BOSS -- Boss Battle: Practical Exercises Level 2
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-2-hero.png" alt="Level 2-BOSS -- Boss Battle: Practical Exercises Level 2" />
+</div>
+
+
 ---
 
 ## Change Log

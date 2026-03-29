@@ -10,6 +10,11 @@ tags: ["agentic-devops", "mario", "world-3", "open-source", "licenses", "github"
 
 # Level 3-5 -- Licenses of the Mushroom Kingdom: Open Source
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-3-hero.png" alt="Level 3-5 -- Licenses of the Mushroom Kingdom: Open Source" />
+</div>
+
+
 ---
 
 ## Change Log

@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-5", "ghas", "security", "code-scanning"
 
 # Level 5-9 -- The Star Shield: GitHub Advanced Security
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-5-hero.png" alt="Level 5-9 -- The Star Shield: GitHub Advanced Security" />
+</div>
+
+
 ---
 
 **Prepared for:** Sofia

@@ -16,6 +16,11 @@ tags: ["agentic-devops", "mario", "world-6", "hooks", "husky"]
 | 1.0.0 | 2026-03-06 | Paula Silva | Original version with RPG analogies |
 
 # Chapter 4E — Hooks
+
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/6-5-hooks.png" alt="Chapter 4E — Hooks / The ? Blocks — Automatic Triggers" />
+</div>
+
 ## The "?" Blocks — Automatic Triggers in Development
 
 ---

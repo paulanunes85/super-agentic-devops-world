@@ -19,6 +19,11 @@ tags:
 
 # Level 5-7 -- Universal Warp Zones: MCP in Depth
 
+<div class="docs-hero">
+  <img src="/super-agentic-devops-world/img/docs/world-5-hero.png" alt="Level 5-7 -- Universal Warp Zones: MCP in Depth" />
+</div>
+
+
 ## Change Log
 
 | Version | Date       | Author       | Description                        |
