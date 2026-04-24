@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="ci-arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto-start-reverse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#43B047"/>
+    </marker>
+    <filter id="ci-shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="480" fill="#FAFAFA" rx="4"/>
+
+  <!-- Title -->
+  <text x="550" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">CI/CD Pipeline — Lakitu Assembly Line</text>
+  <text x="550" y="56" text-anchor="middle" font-size="13" fill="#666666">Automated journey from code to production</text>
+
+  <!-- Pipeline stages - Row 1 -->
+  <!-- Stage 1: Code -->
+  <g filter="url(#ci-shadow)">
+    <rect x="30" y="90" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+    <text x="82" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Code</text>
+    <text x="82" y="136" text-anchor="middle" font-size="10" fill="#666666">Push to repo</text>
+    <text x="82" y="155" text-anchor="middle" font-size="16">&#128187;</text>
+  </g>
+  <line x1="135" y1="127" x2="155" y2="127" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 2: Build -->
+  <g filter="url(#ci-shadow)">
+    <rect x="165" y="90" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="2.5"/>
+    <text x="217" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Build</text>
+    <text x="217" y="136" text-anchor="middle" font-size="10" fill="#666666">Compile &amp; bundle</text>
+    <text x="217" y="155" text-anchor="middle" font-size="16">&#128295;</text>
+  </g>
+  <line x1="270" y1="127" x2="290" y2="127" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 3: Test -->
+  <g filter="url(#ci-shadow)">
+    <rect x="300" y="90" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+    <text x="352" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Test</text>
+    <text x="352" y="136" text-anchor="middle" font-size="10" fill="#666666">Unit &amp; integration</text>
+    <text x="352" y="155" text-anchor="middle" font-size="16">&#9989;</text>
+  </g>
+  <line x1="405" y1="127" x2="425" y2="127" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 4: Lint -->
+  <g filter="url(#ci-shadow)">
+    <rect x="435" y="90" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+    <text x="487" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Lint</text>
+    <text x="487" y="136" text-anchor="middle" font-size="10" fill="#666666">Code quality</text>
+    <text x="487" y="155" text-anchor="middle" font-size="16">&#128270;</text>
+  </g>
+  <line x1="540" y1="127" x2="560" y2="127" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 5: Security -->
+  <g filter="url(#ci-shadow)">
+    <rect x="570" y="90" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="2.5"/>
+    <text x="622" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Security</text>
+    <text x="622" y="136" text-anchor="middle" font-size="10" fill="#666666">SAST / DAST</text>
+    <text x="622" y="155" text-anchor="middle" font-size="16">&#128274;</text>
+  </g>
+
+  <!-- Arrow down to row 2 -->
+  <line x1="622" y1="165" x2="622" y2="210" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Row 2 label -->
+  <rect x="30" y="195" width="120" height="24" rx="4" fill="#049CD8" opacity="0.1"/>
+  <text x="90" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#049CD8">Continuous Integration</text>
+  <rect x="30" y="235" width="120" height="24" rx="4" fill="#43B047" opacity="0.1"/>
+  <text x="90" y="252" text-anchor="middle" font-size="11" font-weight="bold" fill="#43B047">Continuous Delivery</text>
+
+  <!-- Stage 6: Deploy Staging -->
+  <g filter="url(#ci-shadow)">
+    <rect x="570" y="220" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+    <text x="622" y="245" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Deploy</text>
+    <text x="622" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Staging</text>
+    <text x="622" y="282" text-anchor="middle" font-size="10" fill="#666666">Test environment</text>
+  </g>
+  <line x1="570" y1="257" x2="545" y2="257" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 7: Approval Gate -->
+  <g filter="url(#ci-shadow)">
+    <polygon points="487,220 535,257 487,295 440,257" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+    <text x="487" y="253" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Approval</text>
+    <text x="487" y="267" text-anchor="middle" font-size="10" fill="#666666">Gate</text>
+  </g>
+  <line x1="440" y1="257" x2="415" y2="257" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 8: Deploy Prod -->
+  <g filter="url(#ci-shadow)">
+    <rect x="300" y="220" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#43B047" stroke-width="2.5"/>
+    <text x="352" y="245" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Deploy</text>
+    <text x="352" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#333333">Production</text>
+    <text x="352" y="282" text-anchor="middle" font-size="10" fill="#666666">Live release</text>
+  </g>
+  <line x1="300" y1="257" x2="275" y2="257" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+
+  <!-- Stage 9: Monitor -->
+  <g filter="url(#ci-shadow)">
+    <rect x="165" y="220" width="105" height="75" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="2.5"/>
+    <text x="217" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Monitor</text>
+    <text x="217" y="268" text-anchor="middle" font-size="10" fill="#666666">Observe &amp; alert</text>
+    <text x="217" y="286" text-anchor="middle" font-size="16">&#128200;</text>
+  </g>
+
+  <!-- Feedback loop from Monitor back to Code -->
+  <path d="M 217 295 L 217 330 Q 217 345 202 345 L 82 345 Q 67 345 67 330 L 67 170" fill="none" stroke="#049CD8" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#ci-arrow)"/>
+  <text x="145" y="360" text-anchor="middle" font-size="10" fill="#049CD8">Feedback loop</text>
+
+  <!-- Fail paths -->
+  <line x1="352" y1="165" x2="352" y2="190" stroke="#E52521" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="352" y="200" text-anchor="middle" font-size="9" fill="#E52521">fail = block</text>
+
+  <line x1="487" y1="165" x2="487" y2="190" stroke="#E52521" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="487" y="200" text-anchor="middle" font-size="9" fill="#E52521">fail = block</text>
+
+  <line x1="622" y1="85" x2="622" y2="75" stroke="#E52521" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="622" y="72" text-anchor="middle" font-size="9" fill="#E52521">fail = block</text>
+
+  <!-- Legend -->
+  <g>
+    <rect x="30" y="385" width="1040" height="80" rx="8" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1"/>
+    <text x="50" y="410" font-size="13" font-weight="bold" fill="#333333">Legend</text>
+
+    <rect x="120" y="398" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#049CD8" stroke-width="2"/>
+    <text x="142" y="410" font-size="11" fill="#333333">Build / process steps</text>
+
+    <rect x="295" y="398" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#E52521" stroke-width="2"/>
+    <text x="317" y="410" font-size="11" fill="#333333">Blocking / quality gates (fail = stop)</text>
+
+    <rect x="540" y="398" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#43B047" stroke-width="2"/>
+    <text x="562" y="410" font-size="11" fill="#333333">Deploy steps (green = go live)</text>
+
+    <rect x="740" y="398" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#FBD000" stroke-width="2"/>
+    <text x="762" y="410" font-size="11" fill="#333333">Approval / monitoring gates</text>
+
+    <line x1="120" y1="440" x2="150" y2="440" stroke="#43B047" stroke-width="2" marker-end="url(#ci-arrow)"/>
+    <text x="158" y="444" font-size="11" fill="#333333">Pipeline flow direction</text>
+
+    <polygon points="345,427 360,440 345,453 330,440" fill="#FFFFFF" stroke="#FBD000" stroke-width="1.5"/>
+    <text x="368" y="444" font-size="11" fill="#333333">Diamond = manual approval required</text>
+
+    <line x1="540" y1="440" x2="570" y2="440" stroke="#049CD8" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <text x="578" y="444" font-size="11" fill="#333333">Feedback / reverse flow</text>
+  </g>
+</svg>

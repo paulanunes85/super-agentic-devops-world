@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Title -->
+  <text x="430" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Microsoft Agentic Framework</text>
+  <text x="430" y="50" text-anchor="middle" font-size="13" fill="#666666">O Ecossistema em Camadas para Construir Agentes de IA</text>
+
+  <!-- ==================== LAYER 5 (top): Applications ==================== -->
+  <rect x="80" y="72" width="700" height="60" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <text x="430" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#E52521">APLICACOES</text>
+  <text x="430" y="118" text-anchor="middle" font-size="10" fill="#666666">Seus Agentes e Produtos de IA -- O Jogo Completo</text>
+
+  <!-- Down arrow -->
+  <text x="430" y="147" text-anchor="middle" font-size="14" fill="#999999">Construido com</text>
+
+  <!-- ==================== LAYER 4: Copilot Studio ==================== -->
+  <rect x="80" y="158" width="700" height="75" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <rect x="80" y="158" width="700" height="28" rx="8" ry="0" fill="#FBD000"/>
+  <text x="430" y="177" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">COPILOT STUDIO -- Mario Maker dos Agentes</text>
+  <text x="160" y="204" text-anchor="middle" font-size="10" fill="#333333">Low-code / No-code</text>
+  <text x="320" y="204" text-anchor="middle" font-size="10" fill="#333333">Interface Visual</text>
+  <text x="480" y="204" text-anchor="middle" font-size="10" fill="#333333">Templates Prontos</text>
+  <text x="640" y="204" text-anchor="middle" font-size="10" fill="#333333">Multi-canal</text>
+  <text x="160" y="220" text-anchor="middle" font-size="8" fill="#999999">Arraste e solte</text>
+  <text x="320" y="220" text-anchor="middle" font-size="8" fill="#999999">Drag-and-drop</text>
+  <text x="480" y="220" text-anchor="middle" font-size="8" fill="#999999">Comece rapido</text>
+  <text x="640" y="220" text-anchor="middle" font-size="8" fill="#999999">Teams, Web, WhatsApp</text>
+
+  <!-- Separator -->
+  <line x1="240" y1="193" x2="240" y2="227" stroke="#FBD000" stroke-width="0.5" opacity="0.5"/>
+  <line x1="400" y1="193" x2="400" y2="227" stroke="#FBD000" stroke-width="0.5" opacity="0.5"/>
+  <line x1="560" y1="193" x2="560" y2="227" stroke="#FBD000" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- ==================== LAYER 3: AutoGen ==================== -->
+  <rect x="80" y="248" width="700" height="75" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="80" y="248" width="700" height="28" rx="8" ry="0" fill="#43B047"/>
+  <text x="430" y="267" text-anchor="middle" font-size="13" font-weight="bold" fill="white">AUTOGEN -- Montador Automatico de Times</text>
+  <text x="160" y="294" text-anchor="middle" font-size="10" fill="#333333">Multi-Agente</text>
+  <text x="320" y="294" text-anchor="middle" font-size="10" fill="#333333">Conversacional</text>
+  <text x="480" y="294" text-anchor="middle" font-size="10" fill="#333333">Auto-Coordenacao</text>
+  <text x="640" y="294" text-anchor="middle" font-size="10" fill="#333333">Human-in-Loop</text>
+  <text x="160" y="310" text-anchor="middle" font-size="8" fill="#999999">Varios agentes juntos</text>
+  <text x="320" y="310" text-anchor="middle" font-size="8" fill="#999999">Conversam entre si</text>
+  <text x="480" y="310" text-anchor="middle" font-size="8" fill="#999999">Se organizam sozinhos</text>
+  <text x="640" y="310" text-anchor="middle" font-size="8" fill="#999999">Humano pode intervir</text>
+
+  <line x1="240" y1="283" x2="240" y2="317" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+  <line x1="400" y1="283" x2="400" y2="317" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+  <line x1="560" y1="283" x2="560" y2="317" stroke="#43B047" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- ==================== LAYER 2: Semantic Kernel (SDK) ==================== -->
+  <rect x="80" y="338" width="700" height="75" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="80" y="338" width="700" height="28" rx="8" ry="0" fill="#049CD8"/>
+  <text x="430" y="357" text-anchor="middle" font-size="13" font-weight="bold" fill="white">SEMANTIC KERNEL -- O Controle Universal (SDK)</text>
+  <text x="140" y="384" text-anchor="middle" font-size="10" fill="#333333">Plugins</text>
+  <text x="260" y="384" text-anchor="middle" font-size="10" fill="#333333">Planners</text>
+  <text x="390" y="384" text-anchor="middle" font-size="10" fill="#333333">Memory</text>
+  <text x="530" y="384" text-anchor="middle" font-size="10" fill="#333333">C# / Python / Java</text>
+  <text x="680" y="384" text-anchor="middle" font-size="10" fill="#333333">Qualquer LLM</text>
+  <text x="140" y="400" text-anchor="middle" font-size="8" fill="#999999">Inventario de itens</text>
+  <text x="260" y="400" text-anchor="middle" font-size="8" fill="#999999">Estrategistas</text>
+  <text x="390" y="400" text-anchor="middle" font-size="8" fill="#999999">Diario do agente</text>
+  <text x="530" y="400" text-anchor="middle" font-size="8" fill="#999999">Multi-linguagem</text>
+  <text x="680" y="400" text-anchor="middle" font-size="8" fill="#999999">OpenAI, Azure, Ollama</text>
+
+  <line x1="200" y1="373" x2="200" y2="407" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="325" y1="373" x2="325" y2="407" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="460" y1="373" x2="460" y2="407" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="610" y1="373" x2="610" y2="407" stroke="#049CD8" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- ==================== LAYER 1 (base): Azure AI Foundry ==================== -->
+  <rect x="80" y="428" width="700" height="75" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2.5"/>
+  <rect x="80" y="428" width="700" height="28" rx="8" ry="0" fill="#E52521"/>
+  <text x="430" y="447" text-anchor="middle" font-size="13" font-weight="bold" fill="white">AZURE AI FOUNDRY -- Plataforma de Producao</text>
+  <text x="140" y="474" text-anchor="middle" font-size="10" fill="#333333">Build</text>
+  <text x="260" y="474" text-anchor="middle" font-size="10" fill="#333333">Deploy</text>
+  <text x="400" y="474" text-anchor="middle" font-size="10" fill="#333333">Manage</text>
+  <text x="540" y="474" text-anchor="middle" font-size="10" fill="#333333">Scale</text>
+  <text x="680" y="474" text-anchor="middle" font-size="10" fill="#333333">Security</text>
+  <text x="140" y="490" text-anchor="middle" font-size="8" fill="#999999">SDK, Tools, Files</text>
+  <text x="260" y="490" text-anchor="middle" font-size="8" fill="#999999">Azure infra</text>
+  <text x="400" y="490" text-anchor="middle" font-size="8" fill="#999999">Logs, Metricas</text>
+  <text x="540" y="490" text-anchor="middle" font-size="8" fill="#999999">Auto-scaling</text>
+  <text x="680" y="490" text-anchor="middle" font-size="8" fill="#999999">GDPR, SOC2</text>
+
+  <line x1="200" y1="463" x2="200" y2="497" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+  <line x1="330" y1="463" x2="330" y2="497" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+  <line x1="470" y1="463" x2="470" y2="497" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+  <line x1="610" y1="463" x2="610" y2="497" stroke="#E52521" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Right side: audience labels -->
+  <text x="810" y="105" text-anchor="start" font-size="9" fill="#E52521">Usuarios</text>
+  <text x="810" y="197" text-anchor="start" font-size="9" fill="#B8960A">Analistas</text>
+  <text x="810" y="287" text-anchor="start" font-size="9" fill="#43B047">Pesquisadores</text>
+  <text x="810" y="377" text-anchor="start" font-size="9" fill="#049CD8">Desenvolvedores</text>
+  <text x="810" y="467" text-anchor="start" font-size="9" fill="#E52521">Plataforma</text>
+
+  <!-- Left side: complexity -->
+  <line x1="60" y1="90" x2="60" y2="490" stroke="#CCCCCC" stroke-width="1"/>
+  <polygon points="60,85 55,95 65,95" fill="#CCCCCC"/>
+  <polygon points="60,495 55,485 65,485" fill="#CCCCCC"/>
+  <text x="45" y="290" text-anchor="middle" font-size="9" fill="#999999" transform="rotate(-90, 45, 290)">Mais Simples                                                    Mais Tecnico</text>
+
+  <!-- Legend -->
+  <rect x="80" y="525" width="700" height="42" rx="8" ry="8" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="100" y="545" font-size="10" font-weight="bold" fill="#333333">Legenda:</text>
+  <rect x="170" y="536" width="10" height="10" rx="2" fill="#E52521"/>
+  <text x="184" y="545" font-size="9" fill="#666666">Azure AI Foundry (base)</text>
+  <rect x="320" y="536" width="10" height="10" rx="2" fill="#049CD8"/>
+  <text x="334" y="545" font-size="9" fill="#666666">Semantic Kernel (SDK)</text>
+  <rect x="460" y="536" width="10" height="10" rx="2" fill="#43B047"/>
+  <text x="474" y="545" font-size="9" fill="#666666">AutoGen (multi-agente)</text>
+  <rect x="610" y="536" width="10" height="10" rx="2" fill="#FBD000"/>
+  <text x="624" y="545" font-size="9" fill="#666666">Copilot Studio (low-code)</text>
+  <text x="430" y="562" text-anchor="middle" font-size="9" fill="#999999">Os 4 frameworks NAO sao concorrentes -- sao pecas complementares do mesmo ecossistema.</text>
+</svg>

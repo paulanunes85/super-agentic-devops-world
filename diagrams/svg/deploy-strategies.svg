@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #333333; }
+  </style>
+
+  <defs>
+    <marker id="arrDeploy" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold">Deployment Strategies</text>
+
+  <!-- === Blue-Green === -->
+  <text x="150" y="58" text-anchor="middle" font-size="14" font-weight="bold">Blue-Green</text>
+  <rect x="30" y="70" width="240" height="200" rx="8" fill="#FFFFFF" stroke="#049CD8" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <!-- Blue environment -->
+  <rect x="50" y="90" width="90" height="60" rx="8" fill="#E8F4FD" stroke="#049CD8" stroke-width="2"/>
+  <text x="95" y="117" text-anchor="middle" font-size="11" font-weight="bold" fill="#049CD8">Blue</text>
+  <text x="95" y="133" text-anchor="middle" font-size="9">v1 (Live)</text>
+
+  <!-- Green environment -->
+  <rect x="160" y="90" width="90" height="60" rx="8" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="205" y="117" text-anchor="middle" font-size="11" font-weight="bold" fill="#43B047">Green</text>
+  <text x="205" y="133" text-anchor="middle" font-size="9">v2 (Idle)</text>
+
+  <!-- Router/Switch -->
+  <rect x="110" y="175" width="80" height="30" rx="8" fill="#FFF8E0" stroke="#FBD000" stroke-width="1.5"/>
+  <text x="150" y="194" text-anchor="middle" font-size="10">Router</text>
+
+  <!-- Switch arrow -->
+  <path d="M 95,150 L 95,175" stroke="#049CD8" stroke-width="2" marker-end="url(#arrDeploy)"/>
+  <path d="M 150,205 C 150,230 205,230 205,150" stroke="#43B047" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrDeploy)"/>
+  <text x="150" y="250" text-anchor="middle" font-size="9">Switch traffic instantly</text>
+
+  <!-- === Canary === -->
+  <text x="460" y="58" text-anchor="middle" font-size="14" font-weight="bold">Canary</text>
+  <rect x="340" y="70" width="240" height="200" rx="8" fill="#FFFFFF" stroke="#FBD000" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <!-- Big box 95% -->
+  <rect x="355" y="90" width="130" height="80" rx="8" fill="#E8F4FD" stroke="#049CD8" stroke-width="2"/>
+  <text x="420" y="125" text-anchor="middle" font-size="11" font-weight="bold">v1</text>
+  <text x="420" y="145" text-anchor="middle" font-size="11">95% traffic</text>
+
+  <!-- Small box 5% -->
+  <rect x="500" y="100" width="60" height="50" rx="8" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="530" y="123" text-anchor="middle" font-size="10" font-weight="bold">v2</text>
+  <text x="530" y="140" text-anchor="middle" font-size="9">5%</text>
+
+  <!-- Gradual arrow -->
+  <path d="M 500,200 L 530,200" stroke="#43B047" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M 485,210 L 540,210" stroke="#43B047" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M 460,220 L 555,220" stroke="#43B047" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="460" y="250" text-anchor="middle" font-size="9">Gradually shift traffic</text>
+
+  <!-- === Rolling === -->
+  <text x="770" y="58" text-anchor="middle" font-size="14" font-weight="bold">Rolling</text>
+  <rect x="650" y="70" width="240" height="200" rx="8" fill="#FFFFFF" stroke="#E52521" stroke-width="1" stroke-dasharray="4,2"/>
+
+  <!-- Row of boxes - some old, some new -->
+  <rect x="665" y="95" width="45" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="687" y="117" text-anchor="middle" font-size="9" fill="#43B047">v2 ✓</text>
+
+  <rect x="720" y="95" width="45" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="742" y="117" text-anchor="middle" font-size="9" fill="#43B047">v2 ✓</text>
+
+  <rect x="775" y="95" width="45" height="35" rx="4" fill="#FFF8E0" stroke="#FBD000" stroke-width="2"/>
+  <text x="797" y="117" text-anchor="middle" font-size="9" fill="#B8960A">v1→v2</text>
+
+  <rect x="830" y="95" width="45" height="35" rx="4" fill="#FDE8E8" stroke="#E52521" stroke-width="1.5"/>
+  <text x="852" y="117" text-anchor="middle" font-size="9" fill="#E52521">v1</text>
+
+  <!-- Second row -->
+  <rect x="665" y="145" width="45" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="687" y="167" text-anchor="middle" font-size="9" fill="#43B047">v2 ✓</text>
+
+  <rect x="720" y="145" width="45" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="742" y="167" text-anchor="middle" font-size="9" fill="#43B047">v2 ✓</text>
+
+  <rect x="775" y="145" width="45" height="35" rx="4" fill="#E8FDE8" stroke="#43B047" stroke-width="2"/>
+  <text x="797" y="167" text-anchor="middle" font-size="9" fill="#43B047">v2 ✓</text>
+
+  <rect x="830" y="145" width="45" height="35" rx="4" fill="#FFF8E0" stroke="#FBD000" stroke-width="2"/>
+  <text x="852" y="167" text-anchor="middle" font-size="9" fill="#B8960A">v1→v2</text>
+
+  <!-- Progress arrow -->
+  <line x1="670" y1="210" x2="870" y2="210" stroke="#43B047" stroke-width="2" marker-end="url(#arrDeploy)"/>
+  <text x="770" y="228" text-anchor="middle" font-size="9">Replace one by one</text>
+  <text x="770" y="250" text-anchor="middle" font-size="9">Zero-downtime rolling update</text>
+
+  <!-- Legend -->
+  <rect x="30" y="295" width="280" height="30" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="170" y="314" text-anchor="middle" font-size="11">Legend: Deployment strategies comparison</text>
+</svg>

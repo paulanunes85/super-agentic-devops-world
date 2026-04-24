@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Title -->
+  <text x="410" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333333">Backstage: O Hub Central do Desenvolvedor</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#666666">Os 5 Pilares do Internal Developer Platform</text>
+
+  <!-- Central Hub -->
+  <circle cx="410" cy="310" r="85" fill="white" stroke="#E52521" stroke-width="3"/>
+  <circle cx="410" cy="310" r="75" fill="#E52521" opacity="0.06"/>
+  <text x="410" y="295" text-anchor="middle" font-size="18" font-weight="bold" fill="#E52521">BACKSTAGE</text>
+  <text x="410" y="315" text-anchor="middle" font-size="11" fill="#333333">Hub Castle</text>
+  <text x="410" y="332" text-anchor="middle" font-size="9" fill="#666666">by Spotify / CNCF</text>
+
+  <!-- ==================== Pilar 1: Software Catalog (top) ==================== -->
+  <line x1="410" y1="225" x2="410" y2="140" stroke="#049CD8" stroke-width="2"/>
+  <circle cx="410" cy="137" r="4" fill="#049CD8"/>
+
+  <rect x="280" y="68" width="260" height="65" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="280" y="68" width="260" height="24" rx="8" ry="0" fill="#049CD8"/>
+  <text x="410" y="85" text-anchor="middle" font-size="11" font-weight="bold" fill="white">SOFTWARE CATALOG</text>
+  <text x="410" y="106" text-anchor="middle" font-size="10" fill="#333333">Mapa de Todos os Mundos</text>
+  <text x="410" y="122" text-anchor="middle" font-size="9" fill="#666666">Servicos, APIs, Donos, Status, Dependencias</text>
+
+  <!-- ==================== Pilar 2: Templates (top-right) ==================== -->
+  <line x1="478" y1="253" x2="600" y2="155" stroke="#FBD000" stroke-width="2"/>
+  <circle cx="603" cy="152" r="4" fill="#FBD000"/>
+
+  <rect x="570" y="80" width="220" height="65" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <rect x="570" y="80" width="220" height="24" rx="8" ry="0" fill="#FBD000"/>
+  <text x="680" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">SOFTWARE TEMPLATES</text>
+  <text x="680" y="118" text-anchor="middle" font-size="10" fill="#333333">Kits de Construcao</text>
+  <text x="680" y="134" text-anchor="middle" font-size="9" fill="#666666">Criar novos projetos em minutos</text>
+
+  <!-- ==================== Pilar 3: TechDocs (right) ==================== -->
+  <line x1="495" y1="310" x2="610" y2="310" stroke="#43B047" stroke-width="2"/>
+  <circle cx="613" cy="310" r="4" fill="#43B047"/>
+
+  <rect x="620" y="272" width="180" height="76" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="620" y="272" width="180" height="24" rx="8" ry="0" fill="#43B047"/>
+  <text x="710" y="289" text-anchor="middle" font-size="11" font-weight="bold" fill="white">TECHDOCS</text>
+  <text x="710" y="312" text-anchor="middle" font-size="10" fill="#333333">Manuais do Reino</text>
+  <text x="710" y="328" text-anchor="middle" font-size="9" fill="#666666">Docs-as-code, Markdown</text>
+  <text x="710" y="342" text-anchor="middle" font-size="9" fill="#666666">Junto ao codigo, versionada</text>
+
+  <!-- ==================== Pilar 4: Plugins (bottom-right) ==================== -->
+  <line x1="470" y1="375" x2="590" y2="465" stroke="#E52521" stroke-width="2"/>
+  <circle cx="593" cy="468" r="4" fill="#E52521"/>
+
+  <rect x="560" y="430" width="220" height="76" rx="8" ry="8" fill="white" stroke="#E52521" stroke-width="2"/>
+  <rect x="560" y="430" width="220" height="24" rx="8" ry="0" fill="#E52521"/>
+  <text x="670" y="447" text-anchor="middle" font-size="11" font-weight="bold" fill="white">PLUGINS</text>
+  <text x="670" y="470" text-anchor="middle" font-size="10" fill="#333333">Mercado de Barracas</text>
+  <text x="670" y="486" text-anchor="middle" font-size="9" fill="#666666">Kubernetes, GitHub Actions</text>
+  <text x="670" y="500" text-anchor="middle" font-size="9" fill="#666666">Grafana, PagerDuty, SonarQube</text>
+
+  <!-- ==================== Pilar 5: Search (bottom-left) ==================== -->
+  <line x1="345" y1="380" x2="230" y2="465" stroke="#049CD8" stroke-width="2"/>
+  <circle cx="227" cy="468" r="4" fill="#049CD8"/>
+
+  <rect x="50" y="430" width="220" height="76" rx="8" ry="8" fill="white" stroke="#049CD8" stroke-width="2"/>
+  <rect x="50" y="430" width="220" height="24" rx="8" ry="0" fill="#049CD8"/>
+  <text x="160" y="447" text-anchor="middle" font-size="11" font-weight="bold" fill="white">SEARCH</text>
+  <text x="160" y="470" text-anchor="middle" font-size="10" fill="#333333">Bola de Cristal</text>
+  <text x="160" y="486" text-anchor="middle" font-size="9" fill="#666666">Busca unificada em tudo:</text>
+  <text x="160" y="500" text-anchor="middle" font-size="9" fill="#666666">catalogo, docs, APIs, templates</text>
+
+  <!-- ==================== Extra: Golden Paths (top-left) ==================== -->
+  <line x1="342" y1="253" x2="220" y2="155" stroke="#43B047" stroke-width="2"/>
+  <circle cx="217" cy="152" r="4" fill="#43B047"/>
+
+  <rect x="30" y="80" width="220" height="65" rx="8" ry="8" fill="white" stroke="#43B047" stroke-width="2"/>
+  <rect x="30" y="80" width="220" height="24" rx="8" ry="0" fill="#43B047"/>
+  <text x="140" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="white">GOLDEN PATHS</text>
+  <text x="140" y="118" text-anchor="middle" font-size="10" fill="#333333">Caminhos Dourados</text>
+  <text x="140" y="134" text-anchor="middle" font-size="9" fill="#666666">Rotas recomendadas, nao obrigatorias</text>
+
+  <!-- ==================== Extra: AI Agents (left) ==================== -->
+  <line x1="325" y1="310" x2="210" y2="310" stroke="#FBD000" stroke-width="2"/>
+  <circle cx="207" cy="310" r="4" fill="#FBD000"/>
+
+  <rect x="20" y="272" width="180" height="76" rx="8" ry="8" fill="white" stroke="#FBD000" stroke-width="2"/>
+  <rect x="20" y="272" width="180" height="24" rx="8" ry="0" fill="#FBD000"/>
+  <text x="110" y="289" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">AGENTES DE IA</text>
+  <text x="110" y="312" text-anchor="middle" font-size="10" fill="#333333">NPCs Inteligentes</text>
+  <text x="110" y="328" text-anchor="middle" font-size="9" fill="#666666">Assistente de chat, criador</text>
+  <text x="110" y="342" text-anchor="middle" font-size="9" fill="#666666">de servicos, onboarding</text>
+
+  <!-- Benefits bar at bottom -->
+  <rect x="60" y="540" width="700" height="60" rx="8" ry="8" fill="white" stroke="#CCCCCC" stroke-width="1.5"/>
+  <text x="410" y="558" text-anchor="middle" font-size="11" font-weight="bold" fill="#333333">Beneficios do IDP</text>
+
+  <text x="130" y="580" text-anchor="middle" font-size="9" fill="#049CD8" font-weight="bold">Developer</text>
+  <text x="130" y="592" text-anchor="middle" font-size="9" fill="#049CD8" font-weight="bold">Experience</text>
+
+  <text x="270" y="580" text-anchor="middle" font-size="9" fill="#FBD000" font-weight="bold">Self-</text>
+  <text x="270" y="592" text-anchor="middle" font-size="9" fill="#B8960A" font-weight="bold">Service</text>
+
+  <text x="410" y="580" text-anchor="middle" font-size="9" fill="#43B047" font-weight="bold">Padronizacao</text>
+  <text x="410" y="592" text-anchor="middle" font-size="9" fill="#43B047" font-weight="bold">Consistente</text>
+
+  <text x="550" y="580" text-anchor="middle" font-size="9" fill="#E52521" font-weight="bold">Visibilidade</text>
+  <text x="550" y="592" text-anchor="middle" font-size="9" fill="#E52521" font-weight="bold">Completa</text>
+
+  <text x="690" y="580" text-anchor="middle" font-size="9" fill="#333333" font-weight="bold">Menos Carga</text>
+  <text x="690" y="592" text-anchor="middle" font-size="9" fill="#333333" font-weight="bold">Cognitiva</text>
+
+  <!-- Separator lines in benefits -->
+  <line x1="200" y1="568" x2="200" y2="596" stroke="#CCCCCC" stroke-width="0.5"/>
+  <line x1="340" y1="568" x2="340" y2="596" stroke="#CCCCCC" stroke-width="0.5"/>
+  <line x1="480" y1="568" x2="480" y2="596" stroke="#CCCCCC" stroke-width="0.5"/>
+  <line x1="620" y1="568" x2="620" y2="596" stroke="#CCCCCC" stroke-width="0.5"/>
+
+  <!-- Legend -->
+  <rect x="300" y="383" width="220" height="24" rx="6" ry="6" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="310" y="390" width="8" height="8" rx="2" fill="#049CD8"/>
+  <text x="322" y="398" font-size="8" fill="#666666">Catalog/Search</text>
+  <rect x="390" y="390" width="8" height="8" rx="2" fill="#FBD000"/>
+  <text x="402" y="398" font-size="8" fill="#666666">Templates/AI</text>
+  <rect x="460" y="390" width="8" height="8" rx="2" fill="#43B047"/>
+  <text x="472" y="398" font-size="8" fill="#666666">Docs/Paths</text>
+</svg>

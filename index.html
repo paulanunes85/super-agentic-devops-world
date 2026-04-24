@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Agentic DevOps World — Platform</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='7' y='1' width='2' height='2' fill='%23FBD000'/%3E%3Crect x='6' y='3' width='4' height='1' fill='%23FBD000'/%3E%3Crect x='1' y='4' width='14' height='2' fill='%23FBD000'/%3E%3Crect x='2' y='6' width='12' height='2' fill='%23FBD000'/%3E%3Crect x='3' y='8' width='10' height='2' fill='%23FBD000'/%3E%3Crect x='2' y='10' width='4' height='2' fill='%23FBD000'/%3E%3Crect x='10' y='10' width='4' height='2' fill='%23FBD000'/%3E%3Crect x='1' y='12' width='3' height='2' fill='%23FBD000'/%3E%3Crect x='12' y='12' width='3' height='2' fill='%23FBD000'/%3E%3Crect x='6' y='6' width='1' height='2' fill='%23000'/%3E%3Crect x='9' y='6' width='1' height='2' fill='%23000'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%231A1A2E'/%3E%3Crect x='7' y='1' width='2' height='2' fill='%23FBD000'/%3E%3Crect x='6' y='3' width='4' height='1' fill='%23FBD000'/%3E%3Crect x='1' y='4' width='14' height='2' fill='%23FBD000'/%3E%3Crect x='2' y='6' width='12' height='2' fill='%23FBD000'/%3E%3Crect x='3' y='8' width='10' height='2' fill='%23FBD000'/%3E%3Crect x='2' y='10' width='4' height='2' fill='%23FBD000'/%3E%3Crect x='10' y='10' width='4' height='2' fill='%23FBD000'/%3E%3Crect x='1' y='12' width='3' height='2' fill='%23FBD000'/%3E%3Crect x='12' y='12' width='3' height='2' fill='%23FBD000'/%3E%3Crect x='6' y='6' width='1' height='2' fill='%23000'/%3E%3Crect x='9' y='6' width='1' height='2' fill='%23000'/%3E%3C/svg%3E">
+
+<!-- Open Graph / Social Media Preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Super Agentic DevOps World">
+<meta property="og:description" content="A gamified learning adventure through DevOps, AI, and Cloud — 8 worlds, 68 lessons, 200+ quizzes. Built by @paulasilvatech.">
+<meta property="og:image" content="https://paulanunes85.github.io/super-agentic-devops-world/images/super-agentic-devops-world-made-for-sofia.jpeg-02.jpeg">
+<meta property="og:url" content="https://paulanunes85.github.io/super-agentic-devops-world/">
+<meta property="og:site_name" content="Super Agentic DevOps World">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Super Agentic DevOps World">
+<meta name="twitter:description" content="A gamified learning adventure through DevOps, AI, and Cloud — 8 worlds, 68 lessons, 200+ quizzes.">
+<meta name="twitter:image" content="https://paulanunes85.github.io/super-agentic-devops-world/images/super-agentic-devops-world-made-for-sofia.jpeg-02.jpeg">
+<meta name="twitter:creator" content="@paulasilvatech">
+
+<!-- Additional Meta -->
+<meta name="description" content="Super Agentic DevOps World — A gamified platform to learn DevOps, AI Agents, Cloud, and GitHub through a Super Mario Bros-themed adventure. 8 worlds, 68 lessons, 200+ quizzes.">
+<meta name="author" content="Paula Silva (@paulasilvatech)">
+<meta name="theme-color" content="#1A1A2E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="platform-styles.css">
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="platform-data.js"></script>
+<script src="quizzes.js"></script>
+<script src="app-state.js"></script>
+<script src="sfx.js"></script>
+<script src="challenges.js"></script>
+<script type="text/babel" src="components-shared.jsx"></script>
+<script type="text/babel" src="pixel-avatars.jsx"></script>
+<script type="text/babel" src="md-renderer.jsx"></script>
+<script type="text/babel" src="components-interactive.jsx"></script>
+<script type="text/babel" src="components-gamification.jsx"></script>
+<script type="text/babel" src="components-navigation.jsx"></script>
+<script type="text/babel" src="companion.jsx"></script>
+<script type="text/babel" src="screens-1.jsx"></script>
+<script type="text/babel" src="screens-2.jsx"></script>
+<script type="text/babel" src="screens-3.jsx"></script>
+<script type="text/babel" src="screens-lesson-v2.jsx"></script>
+
+<script type="text/babel">
+function App() {
+  const route = useRoute();
+  const state = useAppState();
+  const [showSearch, setShowSearch] = React.useState(false);
+  const [showShortcuts, setShowShortcuts] = React.useState(false);
+  const [showOnboarding, setShowOnboarding] = React.useState(false);
+
+  React.useEffect(() => {
+    const onKey = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      if (showSearch || showShortcuts || showOnboarding) return;
+      switch (e.key) {
+        case '/': e.preventDefault(); setShowSearch(true); break;
+        case '?': setShowShortcuts(true); break;
+        case 'm': case 'M': navigateWithWarp('/map'); break;
+        case 'p': case 'P': navigateWithWarp('/profile'); break;
+        case 'n': case 'N':
+          const quest = AppStore.getNextQuest();
+          if (quest) navigateWithWarp('/lesson/' + quest.level.id);
+          break;
+        case '1': case '2': case '3': case '4':
+        case '5': case '6': case '7': case '8':
+          navigateWithWarp('/world/' + e.key);
+          break;
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [showSearch, showShortcuts, showOnboarding]);
+
+  React.useEffect(() => {
+    if (route === '/map' && !state.progress.onboardingDone) {
+      setShowOnboarding(true);
+    }
+  }, [route]);
+
+  let content;
+  let currentWorldId = null;
+  if (route === '/' || route === '') content = React.createElement(ScreenLanding);
+  else if (route === '/login') content = React.createElement(ScreenLogin);
+  else if (route === '/map') { content = React.createElement(ScreenMap); currentWorldId = 1; }
+  else if (route.startsWith('/world/')) {
+    const id = route.split('/')[2];
+    content = React.createElement(ScreenWorld, { worldId: id });
+    currentWorldId = parseInt(id, 10);
+  }
+  else if (route.startsWith('/lesson/')) {
+    const id = route.split('/')[2];
+    content = React.createElement(ScreenLesson, { lessonId: id });
+    currentWorldId = parseInt(id.split('-')[0], 10);
+  }
+  else if (route === '/profile') content = React.createElement(ScreenProfile);
+  else if (route === '/badges') content = React.createElement(ScreenBadges);
+  else if (route === '/leaderboard') content = React.createElement(ScreenLeaderboard);
+  else if (route === '/shop') content = React.createElement(ScreenShop);
+  else if (route === '/glossary') content = React.createElement(ScreenGlossary);
+  else content = React.createElement(ScreenLanding);
+
+  const showHud = !(route === '/' || route === '' || route === '/login');
+
+  React.useEffect(() => {
+    document.body.className = currentWorldId ? 'biome-' + currentWorldId : '';
+  }, [currentWorldId]);
+
+  return (
+    <div className="scanlines">
+      <WarpOverlay/>
+      {currentWorldId && <ParallaxBG worldId={currentWorldId}/>}
+      {showHud && <HUD onSearch={() => setShowSearch(true)} onShortcuts={() => setShowShortcuts(true)}/>}
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        {content}
+      </div>
+      {showSearch && <SearchOverlay onClose={() => setShowSearch(false)}/>}
+      {showShortcuts && <ShortcutsHelp onClose={() => setShowShortcuts(false)}/>}
+      {showOnboarding && <Onboarding onDone={() => setShowOnboarding(false)}/>}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
